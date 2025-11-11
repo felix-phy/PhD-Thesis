@@ -1,0 +1,23 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[72] biber:322> INFO - === Mo Nov 10, 2025, 17:08:05
+[85] Biber.pm:415> INFO - Reading 'main.bcf'
+[139] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[150] Biber.pm:4256> INFO - Processing section 0
+[150] Utils.pm:75> INFO - Globbing data source './references/references.bib'
+[151] Utils.pm:91> INFO - Globbed data source './references/references.bib' to ./references/references.bib
+[159] Biber.pm:4455> INFO - Looking for bibtex format file './references/references.bib' for section 0
+[160] bibtex.pm:1653> INFO - LaTeX decoding ...
+[176] bibtex.pm:1471> INFO - Found BibTeX data source './references/references.bib'
+[415] Utils.pm:293> WARN - month field 'Aug' in entry 'PhysRevD.110.030001' is not an integer - this will probably not sort properly.
+[417] Utils.pm:293> WARN - month field 'Oct' in entry 'Higgs' is not an integer - this will probably not sort properly.
+[421] Utils.pm:293> WARN - month field 'Aug' in entry 'EnglertBrout' is not an integer - this will probably not sort properly.
+[434] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevD.100.073013' is not an integer - this will probably not sort properly.
+[435] Utils.pm:293> WARN - I didn't find a database entry for 'something here' (section 0)
+[452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[452] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[452] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[462] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[720] bbl.pm:755> INFO - Output to main.bbl
+[720] Biber.pm:128> INFO - WARNINGS: 5

@@ -1,0 +1,50 @@
+\documentclass[a4paper]{book}
+
+% Load the VUB package.
+% This has many options, please read the documentation at
+% https://gitlab.com/rubdos/texlive-vub
+\usepackage{vub}
+
+% Some highly suggested packages, please read their manuals.
+\usepackage[citestyle=numeric,style=numeric,backend=biber,sorting=none]{biblatex}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{float} 
+\usepackage[symbol]{footmisc}
+\usepackage{amsmath,bm}
+\usepackage{subcaption}
+\usepackage{url}
+
+\addbibresource{./references/references.bib}
+
+\title{Something about Higgs+charm}
+\pretitle{\flushleft{Graduation thesis submitted in partial fulfilment of blah}}
+\subtitle{my thesis subtitle}
+\author{Felix Heyen}
+\date{March 2026}
+\promotors{Promotors: prof.\ dr.\ Michael Tytgat \and prof.\ dr.\ Gerrit Van Onsem}
+\faculty{sciences and bioengineering sciences} % Note: without the word "Faculty"!
+
+\begin{document}
+\frontmatter
+\maketitle%
+
+\chapter{Abstract}
+
+My abstract
+
+\tableofcontents
+
+\mainmatter%
+
+\input{chapters/Introduction.tex}
+\input{chapters/CMS.tex}
+\input{chapters/Analysis.tex}
+\input{chapters/EFT.tex}
+
+\backmatter%
+\chapter{Conclusion}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
