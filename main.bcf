@@ -2193,6 +2193,9 @@
     <bcf:citekey order="9">CMS_Collaboration2022-xw</bcf:citekey>
     <bcf:citekey order="10">something here</bcf:citekey>
     <bcf:citekey order="11">PeskinSchroeder</bcf:citekey>
+    <bcf:citekey order="12">WolfHiggs</bcf:citekey>
+    <bcf:citekey order="13">WZMass</bcf:citekey>
+    <bcf:citekey order="14">Goldstone</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

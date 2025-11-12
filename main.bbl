@@ -1411,6 +1411,7 @@
       \strng{authorbibnamehash}{31160b907033a634eab461d844fb7687}
       \strng{authornamehash}{31160b907033a634eab461d844fb7687}
       \strng{authorfullhash}{31160b907033a634eab461d844fb7687}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
@@ -1521,6 +1522,153 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.100.073013
+      \endverb
+    \endentry
+    \entry{PeskinSchroeder}{book}{}
+      \name{author}{2}{}{%
+        {{hash=e148b6b43275e52828b8df297254414c}{%
+           family={Peskin},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cc0fe4ad0bcb2f8883e7f5e5b5287dd9}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Westview Press}%
+      }
+      \strng{namehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{bibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorbibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authornamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Reading, USA: Addison-Wesley (1995) 842 p}
+      \field{title}{{An Introduction to Quantum Field Theory}}
+      \field{year}{1995}
+      \keyw{diplom field peskin qft quantum schroeder theory}
+    \endentry
+    \entry{WolfHiggs}{book}{}
+      \name{author}{1}{}{%
+        {{hash=604335a9acf6c7a491df83af50e7b7ab}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{604335a9acf6c7a491df83af50e7b7ab}
+      \strng{fullhash}{604335a9acf6c7a491df83af50e7b7ab}
+      \strng{bibnamehash}{604335a9acf6c7a491df83af50e7b7ab}
+      \strng{authorbibnamehash}{604335a9acf6c7a491df83af50e7b7ab}
+      \strng{authornamehash}{604335a9acf6c7a491df83af50e7b7ab}
+      \strng{authorfullhash}{604335a9acf6c7a491df83af50e7b7ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-18512-5, 978-3-319-18511-8}
+      \field{title}{The Higgs Boson Discovery at the Large Hadron Collider}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/978-3-319-18512-5
+      \endverb
+    \endentry
+    \entry{WZMass}{article}{}
+      \name{author}{1}{}{%
+        {{hash=594e205bcbf97264d21902385dd03d9a}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={G.\bibnamedelimi Arnison},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{594e205bcbf97264d21902385dd03d9a}
+      \strng{fullhash}{594e205bcbf97264d21902385dd03d9a}
+      \strng{bibnamehash}{594e205bcbf97264d21902385dd03d9a}
+      \strng{authorbibnamehash}{594e205bcbf97264d21902385dd03d9a}
+      \strng{authornamehash}{594e205bcbf97264d21902385dd03d9a}
+      \strng{authorfullhash}{594e205bcbf97264d21902385dd03d9a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{number}{1}
+      \field{title}{Experimental observation of isolated large transverse energy electrons with associated missing energy at s=540 GeV}
+      \field{volume}{122}
+      \field{year}{1983}
+      \field{pages}{103\bibrangedash 116}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/0370-2693(83)91177-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269383911772
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0370269383911772
+      \endverb
+    \endentry
+    \entry{Goldstone}{article}{}
+      \name{author}{3}{}{%
+        {{hash=120639dfbef93a99e706e785fafee4b1}{%
+           family={Goldstone},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ccb1f8c54c0f33be036807dda5ef564e}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3ff9fe28dd4b3b6688bd17fbcc3632da}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{328f151c444bdd5e131369f0413f999b}
+      \strng{fullhash}{328f151c444bdd5e131369f0413f999b}
+      \strng{bibnamehash}{328f151c444bdd5e131369f0413f999b}
+      \strng{authorbibnamehash}{328f151c444bdd5e131369f0413f999b}
+      \strng{authornamehash}{328f151c444bdd5e131369f0413f999b}
+      \strng{authorfullhash}{328f151c444bdd5e131369f0413f999b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{8}
+      \field{title}{Broken Symmetries}
+      \field{volume}{127}
+      \field{year}{1962}
+      \field{pages}{965\bibrangedash 970}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRev.127.965
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.127.965
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.127.965
       \endverb
     \endentry
   \enddatalist

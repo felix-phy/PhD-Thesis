@@ -1,6 +1,6 @@
 \chapter{Introduction}
 
-The Standard Model (SM) of particle physics is the theory that best decribes our current understanding of fundamental particles and their interactions. It describes a broad range of phenomena and makes a plethora predictions for these, many of which have been confirmed via measurement to great degrees of accuracy \cite{PhysRevD.110.030001}. A noteable feature of the SM is the Brout-Englert-Higgs (EBH) mechanism \cite{Higgs}\cite{EnglertBrout}, which predicts the existance of a Brout-Englert-Higgs (or often simply Higgs) boson. The EBH mechanism is considered a central part of the SM as it provides a unique mechanism by which SM particles may acquire mass through their interaction with the Higgs boson. As such, the experimental discovery of a Higgs-like scalar boson in 2012 \cite{HiggsDiscovery2012CMS}\cite{HiggsDiscovery2012ATLAS} was a major milestone in particle physics. Since this discovery, a significant open question in particle physics has been whether this particle indeed behaves entirely in an SM-like way. Measuring the exact properties of the discovered scalar particle has thus been a major feature of LHC experiments such as the CMS collaboration \cite{CMS_Collaboration2022-xw}. A significant subset of these properties are the so-called Yukawa interactions between the Higgs boson and massive fermions. As can be seen in \autoref{fig:Higgs_couplings}, a number of these have previously been measured and indeed align with the values expected from the SM. However, the measurement of the Yukawa couplings of several of the lighter fermions still remain an open challenge as these couplings decrease in strength with smaller fermion masses. \\
+The Standard Model (SM) of particle physics is the theory that best decribes our current understanding of fundamental particles and their interactions. It describes a broad range of phenomena and makes a plethora predictions for these, many of which have been confirmed via measurement to great degrees of accuracy \cite{PhysRevD.110.030001}. A noteable feature of the SM is the Brout-Englert-Higgs (BEH) mechanism \cite{Higgs}\cite{EnglertBrout}, which predicts the existance of a Brout-Englert-Higgs (or often simply Higgs) boson. The EBH mechanism is considered a central part of the SM as it provides a unique mechanism by which SM particles may acquire mass through their interaction with the Higgs boson. As such, the experimental discovery of a Higgs-like scalar boson in 2012 \cite{HiggsDiscovery2012CMS}\cite{HiggsDiscovery2012ATLAS} was a major milestone in particle physics. Since this discovery, a significant open question in particle physics has been whether this particle indeed behaves entirely in an SM-like way. Measuring the exact properties of the discovered scalar particle has thus been a major feature of LHC experiments such as the CMS collaboration \cite{CMS_Collaboration2022-xw}. A significant subset of these properties are the so-called Yukawa interactions between the Higgs boson and massive fermions. As can be seen in \autoref{fig:Higgs_couplings}, a number of these have previously been measured and indeed align with the values expected from the SM. However, the measurement of the Yukawa couplings of several of the lighter fermions still remain an open challenge as these couplings decrease in strength with smaller fermion masses. \\
 \\
 The next lightest fermion candidate for such a measurement is the charm quark. Consequentially, the study of the Yukawa-coupling between the Higgs boson and the charm quark is of significant interest \cite{PhysRevD.100.073013}. Apart from a brief discussion of the SM, this section introduces the charm-Yukawa coupling. Additionally, LHC processes may be targeted to exploit their sensitivity to the Higgs-charm Yukawa coupling with an experiment such as the CMS detector are discussed. 
 
@@ -51,7 +51,138 @@ There exist 13 unique bosons in the SM. These include the photon $\gamma$, W$^{\
 \\
 Considering the introduced particles and forces, the SM has a rich and detailed phenomeology. A great example of a mathematically rigurous delineation of this can be found for example in \cite{PeskinSchroeder}. Given the focus of this work on the Yukawa coupling between the Higgs boson and charm quark, only this aspect of the SM is discussed in further detail.
 
-\section{The Higgs-charm Yukawa coupling and the cH process}
+\section{The Higgs-charm Yukawa coupling}
 
+The coupling that defines the strength of the interaction between massive fermions and the Higgs boson is the so-called Yukawa coupling. To better understand this and associated concepts, some knowledge of the electro-weak sector of the SM is required. These are discussed in this section while a comprehensive overview may be found in \cite{WolfHiggs}. \\
+\\
+To understand the origin of the Yukawa-couplings, a brief discussion of Lagrangian densities, gauge transformations and the role of symmetries in the SM is warranted. 
+The Lagrangian density \Lagr($\phi_i$; $a_i$) is a quantity dependent on a set of fields $\phi_i$ and constants $a_i$ from which the equations of motions for the particles associated with these fields may be derived. Commonly, theories of particles and their behaviour in a QFT are thus defined through the formulation of a Lagrangian density. The form of this expression determines the nature of the particles that are included as well as their interactions. A central component to the way in which particle interactions are introduced in the SM is the concept of gauge symmetries. These originate from the fact that the quantum fields in a QFT carry phase information, which may depend on the space-time coordinate of the field. This phase information describes (local) degrees of freedom of the field and should have no effect on the physical obersvables of the system. Thus, \Lagr \, should remain invariant under arbitary phase transformations. Such transformations are typically referred to as a choice of gauge and such an invariance is accordingly referred to as a \textit{local gauge symmetry}. \\
+\\
+In the Lagrangian of the SM, invariance in the presence of local gauge symmetries is insured through the addition of additional fields. These gauge fields couple to the previously existing fields and effectively serve as mediators of phase information between space-time points of the original fields. It is exactly these gauge fields which we identify as the fields force-mediating bosons introduced previously and which are required to maintain local gauge symmetry. A very interesting conclusion from this is that the dynamics of the bosons and the corresponding force are determined entirely by the structure of the local gauge symmetry that must be preserved. For the electro-weak force, the corresponding symmetry is referred to as $\mathbf{SU(2)}_{\mathrm{L}} \mathbf{\, \mathrm{x} \, U(1)_{\mathit{Y}}}$. Here, the $L$ denotes that the associated force only acts on left-handed chiral particles while the \textit{Y} denotes the charge that is carried by the corresponding bosons and is referred to as the weak hypercharge. There are a total of four boson associated with the electro-weak force. These are the photon $\gamma$ that mediates the electromagnetic force as well as the electromagnetically charged W$^{\pm}$ and electromagnetically neutral Z boson that mediate the weak force. \\
+\\
+With these concepts in mind the nature of the electro-weak sector's Lagrangian in the SM may be discussed. Naively, the form of this would be given by
+
+\begin{align}
+    \label{LEWK} 
+    \mathcal{L}_{\mathrm{EW}}= &i \overline{\psi}_L \gamma^{\mu} D_{\mu}^L \psi_L + i \overline{\psi}_R \gamma^{\mu} D_{\mu}^R \psi_R
+    - \frac{1}{2} \mathrm{Tr} \left(W_{\mu\nu}^{a}W^{a\mu\nu} \right) 
+     - \frac{1}{4} B_{\mu\nu}B^{\mu\nu} \, .
+\end{align}
+\\
+for a generic combination of a left-handed isospin doublet $\psi_L$ and and right-handed isospin singlet $\psi_L$. The individual elements of $\mathcal{L}_{\mathrm{EW}}$ are briefly summarised below
+\\
+\begin{align*}
+    &g^{\prime}: &\mathrm{coupling}\, \mathrm{constant} \, \mathrm{of} \, \mathrm{U(1)}_Y \\
+    &g: &\mathrm{coupling}\, \mathrm{constant} \, \mathrm{of} \, \mathrm{SU(2)}_L \\
+    &\psi_L, & \textrm{left-handed} \, \mathrm{isospin} \, \mathrm{doublet}\\
+    &\psi_R,  &\textrm{right-handed} \, \mathrm{isospin} \, \mathrm{doublet} \\
+    &B_{\mu}: &\mathrm{gauge} \, \mathrm{field}\, \mathrm{of} \, \mathrm{U(1)}_Y\\
+    &W_{\mu}^a : &\mathrm{gauge} \, \mathrm{fields} \, \mathrm{of} \, \mathrm{SU(2)}_L, \, a = 1,2,3 \\
+    &W_{\mu\nu}: &\mathrm{field}\, \mathrm{strength}\,  \mathrm{tensor} \\
+    &B_{\mu\nu}: &\mathrm{field}\, \mathrm{strength}\,  \mathrm{tensor} \\
+    &t^{a} = \frac{\sigma^{a}}{2}, &\mathrm{SU(2)}\, \mathrm{generators} \\
+    &Y_L = -1, &\mathrm{left} \, \mathrm{chiral} \, \mathrm{hypercharge}\\
+    &Y_R = -2, &\mathrm{right} \, \mathrm{chiral} \, \mathrm{hypercharge}\\
+    &D_{\mu}^L = \partial_{\mu}+ig^{\prime} \frac{Y_L}{2}B_{\mu}+igt^{a}W^{a}_{\mu}\\
+    &D_{\mu}^R = \partial_{\mu}+ig^{\prime} \frac{Y_R}{2}B_{\mu}\\
+\end{align*}
+\\
+The terms $D_{\mu}^{L/R}$ are so-called covariant derivates that ensure the local $\mathrm{SU(2)_L \, \mathrm{x} \, U(1)}_{Y}$ gauge symmetry is uphheld for $\mathcal{L}_{EW}$. In this formulation, the observed charged gauge bosons W$^{\pm}$ arise from linear combinations of the $W_1$ and $W_2$ gauge fields
+\\
+\begin{align}
+    W^{\pm} = \frac{1}{\sqrt{2}}(W_1 \mp iW_2) , 
+\end{align}
+\\ while the Z boson and photon $\gamma$ arise from linear combinations of the $W_3$ and $B$ gauge fields achieved via a rotation
+\begin{equation}
+    \begin{pmatrix}
+    \gamma \\
+    Z
+    \end{pmatrix} = 
+    \begin{pmatrix}
+    \mathrm{cos}\theta_{\mathrm{W}} & \mathrm{sin}\theta_{\mathrm{W}} \\
+    \mathrm{-sin}\theta_{\mathrm{W}} & \mathrm{cos}\theta_{\mathrm{W}}
+    \end{pmatrix}
+    \begin{pmatrix}
+    B \\
+    W_3
+    \end{pmatrix} \, .
+\end{equation}
+\\
+with the weak mixing angle $\theta_{\mathrm{W}}$. \\
+\\
+The massive natures of of the W$^{\pm}$ and Z bosons, as first reported in \cite{WZMass}, are however incompatible with such a formulation. This is as naive mass term such as 
+\begin{align}
+    m_W^{2}W_{\mu}^{+}W^{-, \mu}+\frac{1}{2}m_Z^{2}Z_{\mu}Z^{\mu}. \label{NaiveWZMass}
+\end{align}
+\\
+do not remain invariant under arbitrary $\mathrm{SU(2)_L}$ gauge transformations. This is as gauge fields $A_{\mu}$ generically transform as 
+
+\begin{align}
+    A_{\mu} \rightarrow A_{\mu}^{'} =  A_{\mu} - \frac{1}{g} \partial_{\mu} \mathcal{V}(x) \label{FieldTransform}
+\end{align}
+\\
+where $\mathcal{V}(x)$ is some arbitrary phase. Substituting \autoref{FieldTransform} into \autoref{NaiveWZMass} thus introduces additional terms that do not cancel. The same is true for fermion mass terms in the form of
+\begin{align}
+    m_{f}\overline{\psi}\psi. \label{NaiveFermionMass}
+\end{align} 
+\\
+There is however a subtle distinction in this case, as the invariance breaking terms in \autoref{NaiveFermionMass} arise from the different transformation behaviour of the $\psi_{L}$ and $\psi_{R}$ components of $\psi$ under $\mathrm{SU(2)_L \, \mathrm{x} \, U(1)}_{Y}$ gauge transformations. 
+\subsection{The Brout-Englert-Higgs mechanism}
+The BEH mechanism provides a way to circumvent the gauge symmetry breaking nature of the aforementioned generic mass terms. This is achieved through a porcess referred to as spontaneous symmetry breaking. A spontaneously broken symmetry refers to a symmetry that is upheld in a global view of the system (i.e. the overall Lagrangian density $\mathcal{L}_{\mathrm{EW}}$ remains invariant under a relevant gauge transformation) while the energetic ground state of the system explicitly breaks this symmetry. This is a process formally described by the Goldstone theorem \cite{Goldstone}that states that each broken symmetry in a relativistic QFT generates an additional massless boson. These introduce additional degrees of freedom into the theory and are coined Goldstone bosons. The BEH mechanism exploits this by adding an additional term 
+\\
+\begin{align}
+        \mathcal{L}_{\mathrm{Higgs}} &= D_{\mu} \phi^{\dagger} D^{\mu} \phi - V(\phi) \label{HiggsTerm} \\
+        V(\phi) &= - \mu^{2}\phi^{\dagger} \phi + \lambda(\phi^{\dagger}\phi)^2 \label{HiggsPotential} .
+\end{align}
+\\
+to $\mathcal{L}_{\mathrm{EW}}$ with the complex field $\phi$. This is a SU(2)$_{L}$ doublet 
+\\
+\begin{align}
+    \phi= \begin{pmatrix}
+        \phi^{+} \\
+        \phi^{0}
+        \end{pmatrix} 
+\end{align}
+\\
+with the scalar components $\phi^{+}$ and  $\phi^{0}$. Here, $V(\phi)$ corresponds to the potential energy term of the feild. Again, the covariant derivative 
+\\
+\begin{align}
+    D_{\mu} = \partial_{\mu}+ig^{\prime}\frac{Y_{\phi}}{2}B_{\mu}+igt^{a}W_{\mu}^{a}
+\end{align}
+ensures $\mathcal{L}_{\mathrm{Higgs}}$ remains locally gauge invariant under $\mathrm{SU(2)_L \, \mathrm{x} \, U(1)}_{Y}$ transformations. The constants of the potential term \autoref{HiggsPotential} are chosen in such a way that the ground state of V is non-zero. This can be achieved by choosing them such that $\lambda >$ 0 and $\mu^{2} >$ 0. The result is a ground state of $V$ that is identified as the vacuum expectation 
+\\
+\begin{align}
+    v=\sqrt{\frac{\mu^{2}}{2\lambda}} \, .
+\end{align}
+\\
+The center of the potential is now an unstable local maximum and the only stable configuration can be found in the non-zero ground state. Through this, the symmetry of the potential is effectively broken. A popular choice of gauge for $\phi$ is 
+
+\begin{align}
+    \phi= \begin{pmatrix}
+        0\\
+        v + \frac{h}{\sqrt{2}}
+        \end{pmatrix} 
+\end{align}
+\\
+where $h$ is a new scalar field that is used to parametrise radial perturbations of the potential's ground state. This choice is referred to as the unitary gauge and $h$ is identified as the field corresponding to the physical Higgs boson. By expanding \autoref{HiggsTerm} with this choice of $\phi$, a range of terms are introduced to $\mathcal{L}_{\mathrm{EW}}$. These contain a variety of interaction terms between the gauge fields and the Higgs field, as well as newly generated mass terms for the Z and W bosons
+
+\begin{align}
+    \left(\frac{g}{2}\right)^{2}v^{2}W_{\mu}^{+}W^{\mu-} &=m_{\mathrm{W}}^{2}W_{\mu}^{+}W^{\mu-} \\
+    \left(\frac{\sqrt{g^{2}+g^{\prime}}}{2}\right)^{2}v^{2}Z_{\mu}Z^{\mu} &= m_{\mathrm{Z}}^{2}Z_{\mu}Z^{\mu} \, .
+\end{align}
+\\
+A full description and compilation of all the terms of the electro-weak Lagrangian density of the SM can be found in \ref{WolfHiggs}.
+
+\subsection{The Yukawa couplings}
+
+The mass terms for fermions may now be generated by including a term of the form
+
+\begin{align}
+    \mathcal{L}_{\mathrm{Yukawa}} = -y_{f}(\overline{\psi}_{L}\phi\psi_{R} + \overline{\psi}_{R}\phi\psi_{L}),
+\end{align}
+\\
+which is invariant under $\mathrm{SU(2)_L \, \mathrm{x} \, U(1)}_{Y}$ gauge transformations. ...something about quarks specifically
+
+\section{The cH process}
 \section{SMEFT}
 
