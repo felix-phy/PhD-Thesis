@@ -2196,6 +2196,10 @@
     <bcf:citekey order="12">WolfHiggs</bcf:citekey>
     <bcf:citekey order="13">WZMass</bcf:citekey>
     <bcf:citekey order="14">Goldstone</bcf:citekey>
+    <bcf:citekey order="15">PhysRevD.110.030001</bcf:citekey>
+    <bcf:citekey order="16">HiggsHandBook</bcf:citekey>
+    <bcf:citekey order="17">PhysRevD.100.073013</bcf:citekey>
+    <bcf:citekey order="18">PhysRevD.103.095023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

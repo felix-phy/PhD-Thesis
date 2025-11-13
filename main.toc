@@ -14,7 +14,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}The cH process}{7}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}SMEFT}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.3.1}The $\kappa $-framework}{7}{subsection.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}SMEFT}{8}{section.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The CMS experiment}{9}{chapter.2}%
 \defcounter {refsection}{0}\relax 
