@@ -1374,6 +1374,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
@@ -1669,6 +1670,172 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.127.965
+      \endverb
+    \endentry
+    \entry{cmscollaboration2025simultaneousprobecharmquark}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Simultaneous probe of the charm and bottom quark Yukawa couplings using ttH events}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arXiv.2509.22535
+      \endverb
+      \verb{eprint}
+      \verb 2509.22535
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2509.22535
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2509.22535
+      \endverb
+    \endentry
+    \entry{cmscHWW}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Search for a Higgs boson produced in association with a charm quark and decaying to a W boson pair in proton-proton collisions at $\sqrt{s}$ = 13 TeV}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2508.14988
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2508.14988
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2508.14988
+      \endverb
+    \endentry
+    \entry{cmscHgammgamma}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Search for the associated production of a Higgs boson with a charm quark in the diphoton decay channel in pp collisions at $\sqrt{s}$ = 13 TeV}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2503.08797
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.08797
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.08797
+      \endverb
+    \endentry
+    \entry{PhysRevD.111.053003}{article}{}
+      \name{author}{6}{}{%
+        {{hash=30415bca5265be7503e7925ed20d561d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Nuoyu},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bdf6e76de37c2d877cad742e5865576b}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Hongsheng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9b358a631c323b2a2946ca36c5f5e233}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Zhuoni},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=621afb2f63bcbbb323f8a9935782eef1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c2c6ff1aa81df99ccd974774b24c7324}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Pei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3eca1842cbfe596c1775ffb8a6f54481}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Qingjun},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
+      \strng{fullhash}{871f3b67665c07565af1359f229b71ed}
+      \strng{bibnamehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
+      \strng{authorbibnamehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
+      \strng{authornamehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
+      \strng{authorfullhash}{871f3b67665c07565af1359f229b71ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{3}
+      \field{title}{Probing charm Yukawa coupling through $ch$ associated production at the hadron colliders}
+      \field{volume}{111}
+      \field{year}{2025}
+      \field{pages}{053003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.111.053003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.111.053003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.111.053003
       \endverb
     \endentry
     \entry{HiggsHandBook}{misc}{}
@@ -2476,8 +2643,8 @@
       \strng{authorbibnamehash}{666563b231dba32446d61a54e6d50950}
       \strng{authornamehash}{666563b231dba32446d61a54e6d50950}
       \strng{authorfullhash}{0bf3a6c65a04aaa964b0068b3c8f9e02}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Handbook of LHC Higgs Cross Sections: 3. Higgs Properties: Report of the LHC Higgs Cross Section Working Group}
@@ -2520,8 +2687,8 @@
       \strng{authorbibnamehash}{b4ba9a7df624ace67f7a419005416f3a}
       \strng{authornamehash}{b4ba9a7df624ace67f7a419005416f3a}
       \strng{authorfullhash}{b4ba9a7df624ace67f7a419005416f3a}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -2540,6 +2707,46 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.103.095023
+      \endverb
+    \endentry
+    \entry{HiggsRateMeasurementsCMS}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Combined measurements of Higgs boson couplings in proton–proton collisions at $$\sqrt{s}=13\,\text {Te}\text {V} $$}
+      \field{volume}{79}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-019-6909-y
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-6909-y
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-6909-y
       \endverb
     \endentry
   \enddatalist

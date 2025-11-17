@@ -2197,9 +2197,16 @@
     <bcf:citekey order="13">WZMass</bcf:citekey>
     <bcf:citekey order="14">Goldstone</bcf:citekey>
     <bcf:citekey order="15">PhysRevD.110.030001</bcf:citekey>
-    <bcf:citekey order="16">HiggsHandBook</bcf:citekey>
-    <bcf:citekey order="17">PhysRevD.100.073013</bcf:citekey>
-    <bcf:citekey order="18">PhysRevD.103.095023</bcf:citekey>
+    <bcf:citekey order="16">cmscollaboration2025simultaneousprobecharmquark</bcf:citekey>
+    <bcf:citekey order="17">PhysRevD.110.030001</bcf:citekey>
+    <bcf:citekey order="18">cmscHWW</bcf:citekey>
+    <bcf:citekey order="19">cmscHgammgamma</bcf:citekey>
+    <bcf:citekey order="20">PhysRevD.111.053003</bcf:citekey>
+    <bcf:citekey order="21">HiggsHandBook</bcf:citekey>
+    <bcf:citekey order="22">PhysRevD.100.073013</bcf:citekey>
+    <bcf:citekey order="23">PhysRevD.103.095023</bcf:citekey>
+    <bcf:citekey order="24">HiggsRateMeasurementsCMS</bcf:citekey>
+    <bcf:citekey order="25">PhysRevD.100.073013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
