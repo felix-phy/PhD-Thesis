@@ -2207,6 +2207,9 @@
     <bcf:citekey order="23">PhysRevD.103.095023</bcf:citekey>
     <bcf:citekey order="24">HiggsRateMeasurementsCMS</bcf:citekey>
     <bcf:citekey order="25">PhysRevD.100.073013</bcf:citekey>
+    <bcf:citekey order="26">d5Operator</bcf:citekey>
+    <bcf:citekey order="27">WarsawBasis</bcf:citekey>
+    <bcf:citekey order="28">SMEFTOverview</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

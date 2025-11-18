@@ -266,3 +266,31 @@ Effectively, this approach in interpreting $\kappa_{\mathrm{c}}$ from a signal s
 
 \section{EFT interpretations of the cH process}
 
+The cH process may also be interpreted in terms of Standard Model Effective Field Theory (SMEFT). In SMEFT theory, potential effects from physics processes not described by the SM (commonly referred to as beyond-the-SM or BSM physics) are parametrised in a mostly model-independent way. Specifically, the SMEFT framework can be used at colliders with a characteristic energy scale $E$ to describe the effects of processes with a characteristic energy scale above $E$. This concept is illustrated in \autoref{fig:EFT}. \\
+\\
+Formally, SMEFT is a collection of all allowed interaction terms between fields that obey the rules of the SM. Most importantly, this means that said terms satisfy the gauge invariance conditions of the SM. Generically, this can be expressed as an expansion in the energy scale of the new physics scale $\Lambda$ 
+\\
+\begin{align}
+    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_{d > 4} \sum_i \frac{C_i}{\lambda^{d-4}} \hat{O}_i^d \label{EFTEquation}
+\end{align}
+\\
+where $\mathcal{L_{\mathrm{SM}}}$ is the SM lagrangian, $O_i$ denotes a particular operator with a dimensionless coupling coefficient $C_i$ and $d$ denotes the dimension of the operator. This latter property arises from a dimensional analysis of a lagrangian and its fields, where energy dimensions of terms may be deduced from the requirement that the action
+\\
+\begin{align}
+    \mathrm{S} = \int \mathcal{L} d^4x
+\end{align}
+\\
+remains dimensionless. As a result, $\mathcal{L_{\mathrm{SM}}}$ is of energy dimension four. Since $\Lambda$ carries an energy dimension of one, terms in the sum of \autoref{EFTEquation} scaled with 1/$\Lambda^{d -4}$ must be compensated with an appropriate dimension of the operator $O_i^d$ to ensure the overall terms also remain of energy dimension four. Consequently, operators in SMEFT are grouped by their energy dimension. In d=5, only one operator possible operator exists that violates lepton number \cite{d5Operator} and is not relevant in this work. In d=6 however, a plethora of valid operators exist. In total, these amount to 59 different dimension six operators (modulo all possible flavour combinations), commonly represented in the Warsaw basis \cite{WarsawBasis}. Since d=7 operators again violate lepton number and each additional dimension adds a suppresive factor of $\Lambda^{-1}$, a simplified SMEFT schema is commonly used in which only the contribution of d=6 operators is considered in the expansion. Thus \autoref{EFTEquation} simplifies to 
+
+\begin{align}
+    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_i \frac{C_i}{\lambda^{2}} \hat{O}_i^{(6)} + \mathrm{hc}
+\end{align}
+\\
+A good overview of SMEFT can be found in \cite{SMEFTOverview}.
+\\
+\\
+A particular operator relevant to this work is referred to as the chromomagnetic dipole (CMD) operator $\hat{O}_{qG}$. This operator may be uniquely bounded with the cH process. For the charm quark, the CMD operator is written as 
+
+\begin{align}
+    \hat{O}_{cG} = (\overline{q}_{2, L} \sigma^{\mu\nu} T^ac)\tilde{\phi}G_{\mu\nu}^a
+\end{align}
