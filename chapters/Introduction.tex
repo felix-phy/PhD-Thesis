@@ -264,14 +264,14 @@ Rearranging for $\kappa_{\mathrm{c}}$ gives
 \\
 Effectively, this approach in interpreting $\kappa_{\mathrm{c}}$ from a signal strength measurement $\mu_{\sigma_{\mathrm{cH}}\mathrm{BR(H\rightarrow ZZ)}}$ thus ensures compatibility with existing Higgs boson rate measurements, given a non-unity value of $\kappa_{\mathrm{c}}$ leads to modifications of the Higgs boson partial decay widths. It should be noted that this already indirectly implies bounds on $\kappa_{\mathrm{c}}$, as discussed in \cite{PhysRevD.100.073013}. 
 
-\section{EFT interpretations of the cH process}
+\section{An EFT interpretation of the cH process}
 
 The cH process may also be interpreted in terms of Standard Model Effective Field Theory (SMEFT). In SMEFT theory, potential effects from physics processes not described by the SM (commonly referred to as beyond-the-SM or BSM physics) are parametrised in a mostly model-independent way. Specifically, the SMEFT framework can be used at colliders with a characteristic energy scale $E$ to describe the effects of processes with a characteristic energy scale above $E$. This concept is illustrated in \autoref{fig:EFT}. \\
 \\
 Formally, SMEFT is a collection of all allowed interaction terms between fields that obey the rules of the SM. Most importantly, this means that said terms satisfy the gauge invariance conditions of the SM. Generically, this can be expressed as an expansion in the energy scale of the new physics scale $\Lambda$ 
 \\
 \begin{align}
-    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_{d > 4} \sum_i \frac{C_i}{\lambda^{d-4}} \hat{O}_i^d \label{EFTEquation}
+    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_{d > 4} \sum_i \frac{C_i}{\Lambda^{d-4}} \hat{O}_i^d \label{EFTEquation}
 \end{align}
 \\
 where $\mathcal{L_{\mathrm{SM}}}$ is the SM lagrangian, $O_i$ denotes a particular operator with a dimensionless coupling coefficient $C_i$ and $d$ denotes the dimension of the operator. This latter property arises from a dimensional analysis of a lagrangian and its fields, where energy dimensions of terms may be deduced from the requirement that the action
@@ -283,14 +283,62 @@ where $\mathcal{L_{\mathrm{SM}}}$ is the SM lagrangian, $O_i$ denotes a particul
 remains dimensionless. As a result, $\mathcal{L_{\mathrm{SM}}}$ is of energy dimension four. Since $\Lambda$ carries an energy dimension of one, terms in the sum of \autoref{EFTEquation} scaled with 1/$\Lambda^{d -4}$ must be compensated with an appropriate dimension of the operator $O_i^d$ to ensure the overall terms also remain of energy dimension four. Consequently, operators in SMEFT are grouped by their energy dimension. In d=5, only one operator possible operator exists that violates lepton number \cite{d5Operator} and is not relevant in this work. In d=6 however, a plethora of valid operators exist. In total, these amount to 59 different dimension six operators (modulo all possible flavour combinations), commonly represented in the Warsaw basis \cite{WarsawBasis}. Since d=7 operators again violate lepton number and each additional dimension adds a suppresive factor of $\Lambda^{-1}$, a simplified SMEFT schema is commonly used in which only the contribution of d=6 operators is considered in the expansion. Thus \autoref{EFTEquation} simplifies to 
 
 \begin{align}
-    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_i \frac{C_i}{\lambda^{2}} \hat{O}_i^{(6)} + \mathrm{hc}
+    \mathcal{L_{\mathrm{SMEFT}}} = \mathcal{L_{\mathrm{SM}}} + \sum_i \frac{C_i}{\Lambda^{2}} \hat{O}_i^{(6)} + \mathrm{hc} \label{EFTEQuationDim6}
 \end{align}
 \\
 A good overview of SMEFT can be found in \cite{SMEFTOverview}.
 \\
-\\
-A particular operator relevant to this work is referred to as the chromomagnetic dipole (CMD) operator $\hat{O}_{qG}$. This operator may be uniquely bounded with the cH process. For the charm quark, the CMD operator is written as 
+\subsection{The chromomagnetic dipole operator}
+
+A particular operator relevant to this work is referred to as the chromomagnetic dipole (CMD) operator $\hat{O}_{qG}$. For the charm quark, the CMD operator is written as 
 
 \begin{align}
-    \hat{O}_{cG} = (\overline{q}_{2, L} \sigma^{\mu\nu} T^ac)\tilde{\phi}G_{\mu\nu}^a
+    \hat{O}_{cG} = (\overline{q}_{2, L} \sigma^{\mu\nu} T^ac)\tilde{\phi}G_{\mu\nu}^a. 
 \end{align}
+\\
+Here, $\overline{q}_{2, L}$ is the second generation, left-handed quark doublet, $\sigma^{\mu\nu}$ = $i[\gamma_{\mu}, \gamma_{\nu}]/2$ with the Dirac matrices $\gamma_{\mu}$ , $T^ac$ are the generators of the SU(3), $\tilde{\phi}$ is the adjoint Higgs doublet and $G_{\mu\nu}^a$ is the field strength tensor of the strong interaction. This operator $\hat{O}_{cG}$ may be uniquely bounded with the cH process. This is due to two main factors, including the unique chiral structure of the operator, which mixes left and right-handed spinors, otherwise only found in the Yukawa and quark-Higgs boson interaction terms of the SM. \\
+\\
+To better understand this, it is worth considering other processes such as inclusive Higgs boson production, which have been successfully leveraged to set strong contraints on the top quark CMD operator $\hat{O}_{tG}$ \cite{askNordin}. Typically, the strategy that is used to probe even small wilson coefficients e.g. $C_tG$ is to exploit interference of the relevant (small) SMEFT contribution with a larger SM contribution. Though the pure SMEFT contribution itself may be small and experimentally neglible due to limited analysis sensitivity, the much larger contribution of the SM process it interfers with can result in a non-neglible interference effect with respect to the SM process. However, the chiral structure of the CMD operator influences the effectiveness of this strategy. Since the $\hat{O}_{qG}$ operator effectively flips the chirality of the ingoing and outgoing quarks, a second \textit{chirality flip} must be inserted for the SMEFT contribution to interfere with the SM process. This is visualised in \autoref{fig:CMDChirality}. Such a chirality flip is proportional to the mass $m_q$ of the respective quark. As a result the interference contribution for a much lighter quark is significantly supressed, as also argued for the bottom quark in \cite{PhysRevD.93.053001}. Effectively, the processes that prove effective in targeting $\hat{O}_{tG}$ due to the large mass of the top quark are much less sensitive to $\hat{O}_{cG}$. Due to the cH process itself containing the chirality flipping quark-Higgs boson vertex, interference terms between the EFT and SM contributions do not suffer from such an effect. Furthermore, due to the very low expected cross section of the cH process, quadratic contributions from $\hat{O}_{cG}$ may be comparatively large even at small values of $C_cG$. As a result, the cH process may be an excellent target in constraining $\hat{O}_{cG}$. 
+
+\subsection{Validity of an EFT}
+In addition to EFT terms needing to satisfy the gauge invariance conditions of the SM, two additional key validity conditions are typically required of an EFT. The first is related to the fact that in an EFT, the particle nature of e.g. new, heavy mediator particles is simplified into the introduction of a new effective vertex. For example, a 2$\rightarrow$2 particle resonant scattering via a new heavy mediator particle $\Omega$ with a newly introduced coupling constant $g_{*}$ is simplified via the introduction of a four-point interaction, as visualised in \autoref{fig:EFTMediatorToFourPoint}. This corresponds to a a first order approximation of the new particle's mediator as 
+
+\begin{align}
+    \frac{g_{*}}{p^2 - m_{\Omega}} \quad \xrightarrow[m_{\Omega}^2 \gg p^2]{} \quad -\frac{g_{*}}{m_{\Omega}} \left( 1 + \frac{p^2}{m_{\Omega}^2} +  \frac{p^4}{m_{\Omega}^4} + ...  \right) \approx -\frac{g_{*}}{m_{\Omega}} 
+\end{align}
+\\
+For the EFT description of this simplification to be valid, the energy involved in processes containing the effective vertex introduced by the relevant operator must thus lie well below $m_{\Omega}$, which represents the previously introduced new physics scale $\Lambda$. Practically, this can be achieved by placing an upper limit \mcut \, on the total energy that is considered in measurements of such processes. The requirement can be expressed as
+\begin{align}
+    \mathrm{M_{cut}} < \Lambda . 
+\end{align}
+\\
+A good estimator of \mcut \, is the inviariant mass of the final state particles of a process. In case of the cH process, the invariant mass of the Higgs boson and jet system is a natural choice.\\
+\\
+The second condition that must be met is related to the perturbativity of the theory. Concretely, this means that higher dimensional operators should contribute increasingly smaller corrections so that the sum of operator contributions converges. In the case of this work where only d=6 operators are considered, this means ensuring contributions from d=8 operators are sufficiently small. While this cannot be determined with certainty without explicit knowledge of the underlying theory the EFT is estimating, a popular choice is to require that at most $g_{*} \sim 4\pi$ \cite{Elias_Mir__2013}. \\
+\\
+These two conditions may be combined into a single, simultaneous requirement. In \cite{Elias_Mir__2013} an effective lagrangian (ignoring relevant indices for simplicity) of the general form 
+\begin{align}
+\mathcal{L}_{\mathrm{eff}}=\frac{\Lambda^4}{g_*^2} \mathcal{L}\left(\frac{D_\mu}{\Lambda}, \frac{g_h \phi}{\Lambda}, \frac{g_{\psi_{L, R}} \psi_{L, R}}{\Lambda^{3 / 2}}, \frac{g F_{\mu \nu}}{\Lambda^2}\right)\,
+\end{align}
+\\
+is obtained when a single BSM coupling $g_{*}$ is introduced. This provides a prescription for the powers of the couplings and $\Lambda$ that are associated with the SM fields $\phi, \psi$ and $F_{\mu \nu}$, and the covariant derivate ${D_\mu}$. Here, $g$ represents the unaltered gauge field couplings of the SM, while $g_{\psi_{L, R}}$ and $g_h$ represent the coupling of SM fermion and the Higgs doublet to the BSM theory. In a single BSM coupling scenario, this simplifies to $g_{\psi_{L, R}} = g_h = g_*$. Applying this prescription to the CMD operator gives 
+
+\begin{align}
+    \hat{O}_{cG} \longrightarrow&
+    \,\frac{\Lambda^4}{g^2_\star} \left[\left(\frac{g_\star \psi_{L,R}}{\Lambda^{3/2}}\right) \cdot \left(\frac{g_\star \psi_{L,R}}{\Lambda^{3/2}}\right) \cdot \left(\frac{g_\star \phi}{\Lambda}\right) \cdot \left(\frac{g_s G}{\Lambda^2}\right)\right] \\
+    &= \frac{g_\star g_s}{\Lambda^2} \left( \psi_{L,R} \cdot \psi_{L,R}\cdot \phi \cdot G \right)\,. \label{CMDOperatorCoupling}
+\end{align}
+\\
+Reading off from \autoref{CMDOperatorCoupling}, one can see that the coupling of the CMD operator is given by $g_\star g_s/\Lambda^2$. Comparing to \autoref{EFTEquation} thus reveals that the CMD Wilson coefficient is given by $C_{cG} = g_* g_s$. By requiring the first validity condition, the relation 
+
+\begin{align}
+    \frac{C_{cG}}{\Lambda^2} < \frac{g_* g_s}{\mathrm{M_{cut}^2}}
+\end{align}
+\\
+is obtained. Since both $C_{cG}$ and $\Lambda$ are a priori unknown, we can redefine $\tilde{C}_{cG} = \frac{C_{cG}}{\Lambda^2}$. With this redefinition and by setting $g_{*} \sim 4\pi$, the expression
+
+\begin{align}
+      \frac{\left| \tilde{C}_{cG} \right| M_{\mathrm{cut}}^2}{4\pi g_s} < 1\,.
+\end{align}
+\\
+can be used to define a plane in $\tilde{C}_{cG}$ and \mcut \, that satisfies the previously discussed conditions.

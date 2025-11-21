@@ -2749,7 +2749,119 @@
       \verb http://dx.doi.org/10.1140/epjc/s10052-019-6909-y
       \endverb
     \endentry
+    \entry{PhysRevD.93.053001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=098c688e7e7a342a25d66cb49d62be88}{%
+           family={Bramante},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0384e837f8f01b95f0b3f2267d2eed86}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=51e742caafdbd56aff2d3601c8a9f82f}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={Landon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f24cbdf8b518d4aca5112c29aeeb5b26}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
+      \strng{fullhash}{b7e5adfcd83ba339ea1111bc9645006e}
+      \strng{bibnamehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
+      \strng{authorbibnamehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
+      \strng{authornamehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
+      \strng{authorfullhash}{b7e5adfcd83ba339ea1111bc9645006e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{3}
+      \field{title}{Boosted Higgs bosons from chromomagnetic $b$'s: $b\overline{b}h$ at high luminosity}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{053001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.93.053001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.93.053001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.93.053001
+      \endverb
+    \endentry
+    \entry{Elias_Mir__2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f58a4963337d4e055790be5b7d0c9d4d}{%
+           family={Elias-Miró},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31b6a15e82594de45b20d22901c5299e}{%
+           family={Espinosa},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=590ed426532daed782479e6333db2e21}{%
+           family={Masso},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3355b9aa98e337907bf79292d3e6abe5}{%
+           family={Pomarol},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{9f7ae26f81ffd88f2dd1c8180ad81ff5}
+      \strng{fullhash}{ce77a7bf496112b2bba7794e1425acf2}
+      \strng{bibnamehash}{9f7ae26f81ffd88f2dd1c8180ad81ff5}
+      \strng{authorbibnamehash}{9f7ae26f81ffd88f2dd1c8180ad81ff5}
+      \strng{authornamehash}{9f7ae26f81ffd88f2dd1c8180ad81ff5}
+      \strng{authorfullhash}{ce77a7bf496112b2bba7794e1425acf2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Higgs windows to new physics through d=6 operators: constraints and one-loop anomalous dimensions}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/jhep11(2013)066
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP11(2013)066
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP11(2013)066
+      \endverb
+    \endentry
   \enddatalist
+  \missing{SMEFTOverview}
+  \missing{WarsawBasis}
+  \missing{askNordin}
+  \missing{d5Operator}
   \missing{something here}
 \endrefsection
 \endinput

@@ -3,3 +3,5 @@ Make genparton diagram
 DONE Make feynman diagrams DONE
 --- SMEFT ---
 Make SMEFT diagram
+Make chirality flip diagram
+Fix missing citations

@@ -2210,6 +2210,12 @@
     <bcf:citekey order="26">d5Operator</bcf:citekey>
     <bcf:citekey order="27">WarsawBasis</bcf:citekey>
     <bcf:citekey order="28">SMEFTOverview</bcf:citekey>
+    <bcf:citekey order="29">askNordin</bcf:citekey>
+    <bcf:citekey order="30">PhysRevD.93.053001</bcf:citekey>
+    <bcf:citekey order="31">Elias_Mir__2013</bcf:citekey>
+    <bcf:citekey order="32">Elias_Mir__2013</bcf:citekey>
+    <bcf:citekey order="33">CMSDetector</bcf:citekey>
+    <bcf:citekey order="34">LHC</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
