@@ -2216,6 +2216,20 @@
     <bcf:citekey order="32">Elias_Mir__2013</bcf:citekey>
     <bcf:citekey order="33">CMSDetector</bcf:citekey>
     <bcf:citekey order="34">LHC</bcf:citekey>
+    <bcf:citekey order="35">CMSDesignReportVol1</bcf:citekey>
+    <bcf:citekey order="36">CMSDesignReportVol1</bcf:citekey>
+    <bcf:citekey order="37">CMSTracker</bcf:citekey>
+    <bcf:citekey order="38">CMSTracker</bcf:citekey>
+    <bcf:citekey order="39">CMSTracker</bcf:citekey>
+    <bcf:citekey order="40">CMSTrakerResolution</bcf:citekey>
+    <bcf:citekey order="41">Run3Tracker</bcf:citekey>
+    <bcf:citekey order="42">CMSECAL</bcf:citekey>
+    <bcf:citekey order="43">CMSECALFigure</bcf:citekey>
+    <bcf:citekey order="44">CMSECALFigure</bcf:citekey>
+    <bcf:citekey order="45">CMSHCAL</bcf:citekey>
+    <bcf:citekey order="46">CMSMagnet</bcf:citekey>
+    <bcf:citekey order="47">CMSMagnetFigure</bcf:citekey>
+    <bcf:citekey order="48">CMSMagnetFigure</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,12 +1,84 @@
 \chapter{The CMS experiment at the LHC}
-The Compact Muon Solenoid (CMS) detector \cite{CMSDetector} is large, general purpose particle detector located at the Large Hadron Collider (LHC)\cite{LHC} accelerator in Geneva, Switzerland. Run by the European Oragnisation for Nuclear Research (CERN), the LHC's largest ring spans a circumference of 27km, making it the largest particle accelerator in the world. In their circular trajectory throug the beam pipe, collimated bunches of $\sim$ 10$^{11}$ protons are accelerted in both directions of the ring. At each of the four collision points, of which CMS is built around one, the trajectories of these proton bunches are crossed such that highly energetic proton-proton collisions are produced. A detector such as CMS effectively acts as a camera taking very complex snapshot of each collision. During Run 2 of the LHC, approximately 30 protons collide on average per bunch crossing with a centre of mass energy of $\sqrt{s}$ = 13 TeV. These collisions produce a plethora of particle, many of which decay to particles of varying multiplicities themselves. As such, these collision produce a complex and varied phenomenology that require a complex machine such at the CMS detector to fully capture. By capturing the information from many millions of collisions, a multitude of different statistical analyses may be performed on the captured data. This includes analyses of the Higgs boson and its properties, such as the Yukawa coupling of the charm quark. To this end, this chapter gives an overview of the CMS detector and its subsystems as well as the techniques used to reconstruct individual proton-proton collisions. 
+The Compact Muon Solenoid (CMS) detector \cite{CMSDetector} is large, general purpose particle detector located at the Large Hadron Collider (LHC)\cite{LHC} accelerator in Geneva, Switzerland. Run by the European Oragnisation for Nuclear Research (CERN), the LHC's largest ring spans a circumference of 27km, making it the largest particle accelerator in the world. In their circular trajectory through the beam pipe, collimated bunches of $\sim$ 10$^{11}$ protons are accelerted in both directions of the ring. At each of the four collision points, of which CMS is built around one, the trajectories of these proton bunches are crossed such that highly energetic proton-proton collisions are produced. A detector such as CMS effectively acts as a camera taking very complex snapshot of each collision. During Run 2 of the LHC, approximately 30 protons collide on average per bunch crossing with a centre of mass energy of $\sqrt{s}$ = 13 TeV. These collisions produce a plethora of particle, many of which decay to particles of varying multiplicities themselves. As such, these collision produce a complex and varied phenomenology that require a complex machine such at the CMS detector to fully capture. By capturing the information from many millions of collisions, a multitude of different statistical analyses may be performed on the captured data. This includes analyses of the Higgs boson and its properties, such as the Yukawa coupling of the charm quark. To this end, this chapter gives an overview of the CMS detector and its subsystems as well as the techniques used to reconstruct individual proton-proton collisions. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/CMS.png}
+    \caption{An overview of the CMS detector \cite{CMSDesignReportVol1}.}
+    \label{fig:CMSDetector}
+\end{figure}
+
 \section{The CMS detector}
 The CMS detector is designed to be able to detect a wide range of signatures and is built from a set of complementary sub-detectors. An overview of the detector may be seen in \autoref{fig:CMSDetector}. By combining data from these sub-detectors, a comprehensive reconstruction of individual proton-proton collisions, commonly referred to as an \textit{event}, may be made. The role and functioning of the individual sub-detectors is covered in this section. 
 \subsection{The CMS coordinate system}
+Due to the cylindrical nature of the CMS detector, using cylindrical coordinates to describe positions within the detector is a natural choice. Thus, the z coordinate describes the position along the beam pipe, $r$ the radius and $\phi$ the azimuthal angle, where the proton-proton collision point is taken as a the coordinate system's centre. Trajectories of particles with energy $E$ within the detector into the plane perpendicular to z may be described by the rapidity 
+
+\begin{align}
+    y = \mathrm{ln}\sqrt{\frac{E + p_{z}c}{E - p_{z}c}}.
+\end{align}
+\\
+Small momenta in the z-direction $p_z$ give a rapidity of zero, while the radpitity tends to $\pm\infty$ for large $p_z$. However, this requires knowledge of $E$ and $p_z$, which can be difficult to measure. By assuming the particle is ultra-relativistic, as is typically the case at the LHC, it is possible to simply this description and introduce the pseudorapidity
+
+\begin{align}
+    \eta = \mathrm{ln}\left(\mathrm{tan}\left(\frac{\theta}{2}\right)\right)
+\end{align}
+\\
+which is dependent solely on $\theta$, the polar angle. A convenient feature of the (pseudo)rapidity is that differences of (pseudo)rapidity are Lorentz invariant and thus not dependant on the initial longitudinal boost of the proton-proton system, which is a priori not known due to the varying momenta fractions of its constitutents. 
+Together with the particle's transverse (to the beam axis) momentum \pt\, and mass $m$, a particles four-vector may be defined as 
+\\
+\begin{align}
+    p = 
+    \begin{pmatrix}
+        m \\
+        p_T \\
+        \eta \\
+        \phi \\ 
+    \end{pmatrix} .
+\end{align}
+\\
+The CMS detector may be broadly split into two distinct regions inward and outward of the boundary $\mid$$\eta$$\mid$ = 1.479. The inner region or \textit{barrel} consists of concentric layers around the beam pipe. The outer \textit{endcap} region consists of two caps that close off the detector at either end. In this way, the CMS detectors is designed for the best possible hermetic coverage around the collision point. 
 \subsection{The silicon tracker}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/CMSTracker.pdf}
+    \caption{An overview of the CMS silicon tracker \cite{CMSTracker}, shown in the r-z plane after its upgrade during Run-2. The pixel detector is denoted in green while the silicon strip detector is denoted in blue and orange.}
+    \label{fig:CMSTracker}
+\end{figure}
+
+The silicon tracker \cite{CMSTracker} is the innermost system of the CMS detector, situated closest to the beampipe. It is designed to track the trajectories of charged particles as they emerge from the collision point with minimal energy losses to the particles themselves. This subdetector is split into two main components, the pixel detector and silicon strip detector. A sketch of these components may be seen in \autoref{fig:CMSTracker}. \\
+\\
+The pixel detector is situated right around the beampipe and as of 2017 consists of four circular layers of individual silicon pxiels in the barrel region and three disk layers in the endcap region. These consist of rectangular silicon chips with a size of 100 x 150 $\mu$m$^2$. When a charged particle traverses through the active material of these chips, an electrical signal is induced that is recorded. The small pixel size allows for position measurements with very high resolution, namely $\sim$ 10$\mu$m in the $r$$\phi$ direction and $\sim$ 20$\mu$m in the $z$ direction \cite{CMSTrakerResolution}. An important feature of the pixel detector its high radiation tolerance due to the close proximity of these modules to the beam pipe. \\
+\\
+Following the pixel detector is the silicon strip detector. It is composed of silicon strips of varying sizes, with increases in size at greater distances to the beam pipe due to the reduced overall particle flux they must contend with. In the barrel region, this consists of 10 layers of silicon strips, while in the endcap regions this consists of nine layers. The latter extend the coverage of the detector to $\mid$$\eta$$\mid$=2.5. \\
+\\
+The tracking system provides key information that is essential to the reconstruction of events. As charged particle fly through the CMS detector, their trajectories are curved due to the magnetic field generated by the solenoid magnet (see \autoref{subsection:CMSSolenoidMagnet}). By measuring the curvature of these trajectories with this system, the transverse momentum \pt \, of particles can be constructed. Additionally, the tracker plays a key role in methods used to determine the flavour of a quark that initiates a particle cascade, referred to as a jet (see \autoref{Jets} and \autoref{tagging} for further details). In preparation for the currently ongoing Run-3 of the LHC, the tracking system has since undergone further changes \cite{Run3Tracker}. \\
+\\
 \subsection{The electromagnetic calorimeter}
+The second innermost subsystem is the electromagnetic calorimeter (ECAL) \cite{CMSECAL}. It is designed to measure the energies of electromagnetic showers initiated by photons and electrons. The ECAl is a homogenous calorimeter, consisting of over 75,000 lead tungstate crystals. These crystals scintillate as charged particles pass through them and the produced photons can be collected via photodiodes, producing an electrical signal. This signal may be evaluated to infer the energy that is deposited. Not only do the crystals scintillate but they are also extremely dense and thus are very effective in absorbing the energy of incoming electrons and photons. This allows a very compact thickness of 23cm (22cm) in the barrel (endcap) region, which corresponds to $\sim$26 ($\sim$25) radiation lengths. An additional component of the ECAl is the preshower detector. This consists of lead absorbers interlaced with scintillating layers and help to distinguish high energy photons from neutral pions. The latter decays into photon pairs which may mimic high energy photons in this part of the detector with an increased likelihood. The increased granularity of the preshower detector helps mitigate this effect. The energy resolution of the ECAl is $\sim$ 1-4\%.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/CMSEcal.png}
+    \caption{An overview of the CMS ECAL \cite{CMSECALFigure}, shown in the r(y)-z plane. The dashed lines denote the coverage of the barrel and endcap ECAL region as well as the preshower detector.}
+    \label{fig:CMSTracker}
+\end{figure}
+
 \subsection{The hadronic calorimeter}
+Following the ECAl is the hadronic calorimeter (HCAL) \cite{CMSHCAL}. It is designed to measure the presence and energy of hadrons, which typically traverse the ECAL with minor energy losses. It is the most hermetic part of the CMS detector, with a coverage out to $\mid$$\eta$$\mid$ = 5.0, in order to absord almost all collision particles. The only exceptions to this are muons which are particles that minimally deposit their energy and neutrinos, which have an interaction probability that is so low that they cannot be measured with the CMS detector at all. \\
+\\
+In contrast to the ECAL, the HCAL is a sampling calorimeter. This means layers of absorber are interleaved with layers of a scintillator. Different materials are used in different parts of the calorimeter, which is split into the barrel ($\mid$$\eta$$\mid$ $<$ 1.5), endcap (1.5 $<$ $\mid$$\eta$$\mid$ $<$ 3.0) and forward (3.0 $<$ $\mid$$\eta$$\mid$ $<$ 5.0) regions. Since the HCAL component inside the magnet system does not sufficiently absorb all hadronic showers, the system also extends past the magnet. Due to the sampling nature of the calorimeter, a lower nuber of respective interaction lengths and larger energy fluctuations in hadronic particle showers, the energy resolution of the HCAL is significantly poorer than the ECAL. It lies in the order of 10-30$\%$ and is greatly dependent on the energy and pseudorapidity of the initiating particles.
 \subsection{The superconducting solenoid magnet}
+\label{subsection:CMSSolenoidMagnet}
+A key component of the CMS detector is the superconducting solenoid magnet \cite{CMSMagnet}. It is responsible for maintaining a strong 3.8 T magnetic field that homogenously permeats the barrel of the detector. A measurement of the field strength can be seen in \autoref{fig:CMSMagnet}. With its toroidal shape, the field is orientated along the z-axis and covers the 12.9m barrel region of the detector, curving the the trajectories of charged particles emerging from the interaction point in the $\phi$-direction. This allows for a measurement of the particles transverse momentum $p_{T}$, which together with the $\phi$ and $\eta$ directions fully characterise the particle's momentum vector. The magnet itself is composed of of superconducting noibium-titanum coils that must be cooled to a temperature of 4.65K, at which these are superconducting. The magnet is encased by a 12,000t steel yoke that captures the magentic field that is produced outside of the solenoid. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/CMSMagnet.png}
+    \caption{An overview of the magnetic flux (left) and magnetic field lines(right) inside the CMS detector, shown in the r-z plane \cite{CMSMagnetFigure}.}
+    \label{fig:CMSMagnet}
+\end{figure}
+
 \subsection{The muon chambers}
 \subsection{The triggering system}
 \section{Event reconstruction with the CMS detector}

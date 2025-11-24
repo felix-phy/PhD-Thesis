@@ -2736,7 +2736,7 @@
       \field{journaltitle}{The European Physical Journal C}
       \field{month}{5}
       \field{number}{5}
-      \field{title}{Combined measurements of Higgs boson couplings in proton–proton collisions at $$\sqrt{s}=13\,\text {Te}\text {V} $$}
+      \field{title}{Combined measurements of Higgs boson couplings in proton–proton collisions at $\sqrt{s}=13\,\text {Te}\text {V}$}
       \field{volume}{79}
       \field{year}{2019}
       \verb{doi}
@@ -2857,7 +2857,286 @@
       \verb http://dx.doi.org/10.1007/JHEP11(2013)066
       \endverb
     \endentry
+    \entry{CMSDesignReportVol1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical design report. CMS}
+      \field{title}{CMS Physics : Technical Design Report Volume 1: Detector Performance and Software}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/922757
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/922757
+      \endverb
+    \endentry
+    \entry{CMSTracker}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{note}{Last accessed 24.11.25}
+      \field{title}{CMS Tracker Detector Performance Public Results}
+      \verb{urlraw}
+      \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/DPGResultsTRK
+      \endverb
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/DPGResultsTRK
+      \endverb
+    \endentry
+    \entry{CMSTrakerResolution}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Description and performance of track and primary-vertex reconstruction with the CMS tracker}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{pages}{P10009\bibrangedash P10009}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/9/10/p10009
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/9/10/P10009
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/9/10/P10009
+      \endverb
+    \endentry
+    \entry{CMSECAL}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{8}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical design report. CMS}
+      \field{title}{{The CMS electromagnetic calorimeter project: Technical Design Report}}
+      \field{type}{techreport}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/349375
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/349375
+      \endverb
+    \endentry
+    \entry{CMSECALFigure}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The CMS ECAL performance with examples}}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1088/1748-0221/9/02/C02008
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1632384
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1632384
+      \endverb
+    \endentry
+    \entry{CMSHCAL}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{10}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical design report. CMS}
+      \field{title}{{The CMS hadron calorimeter project: Technical Design Report}}
+      \field{type}{techreport}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/357153
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/357153
+      \endverb
+    \endentry
+    \entry{CMSMagnet}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{11}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical design report. CMS}
+      \field{title}{{The CMS magnet project: Technical Design Report}}
+      \field{type}{techreport}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/331056
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/331056
+      \endverb
+    \endentry
+    \entry{CMSMagnetFigure}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{12}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{3}
+      \field{number}{03}
+      \field{title}{Precise mapping of the magnetic field in the CMS barrel yoke using cosmic rays}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{T03021\bibrangedash T03021}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/5/03/t03021
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/5/03/T03021
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/5/03/T03021
+      \endverb
+    \endentry
   \enddatalist
+  \missing{CMSDetector}
+  \missing{LHC}
+  \missing{Run3Tracker}
   \missing{SMEFTOverview}
   \missing{WarsawBasis}
   \missing{askNordin}
