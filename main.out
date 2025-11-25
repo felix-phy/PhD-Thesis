@@ -20,7 +20,12 @@
 \BOOKMARK [2][-]{subsection.2.1.6}{The muon chambers}{section.2.1}% 20
 \BOOKMARK [2][-]{subsection.2.1.7}{The triggering system}{section.2.1}% 21
 \BOOKMARK [1][-]{section.2.2}{Event reconstruction with the CMS detector}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Search for the cH\(ZZ4\) process}{}% 23
-\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 24
-\BOOKMARK [0][-]{chapter*.9}{Conclusion}{}% 25
-\BOOKMARK [0][-]{chapter*.10}{Bibliography}{}% 26
+\BOOKMARK [2][-]{subsection.2.2.1}{Track and vertex reconstruction}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{The Particle Flow algorithm}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{Reconstruction and identification of muons}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.4}{Reconstruction and identification of jets}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.5}{Missing transverse energy}{section.2.2}% 27
+\BOOKMARK [0][-]{chapter.3}{Search for the cH\(ZZ4\) process}{}% 28
+\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 29
+\BOOKMARK [0][-]{chapter*.12}{Conclusion}{}% 30
+\BOOKMARK [0][-]{chapter*.13}{Bibliography}{}% 31
