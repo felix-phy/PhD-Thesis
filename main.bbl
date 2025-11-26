@@ -3692,6 +3692,173 @@
       \verb https://cds.cern.ch/record/2270046
       \endverb
     \endentry
+    \entry{CMSPileUpMitigation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{17}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{9}
+      \field{number}{09}
+      \field{title}{Pileup mitigation at CMS in 13 TeV data}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{P09018\bibrangedash P09018}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/15/09/p09018
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/09/P09018
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/09/P09018
+      \endverb
+    \endentry
+    \entry{Hadronisation}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e5db1963b2a631af37451619176c2001}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=00ef1f4ae69d97b8021fae756d99cc25}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cdd742887a3adfe2c37535eb6f1c2df6}{%
+           family={Ingelman},
+           familyi={I\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=752fe8f3c71a7747a7f369453fd286ae}{%
+           family={Sjöstrand},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
+      \strng{fullhash}{325f5c9f6c606cecfb53ee3c504d3843}
+      \strng{bibnamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
+      \strng{authorbibnamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
+      \strng{authornamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
+      \strng{authorfullhash}{325f5c9f6c606cecfb53ee3c504d3843}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{number}{2}
+      \field{title}{Parton fragmentation and string dynamics}
+      \field{volume}{97}
+      \field{year}{1983}
+      \field{pages}{31\bibrangedash 145}
+      \range{pages}{115}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0370-1573(83)90080-7
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0370157383900807
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0370157383900807
+      \endverb
+    \endentry
+    \entry{FastJet}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a98415f46a3e8359dd35063a4ddc758d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi Cacciari},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a98415f46a3e8359dd35063a4ddc758d}
+      \strng{fullhash}{a98415f46a3e8359dd35063a4ddc758d}
+      \strng{bibnamehash}{a98415f46a3e8359dd35063a4ddc758d}
+      \strng{authorbibnamehash}{a98415f46a3e8359dd35063a4ddc758d}
+      \strng{authornamehash}{a98415f46a3e8359dd35063a4ddc758d}
+      \strng{authorfullhash}{a98415f46a3e8359dd35063a4ddc758d}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{FastJet user manual}
+      \field{volume}{72}
+      \field{year}{2012}
+      \field{pages}{1896}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-012-1896-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjc/s10052-012-1896-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjc/s10052-012-1896-2
+      \endverb
+    \endentry
+    \entry{CMSJetPerformance}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{18}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jet algorithms performance in 13 TeV data}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2256875
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2256875
+      \endverb
+    \endentry
   \enddatalist
   \missing{askNordin}
 \endrefsection

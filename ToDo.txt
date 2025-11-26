@@ -5,3 +5,5 @@ DONE Make feynman diagrams DONE
 Make SMEFT diagram
 Make chirality flip diagram
 Fix missing citations
+---CMS---
+PF bulletpoint description -> table

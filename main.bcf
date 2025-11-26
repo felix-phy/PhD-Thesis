@@ -2242,6 +2242,13 @@
     <bcf:citekey order="58">ParticleFlowCMS</bcf:citekey>
     <bcf:citekey order="59">ParticleFlowCMS</bcf:citekey>
     <bcf:citekey order="60">ParticleFlowCMS</bcf:citekey>
+    <bcf:citekey order="61">ParticleFlowCMS</bcf:citekey>
+    <bcf:citekey order="62">ParticleFlowCMS</bcf:citekey>
+    <bcf:citekey order="63">CMSPileUpMitigation</bcf:citekey>
+    <bcf:citekey order="64">Hadronisation</bcf:citekey>
+    <bcf:citekey order="65">FastJet</bcf:citekey>
+    <bcf:citekey order="66">CMSJetPerformance</bcf:citekey>
+    <bcf:citekey order="67">CMSJetPerformance</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
