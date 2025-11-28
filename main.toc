@@ -50,16 +50,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Reconstruction and identification of muons}{24}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Reconstruction and identification of jets}{26}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Reconstruction and identification of jets}{25}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Missing transverse energy}{26}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Missing transverse momentum}{26}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Identification of heavy-flavour jets}{26}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Identification of charm quark-induced jets}{27}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{27}{chapter.3}%
+\contentsline {subsection}{\numberline {2.3.1}Properties of heavy-flavour jets}{27}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {3}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{29}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{31}{chapter*.12}%
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{31}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{33}{chapter*.13}%
+\contentsline {chapter}{Conclusion}{33}{chapter*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{35}{chapter*.14}%

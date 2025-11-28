@@ -2249,6 +2249,9 @@
     <bcf:citekey order="65">FastJet</bcf:citekey>
     <bcf:citekey order="66">CMSJetPerformance</bcf:citekey>
     <bcf:citekey order="67">CMSJetPerformance</bcf:citekey>
+    <bcf:citekey order="68">CMSJEC</bcf:citekey>
+    <bcf:citekey order="69">GhostMatching</bcf:citekey>
+    <bcf:citekey order="70">PhysRevD.110.030001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

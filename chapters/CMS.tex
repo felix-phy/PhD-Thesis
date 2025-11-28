@@ -113,15 +113,39 @@ Particle tracks, describing the trajectories of particles through the detector, 
 From the reconstructed tracks, common track origins or \textit{vertices} may be identified. Since several proton-proton collisions may occur in a single bunch crossing, this amounts to identifying the location of the individual collisions in an event. Tracks with a low perpendicular distance or low \textit{impact parameter} to the center of the bunch crossing and that satisfy requirements on the number of pixel and strip detector hits as well as the quality of the track fit are chosen for this purpose. These tracks are clustered using a deterministic annealing algorithm \cite{Annealing}, thus producing a set of candidate vertices with some location along the z-axis. The vertex candidate which is associated with the highest $\sum$\pt$^2$ is assigned as the primary vertex of the collision. The remaining vertex candidates are referred to as pile-up vertices. 
 
 \subsection{The Particle Flow algorithm}
-The Particle Flow (PF) algorithm \cite{ParticleFlowCMS} is used to combine information from many of the different CMS subsystems to give an improved and holistic description of an event. This includes reconstructed tracks, the energy deposits in the ECAL and HCAL as well as hits in the muon chamber system. Since different types of particles will interact with the CMS subdetector systems in unique ways, the properties of individual particles can be extrapolated from this information. These can be briefly summarised as: 
+The Particle Flow (PF) algorithm \cite{ParticleFlowCMS} is used to combine information from many of the different CMS subsystems to give an improved and holistic description of an event. This includes reconstructed tracks, the energy deposits in the ECAL and HCAL as well as hits in the muon chamber system. Since different types of particles will interact with the CMS subdetector systems in unique ways, the properties of individual particles can be extrapolated from this information. These are briefly summarised in \autoref{table:PFParticleTypes}. \\
+\\
+\begin{table}[H]
+    \centering
+    \caption[]{Overview of particle signatures in the CMS detector}
+    \begin{adjustbox}{width=1\textwidth}
+    \label{table:PFParticleTypes}
+        \begin{tabular}{l l}
+        \toprule 
+        \textbf{Particle} & \textbf{Signature} \\
+        \midrule 
+        \midrule
+        Muons & Muons produce tracks in the tracker as well as the muon system \\
+        & with minimal energy deposits in the calorimeters. \\
+        \midrule
+        Electrons & Electrons produce tracks in the tracker as well as energy deposits \\ 
+        & in the ECAL with minimal deposits in the HCAL. \\
+        \midrule
+        Photons & Photons do not produce tracks in the tracker due to being uncharged \\
+        & and deposit their energy in the ECAL. \\
+        \midrule
+        Charged hadrons & Charged hadrons produces tracks in the tracker, primarily depositing \\
+        & their energy in the HCAL. \\
+        \midrule
+        Neutral hadrons & Neutral hadrons produce no tracks in the tracker, primarily depositing \\
+        & their energy in the HCAL. \\ 
 
-\begin{itemize}
-    \item \textbf{Muons}: Muons produce clear tracks in the tracker as well as the muon system but deposit minimal amounts of energy in the calorimeters. Thus, reconstructed tracks in the tracker and muon systems can be combined to produce muon candidates. \\
-    \item \textbf{Electrons}: Electrons can be identified through the fact that they produce a track in the tracker as well as energy deposits in the ECAL. However, they deposit little to no energy in the HCAL. Reconstructed tracks that can be associated to a deposit in the ECAL with no corresponding HCAL deposit thus represent electron candidates. \\
-    \item \textbf{Photons}: Photons, being uncharged, do not produce a track in the tracker and only produce a signature in the ECAL. Thus ECAL deposits to which no reconstructed track or HCAL deposit can be associated are considered photon candidates. \\
-    \item \textbf{Charged Hadrons}: Charged hadrons produce a track in the tracker and otherwise primarily deposit their energy in the HCAL. Thus HCAL deposits that can be matched to a reconstructed track can be considered charged hadron candidates. \\
-    \item \textbf{Neutral Hadrons}: Neutral hadrons produce no track in the tracker and primarily deposit their energy in the HCAL. Thus HCAL deposits that cannot be matched to a reconstructed track can be considered neutral hadron candidates \\
-\end{itemize}
+        \bottomrule
+        \end{tabular} 
+
+    \end{adjustbox}
+\end{table}
+\noindent
 A visual overview of these signatures and the particle type they correspond to can be found in \autoref{fig:CMSPF}. The PF algorithm leverages exactly these properties. Initially, matched tracks in the tracker and muon systems are identified as muons and the corresponding components are removed from the event. Subsequently, matched tracks and energy deposit clusters in the ECAL are identified as electrons and the corresponding components are removed.  An isolated cluster in the ECAL with no associated track is reconstructed as a photon candidate and the corrsponding cluster is removed. This is expected to leave only charged and neutral hadrons. Clusters of energy deposits in the HCAL associated with a track are thus identified as charged hadrons. However, it frequently occurs that photons are produced in the decay of neutral hadrons. Thus, if the energy estimated from a track is considerably less than the associated cluster in the HCAL and there is a corresponding energy deposit in the ECAL, an additional photon candidate is reconstructed that is associated with the hadron. Finally, HCAL clusters with no associated track are reconstructed as neutral hadrons. \\
 \\
 This of course is a greatly simplified description, a more comprehensive version of which can be found in \cite{ParticleFlowCMS}. The following section describe in greater detail the reconstruction of objects relevant to this work. This includes muons, \textit{jets}, which are collimated particle showers that typically consist of a collection of reconstructed objects and missing transverse energy. 
@@ -134,7 +158,7 @@ This of course is a greatly simplified description, a more comprehensive version
 \end{figure}
 
 \subsection{Reconstruction and identification of muons}
-Since they are used to reconstruct the Higgs candidate in the cH, muons are a central element of this work. Using the available information from the tracker and muon system, three different approaches may be used to intially reconstruct muon tracks. 
+Since muons are used to reconstruct the Higgs candidate in the cH, they represent an important element of the analysis described in this work. Using the available information from the tracker and muon system, three different approaches may be used to intially reconstruct muon tracks. 
 
 \begin{itemize}
     \item \textbf{Standalone muon tracks}: A standalone muon track simply refers by a fit of individual hits present in the muon detector.  
@@ -146,34 +170,54 @@ Naturally, there is a large overlap between global and tracker muon tracks. If t
 A useful criterium in identifying muons that originate directly from the proton-proton interaction is the relative isolation $\mathcal{I}^2$. This is defined as
 
 \begin{align}
-    \mathcal{I}^{\mu} = \bigg( \sum p_{\mathrm{T}}^{\mathrm{charged}} + \mathrm{max}\big(\sum p_{\mathrm{T}}^{\mathrm{neutral}} + \sum p_{\mathrm{T}^{\gamma}} - p_{\mathrm{T}}^{\mu\mathrm{,PU}}\big) \bigg) / p^{\mu}_{\mathrm{T}}. \label{RelativeIsoEquation}
+    \mathcal{I}^{\mu}_{\mathrm{rel}} = \bigg( \sum p_{\mathrm{T}}^{\mathrm{charged}} + \mathrm{max}\big(\sum p_{\mathrm{T}}^{\mathrm{neutral}} + \sum p_{\mathrm{T}^{\gamma}} - p_{\mathrm{T}}^{\mu\mathrm{,PU}}\big) \bigg) / p^{\mu}_{\mathrm{T}}. \label{RelativeIsoEquation}
 \end{align}
-Here, $\sum p_{\mathrm{T}}^{\mathrm{charged}}$ represents the salar sum of the transverse momenta of charged hadron originating from the primary vertex of the event. The quantities $\mathrm{max}\big(\sum p_{\mathrm{T}}^{\mathrm{neutral}}$ and $\sum p_{\mathrm{T}^{\gamma}}$ represent the respective transverse momenta sums for neutral hadrons and photons. These sums are calculated by accounting from contributions within a conical volume around the muon direction. The size of a cone between two positions $i$ and $j$ is defiend as $\Delta R(i,j) = \sqrt{\Delta\eta(i,j)^2 + \Delta\phi(i,j)^2}$ and in this case the cone boundary around the muon direction is set at $\Delta R=0.4$. The contribution to the relative isolation from pile-up is estimated by subtracting $p_{\mathrm{T}}^{\mu\mathrm{,PU}} = 0.5 \sum_k p_{\mathrm{T}}^{k, \mathrm{charged}}$ in \autoref{RelativeIsoEquation}, where the sum over $k$ represents charged hadron contributions not originating from the PV. The fator 0.5 corrects for different fractions of charged and neutral particles in the cone \cite{CMSPileUpMitigation}. Lastly, $p^{\mu}_{\mathrm{T}}$ represents the transverse momentum of the muon. The relative isolation is thus a variable that quantifies the presence of energy deposits in the ECAL and HCAl around the trajectory of the muon. Since muons are expected to produce such deposits only minimally, good muon candidates are expected to be associated with small values of $\mathcal{I}^{\mu}$.\\
+Here, $\sum p_{\mathrm{T}}^{\mathrm{charged}}$ represents the salar sum of the transverse momenta of charged hadron originating from the primary vertex of the event. The quantities $\sum p_{\mathrm{T}}^{\mathrm{neutral}}$ and $\sum p_{\mathrm{T}^{\gamma}}$ represent the respective transverse momenta sums for neutral hadrons and photons. These sums are calculated by accounting from contributions within a conical volume around the muon direction. The size of a cone between two positions $i$ and $j$ is defiend as $\Delta R(i,j) = \sqrt{\Delta\eta(i,j)^2 + \Delta\phi(i,j)^2}$ and in this case the cone boundary around the muon direction is set at $\Delta R=0.4$. The contribution to the relative isolation from pile-up is estimated by subtracting $p_{\mathrm{T}}^{\mu\mathrm{,PU}} = 0.5 \sum_k p_{\mathrm{T}}^{k, \mathrm{charged}}$ in \autoref{RelativeIsoEquation}, where the sum over $k$ represents charged hadron contributions not originating from the PV. The fator 0.5 corrects for different fractions of charged and neutral particles in the cone \cite{CMSPileUpMitigation}. Lastly, $p^{\mu}_{\mathrm{T}}$ represents the transverse momentum of the muon. The relative isolation is thus a variable that quantifies the presence of energy deposits in the ECAL and HCAl around the trajectory of the muon. Since muons are expected to produce such deposits only minimally, good muon candidates are expected to be associated with small values of $\mathcal{I}^{\mu}_{\mathrm{rel}}$.\\
 \\
 Two sets of muon identification criteria are defined for this work:
 
 \begin{itemize}
     \item \textbf{Loose muons}: Loose muons are PF muons reconstructed from either a global or tracker muon track where the perpendicular distance of the extraploated track to the event's primary vertex is less than 5mm in the $z$ direction and less than 2mm in the r direction. 
-    \item \textbf{Tight muons}: Tight muons are loose muons which are reconstructed exclusively from a global muon track. A number of additional criteria are applied. This includes that the fit quality of the global muon track must be $\chi^2$/ndf $<$ 10 as well that the singificance of the track's 3D impact parameter SIP$_\mathrm{3D}$ = IP/$\sigma_\mathrm{IP}$ satisfies SIP$_\mathrm{3D}<$ 4. Here IP is the impact parameter or point of closest approach to the primary vertex and $\sigma_\mathrm{IP}$ is the associated uncertainty. Additionally, it is required the at least six layers with at least one pixel hits are registered in the tracker in the associated track as well as two segments hit in the muon detector. Lastly, a relative isolation requirement of $\mathcal{I} < 0.25$ is imposed. 
+    \item \textbf{Tight muons}: Tight muons are loose muons which are reconstructed exclusively from a global muon track. A number of additional criteria are applied. This includes that the fit quality of the global muon track must be $\chi^2$/ndf $<$ 10 as well that the singificance of the track's 3D impact parameter SIP$_\mathrm{3D}$ = IP/$\sigma_\mathrm{IP}$ satisfies SIP$_\mathrm{3D}<$ 4. Here IP is the impact parameter or point of closest approach to the primary vertex and $\sigma_\mathrm{IP}$ is the associated uncertainty. Additionally, it is required the at least six layers with at least one pixel hits are registered in the tracker in the associated track as well as two segments hit in the muon detector. Lastly, a relative isolation requirement of $\mathcal{I}^{\mu}_{\mathrm{rel}} < 0.25$ is imposed. 
 \end{itemize}
 The tight muon definition is used to select muons for reconstructing Higgs candidates while the loose definition is used in the estimation of reducible backgrounds. 
 \subsection{Reconstruction and identification of jets}
-The quarks and gluons that are produce in pp collisions rapidly hadronise, typically producing collimated cones of particle referred to as $jets$. Details on the concept of hadronisation, which results from the nature of the strong interaction, can be found in \cite{Hadronisation}. Since the c quark of the cH process too will produce a jet, jets are another central element of this work. \\
+The quarks and gluons that are produce in pp collisions rapidly hadronise, typically producing collimated cones of particle referred to as $jets$. Details on the concept of hadronisation, which results from the nature of the strong interaction, can be found in \cite{Hadronisation}. Since the c quark of the cH process too will produce a jet, jet objects also represent an important aspect of the analysis presented in this work. \\
 \\
 To produce jet objects, the hadrons reconstructed by the PF algorithm must be clustered. To ensure a minimal impact of pile-up on this clustering, the contributions of pile-up are mitigated through \textit{charged hadron subtraction}. This involes the removal of charged hadron contributions in the HCAL and ECAL if these may be associated with any of the pile-up vertices produced in the collision, as described in \autoref{subsection:TrackingAndVertexing}. Once this subtraction has been performed, the remaining PF hadrons are passed to the anti-$k_\mathrm{T}$ algorithm \cite{FastJet}. The anti-$k_\mathrm{T}$ algorithm is an iterative clustering algorithm that is based on a priniciple of minimal distances between particles. The distance $d_{ij}$ between the particles $i$ and $j$ is defined as well as the distance $d_{iB}$ between particle $i$ and the beam. These are given by 
 
-\begin{align}
+\begin{gather}
     d_{ij} = \mathrm{min}(\frac{1}{p_{\mathrm{T}, i}}, \frac{1}{p_{\mathrm{T}, j}})\frac{\Delta_{ij}^2}{R^2} \\
-    d_{iB} = \frac{1}{p_\mathrm{T}, i}
+    d_{iB} = \frac{1}{p_\mathrm{T}, i} \\
     \Delta_{ij} = \sqrt{\Delta\mathrm{y}(i,j)^2 + \Delta\phi(i,j)^2}. 
-\end{align}
+\end{gather}
 \\
 Here, y is the rapidity of a particle and R is a constant parameter that determines the cone size of the clustered jets. The default choice used in CMS is R=0.4, which is also used in this work. Starting with the highest \pt \, object in the initial iteration, the distance $d_{ij}$ with the closest PF candidate $j$ is calculated. The two objects are clustered together and this process is repeated until a stopping condition $d_{ih} > d_{iB}$ is met. At this point, the jet is considered fully reconstructed and the PF candidates used in its clustering are removed for the reconstruction of subsequent jets. \\
 \\
-Due to the presence of detector noise, unphysical low \pt \, jets can be erroneously reconstructed. This effect can be mitigated by applying additional criteria on reconstructed jets. This includes requiring that at least two PF candidates are clustered in the jet and that the jet's energy is not solely attributed to neutral harons or photons. These requirements remove almost all such unphysical jets while over 99$\%$ of physical jets fulfill them \cite{CMSJetPerformance}. Additionally, a pile-up discrimination algorithm is described in \cite{CMSJetPerformance}, of which the loose working point is applied to jets with \pt\,$<50$ GeV in this work. 
+Due to the presence of detector noise, unphysical low \pt \, jets can be erroneously reconstructed. This effect can be mitigated by applying additional criteria on reconstructed jets. This includes requiring that at least two PF candidates are clustered in the jet and that the jet's energy is not solely attributed to neutral hadrons or photons. These requirements remove almost all such unphysical jets while over 99$\%$ of physical jets fulfill them \cite{CMSJetPerformance}. Additionally, a pile-up discrimination algorithm is described in \cite{CMSJetPerformance}, of which the loose working point is applied to jets with \pt\,$<50$ GeV in this work. \\
+\\
+A calibration of jet energies is performed after reconstruction \cite{CMSJEC} in both simulation and data. This calibration accounts for pile-up contributions in the clustering, the non-linearity of the detector response and improper reconstruction of hadrons. A number of methods are used to derive sets of correction factors. An example is the use of events with a Z boson, the \pt \, of which may be precisely reconstructed via the Z$\rightarrow\mu\mu$ decay, that a single jet recoils against. Additionally, significant discrepancies in the resolution of jets in simulation and data are obersved, with the resolution being worse in the latter than the former. This is accounted for by a smearing method, in which the resolution of jets is artifically smeared in simulation so that a better comparison to data is achieved. 
 
-Something about jet calibration... 
+\subsection{Missing transverse momentum}
+Due to the conservation of momentum, it is expected that the vectorial sum of momenta of all particles produced in a collision adds up to zero. However, this may not be the case when particles such as neutrinos are produced in a collision as these cannot be measured by the detector. As a result, it can be useful to define the missing transverse momentum as 
+\begin{equation}
+    p_{\mathrm{T}}^{\mathrm{miss}} = \sum^{\mathrm{PF}}_{i} p_{\mathrm{T}}^{(i)}. 
+\end{equation}
+The presence of significant quantities of $p_{\mathrm{T}}^{\mathrm{miss}}$ may thus be used to identify the presence of neutrinos in an event.
 
-\subsection{Missing transverse energy}
+\section{Identification of charm quark-induced jets}
+To identify the charm quark-induced jet of the cH process, one must be able to discriminate against both bottom quark as well as light quark or gluon-induced jets. This is a task often colloquially referred to as \textit{flavour tagging}, with a jet's \textit{flavour} being determined by the type of particle that inititated it. Modern flavour tagging techniques typically use machine learning to leverage key jet properties that may differentiate jets of different flavours, though this remains a challenging task. To discuss these properties, a definition of jet flavour is useful. In the context of CMS, a ghost matching procedure \cite{GhostMatching} is applied to obtain such a definition for simulated events. This involves adding information from the event simulation to the reconstructed event. Specifically, hadrons containing bottom and charm quarks are identified in the simulation and added to the list of reconstructed PF candidates, albeit with negligible momenta. With this addition of so-called \textit{ghost hadrons} the jet clustering is once again performed. Due to the neglible momenta of the ghost hadrons, the clustering procedure itself is unaffected. However, the inclusion of the ghost hadrons can be used for the following definitions:
 
-\section{Identification of heavy-flavour jets}
+\begin{itemize}
+    \item \textbf{\cjet s}: If at least one charm ($c$) ghost hadron and no bottom ($b$) hadrons are clustered inside the jet, the jet is labelled as a $c$ jet. 
+    \item \textbf{\bjet s}: If at least one $b$ ghost hadron is clustered inside the jet, the jet is labelled as a \bjet.
+    \item \textbf{light jets}: If no ghost hadrons are clustered inside the jet, the jet is labelled as a light jet. Light jets may be initiated by quarks such as the up, down, or strange quark or by gluons.
+\end{itemize}
+The task of identifying \cjet s is thus twofold, as \cjet s must be differentiated from both \bjet s and light jets. This is broken down into two tasks:
+\begin{enumerate}
+    \item Discriminating \textit{heavy-flavour} (HF) jets consisting of \bjet s and \cjet s against light jets.
+    \item Discriminating between \bjet s and \cjet s. 
+\end{enumerate}
+
+\subsection{Properties of heavy-flavour jets}
+The term heavy-flavour originates from the mass of the bottom and charm quarks, which is an order of magnitude greater than the next heaviest quark, the strange quark. Similarly, $c$ and $b$ hadrons have relatively long lifetimes that allow them to travel an observable distance from the PV before decaying. The typical lifetime of a $b$ hadron of the order of  $\sim$ 1 ps while that of $c$ quarks ranges down to approximately an order of magnitude less \cite{PhysRevD.110.030001}. This typically results in the presence of a secondary vertex (SV) that is measurably displaced from the collision point up to a distance of 1cm in the case of energetic hadrons and is thus a key signature of HF jets. Tracks originating from the decay of a HF induced jet thus originate from this SV. The impact parameter can once again be used here to identify the origin of such displaced tracks. Another feature of heavy flavour jets is the presence of leptons in the jet. This results from the relatively large branching fractions of HF hadrons into states containing leptons. These are typically low-energy and are present in about 20\% (10\%) of $b$($c$) jets, meaning the identification of a low-energy electron or muon inside a jet serves as a good indicator that a jet originates from a HF hadron. Also of significance are the relatively high masses HF hadrons exhibit in comparison to their lighter counterparts. This results in HF induced jets having a broader energy flux compared to their lighter counterparts, due to higher diffusion of momenta perpendicular to the flight direction as well as a higher hadron multiplicity resulting from the decay of the HF hadron. These features are illustrated in \autoref{}.
