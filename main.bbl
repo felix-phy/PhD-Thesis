@@ -3900,6 +3900,92 @@
       \verb http://dx.doi.org/10.1088/1748-0221/12/02/P02014
       \endverb
     \endentry
+    \entry{GhostMatching}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d38166452f9df43fc09b4da37680b482}{%
+           family={Cacciari},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cdd9546b48e743df2da267f924c11cb4}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={Gavin\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{099bfee919564a7dbd5943f5f7b046e7}
+      \strng{fullhash}{099bfee919564a7dbd5943f5f7b046e7}
+      \strng{bibnamehash}{099bfee919564a7dbd5943f5f7b046e7}
+      \strng{authorbibnamehash}{099bfee919564a7dbd5943f5f7b046e7}
+      \strng{authornamehash}{099bfee919564a7dbd5943f5f7b046e7}
+      \strng{authorfullhash}{099bfee919564a7dbd5943f5f7b046e7}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{month}{1}
+      \field{number}{1–2}
+      \field{title}{Pileup subtraction using jet areas}
+      \field{volume}{659}
+      \field{year}{2008}
+      \field{pages}{119\bibrangedash 126}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2007.09.077
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physletb.2007.09.077
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physletb.2007.09.077
+      \endverb
+    \endentry
+    \entry{CMSDeepJet}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{20}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{5}
+      \field{number}{05}
+      \field{title}{Identification of heavy-flavour jets with the CMS detector in pp collisions at 13 TeV}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{P05011\bibrangedash P05011}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/13/05/p05011
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/13/05/P05011
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/13/05/P05011
+      \endverb
+    \endentry
   \enddatalist
   \missing{askNordin}
 \endrefsection
