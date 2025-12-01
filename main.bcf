@@ -2252,8 +2252,17 @@
     <bcf:citekey order="68">CMSJEC</bcf:citekey>
     <bcf:citekey order="69">GhostMatching</bcf:citekey>
     <bcf:citekey order="70">PhysRevD.110.030001</bcf:citekey>
-    <bcf:citekey order="71">CMSDeepJet</bcf:citekey>
-    <bcf:citekey order="72">CMSDeepJet</bcf:citekey>
+    <bcf:citekey order="71">CMSTagging</bcf:citekey>
+    <bcf:citekey order="72">CMSTagging</bcf:citekey>
+    <bcf:citekey order="73">CMSTagging</bcf:citekey>
+    <bcf:citekey order="74">CMSTagging</bcf:citekey>
+    <bcf:citekey order="75">DeepJet</bcf:citekey>
+    <bcf:citekey order="76">DeepJet</bcf:citekey>
+    <bcf:citekey order="77">DeepJet</bcf:citekey>
+    <bcf:citekey order="78">CMSTagging</bcf:citekey>
+    <bcf:citekey order="79">DeepJetShapeCalibration</bcf:citekey>
+    <bcf:citekey order="80">DeepJetShapeCalibration</bcf:citekey>
+    <bcf:citekey order="81">DeepJetShapeCalibration</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

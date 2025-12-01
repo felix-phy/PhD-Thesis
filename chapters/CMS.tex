@@ -211,27 +211,62 @@ To identify the charm quark-induced jet of the cH process, one must be able to d
 \begin{itemize}
     \item \textbf{\cjet s}: If at least one charm ($c$) ghost hadron and no bottom ($b$) hadrons are clustered inside the jet, the jet is labelled as a $c$ jet. 
     \item \textbf{\bjet s}: If at least one $b$ ghost hadron is clustered inside the jet, the jet is labelled as a \bjet.
-    \item \textbf{light jets}: If no ghost hadrons are clustered inside the jet, the jet is labelled as a light jet. Light jets may be initiated by quarks such as the up, down, or strange quark or by gluons.
+    \item \textbf{light jets}: If no ghost hadrons are clustered inside the jet, the jet is labelled as a light jet. Light jets may be initiated by quarks such as the up, down, or strange quark or by gluons. An additional, technical category of $pile-up jets$ exists depending on whether so-called matching criteria between reconstructed and simulated jets are fulfilled, though they are subsumed into the light jets category for the purpose of this work.
 \end{itemize}
-The task of identifying \cjet s is thus twofold, as \cjet s must be differentiated from both \bjet s and light jets. This is broken down into two tasks:
+The task of identifying \cjet s is thus twofold, as \cjet s must be differentiated from both \bjet s and light (pileup) jets. This is broken down into two tasks:
 \begin{enumerate}
     \item Discriminating \textit{heavy-flavour} (HF) jets consisting of \bjet s and \cjet s against light jets.
     \item Discriminating between \bjet s and \cjet s. 
 \end{enumerate}
 
 \subsection{Properties of heavy-flavour jets}
-The term heavy-flavour originates from the mass of the bottom and charm quarks, which is an order of magnitude greater than the next heaviest quark, the strange quark. Similarly, $c$ and $b$ hadrons have relatively long lifetimes that allow them to travel an observable distance from the PV before decaying. The typical lifetime of a $b$ hadron of the order of  $\sim$ 1.5 ps while that of $c$ quarks ranges down to approximately an order of magnitude less \cite{PhysRevD.110.030001}. This typically results in the presence of a secondary vertex (SV) that is measurably displaced from the collision point up to a distance of 1cm in the case of energetic hadrons and is thus a key signature of HF jets. Tracks originating from the decay of a HF induced jet thus originate from this SV. The impact parameter can once again be used here to identify the origin of such displaced tracks. Another feature of heavy flavour jets is the presence of leptons in the jet. This results from the relatively large branching fractions of HF hadrons into states containing leptons. These are typically low-energy and are present in about 20\% (10\%) of $b$($c$) jets, meaning the identification of a low-energy electron or muon inside a jet serves as a good indicator that a jet originates from a HF hadron. Also of significance are the relatively high masses HF hadrons exhibit in comparison to their lighter counterparts. This results in HF induced jets having a broader energy flux compared to their lighter counterparts, due to higher diffusion of momenta perpendicular to the flight direction as well as a higher hadron multiplicity resulting from the decay of the HF hadron. These features are illustrated in \autoref{fig:CMSDeepJet}.
+The term heavy-flavour originates from the mass of the bottom and charm quarks, which is an order of magnitude greater than the next heaviest quark, the strange quark. Similarly, $c$ and $b$ hadrons have relatively long lifetimes that allow them to travel an observable distance from the PV before decaying. The typical lifetime of a $b$ hadron of the order of  $\sim$ 1.5 ps while that of $c$ quarks ranges down to approximately an order of magnitude less \cite{PhysRevD.110.030001}. This typically results in the presence of a secondary vertex (SV) that is measurably displaced from the collision point up to a distance of 1cm in the case of energetic hadrons and is thus a key signature of HF jets. Tracks originating from the decay of a HF induced jet thus typically originate from a SV. This effect can for example be seen when looking at the significance of 2D impact parameters of $b$, $c$ and light jets, as seen in \autoref{fig:2DSIP}. \\
+\\
+Another feature of heavy flavour jets is the presence of leptons in the jet. This results from the relatively large branching fractions of HF hadrons into states containing leptons. These are typically low-energy and are present in about 20\% (10\%) of $b$($c$) jets, meaning the identification of a low-energy electron or muon inside a jet serves as a good indicator that a jet originates from a HF hadron. Also of significance are the relatively high masses HF hadrons exhibit in comparison to their lighter counterparts. This results in HF induced jets having a broader energy flux compared to their lighter counterparts, due to higher diffusion of momenta perpendicular to the flight direction as well as a higher hadron multiplicity resulting from the decay of the HF hadron. These features are illustrated in \autoref{fig:CMSTagging}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/2DSIP.png}
+    \caption{Plots showing the significance of the 2D impact parameter of the most and second most displaced tracks in a jet \cite{CMSTagging}. As can be seen, these variables can differentiate $b$ and $c$ jets from light jets to a significant degree.}
+    \label{fig:2DSIP}
+\end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{figures/HFJets.png}
-    \caption{An illustration highlighting the properties of HF jets \cite{CMSDeepJet}. The presence of a secondary vertex (SV), characterised by the impact parameter (IP) in green, as well as the presence of a lepton is highlighted.}
-    \label{fig:CMSDeepJet}
+    \caption{An illustration highlighting the properties of HF jets \cite{CMSTagging}. The presence of a secondary vertex (SV), characterised by the impact parameter (IP) in green, as well as the presence of a lepton is highlighted.}
+    \label{fig:CMSTagging}
 \end{figure}
 
 \subsection{The DeepJet algorithm}
 
-The \textit{DeepJet} algorithm is a machine learning algorithm used for jet-flavour identification. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/DeepJetArch.png}
+    \caption{An illustration depicting the architecture of the DeepJet neural network \cite{DeepJet}. Three individual branches separately process the charged hadrons, neutral hadrons and secondary vertex information before being passed onto a comibing, fully connected layer together with global variables.}
+    \label{fig:CMSDeepJet}
+\end{figure}
 
-... SV mass ... 
-... flight distance ... 
+The \textit{DeepJet} algorithm \cite{DeepJet} is a machine learning algorithm used for jet-flavour identification in this work. It improves on previous neural network based algorithms \cite{CMSTagging} used by CMS in the Run-2 period of the LHC. A notable feature compared to earlier algorithms is its use of lower level information such as use of track, PV and SV information, as well as PF candidate and event kinematics information. An overview of the architecture employed by DeepJet can be see in \autoref{fig:CMSDeepJet}. The network is comprised of three branches that individually process neutral and charged hadrons as well as secondary vertices before this information is combined with global variables in a set of fully connected layers. The network ouput consists of six output nodes representing six individual output classes. The output value of the nodes $\mathcal{P}(b/bb/lepb/c/l/g)$ for a given jet are interpreted as the likelihood that a jet belongs to the respective class. These are defined as
+\begin{itemize}
+    \item{\textbf{\textit{b/bb/lepb} (\bjet s):} These three classes represent subclasses of jets originating from a b hadron. The $b$ class represents a jet originating from a single $b$ hadron, the $bb$ class originating from two $b$ hadrons and $lepb$ representing a jet originating from a $b$ hadron with the presence of a soft lepton.}
+    \item{\textbf{\textit{c} (\cjet s)}: This class represents a jet originating from a $c$ hadron.}
+    \item{\textbf{\textit{l, g} (light jets)}: These two classes represent light jets originating from a light quark or gluon respectively. }
+\end{itemize}
+From these output classes, two useful discriminators to identify \cjet s can be constructed. These are
+\begin{gather}
+    \mathrm{CvsL} = \frac{\mathcal{P}(c)}{\mathcal{P}(c)+\mathcal{P}(l)+\mathcal{P}(g)} \\
+    \mathrm{CvsB} = \frac{\mathcal{P}(c)}{\mathcal{P}(c)+\mathcal{P}(b)+\mathcal{P}(bb)+\mathcal{P}(lepb)},
+\end{gather}
+representing a discrimination of \cjet s against \bjet s and light jets respectively. The performance of DeepJet with the CvsL and CvsB discriminators in simulated samples of top quark pair production can be see in \autoref{fig:DeepJetPerformance}. A comparison to the $DeepCSV$ jet-flavour identification algorithm is included, highlighting the performance gain that the DeepJet algorithm achieves.\\
+\\
+Since neural network based algorithms are trained on simulated samples that do not perfectly describe their data counterpart, the neural network output must be calibrated with respect to data. To calibrate the entire shape of the algorithm's output distributions the approach described in \cite{DeepJetShapeCalibration} is used. This involves targeting phase spaces enriched in $b$ jets (top quark pair production), $c$ jets (charm associated W$^{\pm}$ production) and light jets (jet associated Drell-Yan production). Using simulation, the fractions of $b$, $c$ and light-flavour jets are determined in each phase space and an interative fitting procedure, minimising differences between simulation and data is performed. This allows for the derivation of correction factors which depend on the discriminators CvsL and CvsB as well as the true flavour of a simulated jet. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/DeepJetEfficiencies.png}
+    \caption{Performance of DeepJet algorithm in identifying $c$ jets against $b$ jets and light jets in simulated samples of top quark pair production, in which both top quarks decay hadronically \cite{DeepJetShapeCalibration}. The x-axis represents the efficiency with which $c$ jets are identified, while the y-axis represents mis-identification rate with respect to either $b$ jets or light jets.}
+    \label{fig:DeepJetPerformance}
+\end{figure}
+
+

@@ -3945,7 +3945,7 @@
       \verb http://dx.doi.org/10.1016/j.physletb.2007.09.077
       \endverb
     \endentry
-    \entry{CMSDeepJet}{article}{}
+    \entry{CMSTagging}{article}{}
       \name{author}{1}{}{%
         {{hash=e742ba4e105e5341464c3528b118ff41}{%
            family={Collaboration},
@@ -3984,6 +3984,107 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1088/1748-0221/13/05/P05011
+      \endverb
+    \endentry
+    \entry{DeepJet}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4ac8eb894a7f9fa3606dac6ffdde142f}{%
+           family={Bols},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a8d2141704511fb3ec5b8b7c828893c9}{%
+           family={Kieseler},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=66138362952090c5161c484c11c4f605}{%
+           family={Verzetti},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f3b85e7deaacb9a95a879efd709c884d}{%
+           family={Stoye},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=66538858cb005201e748c9404200166c}{%
+           family={Stakia},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{61fef21128090c3a89901eeeb92cd01d}
+      \strng{fullhash}{5a59ff25e6b35cbd485593d700d0d81d}
+      \strng{bibnamehash}{61fef21128090c3a89901eeeb92cd01d}
+      \strng{authorbibnamehash}{61fef21128090c3a89901eeeb92cd01d}
+      \strng{authornamehash}{61fef21128090c3a89901eeeb92cd01d}
+      \strng{authorfullhash}{5a59ff25e6b35cbd485593d700d0d81d}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Jet flavour classification using DeepJet}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{P12012\bibrangedash P12012}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/15/12/p12012
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/12/P12012
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/12/P12012
+      \endverb
+    \endentry
+    \entry{DeepJetShapeCalibration}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{21}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{3}
+      \field{number}{03}
+      \field{title}{A new calibration method for charm jet identification validated with proton-proton collision events at $\sqrt{s}$ = 13 TeV}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{P03014}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/17/03/p03014
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
       \endverb
     \endentry
   \enddatalist
