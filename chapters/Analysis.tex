@@ -1,2 +1,103 @@
 \chapter{Search for the cH(ZZ$\rightarrow$4$\mu$) process}
+To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed, as described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:statisticalEvaluation}.
+
+\section{cH event selection}
+To reconstruct a \cHZZ candidate event, a Higgs boson candidate needs to be reconstructed and a corresponding jet candidate needs to be identified. These two procedures are described in this section and distributions of \cHZZ candidate events are shown using a simulation of the \cHZZ process as described in \autoref{sec:cHSimulation}. \\
+\\
+To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objects must be made. These are summarised in \autoref{table:objectSelection} along with the HLT trigger path requirement used in this analysis. The objective of this selection is to identify events with well-reconstructed, isolated muons as well as a least on well-reconstructed jet. Following this initial selection, the corresponding objects are passed onto the respective algorithms to select a final Higgs and jet candidate. 
+
+\begin{table}[H]
+    \centering
+    \caption[]{Muon, jet object and HLT path selection requirements.}
+    \begin{adjustbox}{width=0.6\textwidth}
+    \label{table:objectSelection}
+        \begin{tabular}{l l }
+        \toprule 
+        \textbf{Object} & \textbf{Selection criteria} \\
+        \midrule 
+        \midrule
+        Muons & \pt \, \textgreater \, 5 GeV \\
+        & $\mid\eta\mid$ \textless \, 2.4 \\
+        & Tight muon identification criteria \\
+        \midrule
+        Jets & \pt \, \textgreater \, 25 GeV \\
+        & $\mid\eta\mid$ \textless \, 2.5 \\
+        & Jet ID \\
+        & Pile-up ID, loose working point \\
+        \midrule 
+        HLT & HLT\_IsoMu24 is triggered\\
+        \bottomrule
+        \end{tabular} 
+
+    \end{adjustbox}
+\end{table}
+
+\subsection{Higgs candidate selection}
+A Higgs boson reconstruction algorithm (and muon object selection) very similar to those presented and validated in \ref{HIG-19-001} is implemented. This reconstruction is performed for events in which exactly four selected muons are present to avoid introducing a potential bias when reconstructing non-Higgs (background) events. Then the following reconstruction steps are applied:
+\begin{enumerate}
+    \item Of the four selected muons, the \pt-leading muon is required to satisfy \pt \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02. 
+    \item Opposite-sign muon pairs are merged into Z boson candidates. At least two Z boson candidates must be reconstructed to proceed. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
+    \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless $m_{Z_{1}}$ 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless $m_{Z_{1}}$ 120 GeV. 
+    \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater 70 GeV. 
+\end{enumerate}
+The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125.3 GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. A selection efficiency of xxx\% is achieved on the simulated \cHZZ sample. The majority off loss in acceptance can be attributed to .... 
+
+\subsection{Jet candidate selection}
+Once a Higgs boson candidate is reconstructed, a likelihood ratio algorithm is applied to best identify and select the jet that is associated with (i.e. recoils off) the reconstructed Higgs boson. This algorithm does not use jet-flavour identification methods and is based solely on kinematic properties of the jets so as to minimise the introduction of any flavour bias in the selection. Specifically, two variables related to momentum conservation in the transverse plane are exploited: 
+\begin{enumerate}
+    \item The difference in azimuthal angle $\Delta\phi$(H, jet) between the Higgs boson candidate H and the jet is used. Due to an initial zero net momentum in the direction of the azimuthal angle, the Higgs boson and associated jet are expected to recoil off eachother \textit{back-to-back} and thus $\Delta\phi$(H, jet) is expected to be $\sim \pm \pi$.
+    \item Since the Higgs boson and associated jet recoil off eachother, their \pt \, is expected to be approximately balanced. This information can be captured by transverse momentum ratio $p_{\mathrm{T}}(H)$/$p_{\mathrm{T}}(\mathrm{jet})$. 
+\end{enumerate}
+To derive the relevant distributions to be used in a likelihood ratio, a parton-to-jet matching is performed in simulated \cHZZ events. This is achieved by, in a simulated event, taking the directional information of the simulated parton and matching it to a reconstructed jet with the matching requirement $\Delta R(\mathrm{jet, parton})$ \textless 0.3. All jets which match the initial jet selection are considered in this process. A jet which is matched in this way is labelled as the associated jet, while the remaining non-matched jets are labelled non-associated jets. The efficiency with which this matching is performed can be seen in \autoref{fig:partonToJetMatching efficiency}. Once this labelling is performed, the distributions of $\Delta\phi$(H, jet) and $p_{\mathrm{T}}(H)$/$p_{\mathrm{T}}(\mathrm{jet})$ for associated and non-associated jets are extracted as templates and treated as probability density functions. To capture kinematic differences associated with higher and lower \pt \, Higgs candidates, this procedure is repeated in different bins of \pt(H) listed in \autoref{table:JetSelectionHiggsBins}. \\
+\\
+Using the extracted templates, a per-jet likelihood evaluation can be made in each event. For this, the per-variable likelihood ratio 
+
+\begin{align}
+    \mathcal{L}(x) = \frac{\mathcal{L}_{\mathrm{associated}}(x)}{\mathcal{L}_{\mathrm{non-associated}}(x)}, \,
+    \mathrm{with} \, x \in \Big\{ \Delta\phi\mathrm{(H, jet)}, \frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})} \Big\}
+\end{align}
+
+is defined. From this follows the per-jet likelihood 
+
+\begin{align}
+    \mathcal{L}(\mathrm{jet}) = \mathcal{L}\Big(\Delta\phi\mathrm{(H, jet)}\Big) \cdot \mathcal{L}\Big(\frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})}\Big)
+\end{align}
+
+that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. The efficiency with which the ``correct'' associated jet can be seen in \autoref{fig:JetAssociationEfficiency}. 
+
+\begin{table}[H]
+    \centering
+    \caption[]{Muon and jet object selection requirements.}
+    \begin{adjustbox}{width=0.4\textwidth}
+    \label{table:JetSelectionHiggsBins}
+        \begin{tabular}{l l l l l}
+        \toprule 
+        \textbf{Bin number} & \textbf{\pt(H) range} \\
+        \midrule 
+        \midrule
+        1 & 0 - 15 GeV \\
+        2 & 15 - 30 GeV \\
+        3 & 30 - 50 GeV \\
+        4 & 50 - 100 GeV \\
+        5 & 100 - 200 GeV \\
+        6 & \textgreater 200 GeV \\
+        \bottomrule
+        \end{tabular} 
+
+    \end{adjustbox}
+\end{table}
+
+With this, the individual components of the \cHZZ are thus reconstructed and selected. 
+
+Something about c jet vs non-c jet in yc sensitive events.. 
+
+\section{Signal and background estimation}
+
+\subsection{Estimation of cH process}
+
+\subsection{Estimation of irreducible backgrounds}
+
+\subsection{Estimation of reducible backgrounds}
+
+\section{Statistical evaluation}
 

@@ -2210,7 +2210,7 @@
     <bcf:citekey order="26">Weinberg:1979sa</bcf:citekey>
     <bcf:citekey order="27">WarsawBasis</bcf:citekey>
     <bcf:citekey order="28">SMEFTOverview</bcf:citekey>
-    <bcf:citekey order="29">askNordin</bcf:citekey>
+    <bcf:citekey order="29">CMSGlobalSMEFTFit</bcf:citekey>
     <bcf:citekey order="30">PhysRevD.93.053001</bcf:citekey>
     <bcf:citekey order="31">Elias_Mir__2013</bcf:citekey>
     <bcf:citekey order="32">Elias_Mir__2013</bcf:citekey>
@@ -2264,6 +2264,7 @@
     <bcf:citekey order="80">DeepJetShapeCalibration</bcf:citekey>
     <bcf:citekey order="81">DeepJetShapeCalibration</bcf:citekey>
     <bcf:citekey order="82">DeepJetShapeCalibration</bcf:citekey>
+    <bcf:citekey order="83">PhysRevD.110.030001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

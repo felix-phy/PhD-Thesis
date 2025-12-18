@@ -8,62 +8,78 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}The Higgs-charm Yukawa coupling}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The Brout-Englert-Higgs mechanism}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}The Brout-Englert-Higgs mechanism}{6}{subsection.1.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}The Yukawa couplings}{7}{subsection.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Measuring the charm quark Yukawa coupling}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Measuring the charm quark Yukawa coupling}{8}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}The cH process}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}The cH process}{8}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}The $\kappa $-framework}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}The $\kappa $-framework}{10}{subsection.1.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}An EFT interpretation of the cH process}{11}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}The chromomagnetic dipole operator}{12}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.1}The chromomagnetic dipole operator}{13}{subsection.1.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Validity of an EFT}{13}{subsection.1.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The CMS experiment at the LHC}{15}{chapter.2}%
+\contentsline {chapter}{\numberline {2}The CMS experiment at the LHC}{17}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The CMS detector}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.1}The CMS detector}{17}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}The CMS coordinate system}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}The CMS coordinate system}{17}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}The silicon tracker}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}The silicon tracker}{19}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}The electromagnetic calorimeter}{18}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}The electromagnetic calorimeter}{20}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}The hadronic calorimeter}{19}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}The hadronic calorimeter}{21}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}The superconducting solenoid magnet}{19}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}The superconducting solenoid magnet}{21}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}The muon chambers}{20}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.6}The muon chambers}{22}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}The triggering system}{22}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.7}The triggering system}{23}{subsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Event reconstruction with the CMS detector}{22}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Event reconstruction with the CMS detector}{24}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Track and vertex reconstruction}{22}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Track and vertex reconstruction}{24}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}The Particle Flow algorithm}{23}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}The Particle Flow algorithm}{24}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Reconstruction and identification of muons}{24}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Reconstruction and identification of muons}{25}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Reconstruction and identification of jets}{25}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Reconstruction and identification of jets}{27}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Missing transverse momentum}{26}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Missing transverse momentum}{28}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Identification of charm quark-induced jets}{27}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Identification of charm quark-induced jets}{29}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Properties of heavy-flavour jets}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Properties of heavy-flavour jets}{29}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}The DeepJet algorithm}{28}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}The DeepJet algorithm}{30}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{33}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{35}{chapter.4}%
+\contentsline {section}{\numberline {3.1}cH event selection}{33}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{37}{chapter*.21}%
+\contentsline {subsection}{\numberline {3.1.1}Higgs candidate selection}{34}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{39}{chapter*.22}%
+\contentsline {subsection}{\numberline {3.1.2}Jet candidate selection}{34}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Signal and background estimation}{36}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Estimation of cH process}{36}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Estimation of irreducible backgrounds}{36}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Estimation of reducible backgrounds}{36}{subsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Statistical evaluation}{36}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{37}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{39}{chapter*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{41}{chapter*.24}%

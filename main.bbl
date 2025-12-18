@@ -1816,8 +1816,8 @@
       \strng{authorbibnamehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
       \strng{authornamehash}{45cbb72e50c6b37a6aa71b47e5fcf7af}
       \strng{authorfullhash}{871f3b67665c07565af1359f229b71ed}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -2879,6 +2879,39 @@
       \verb http://dx.doi.org/10.1103/RevModPhys.96.015006
       \endverb
     \endentry
+    \entry{CMSGlobalSMEFTFit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Combined effective field theory interpretation of Higgs boson, electroweak vector boson, top quark, and multi-jet measurements}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2504.02958
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2504.02958
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2504.02958
+      \endverb
+    \endentry
     \entry{PhysRevD.93.053001}{article}{}
       \name{author}{4}{}{%
         {{hash=098c688e7e7a342a25d66cb49d62be88}{%
@@ -2911,8 +2944,8 @@
       \strng{authorbibnamehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
       \strng{authornamehash}{5dd77c4b8afbf65ebc24935ee2bd38cc}
       \strng{authorfullhash}{b7e5adfcd83ba339ea1111bc9645006e}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -3001,7 +3034,7 @@
       \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
@@ -3140,7 +3173,7 @@
       \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
@@ -3172,7 +3205,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
@@ -3197,8 +3230,8 @@
       \endverb
     \endentry
     \entry{CMSTracker}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{note}{Last accessed 24.11.25}
       \field{title}{CMS Tracker Detector Performance Public Results}
@@ -3226,7 +3259,7 @@
       \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
@@ -3270,7 +3303,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
@@ -3287,44 +3320,6 @@
       \endverb
     \endentry
     \entry{CMSECALPerformance}{report}{}
-      \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {CERN}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{11}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{The CMS ECAL performance with examples}}
-      \field{type}{techreport}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.1088/1748-0221/9/02/C02008
-      \endverb
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/1632384
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/1632384
-      \endverb
-    \endentry
-    \entry{CMSECALFigure}{report}{}
       \name{author}{1}{}{%
         {{hash=e742ba4e105e5341464c3528b118ff41}{%
            family={Collaboration},
@@ -3362,6 +3357,44 @@
       \verb https://cds.cern.ch/record/1632384
       \endverb
     \endentry
+    \entry{CMSECALFigure}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{13}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The CMS ECAL performance with examples}}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1088/1748-0221/9/02/C02008
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1632384
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1632384
+      \endverb
+    \endentry
     \entry{CMSHCAL}{report}{}
       \name{author}{1}{}{%
         {{hash=e742ba4e105e5341464c3528b118ff41}{%
@@ -3382,7 +3415,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{13}
+      \field{extraname}{14}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
@@ -3418,7 +3451,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{14}
+      \field{extraname}{15}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
@@ -3451,9 +3484,9 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{15}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extraname}{16}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -3495,7 +3528,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{16}
+      \field{extraname}{17}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
@@ -3709,7 +3742,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{17}
+      \field{extraname}{18}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
@@ -3844,7 +3877,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{18}
+      \field{extraname}{19}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
@@ -3876,7 +3909,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{19}
+      \field{extraname}{20}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
@@ -3922,8 +3955,8 @@
       \strng{authorbibnamehash}{099bfee919564a7dbd5943f5f7b046e7}
       \strng{authornamehash}{099bfee919564a7dbd5943f5f7b046e7}
       \strng{authorfullhash}{099bfee919564a7dbd5943f5f7b046e7}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-2693}
@@ -3962,7 +3995,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{20}
+      \field{extraname}{21}
       \field{sortinit}{7}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
@@ -4063,9 +4096,9 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{21}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extraname}{22}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -4088,7 +4121,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{askNordin}
 \endrefsection
 \endinput
 
