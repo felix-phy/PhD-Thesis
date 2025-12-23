@@ -1,33 +1,35 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[36] biber:322> INFO - === Mi Dez  3, 2025, 12:55:05
-[44] Biber.pm:415> INFO - Reading 'main.bcf'
-[80] Biber.pm:943> INFO - Found 52 citekeys in bib section 0
-[87] Biber.pm:4256> INFO - Processing section 0
-[87] Utils.pm:75> INFO - Globbing data source './references/references.bib'
-[87] Utils.pm:91> INFO - Globbed data source './references/references.bib' to ./references/references.bib
-[93] Biber.pm:4455> INFO - Looking for bibtex format file './references/references.bib' for section 0
-[95] bibtex.pm:1653> INFO - LaTeX decoding ...
-[134] bibtex.pm:1471> INFO - Found BibTeX data source './references/references.bib'
-[136] Utils.pm:293> WARN - Duplicate entry key: 'CMSTracker' in file './references/references.bib', skipping ...
-[291] Utils.pm:293> WARN - month field 'Aug' in entry 'PhysRevD.110.030001' is not an integer - this will probably not sort properly.
-[293] Utils.pm:293> WARN - month field 'Oct' in entry 'Higgs' is not an integer - this will probably not sort properly.
-[295] Utils.pm:293> WARN - month field 'Aug' in entry 'EnglertBrout' is not an integer - this will probably not sort properly.
-[303] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevD.100.073013' is not an integer - this will probably not sort properly.
-[314] Utils.pm:293> WARN - ISBN '978-3-319-18512-5, 978-3-319-18511-8' in entry 'WolfHiggs' is invalid - run biber with '--validate_datamodel' for details.
-[319] Utils.pm:293> WARN - month field 'Aug' in entry 'Goldstone' is not an integer - this will probably not sort properly.
-[328] Utils.pm:293> WARN - month field 'Mar' in entry 'PhysRevD.111.053003' is not an integer - this will probably not sort properly.
-[423] Utils.pm:293> WARN - month field 'May' in entry 'PhysRevD.103.095023' is not an integer - this will probably not sort properly.
-[437] Utils.pm:293> WARN - month field 'Mar' in entry 'PhysRevD.93.053001' is not an integer - this will probably not sort properly.
-[441] Utils.pm:293> WARN - month field 'aug' in entry 'CMSDetector' is not an integer - this will probably not sort properly.
-[449] Utils.pm:293> WARN - month field 'Oct' in entry 'LHCSketch' is not an integer - this will probably not sort properly.
-[468] Utils.pm:293> WARN - month field 'Oct' in entry 'CMSTrigger' is not an integer - this will probably not sort properly.
-[474] Utils.pm:293> WARN - month field 'Jun' in entry 'ParticleFlowCMS' is not an integer - this will probably not sort properly.
-[480] Utils.pm:293> WARN - month field 'Mar' in entry 'FastJet' is not an integer - this will probably not sort properly.
-[529] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[529] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[529] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[529] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[552] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[827] bbl.pm:755> INFO - Output to main.bbl
-[827] Biber.pm:128> INFO - WARNINGS: 15
+[46] biber:322> INFO - === Di Dez 23, 2025, 12:52:35
+[55] Biber.pm:415> INFO - Reading 'main.bcf'
+[99] Biber.pm:943> INFO - Found 62 citekeys in bib section 0
+[107] Biber.pm:4256> INFO - Processing section 0
+[107] Utils.pm:75> INFO - Globbing data source './references/references.bib'
+[107] Utils.pm:91> INFO - Globbed data source './references/references.bib' to ./references/references.bib
+[115] Biber.pm:4455> INFO - Looking for bibtex format file './references/references.bib' for section 0
+[117] bibtex.pm:1653> INFO - LaTeX decoding ...
+[174] bibtex.pm:1471> INFO - Found BibTeX data source './references/references.bib'
+[175] Utils.pm:293> WARN - Duplicate entry key: 'CMSTracker' in file './references/references.bib', skipping ...
+[350] Utils.pm:293> WARN - month field 'Aug' in entry 'PhysRevD.110.030001' is not an integer - this will probably not sort properly.
+[352] Utils.pm:293> WARN - month field 'Oct' in entry 'Higgs' is not an integer - this will probably not sort properly.
+[355] Utils.pm:293> WARN - month field 'Aug' in entry 'EnglertBrout' is not an integer - this will probably not sort properly.
+[365] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevD.100.073013' is not an integer - this will probably not sort properly.
+[380] Utils.pm:293> WARN - ISBN '978-3-319-18512-5, 978-3-319-18511-8' in entry 'WolfHiggs' is invalid - run biber with '--validate_datamodel' for details.
+[385] Utils.pm:293> WARN - month field 'Aug' in entry 'Goldstone' is not an integer - this will probably not sort properly.
+[397] Utils.pm:293> WARN - month field 'Mar' in entry 'PhysRevD.111.053003' is not an integer - this will probably not sort properly.
+[505] Utils.pm:293> WARN - month field 'May' in entry 'PhysRevD.103.095023' is not an integer - this will probably not sort properly.
+[523] Utils.pm:293> WARN - month field 'Mar' in entry 'PhysRevD.93.053001' is not an integer - this will probably not sort properly.
+[528] Utils.pm:293> WARN - month field 'aug' in entry 'CMSDetector' is not an integer - this will probably not sort properly.
+[539] Utils.pm:293> WARN - month field 'Oct' in entry 'LHCSketch' is not an integer - this will probably not sort properly.
+[561] Utils.pm:293> WARN - month field 'Oct' in entry 'CMSTrigger' is not an integer - this will probably not sort properly.
+[568] Utils.pm:293> WARN - month field 'Jun' in entry 'ParticleFlowCMS' is not an integer - this will probably not sort properly.
+[578] Utils.pm:293> WARN - month field 'Mar' in entry 'FastJet' is not an integer - this will probably not sort properly.
+[608] Utils.pm:293> WARN - month field 'nov' in entry 'POWHEG' is not an integer - this will probably not sort properly.
+[623] Utils.pm:293> WARN - ISBN '978-1-009-40129-6, 978-1-009-40125-8, 978-1-009-40128-9, 978-0-521-01734-3, 978-0-521-42094-5, 978-0-511-88149-7' in entry 'LundStringModel' is invalid - run biber with '--validate_datamodel' for details.
+[673] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[673] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[673] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[673] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[707] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1023] bbl.pm:755> INFO - Output to main.bbl
+[1023] Biber.pm:128> INFO - WARNINGS: 17

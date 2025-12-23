@@ -1,8 +1,9 @@
 \chapter{Search for the cH(ZZ$\rightarrow$4$\mu$) process}
-To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed, as described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:statisticalEvaluation}.
+To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:Selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed and is described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:statisticalEvaluation}.
 
 \section{cH event selection}
-To reconstruct a \cHZZ candidate event, a Higgs boson candidate needs to be reconstructed and a corresponding jet candidate needs to be identified. These two procedures are described in this section and distributions of \cHZZ candidate events are shown using a simulation of the \cHZZ process as described in \autoref{sec:cHSimulation}. \\
+\label{sec:Selection}
+To reconstruct a \cHZZ candidate event, a Higgs boson candidate needs to be reconstructed and a corresponding jet candidate needs to be identified. These two procedures are described in this section. Distributions of \cHZZ candidate events are shown using a simulation of the \cHZZ process, which is discussed in \autoref{sec:cHSimulation}. \\
 \\
 To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objects must be made. These are summarised in \autoref{table:objectSelection} along with the HLT trigger path requirement used in this analysis. The objective of this selection is to identify events with well-reconstructed, isolated muons as well as a least on well-reconstructed jet. Following this initial selection, the corresponding objects are passed onto the respective algorithms to select a final Higgs and jet candidate. 
 
@@ -89,15 +90,102 @@ that is evaluated. The jet with the highest associated likelihood in an event is
 
 With this, the individual components of the \cHZZ are thus reconstructed and selected. 
 
-Something about c jet vs non-c jet in yc sensitive events.. 
-
 \section{Signal and background estimation}
+\label{sec:s+bEstimation}
+The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. Processes which present a background to the \cHZZ process fall into two main categories, namely irreducible and reducible background processes. The former category is discussed here. From these estimations, a comprehensive model of the expected yields and distributions resulting from the described selection can be constructed for statistical evaluation. The methods to achieve this are described in this section. 
 
-\subsection{Estimation of cH process}
+\subsection{Monte Carlo simulation of proton-proton collisions}
+Since the complexity of a proton-proton collisions in a detector cannot realistically be captured by analytic calculations, Monte Carlo methods \cite{MonteCarlo} can be used as an approximation. The concept of such a simulation relies on a phenomenoligcal approach, sampling the known distributions of process and detector quanities and properties to construct a comprehensive simulation of a process and its interaction with the detector. The simulation process occurs in discrete steps, each dealing with different aspects of the simulated process. These can be summarised as: 
+
+\begin{enumerate}
+    \item \textbf{The hard scattering process}: The hard scattering process refers to the immediate, high energy transfer scattering of two protons resulting in the production of additional particles. To calculate this, two main ingredients are required. The first is a calculation of the matrix elements that describe the simulated process in which proton constituents collide to produce additional particles. These matrix elements allow for the calculation of a cross section for the process. However, the proton itself is a complex object consisting not only of its valence quarks (two up-type quarks and one down-type quark) but also of a constantly changing ensemble of additional quarks and gluons that are created and annihilated. This behaviour must thus be captured for an accurate process description and is parametrised via so-called \textit{Parton Distribution Functions}. These describe the likelihood with which a parton, that carries some fraction $x$ of the protons total momentum, may be found in a proton at some energy scale Q$^2$. The evolution of the PDF with changing Q$^2$ is described by the DGLAP quations \cite{DGLAP}. Software used to simulate the hard scattering are referred to as \textit{event generators}. Commonly used event generators include \textsf{Madgraph5\_aMC$@$NLO} \cite{MadGraph} and \textsf{POWHEG} \cite{POWHEG}. 
+    \item \textbf{Parton showering}: Particles such as quarks and gluons that are produced in the hard scattering carry the colour charge of the strong interaction. As a result, these may produce soft radiation or branch into other particles. While a most physically accurate description would be given by including these contributions in the calculation of the hard scattering process, this greatly increases the complexity of the calculation. As such a \textit{parton shower} model, such as in the \textsf{Pythia} software package \cite{PYTHIA}, is used instead to describe the splitting of a single mother particle into two daughter particles. In QCD, this describes to gluon radiation ($q\rightarrow qg$) and gluon splitting ($g\rightarrow gg$ and $g \rightarrow q \overline{q}$) and in QED describes Bremsstrahlung ($f\rightarrow f\gamma$) and pair creation ($\gamma \rightarrow f \overline{f}$). In case this the parton showering originates from initial state partons it is referred to as initial state radiation (ISR). Accordingly, parton showering originating from final state partons is referred to as final state radiation (FSR). In cases with final states containing multiple partons, there can be some ambiguity in the combination of matrix elements and parton showering since both can describe the same processes. For this merging schemes are applied that resolve potential double counting of events. A prescription used for this work is the FxFx scheme \cite{FxFx}. 
+    \item \textbf{Hadronisation}: At an energy around the QCD scale $\Lambda_{\mathrm{QCD}}$, the perturbative parton shower prescription loses its validty as the running coupling of the strong force $\alpha_{s}$ becomes too strong. Here the individual, colour-charged partons \textit{hadronise} into colour-neutral states.  Since this process currently cannot be described from first principles, a phenomenological description must be applied. In \textsf{Pythia}, the \textit{Lund string} model is used \cite{LundStringModel}. It describes the interaction between two partons as a coloured field, the lines of which pass through a tube that is extended between the partons. The potential energy of the tube (or string) is described by a term linear in the distance between the partons. Thus if the partons are separated at a large enough distance and the potential energy is sufficiently large, the string may 'break' and new colourless quark-antiquark pairs are formed. This procedure may be repeated with these new parton pairs if they posses an invariant mass above some threshold. 
+    \item \textbf{The underlying event}: A description of a variety of effects secondary to the hard scattering must be included in the simulation. These can have several origins such as secondary, \textit{soft} interactions of the proton-proton collision or remnants of the collided protons, which will hadronise themselves. These effects are modeled from data \cite{UnderlyingEvent}.
+    \item \textbf{Detector simulation}: Finally, the detector response to the particles emerging from the previously describeds steps must be simulated. This is performed with the \textsf{GEANT4} package \cite{GEANT4}, which is configured to model the CMS detector. This includes modelling the curving of particle trajectories due to the detector's magnet, the interaction of particles with the materials of the detector, as well as the digitisation of the signals in the electronic modules of the subdetectors.
+\end{enumerate}
+A diagrammatic overview of what an event simulation looks like can be found in \autoref{fig:EventSimulation}. The output of this simulation is passed to the reconstruction algorithms described in \autoref{sec:Reconstruction}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/EventSimulation.png}
+    \caption{An overview of what an event simulation may look like (adapted from \cite{Hoche:2014rga}). }
+    \label{fig:EventSimulation}
+\end{figure}
+
+\subsection{Estimation of \cHZZ process}
+\label{sec:cHSimulation}
+The \cHZZ process is estimated using a simulation generated by \textsf{MadGraph5\_aMC@NLO}. The following \textsf{MadGraph5\_aMC@NLO} syntax is used, which illustrates some important concepts related to the simulation of the cH process:
+\begin{itemize}
+    \label{MadGraphcHCommand}
+    \itemsep0em 
+    \item[] import model loop\_sm\_MSbar\_yb\_yc-yc4FS 
+    \item[] define p = g u u$\sim$ d d$\sim$ s s$\sim$ c c$\sim$ 
+    \item[] define j = g u u$\sim$ d d$\sim$ s s$\sim$ c c$\sim$ 
+    \item[] generate p p \textgreater h [QCD] @ 0 
+    \item[] generate p p \textgreater h j [QCD] @ 1
+\end{itemize}
+In the first line, it can be read off that the \textsf{loop\_sm} model is used, a model allowing NLO calculations of the SM. Only the Yukawa-couplings of the bottom and charm quarks are included to ensure orthogonality of the cH simulation to simulations of other Higgs production processes such as gluon fusion. Additionally, a so-called \textit{four flavour scheme} (4FS) version of the model is used \cite{}. The flavour scheme denotes which quarks are included as constituents of the proton, in which they are approximated as massless. The 4FS includes the up, down, strange and charm quarks as proton constituents. In contrast to the 4FS, a three flavour scheme 3FS could also be used. Here, the charm quark is not included in the proton but instead must be produced via gluon spllitting, i.e. $g \rightarrow c\overline{c}$. \\
+\\
+In the following two lines, the proton and jet constituents are defined. Finally in the last two lines, the processes included in the simulation are defined. These are, calculated to next to leading order in QCD, the $p p \rightarrow H$ and $p p \rightarrow H+j$ processes. Both are included to give the most accurate possible kinematic description of the cH process. The reasoning for this is related to the modelling of final state partons and can be better understood by considering what is included in the leading order (LO) and next-to-leading (NLO) contributions to $p p \rightarrow H$ and $p p \rightarrow H+j$ respectively. At leading order, an additional jet in $p p \rightarrow H$ can only be generated via the parton shower. Thus, this contribution is expected to best model the lower momentum behaviour of final state partons. The NLO contributions to $p p \rightarrow H$, which correspond to LO contritubtions of $p p \rightarrow H+j$, in turn are expected to beeter model higher momentum behaviour of the final state parton. The same logic is applied to the LO contributions of $p p \rightarrow H+j$ and the NLO contributions of $p p \rightarrow H+j$, where two final state partons explicitly appear in the calculation of the latter. This approach clearly introduces double counting of processes, however these are automatically accounted for by the event generator. Similarly, the FxFx merging scheme is used to remove any double counting between parton shower and matrix element contributions.  \\
+\\
+To capture uncertainties associated with the choice of a particular flavour scheme, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing the cases where a charm \textit{must} originate from gluon splitting or the proton respectively. From these samples, an uncertainty envelope is constructed that is used in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
+\\
+\begin{table}[H]
+    \centering
+    \caption[]{\cHZZ samples used in this work}
+    \begin{adjustbox}{width=1\textwidth}
+    \label{table:SignalSamples}
+        \begin{tabular}{l l l}
+        \toprule 
+        \textbf{Process} & \textbf{Tag} & \textbf{$\sigma$} \\
+        \midrule 
+        \midrule
+        \cHZZ 4FS FxFx & HPlusCharm\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
+        \cHZZ 3FS & HPlusCharm\_3FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        \cHZZ 4FS & HPlusCharm\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        \bottomrule
+        \end{tabular} 
+    \end{adjustbox}
+\end{table}
+
+\textit{Something about c jet vs non-c jet in yc sensitive events..  check cH sample definition}
 
 \subsection{Estimation of irreducible backgrounds}
+Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, th processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds of this analysis are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. 
+
+\begin{table}[H]
+    \centering
+    \caption[]{Background used to estimate irreducible backgrounds to the \cHZZ process in this work.}
+    \begin{adjustbox}{width=1\textwidth}
+    \label{table:IrreducibleBackgroundSamples}
+        \begin{tabular}{l l l}
+        \toprule 
+        \textbf{Process} & \textbf{Tag} & \textbf{$\sigma$} \\
+        \midrule 
+        \midrule
+        ggH(ZZ$\rightarrow$4L) & GluGluHToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
+        ttH(ZZ$\rightarrow$4L) & ttH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\ 
+        W$^{-}$H(ZZ$\rightarrow$4L) & WminusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
+        W$^{+}$H(ZZ$\rightarrow$4L) & WplusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
+        ZH(ZZ$\rightarrow$4L) & ZH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HZJ\_JHUGenV7011\_pythia8 & xx \\
+        $gg\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+        $gg\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+        $gg\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+        xx & VBF\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
+        xx & tqH\_HToZZTo4L\_M125\_TuneCP5\_13TeV-jhugenv7011-pythia8 & xx \\
+        qq$\rightarrow$ZZ(4L) & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
+        \midrule 
+        bH 5FS FxFx & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
+        bH 4FS & HPlusBottom\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        bH 5FS & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        \bottomrule
+        \end{tabular} 
+    \end{adjustbox}
+\end{table}
 
 \subsection{Estimation of reducible backgrounds}
 
 \section{Statistical evaluation}
+\label{sec;StatisticalEvaluation}
 

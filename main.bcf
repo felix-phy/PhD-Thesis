@@ -2265,6 +2265,17 @@
     <bcf:citekey order="81">DeepJetShapeCalibration</bcf:citekey>
     <bcf:citekey order="82">DeepJetShapeCalibration</bcf:citekey>
     <bcf:citekey order="83">PhysRevD.110.030001</bcf:citekey>
+    <bcf:citekey order="84">MonteCarlo</bcf:citekey>
+    <bcf:citekey order="85">DGLAP</bcf:citekey>
+    <bcf:citekey order="86">MadGraph</bcf:citekey>
+    <bcf:citekey order="87">POWHEG</bcf:citekey>
+    <bcf:citekey order="88">PYTHIA</bcf:citekey>
+    <bcf:citekey order="89">FxFx</bcf:citekey>
+    <bcf:citekey order="90">LundStringModel</bcf:citekey>
+    <bcf:citekey order="91">UnderlyingEvent</bcf:citekey>
+    <bcf:citekey order="92">GEANT4</bcf:citekey>
+    <bcf:citekey order="93">Hoche:2014rga</bcf:citekey>
+    <bcf:citekey order="94">Hoche:2014rga</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

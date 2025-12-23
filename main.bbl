@@ -4120,6 +4120,464 @@
       \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
       \endverb
     \endentry
+    \entry{MonteCarlo}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e2bb38a445fd9f0c2309f57ade222b9b}{%
+           family={Hastings},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, Biometrika Trust]}%
+      }
+      \strng{namehash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \strng{fullhash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \strng{bibnamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \strng{authorbibnamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \strng{authornamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \strng{authorfullhash}{e2bb38a445fd9f0c2309f57ade222b9b}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00063444, 14643510}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{Monte Carlo Sampling Methods Using Markov Chains and Their Applications}
+      \field{urlday}{22}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{57}
+      \field{year}{1970}
+      \field{urldateera}{ce}
+      \field{pages}{97\bibrangedash 109}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2334940
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2334940
+      \endverb
+    \endentry
+    \entry{DGLAP}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0683e45241811627b386f847d849d2b3}{%
+           family={Altarelli},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e4f99fa1b31db590a7df474f2a1b63b7}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6915c68b6e0eee25668df196438e6b0}
+      \strng{fullhash}{a6915c68b6e0eee25668df196438e6b0}
+      \strng{bibnamehash}{a6915c68b6e0eee25668df196438e6b0}
+      \strng{authorbibnamehash}{a6915c68b6e0eee25668df196438e6b0}
+      \strng{authornamehash}{a6915c68b6e0eee25668df196438e6b0}
+      \strng{authorfullhash}{a6915c68b6e0eee25668df196438e6b0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{2}
+      \field{title}{Asymptotic freedom in parton language}
+      \field{volume}{126}
+      \field{year}{1977}
+      \field{pages}{298\bibrangedash 318}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(77)90384-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321377903844
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321377903844
+      \endverb
+    \endentry
+    \entry{MadGraph}{article}{}
+      \name{author}{10}{}{%
+        {{hash=db770a0dfc4628a7437bedbd56f940d4}{%
+           family={Alwall},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87f8432b90fa1363547627dd900ac62d}{%
+           family={Frederix},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=36ec2b0a28a3159dd489a8e0ce4c5e16}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da2920448eb87fb33798abb131da464b}{%
+           family={Hirschi},
+           familyi={H\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=146d5a62e8ec749ce3c087e42804f0a6}{%
+           family={Maltoni},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d6305f4a2bb37c97934d4f0cae42109e}{%
+           family={Mattelaer},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=437e153e70283e1bc3b1ec3ad54d6fae}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={H.-S.},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=86e07bd86b6c081d973cbedd27c360ab}{%
+           family={Stelzer},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ef6ecb08c2c6e622eec344decdbb82c}{%
+           family={Torrielli},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97b1b02748b4a359125a674e12ece48b}{%
+           family={Zaro},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{fullhash}{261fa39fa69c14924b0287f2a0cd40a4}
+      \strng{bibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorbibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authornamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorfullhash}{261fa39fa69c14924b0287f2a0cd40a4}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations}
+      \field{volume}{2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1007/jhep07(2014)079
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
+      \endverb
+    \endentry
+    \entry{POWHEG}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ff1219d2389730607629a5d0e08f7429}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=08565706058718b454be32b190e67d73}{%
+           family={Nason},
+           familyi={N\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=72698ca93b5d232340312b35d62b6362}{%
+           family={Oleari},
+           familyi={O\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{fullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{bibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authorbibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authornamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authorfullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Matching NLO QCD computations with parton shower simulations: the POWHEG method}
+      \field{volume}{2007}
+      \field{year}{2007}
+      \field{pages}{070}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2007/11/070
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1126-6708/2007/11/070
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1126-6708/2007/11/070
+      \endverb
+    \endentry
+    \entry{PYTHIA}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1f7e99224e14002bdface802b6379512}{%
+           family={Sjöstrand},
+           familyi={S\bibinitperiod},
+           given={Torbjörn},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ff13235d93756d3379349e38f8229395}{%
+           family={Ask},
+           familyi={A\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5581c0413dd7fd5c57d2334c00de1162}{%
+           family={Christiansen},
+           familyi={C\bibinitperiod},
+           given={Jesper\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=39433ee7fe060cb02937e1d447218ce3}{%
+           family={Corke},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d9ede315d9535d79d63b9d64a2307cfd}{%
+           family={Desai},
+           familyi={D\bibinitperiod},
+           given={Nishita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=516a0cd8376e1ba0a0bcf1284dd920c9}{%
+           family={Ilten},
+           familyi={I\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{%
+           family={Mrenna},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=312a31f430cf1ba02b15944e08cd63f6}{%
+           family={Prestel},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=370f72a19eab82f125bce3ca2006e12b}{%
+           family={Rasmussen},
+           familyi={R\bibinitperiod},
+           given={Christine\bibnamedelima O.},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=d07ecde30a48771685fd69b1eb4960d6}{%
+           family={Skands},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima Z.},
+           giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{fullhash}{db2e81669ff3f7c57ff54f1b12c3f5e2}
+      \strng{bibnamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authorbibnamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authornamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authorfullhash}{db2e81669ff3f7c57ff54f1b12c3f5e2}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{title}{An introduction to PYTHIA 8.2}
+      \field{volume}{191}
+      \field{year}{2015}
+      \field{pages}{159\bibrangedash 177}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cpc.2015.01.024
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465515000442
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465515000442
+      \endverb
+    \endentry
+    \entry{FxFx}{article}{}
+      \name{author}{2}{}{%
+        {{hash=df856a2f8830837eb8b780330f14dcf2}{%
+           family={Frederix},
+           familyi={F\bibinitperiod},
+           given={Rikkert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff1219d2389730607629a5d0e08f7429}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{434605759ee0d3ed03b962468d6642f5}
+      \strng{fullhash}{434605759ee0d3ed03b962468d6642f5}
+      \strng{bibnamehash}{434605759ee0d3ed03b962468d6642f5}
+      \strng{authorbibnamehash}{434605759ee0d3ed03b962468d6642f5}
+      \strng{authornamehash}{434605759ee0d3ed03b962468d6642f5}
+      \strng{authorfullhash}{434605759ee0d3ed03b962468d6642f5}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Merging meets matching in MC$@$NLO}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1007/jhep12(2012)061
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP12(2012)061
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP12(2012)061
+      \endverb
+    \endentry
+    \entry{LundStringModel}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a006eb2e854d0742319c487ca5e3e65d}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{a006eb2e854d0742319c487ca5e3e65d}
+      \strng{fullhash}{a006eb2e854d0742319c487ca5e3e65d}
+      \strng{bibnamehash}{a006eb2e854d0742319c487ca5e3e65d}
+      \strng{authorbibnamehash}{a006eb2e854d0742319c487ca5e3e65d}
+      \strng{authornamehash}{a006eb2e854d0742319c487ca5e3e65d}
+      \strng{authorfullhash}{a006eb2e854d0742319c487ca5e3e65d}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-009-40129-6, 978-1-009-40125-8, 978-1-009-40128-9, 978-0-521-01734-3, 978-0-521-42094-5, 978-0-511-88149-7}
+      \field{title}{{The Lund Model}}
+      \field{volume}{7}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1017/9781009401296
+      \endverb
+    \endentry
+    \entry{UnderlyingEvent}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{23}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Event generator tunes obtained from underlying event and multiparton scattering measurements}
+      \field{volume}{76}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-3988-x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-016-3988-x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-016-3988-x
+      \endverb
+    \endentry
+    \entry{GEANT4}{article}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{3}
+      \field{title}{Geant4—a simulation toolkit}
+      \field{volume}{506}
+      \field{year}{2003}
+      \field{pages}{250\bibrangedash 303}
+      \range{pages}{54}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0168-9002(03)01368-8
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900203013688
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900203013688
+      \endverb
+    \endentry
+    \entry{Hoche:2014rga}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4ea5ba95fe0317569bdcdff6d61d9623}{%
+           family={H{ö}che},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \strng{fullhash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \strng{bibnamehash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \strng{authorbibnamehash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \strng{authornamehash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \strng{authorfullhash}{4ea5ba95fe0317569bdcdff6d61d9623}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Theoretical Advanced Study Institute in Elementary Particle Physics}: {Journeys Through the Precision Frontier: Amplitudes for Colliders}}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Introduction to parton-shower event generators}}
+      \field{year}{2015}
+      \field{pages}{235\bibrangedash 295}
+      \range{pages}{61}
+      \verb{doi}
+      \verb 10.1142/9789814678766_0005
+      \endverb
+      \verb{eprint}
+      \verb 1411.4085
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

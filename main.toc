@@ -70,16 +70,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Signal and background estimation}{36}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Estimation of cH process}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Monte Carlo simulation of proton-proton collisions}{36}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Estimation of irreducible backgrounds}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Estimation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process}{37}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Estimation of reducible backgrounds}{36}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Estimation of irreducible backgrounds}{39}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Statistical evaluation}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.4}Estimation of reducible backgrounds}{39}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{37}{chapter.4}%
+\contentsline {section}{\numberline {3.3}Statistical evaluation}{39}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{39}{chapter*.23}%
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{41}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{41}{chapter*.24}%
+\contentsline {chapter}{Conclusion}{43}{chapter*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{45}{chapter*.27}%
