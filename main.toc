@@ -66,7 +66,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Higgs candidate selection}{34}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Jet candidate selection}{34}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Jet candidate selection}{35}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Signal and background estimation}{36}{section.3.2}%
 \defcounter {refsection}{0}\relax 
@@ -76,12 +76,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Estimation of irreducible backgrounds}{39}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Estimation of reducible backgrounds}{39}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Estimation of reducible backgrounds}{40}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Statistical evaluation}{39}{section.3.3}%
+\contentsline {subsubsection}{Determination of muon mis-identification rate}{40}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{41}{chapter.4}%
+\contentsline {subsection}{\numberline {3.2.5}Application of muon mis-identification rate}{41}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{43}{chapter*.26}%
+\contentsline {section}{\numberline {3.3}Statistical evaluation}{42}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{45}{chapter*.27}%
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{43}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{45}{chapter*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{47}{chapter*.28}%

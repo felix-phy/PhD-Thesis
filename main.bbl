@@ -4120,6 +4120,46 @@
       \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
       \endverb
     \endentry
+    \entry{HIG19-001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{23}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Measurements of production cross sections of the Higgs boson in the four-lepton final state in proton–proton collisions at $$\sqrt{s} = 13\,\text {TeV} $$}
+      \field{volume}{81}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-021-09200-x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
+      \endverb
+    \endentry
     \entry{MonteCarlo}{article}{}
       \name{author}{1}{}{%
         {{hash=e2bb38a445fd9f0c2309f57ade222b9b}{%
@@ -4434,8 +4474,8 @@
       \strng{authorbibnamehash}{434605759ee0d3ed03b962468d6642f5}
       \strng{authornamehash}{434605759ee0d3ed03b962468d6642f5}
       \strng{authorfullhash}{434605759ee0d3ed03b962468d6642f5}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -4502,7 +4542,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{23}
+      \field{extraname}{24}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}

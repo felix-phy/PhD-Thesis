@@ -4,6 +4,8 @@ Introduce backgrounds in theory section?
 Fix genparton diagram
 
 --- cH analysis ---
+loss in acceptance?
 fix simulation diagram
 make all plots relevant to jet selection
 make plot regarding diagram selection
+introduce the data datasets that are used

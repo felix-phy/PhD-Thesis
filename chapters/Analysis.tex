@@ -25,6 +25,7 @@ To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objec
         & $\mid\eta\mid$ \textless \, 2.5 \\
         & Jet ID \\
         & Pile-up ID, loose working point \\
+        & $\Delta R$(jet, selected muons) \textless \, 0.4 \\
         \midrule 
         HLT & HLT\_IsoMu24 is triggered\\
         \bottomrule
@@ -34,12 +35,12 @@ To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objec
 \end{table}
 
 \subsection{Higgs candidate selection}
-A Higgs boson reconstruction algorithm (and muon object selection) very similar to those presented and validated in \ref{HIG-19-001} is implemented. This reconstruction is performed for events in which exactly four selected muons are present to avoid introducing a potential bias when reconstructing non-Higgs (background) events. Then the following reconstruction steps are applied:
+A Higgs boson reconstruction algorithm (and muon object selection) very similar to those presented and validated in \cite{HIG19-001} is implemented. This reconstruction is performed for events in which exactly four selected muons are present to avoid introducing a potential bias when reconstructing non-Higgs (background) events. Then the following reconstruction steps are applied:
 \begin{enumerate}
-    \item Of the four selected muons, the \pt-leading muon is required to satisfy \pt \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02. 
-    \item Opposite-sign muon pairs are merged into Z boson candidates. At least two Z boson candidates must be reconstructed to proceed. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
-    \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless $m_{Z_{1}}$ 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless $m_{Z_{1}}$ 120 GeV. 
-    \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater 70 GeV. 
+    \item Of the four selected muons, the \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02. 
+    \item Opposite-sign muon pairs are merged into Z boson candidates. At least two Z boson candidates must be reconstructed to proceed. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater \, 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
+    \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. 
+    \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater \, 70 GeV. 
 \end{enumerate}
 The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125.3 GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. A selection efficiency of xxx\% is achieved on the simulated \cHZZ sample. The majority off loss in acceptance can be attributed to .... 
 
@@ -88,13 +89,14 @@ that is evaluated. The jet with the highest associated likelihood in an event is
     \end{adjustbox}
 \end{table}
 
-With this, the individual components of the \cHZZ are thus reconstructed and selected. 
+With this, the individual components of the \cHZZ are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
 
 \section{Signal and background estimation}
 \label{sec:s+bEstimation}
-The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. Processes which present a background to the \cHZZ process fall into two main categories, namely irreducible and reducible background processes. The former category is discussed here. From these estimations, a comprehensive model of the expected yields and distributions resulting from the described selection can be constructed for statistical evaluation. The methods to achieve this are described in this section. 
+The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, which are described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ processis specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions resulting from the described selection can be constructed for statistical evaluation and is presented in \autoref{}. 
 
 \subsection{Monte Carlo simulation of proton-proton collisions}
+\label{sec:MonteCarlo}
 Since the complexity of a proton-proton collisions in a detector cannot realistically be captured by analytic calculations, Monte Carlo methods \cite{MonteCarlo} can be used as an approximation. The concept of such a simulation relies on a phenomenoligcal approach, sampling the known distributions of process and detector quanities and properties to construct a comprehensive simulation of a process and its interaction with the detector. The simulation process occurs in discrete steps, each dealing with different aspects of the simulated process. These can be summarised as: 
 
 \begin{enumerate}
@@ -152,11 +154,12 @@ To capture uncertainties associated with the choice of a particular flavour sche
 \textit{Something about c jet vs non-c jet in yc sensitive events..  check cH sample definition}
 
 \subsection{Estimation of irreducible backgrounds}
-Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, th processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds of this analysis are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. 
+\label{sec:IrreducibleBackgrounds}
+Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, th processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds of this analysis are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
 
 \begin{table}[H]
     \centering
-    \caption[]{Background used to estimate irreducible backgrounds to the \cHZZ process in this work.}
+    \caption[]{Simulated processes used for background estimation in this work.}
     \begin{adjustbox}{width=1\textwidth}
     \label{table:IrreducibleBackgroundSamples}
         \begin{tabular}{l l l}
@@ -169,22 +172,78 @@ Irreducible background processes are background processes that produce the same 
         W$^{-}$H(ZZ$\rightarrow$4L) & WminusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
         W$^{+}$H(ZZ$\rightarrow$4L) & WplusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
         ZH(ZZ$\rightarrow$4L) & ZH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HZJ\_JHUGenV7011\_pythia8 & xx \\
-        $gg\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        $gg\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        $gg\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        xx & VBF\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
-        xx & tqH\_HToZZTo4L\_M125\_TuneCP5\_13TeV-jhugenv7011-pythia8 & xx \\
+        qqH(ZZ$\rightarrow$4L) & VBF\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
+        tqH(ZZ$\rightarrow$4L) & tqH\_HToZZTo4L\_M125\_TuneCP5\_13TeV-jhugenv7011-pythia8 & xx \\
+        $gg$$\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+        $gg$$\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+        $gg$$\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
         qq$\rightarrow$ZZ(4L) & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
         \midrule 
         bH 5FS FxFx & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
         bH 4FS & HPlusBottom\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
         bH 5FS & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        \midrule
+        WZ$\rightarrow3\ell\nu$ & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & xx \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
 \end{table}
 
 \subsection{Estimation of reducible backgrounds}
+\label{sec:ReducibleBackgrounds}
+Reducible background processes are background processes that do not produce the same final state particles as the signal process but where mis-identification of physics objects can still falsify the sought-after signature. Since jets are typically abundant in most collisions, this amounts to the mis-identification of additional muons for this analysis. A major expected contribution in this background is expected from the Drell-Yan process. Since the simulation of mis-identified muons is subject to significant modelling uncertainties, a data-driven approach may be used. This involves determining the mis-identificaiton rate of muons in data and applying it to a side-band region from which the contributions of reducible backgrounds are extrapolated into the signal region. This methodology is presented in this section and follows the methods used in \cite{HIG19-001}.
+
+\subsubsection{Determination of muon mis-identification rate}
+To determine the mis-identification of muons with respect to the tight muon requirement outlined in \autoref{sec:MuonReconstruction}, a three-muon selection is applied to data. Specifically, events with a $Z\rightarrow\mu^+\mu^-$ decay that also contain a third muon are targeted. Since hard-scattering processes that produces a Z boson are not expected to produce any additional muons, the third reconstructed muon (typically referred to as the \textit{probe muon}) is assumed to be one that is mis-identified as such. To determine a mis-identification rate, the ratio of probe muons that pass the tight muon requirement with respect to those that pass the loose muon requirement is calculated. This procedure is performed in bins of the probe muon \pt for the barrel ($\lvert \eta \rvert \leq 1.2$) and endcap ($\lvert \eta \rvert > 1.2$) regions respectively. The exact reconstruction algorithm that is applied is the following:
+\begin{enumerate}
+    \item Events that contain at least two muons that pass the tight identification requirement and where the third passes at least the loose identification requirement are chosen. The \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02.
+    \item Opposite-sign muon pairs are merged into Z boson candidates and the candidate closest to the nominal Z mass is taken as the final Z candidate. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater \, 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
+    \item The remaining, third muon not selected as part of the Z candidate is taken as the probe muon 
+\end{enumerate}
+The mis-identification rate of the probe muon, in bins of the probe muon \pt, that is determined in this way can be seen in \autoref{fig:misIDRate}. However, the contribution from processes that indeed produce three muons in the hard-scattering  must be subtracted. This consists primarily of WZ$\rightarrow3\ell\nu$ processes that artifically inflate the calculated mis-identification rate at higher probe muon \pt. This contribution is subtracted using simulation. It is this corrected version of the mis-identification rate that is used in the following section. 
+
+\subsection{Application of muon mis-identification rate}
+The muon mis-identification rate is applied to a control region to estimate the contribution of reducible backgrounds to the previously described \cHZZ selection. It is useful to introduce some of the related terminology at this point. The four pass (4P) region henceforth refers to the inclusive signal region that is defined via the \cHZZ selection. The three-pass-one-fail (3P1F) and two-pass-two-fail (2P2F) regions respectively refer to regions in which the \cHZZ reconstruction is performed as previously described but where only three (two) of the muons satisfy the tight identification criteria and the remaining one (two) muon(s) satisfy only the loose identification criteria. The 3P1F and 2P2P are collectively referred to as the application region (AR). \\
+\\
+The extrapolation of the AR to the 4P is performed using the previously determined mis-identification rate. The prescription for this application can be obtained from the mis-identification rate $f_i$ which is defined as
+\begin{align}
+    f = \frac{N_{\mathrm{tight}}}{N_{\mathrm{loose}}}. 
+\end{align}
+Here $N_{\mathrm{loose}}$ and $N_{\mathrm{tight}}$ are the number of probe muons in a given bin that pass the loose and tight identification criteria respectively. From this, the relation 
+\begin{align}
+\label{eq:tightloosef}
+    N_{\mathrm{tight}} = N_{\mathrm{loose}} f
+\end{align}
+follows. Since one is interested in the contributions of muons which pass the loose but not the tight identification requirement in the AR, \autoref{eq:tightloosef} can be reinterpereted as
+\begin{align}
+\label{eq:tightloosenottightf}
+    N_{\mathrm{loose-not-tight}} = N_{\mathrm{loose}} (1-f).
+\end{align}
+By substituting this back into \autoref{eq:tightloosef}, the desired prescription is found:
+\begin{align}
+\label{eq:extrapolationprescription}
+    N_{\mathrm{tight}} = N_{\mathrm{loose-not-tight}} \frac{f}{(1-f)}.
+\end{align}
+Thus, for each muon that fails the tight identification requirements but passes the loose ones in the 3P1F and 2P2F regions, the weight $f/(1-f)$ is applied, where $f$ is the \pt \, and $\eta$ dependant muon misidentification rate. This leads to the following expressions for the individual contributions of the AR to the 4P region:
+
+\begin{enumerate}
+    \item \textbf{2P2F}: Since this region contains two muons that pass the loose identification criteria but not the tight, the weight $f/(1-f)$ must be applied twice. The total contribution of this region in the 4P region can thus be written as
+
+    \begin{align}
+        N_{\mathrm{4P}}^{\mathrm{(2P2F)}} = \sum_{k}^{\mathrm{2P2F}} \frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})},
+    \end{align}
+
+    where the $f_k^{(3/4)}$ is the misidentification rate associated with each of the non-passing muon for the $k$-th event. Major contributors to the 2P2F region are expected to be Drell-Yan and $t\overline{t}$ processes, which produce only two prompt muons. 
+
+    \item \textbf{3P1F}: Since this region contains only one muon that passes the loose identification criteria but not the tight, the weight $f/(1-f)$ is only applied. The total contribution of this region in the 4P region can thus be written as
+
+    \begin{align}
+        N_{\mathrm{4P}}^{\mathrm{(3P1F)}} = \sum_{k}^{\mathrm{3P1F}}\frac{f_k^{(4)}}{(1-f_k^{(4)})},
+    \end{align}
+
+    where the $f_k^{(4)}$ is the misidentification rate associated with the non-passing muon for the $k$-th event. The major contributor to the 3P1F ragion is expected to consist of WZ$\rightarrow3\ell\nu$ due to the presence of three prompt leptons. 
+\end{enumerate}
+To obtain the total contribution of the AR to the 4P region, potential overlap between the 2P2F and 3P1F regions must be accounted for.
 
 \section{Statistical evaluation}
 \label{sec;StatisticalEvaluation}
