@@ -2278,6 +2278,12 @@
     <bcf:citekey order="94">Hoche:2014rga</bcf:citekey>
     <bcf:citekey order="95">Hoche:2014rga</bcf:citekey>
     <bcf:citekey order="97">HIG19-001</bcf:citekey>
+    <bcf:citekey order="98">AsimovMaybe?</bcf:citekey>
+    <bcf:citekey order="99">wilksTheorem</bcf:citekey>
+    <bcf:citekey order="100">CLs</bcf:citekey>
+    <bcf:citekey order="101">NNPDF3.1</bcf:citekey>
+    <bcf:citekey order="102">HiggsHandBook</bcf:citekey>
+    <bcf:citekey order="103">Barlow-Beeston</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

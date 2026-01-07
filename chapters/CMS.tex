@@ -103,6 +103,9 @@ The triggering system is an essential component in manging the data output of th
 \\
 The trigger systems is composed of two subsystems. The first the so-called level one (L1) trigger. This is a very fast hardware-based system which reduces the event rate to $\sim$100 kHz by evaluating the presence of e.g. energetic muons or other interesting signatures such as large energy deposits in the calorimeters in an event. The total time allocated to decide whether an event should be kept is 3.2$\mu$s. Subtracting for signal propagation in the detector, the L1 system must make a decision within ~1$\mu$s. From the L1, the events are passed to a software based high-level trigger (HLT) system. This is composed of several thousand CPU cores, performing a simple reconstruction of the event signatures to make a decision whether an event should be stored. Since different analyses are interested in different signatures, a set of trigger paths are defined so that only one such path must be satisfied for an event to pass the HLT. Since the HLT is software-based, the trigger paths may be continuously updated. After the HLT, the event rate is reduced to $\sim$100 Hz and the passing events are permanently stored.
 
+\subsection{The 2018 dataset of the CMS detector}
+The dataset used in this work is comprised of the 2018 dataset, recorded by the CMS experiment during Run-2 of the LHC. This dataset is comprised of an integrated luminosity of 58.83fb$^{-1}$ worth of data at a center-of-mass energy of 13 TeV. It is used in the estimation of reducible backgrounds described in \autoref{sec:ReducibleBackgrounds} as well as in \autoref{sec:sidebandValidation}, where it is used to verify the background estimation in sidebands of the primary signal region. The samples used to this end are summarised in \autoref{table:dataSamples}.
+
 \section{Event reconstruction with the CMS detector}
 \label{sec:Reconstruction}
 Events that pass the triggering system are stored and reconstructed using a more complicated set of reconstruction algorithms. An overview of the reconstruction techniques for the objects relevant to this work, namely muons and jets, is given in this section. 
@@ -240,16 +243,16 @@ Another feature of heavy flavour jets is the presence of leptons in the jet. Thi
     \label{fig:CMSTagging}
 \end{figure}
 
-\subsection{The DeepJet algorithm}
+\subsection{The \textsf{DeepJet} algorithm}
 
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{figures/DeepJetArch.png}
-    \caption{An illustration depicting the architecture of the DeepJet neural network \cite{DeepJet}. Three individual branches separately process the charged hadrons, neutral hadrons and secondary vertex information before being passed onto a combining, fully connected layer together with global variables.}
+    \caption{An illustration depicting the architecture of the \textsf{DeepJet} neural network \cite{DeepJet}. Three individual branches separately process the charged hadrons, neutral hadrons and secondary vertex information before being passed onto a combining, fully connected layer together with global variables.}
     \label{fig:CMSDeepJet}
 \end{figure}
 
-The \textit{DeepJet} algorithm \cite{DeepJet} is a machine learning algorithm used for jet-flavour identification in this work. It improves on previous neural network based algorithms \cite{CMSTagging} used by CMS in the Run-2 period of the LHC. A notable feature compared to earlier algorithms is its use of lower level information such as use of track, PV and SV information, as well as PF candidate and event kinematics information. An overview of the architecture employed by DeepJet can be see in \autoref{fig:CMSDeepJet}. The network is comprised of three branches that individually process neutral and charged hadrons as well as secondary vertices before this information is combined with global variables in a set of fully connected layers. The network ouput consists of six output nodes representing six individual output classes. The output value of the nodes $\mathcal{P}(b/bb/lepb/c/l/g)$ for a given jet are interpreted as the likelihood that a jet belongs to the respective class. These are defined as
+The \textsf{DeepJet} algorithm \cite{DeepJet} is a machine learning algorithm used for jet-flavour identification in this work. It improves on previous neural network based algorithms \cite{CMSTagging} used by CMS in the Run-2 period of the LHC. A notable feature compared to earlier algorithms is its use of lower level information such as use of track, PV and SV information, as well as PF candidate and event kinematics information. An overview of the architecture employed by \textsf{DeepJet} can be see in \autoref{fig:CMSDeepJet}. The network is comprised of three branches that individually process neutral and charged hadrons as well as secondary vertices before this information is combined with global variables in a set of fully connected layers. The network ouput consists of six output nodes representing six individual output classes. The output value of the nodes $\mathcal{P}(b/bb/lepb/c/l/g)$ for a given jet are interpreted as the likelihood that a jet belongs to the respective class. These are defined as
 \begin{itemize}
     \item{\textbf{\textit{b/bb/lepb} (\bjet s):} These three classes represent subclasses of jets originating from a b hadron. The $b$ class represents a jet originating from a single $b$ hadron, the $bb$ class originating from two $b$ hadrons and $lepb$ representing a jet originating from a $b$ hadron with the presence of a soft lepton.}
     \item{\textbf{\textit{c} (\cjet s)}: This class represents a jet originating from a $c$ hadron.}
@@ -260,15 +263,17 @@ From these output classes, two useful discriminators to identify \cjet s can be 
     \mathrm{CvsB} = \frac{\mathcal{P}(c)}{\mathcal{P}(c)+\mathcal{P}(b)+\mathcal{P}(bb)+\mathcal{P}(lepb)},
     \mathrm{CvsL} = \frac{\mathcal{P}(c)}{\mathcal{P}(c)+\mathcal{P}(l)+\mathcal{P}(g)} \\
 \end{gather}
-representing a discrimination of \cjet s against \bjet s and light jets respectively. The performance of DeepJet with the CvsL and CvsB discriminators in simulated samples of top quark pair production can be see in \autoref{fig:DeepJetPerformance}. A comparison to the $DeepCSV$ jet-flavour identification algorithm is included, highlighting the performance gain that the DeepJet algorithm achieves.\\
+representing a discrimination of \cjet s against \bjet s and light jets respectively. The performance of \textsf{DeepJet} with the CvsL and CvsB discriminators in simulated samples of top quark pair production can be see in \autoref{fig:DeepJetPerformance}. A comparison to the \textsf{DeepCSV} jet-flavour identification algorithm is included, highlighting the performance gain that the \textsf{DeepJet} algorithm achieves.\\
 \\
 Since neural network based algorithms are trained on simulated samples that do not perfectly describe their data counterpart, the neural network output must be calibrated with respect to data. To calibrate the entire shape of the algorithm's output distributions the approach described in \cite{DeepJetShapeCalibration} is used. This involves targeting phase spaces enriched in $b$ jets (top quark pair production), $c$ jets (charm associated W$^{\pm}$ production) and light jets (jet associated Drell-Yan production). Using simulation, the fractions of $b$, $c$ and light-flavour jets are determined in each phase space and an interative fitting procedure, minimising differences between simulation and data is performed. This allows for the derivation of correction factors which depend on the discriminators CvsL and CvsB as well as the true flavour of a simulated jet. 
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{figures/DeepJetEfficiencies.png}
-    \caption{Performance of DeepJet algorithm in identifying $c$ jets against $b$ jets and light jets in simulated samples of top quark pair production, in which both top quarks decay hadronically \cite{DeepJetShapeCalibration}. The x-axis represents the efficiency with which $c$ jets are identified, while the y-axis represents mis-identification rate with respect to either $b$ jets or light jets.}
+    \caption{Performance of \textsf{DeepJet} algorithm in identifying $c$ jets against $b$ jets and light jets in simulated samples of top quark pair production, in which both top quarks decay hadronically \cite{DeepJetShapeCalibration}. The x-axis represents the efficiency with which $c$ jets are identified, while the y-axis represents mis-identification rate with respect to either $b$ jets or light jets.}
     \label{fig:DeepJetPerformance}
 \end{figure}
+
+
 
 

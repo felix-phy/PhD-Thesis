@@ -37,7 +37,7 @@ To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objec
 \subsection{Higgs candidate selection}
 A Higgs boson reconstruction algorithm (and muon object selection) very similar to those presented and validated in \cite{HIG19-001} is implemented. This reconstruction is performed for events in which exactly four selected muons are present to avoid introducing a potential bias when reconstructing non-Higgs (background) events. Then the following reconstruction steps are applied:
 \begin{enumerate}
-    \item Of the four selected muons, the \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02. 
+    \item Of the four selected muons, the \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, the HLT\_IsoMu24 trigger requirement must be met. Lastly, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02. 
     \item Opposite-sign muon pairs are merged into Z boson candidates. At least two Z boson candidates must be reconstructed to proceed. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater \, 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
     \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. 
     \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater \, 70 GeV. 
@@ -53,23 +53,18 @@ Once a Higgs boson candidate is reconstructed, a likelihood ratio algorithm is a
 To derive the relevant distributions to be used in a likelihood ratio, a parton-to-jet matching is performed in simulated \cHZZ events. This is achieved by, in a simulated event, taking the directional information of the simulated parton and matching it to a reconstructed jet with the matching requirement $\Delta R(\mathrm{jet, parton})$ \textless 0.3. All jets which match the initial jet selection are considered in this process. A jet which is matched in this way is labelled as the associated jet, while the remaining non-matched jets are labelled non-associated jets. The efficiency with which this matching is performed can be seen in \autoref{fig:partonToJetMatching efficiency}. Once this labelling is performed, the distributions of $\Delta\phi$(H, jet) and $p_{\mathrm{T}}(H)$/$p_{\mathrm{T}}(\mathrm{jet})$ for associated and non-associated jets are extracted as templates and treated as probability density functions. To capture kinematic differences associated with higher and lower \pt \, Higgs candidates, this procedure is repeated in different bins of \pt(H) listed in \autoref{table:JetSelectionHiggsBins}. \\
 \\
 Using the extracted templates, a per-jet likelihood evaluation can be made in each event. For this, the per-variable likelihood ratio 
-
 \begin{align}
     \mathcal{L}(x) = \frac{\mathcal{L}_{\mathrm{associated}}(x)}{\mathcal{L}_{\mathrm{non-associated}}(x)}, \,
     \mathrm{with} \, x \in \Big\{ \Delta\phi\mathrm{(H, jet)}, \frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})} \Big\}
 \end{align}
-
 is defined. From this follows the per-jet likelihood 
-
 \begin{align}
     \mathcal{L}(\mathrm{jet}) = \mathcal{L}\Big(\Delta\phi\mathrm{(H, jet)}\Big) \cdot \mathcal{L}\Big(\frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})}\Big)
 \end{align}
-
 that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. The efficiency with which the ``correct'' associated jet can be seen in \autoref{fig:JetAssociationEfficiency}. 
-
 \begin{table}[H]
     \centering
-    \caption[]{Muon and jet object selection requirements.}
+    \caption[]{The \pt(H) bins in which the jet selection procedure is performed.}
     \begin{adjustbox}{width=0.4\textwidth}
     \label{table:JetSelectionHiggsBins}
         \begin{tabular}{l l l l l}
@@ -88,12 +83,11 @@ that is evaluated. The jet with the highest associated likelihood in an event is
 
     \end{adjustbox}
 \end{table}
-
-With this, the individual components of the \cHZZ are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
+\noindent With this, the individual components of the \cHZZ are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
 
 \section{Signal and background estimation}
 \label{sec:s+bEstimation}
-The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, which are described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ processis specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions resulting from the described selection can be constructed for statistical evaluation and is presented in \autoref{}. 
+The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, which are described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ processis specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions resulting from applying the described selection on the 2018 dataset of the CMS detector, which is discussed in \autoref{}, can be constructed. The statistical evaluation procedure that is ultimately applied is discussed in in \autoref{}. 
 
 \subsection{Monte Carlo simulation of proton-proton collisions}
 \label{sec:MonteCarlo}
@@ -131,7 +125,7 @@ In the first line, it can be read off that the \textsf{loop\_sm} model is used, 
 \\
 In the following two lines, the proton and jet constituents are defined. Finally in the last two lines, the processes included in the simulation are defined. These are, calculated to next to leading order in QCD, the $p p \rightarrow H$ and $p p \rightarrow H+j$ processes. Both are included to give the most accurate possible kinematic description of the cH process. The reasoning for this is related to the modelling of final state partons and can be better understood by considering what is included in the leading order (LO) and next-to-leading (NLO) contributions to $p p \rightarrow H$ and $p p \rightarrow H+j$ respectively. At leading order, an additional jet in $p p \rightarrow H$ can only be generated via the parton shower. Thus, this contribution is expected to best model the lower momentum behaviour of final state partons. The NLO contributions to $p p \rightarrow H$, which correspond to LO contritubtions of $p p \rightarrow H+j$, in turn are expected to beeter model higher momentum behaviour of the final state parton. The same logic is applied to the LO contributions of $p p \rightarrow H+j$ and the NLO contributions of $p p \rightarrow H+j$, where two final state partons explicitly appear in the calculation of the latter. This approach clearly introduces double counting of processes, however these are automatically accounted for by the event generator. Similarly, the FxFx merging scheme is used to remove any double counting between parton shower and matrix element contributions.  \\
 \\
-To capture uncertainties associated with the choice of a particular flavour scheme, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing the cases where a charm \textit{must} originate from gluon splitting or the proton respectively. From these samples, an uncertainty envelope is constructed that is used in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
+To capture uncertainties associated with the choice of a particular flavour scheme, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing the cases where a charm \textit{must} originate from gluon splitting or the proton respectively. From these samples, an uncertainty envelope is constructed for the discriminators distribution in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. This envelope is constructed by taking the discrepancy between the 3FS and 4FS samples and applying it as an uncertainty band the the nominal 4FS FxFx sample. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
 \\
 \begin{table}[H]
     \centering
@@ -177,7 +171,7 @@ Irreducible background processes are background processes that produce the same 
         $gg$$\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
         $gg$$\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
         $gg$$\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        qq$\rightarrow$ZZ(4L) & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
+        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
         \midrule 
         bH 5FS FxFx & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
         bH 4FS & HPlusBottom\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
@@ -196,13 +190,13 @@ Reducible background processes are background processes that do not produce the 
 \subsubsection{Determination of muon mis-identification rate}
 To determine the mis-identification of muons with respect to the tight muon requirement outlined in \autoref{sec:MuonReconstruction}, a three-muon selection is applied to data. Specifically, events with a $Z\rightarrow\mu^+\mu^-$ decay that also contain a third muon are targeted. Since hard-scattering processes that produces a Z boson are not expected to produce any additional muons, the third reconstructed muon (typically referred to as the \textit{probe muon}) is assumed to be one that is mis-identified as such. To determine a mis-identification rate, the ratio of probe muons that pass the tight muon requirement with respect to those that pass the loose muon requirement is calculated. This procedure is performed in bins of the probe muon \pt for the barrel ($\lvert \eta \rvert \leq 1.2$) and endcap ($\lvert \eta \rvert > 1.2$) regions respectively. The exact reconstruction algorithm that is applied is the following:
 \begin{enumerate}
-    \item Events that contain at least two muons that pass the tight identification requirement and where the third passes at least the loose identification requirement are chosen. The \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02.
+    \item Events that contain at least two muons that pass the tight identification requirement and where the third passes at least the loose identification requirement are chosen. The \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, the HLT\_IsoMu24 trigger requirement must also be met. Lastly, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02.
     \item Opposite-sign muon pairs are merged into Z boson candidates and the candidate closest to the nominal Z mass is taken as the final Z candidate. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater \, 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
     \item The remaining, third muon not selected as part of the Z candidate is taken as the probe muon 
 \end{enumerate}
-The mis-identification rate of the probe muon, in bins of the probe muon \pt, that is determined in this way can be seen in \autoref{fig:misIDRate}. However, the contribution from processes that indeed produce three muons in the hard-scattering  must be subtracted. This consists primarily of WZ$\rightarrow3\ell\nu$ processes that artifically inflate the calculated mis-identification rate at higher probe muon \pt. This contribution is subtracted using simulation. It is this corrected version of the mis-identification rate that is used in the following section. 
+The mis-identification rate of the probe muon that is determined in this way in bins of the probe muon \pt, can be seen in \autoref{fig:misIDRate}. However, the contribution from processes that indeed produce three muons in the hard-scattering  must be subtracted. This consists primarily of WZ$\rightarrow3\ell\nu$ processes that artifically inflate the calculated mis-identification rate at higher probe muon \pt. This contribution is subtracted using simulation. It is this corrected version of the mis-identification rate that is used in the following section. 
 
-\subsection{Application of muon mis-identification rate}
+\subsubsection{Application of muon mis-identification rate}
 The muon mis-identification rate is applied to a control region to estimate the contribution of reducible backgrounds to the previously described \cHZZ selection. It is useful to introduce some of the related terminology at this point. The four pass (4P) region henceforth refers to the inclusive signal region that is defined via the \cHZZ selection. The three-pass-one-fail (3P1F) and two-pass-two-fail (2P2F) regions respectively refer to regions in which the \cHZZ reconstruction is performed as previously described but where only three (two) of the muons satisfy the tight identification criteria and the remaining one (two) muon(s) satisfy only the loose identification criteria. The 3P1F and 2P2P are collectively referred to as the application region (AR). \\
 \\
 The extrapolation of the AR to the 4P is performed using the previously determined mis-identification rate. The prescription for this application can be obtained from the mis-identification rate $f_i$ which is defined as
@@ -230,7 +224,7 @@ Thus, for each muon that fails the tight identification requirements but passes 
     \item \textbf{2P2F}: Since this region contains two muons that pass the loose identification criteria but not the tight, the weight $f/(1-f)$ must be applied twice. The total contribution of this region in the 4P region can thus be written as
 
     \begin{align}
-        N_{\mathrm{4P}}^{\mathrm{(2P2F)}} = \sum_{k}^{\mathrm{2P2F}} \frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})},
+        N_{\mathrm{4P}}^{\mathrm{(2P2F)}} = \sum_{k}^{N_{\mathrm{2P2F}}} \frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})},
     \end{align}
 
     where the $f_k^{(3/4)}$ is the misidentification rate associated with each of the non-passing muon for the $k$-th event. Major contributors to the 2P2F region are expected to be Drell-Yan and $t\overline{t}$ processes, which produce only two prompt muons. 
@@ -238,13 +232,110 @@ Thus, for each muon that fails the tight identification requirements but passes 
     \item \textbf{3P1F}: Since this region contains only one muon that passes the loose identification criteria but not the tight, the weight $f/(1-f)$ is only applied. The total contribution of this region in the 4P region can thus be written as
 
     \begin{align}
-        N_{\mathrm{4P}}^{\mathrm{(3P1F)}} = \sum_{k}^{\mathrm{3P1F}}\frac{f_k^{(4)}}{(1-f_k^{(4)})},
+        N_{\mathrm{4P}}^{\mathrm{(3P1F)}} = \sum_{k}^{N_{\mathrm{3P1F}}}\frac{f_k^{(4)}}{(1-f_k^{(4)})},
     \end{align}
 
     where the $f_k^{(4)}$ is the misidentification rate associated with the non-passing muon for the $k$-th event. The major contributor to the 3P1F ragion is expected to consist of WZ$\rightarrow3\ell\nu$ due to the presence of three prompt leptons. 
 \end{enumerate}
-To obtain the total contribution of the AR to the 4P region, potential overlap between the 2P2F and 3P1F regions must be accounted for.
+To obtain the total contribution of the AR to the 4P region, potential contaminations of the 2P2F and 3P1F regions must be accounted for. The first source of contamination is the potential overlap of the 3P1F region with contributions from the 2P2F region, where an additional muon has been mis-identified in the former and erroneously passes the tight identificatio criteria. This may lead to an overestimation of the 3P1F region. Such contributions can be estimated via the term
+\begin{align}
+    N_{\mathrm{exp.}}^{\mathrm{(3P1F)}} = \sum_{k}^{N_{\mathrm{2P2F}}} \big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} + \frac{f_k^{(4)}}{(1-f_k^{(4)})} \big).
+\end{align}
+Effectively, contributions from the 2P2F region are weighed with the mis-identification rate for both muons that fail the tight identification criteria. To then extrapolate this contribution to the 4P region, the fake rate must once again be applied, this time to the respective complementary muon. This produces the final term
+\begin{align}
+    N_{\mathrm{4P exp.}}^{\mathrm{(3P1F)}} =& \sum_{k}^{N_{\mathrm{2P2F}}} \big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})} + \frac{f_k^{(4)}}{(1-f_k^{(4)})}\frac{f_k^{(3)}}{(1-f_k^{(3)})} \big) \\
+    = & 2 \sum_{k}^{N_{\mathrm{2P2F}}}\big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})})
+\end{align}
+\\
+\\
+\noindent An additional source of potential contamination is the contribution of four muon processes in which muons either fail the tight identification criteria or fall outside the detector acceptance. This is primarily relevant in the 3P1F region with contributions from qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L processes, which again lead to an overestimation of the 3P1F region. Contributions to the 4P region from this, denoted with $N_{\mathrm{4P}}^{\mathrm{(ZZ, 3P1F)}}$ are estimated via simulation with the same prescription as data events in the 3P1F region:
+\\
+\begin{align}
+    N_{\mathrm{4P}}^{\mathrm{(ZZ, 3P1F)}} = \sum_{k}^{N_{\mathrm{3P1F}}^{ZZ}}\frac{f_k^{(4)}}{(1-f_k^{(4)})},
+\end{align}
+\\
+The total contribution to the 4P region $N_{\mathrm{4P}}$ may finally be estimated by taking the sum of the 2P2F and 3P1F contributions and subtracting the discussed contamination terms. This leads to
+\begin{align}
+    N_{\mathrm{4P}} =& N_{\mathrm{4P}}^{\mathrm{(2P2F)}} + N_{\mathrm{4P}}^{\mathrm{(3P1F)}} - N_{\mathrm{4P exp.}}^{\mathrm{(3P1F)}} - N_{\mathrm{4P}}^{\mathrm{(ZZ, 3P1F)}} \\
+    =& \sum_{k}^{N_{\mathrm{3P1F}}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{3P1F}}^{ZZ}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{2P2F}}}\big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})})
+\end{align}
+\\
+However, it is found that due to the strong muon identification criteria an extremely small yield of reducible backgrounds are observed. Since this leads to non-continuous distributions of observables, a simplification must be made for the final statistical evaluation. 
 
-\section{Statistical evaluation}
-\label{sec;StatisticalEvaluation}
+...
+
+\section{Validation of \cHZZ event selection in sideband regions}
+\label{sec:sidebandValidation}
+Here, a validation of the described event selection is presented. Specifically, the 2018 dataset of the CMS detector is compared to simulation in sideband regions of the signal for a variety of observables. These side-band regions include all selected events outside of the 120 GeV \textless $m$(H) \textgreater 130 GeV region, which is where the \cHZZ is expected to be found. The .. 
+\section{Statistical inference}
+\label{sec:StatisticalEvaluation}
+For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseuo-two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on these distributions that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
+\\
+\subsection{Statistical model}
+\label{sec:statisticalModel}
+Assuming the absence of a measurable signal, a upper limit on $\sigma$BR(\cHZZ) may be set. This in turn may be interpreted as a limit on \kappac \, using the prescription derived in \autoref{sec:kappaframework}. To do this, a statistical model is required to predict the distribution of the number entries in each bin of the discriminator histogram according to a given hypothesis. Since each of the bins are filled in a discrete couting process, a Poissonian Ansatz with 
+\begin{align}
+    \mathcal{P}(k; \lambda) = \frac{\lambda^{k} e^{-\lambda}}{k!}
+\end{align}
+is appropriate. Here, $\lambda$ denotes the expectation value with $k$ observed events. In the $i$-th bin of the discriminator distribution, the expecation value $\lambda_i$ is calculated using the models of the signal and background processes discussed in \autoref{sec:s+bEstimation}. This amounts to $\lambda_i = \mu s_i + b_i$ where $s_i$ and $b_i$ are the signal and background estimations respectively. The signal strength modifier $\mu$ allows for an arbitrary scaling of the signal contribution and is used as a floating parameter in the inference process. From this, a combined binned likelihood function 
+\begin{align}
+    \label{binned_likelihood}
+    \mathcal{L} (d \, | \, \mu \cdot s(\bm{\theta}) + b(\bm{\theta})) = \prod_{i \in \mathrm{bins}} \mathcal{P}(d_i \, | \, \mu \cdot s(\bm{\theta}) + b(\bm{\theta})) \, \,  \mathrm{x} \prod_{j \in \mathrm{nuis.}} \mathcal{C} ({\hat{\theta_j}} \, | \, \theta_j).
+\end{align}
+may be derived for some set of measured data $d_i$. Here, an uncertainty model is introduced via the nuisance parameters $\bm{\theta}$ that account for uncertainties related to the signal and background estimation. These follow a distribution $\mathcal{C}$ and may alter the scaling of the signal and background contributions as well as their histogram shape with respect to the discriminator that is us. The estimate of $\bm{\theta}$ that is used to obtain estimations of $s_i$ and $b_i$ in the inference process is denoted by $\bm{\hat{\theta}}$ and is found by finding the global maximum of the likelihood. The specifics of the uncertainty model employed in this analysis are discussed in \autoref{sec:uncertaintyModel}. Since the statistical evaluation is not applied to data in this analysis, an Asimov dataset \cite{AsimovMaybe?} is used. To compare different hypotheses, the test statistic that is used is the \textit{profile likelihood ratio}
+\begin{align}
+    \label{test_statistic}
+ q_{\mu} = -2 \mathrm{ln}\Bigg(\frac{\mathcal{L} (d \, | \, \mu \cdot s(\bm{\hat{\theta}_{\mu}}) + b(\bm{\hat{\theta}_{\mu}}))}{\mathcal{L} (d \, | \, \hat{\mu} \cdot s(\bm{\hat{\theta}}) + b(\bm{\hat{\theta}}))} \Bigg),
+\end{align}
+where ($\hat{\mu}$, $\hat{\bm{\theta}}$) are the parameter values that globally maximise the likelihood while $\bm{\hat{\theta}_{\mu}}$ maximises the likelihood for a given $\mu$. A significant advantage of this test statistic is that in the large sample limit, the distribution $f(q \, | \mu)$ approaches the $\chi^2_k$ distribution with $k=1$ degrees of freedom, according to Wilk's theorem \cite{wilksTheorem}. This is very useful as knowing the distribution of the test statistic allows one to calculcate a p-value 
+
+\begin{align}
+    p_{\mu} = \int_{q_{\mathrm{obs.}}}^{\infty} f(q \, | \, \mu) \mathrm{d}q .
+\end{align}
+With this p-value, the \CLs method may be applied \cite{CLs}. For this, a \CLs value 
+\begin{align}
+    \mathrm{CL_s} = \frac{p_{\mu}}{1 - p_0} = \frac{\int_{q_{\mathrm{obs.}}}^{\infty} f( q \, | \, \mu) \, \mathrm{d}q}{\int_{q_{\mathrm{obs.}}}^{\infty} f( q \, | \, 0) \, \mathrm{d}q} .
+\end{align}
+is computed. A feature of this method is that large overlaps of test statistic distributions between the $H_{\mu}$ and $H_{0}$ hypotheses, due to the very small signal cross section associated with $H_{\mu}$, are accounted for. This is achieved by weighting $p_{\mu}$ with $(1 - p_{0})^{-1}$, thus decreasing the \CLs value with larger overlaps.
+
+\subsection{Uncertainty model}
+The sources of uncertainty in the model of the signal and background processes are described in this section. These consist of two types. The first are shape uncertainties, which may change the normalisation as well as the shape of the distributions in question. These uncertainties are captured by creating variations of these distributions that are interpreted as $\pm 1\sigma$ variations. The second type consists of normalisation uncertainties. These only affect the normalisation of distributions without affecting the shape and can thus be captured as a single, real paarameter. Both types of uncertainties are associated with respective nuisance parameters in the statistical model introduced in \autoref{sec:statisticalModel}.
+\subsubsection{Theoretical uncertainties common to simulation}
+A number of theoretical uncertainties that are common to all simulated sample are included in the uncertainty model. This includes:
+\begin{itemize}
+    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing four shape-changing nuisance parameters. 
+    \item Shape uncertainties related to the modelling of the Parton Distribution Function (PDF). These uncertainties are obtained from the \textsf{NNPDF3.1} PDF set that is used in simulation \cite{NNPDF3.1} and includes 100 PDF variations associated with variations of indiviudal parameters. These are combined into a single nuisance parameter with the prescription   
+    \begin{equation}
+    \label{eq:symmhessian}
+    \sigma^+ = \sigma^- = \sqrt{\sum_{i=1}^{N_{\text{par}}} \left( F_i - F_0 \right)^2}\,,
+    \end{equation}
+    where $F_0$ is the nominal value of the observable in question and $F_i$ is the varied value associated with one of the $N_{\text{par}}$ parameter variations.
+    \item Normalisation uncertainties related to the cross sections of the individual processes. These are:
+        \begin{itemize}
+            \item{Higgs production and branching ratio uncertainties taken from \cite{HiggsHandBook}}
+            \item{A 50\% normalisation uncertainty on the modelling of the gluon fusion process in association with heavy quarks ?? Ask gerrit. }
+            \item{Other process uncertainties...}
+        \end{itemize}
+    \item Shape uncertainties related to the tuning of the parton showering used in the generator. These are implemented by varying parameters related to initial-state radiation and final-state radiation independently, introducing two nuisance parameters. 
+    \item A shape uncertainty related to the application of a pile-up reweighting procedure, with which the pile-up profile of simulation is matched to that of data. These uncertainties are captured via a single nuisance parameter. 
+\end{itemize}
+\subsubsection{Experimental uncertainties common to simulation}
+The following experimental uncertainties are common to all simulated sample:
+\begin{itemize}
+    \item Shape uncertainties related to the jet energy scale. For this, a simplified schema is used in which closely correlated uncertainty sources are grouped and captured across 11 individual nuisance parameters. Sources of uncertainty include for example the limited set of data available for the calibration procedure or differences in calibration response to different jet flavours. 
+    \item A shape uncertainty related to the smearing method used to correct the jet energy resolution. This is captured via a single nuisance parameter.
+    \item Shape uncertainties related to the calibration of the jet flavour-tagging algorithm that is used. These are captured via 13 nuisance parameters and include for example uncertainty sources related to the individual phase spaces targeted in the calibration or the limited set of avaialble data. 
+    \item A shape uncertainty related to the pile-up identification method that is used. This is captured via a single nuisance parameter.
+    \item Shape uncertainties related to the muons used in the analysis. The response of the muon identification criteria, the isolation as well as the muon trigger path in simulation is calibrated to match data. Uncertainties associated with this calibration are captured via a nuisance parameter. 
+    \item A normalisation uncertainty related to the luminosity with which the simulation is scaled, which is known with a limited precision. This amounts 2.5\% for the 2018 dataset and is caputured as a single nuisance parameter. 
+\end{itemize}
+\subsubsection{Uncertainties related to \cHZZ and \bHZZ modelling}
+A systematic uncertainty that is unique to \cHZZ and \bHZZ is that associated with the use of a specific flavour scheme. As discussed in \autoref{sec:cHSimulation}, an envelope representing a $\pm 1\sigma$ variation is extracted from the respective 3FS (4FS) and 4FS (5FS) samples and applied to the nominal \cHZZ 4FS FxFx (\bHZZ 5FS FxFx) sample.
+\subsubsection{Uncertainties related to reducible background modelling}
+Due to the almost neglible nature of the reducible background contribution, a simple normalisation uncertainty is introduced to account for uncertainties associated with this estimation procedure...
+\subsubsection{Uncertainties related to statistical precision of background estimation}
+Simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{Barlow-Beeston}.
+\section{Results}
+In this section, the result of the presented methods is discussed. 
+\label{sec:uncertaintyModel} 
 

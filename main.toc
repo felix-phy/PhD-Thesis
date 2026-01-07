@@ -42,6 +42,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.7}The triggering system}{23}{subsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.8}The 2018 dataset of the CMS detector}{24}{subsection.2.1.8}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Event reconstruction with the CMS detector}{24}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Track and vertex reconstruction}{24}{subsection.2.2.1}%
@@ -58,7 +60,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Properties of heavy-flavour jets}{29}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}The DeepJet algorithm}{30}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}The \textsf {DeepJet} algorithm}{30}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{33}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -80,12 +82,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Determination of muon mis-identification rate}{40}{section*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Application of muon mis-identification rate}{41}{subsection.3.2.5}%
+\contentsline {subsubsection}{Application of muon mis-identification rate}{41}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Statistical evaluation}{42}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Validation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{43}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{43}{chapter.4}%
+\contentsline {section}{\numberline {3.4}Statistical inference}{43}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{45}{chapter*.27}%
+\contentsline {subsection}{\numberline {3.4.1}Statistical model}{43}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{47}{chapter*.28}%
+\contentsline {subsection}{\numberline {3.4.2}Uncertainty model}{45}{subsection.3.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{45}{section*.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Experimental uncertainties common to simulation}{46}{section*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{46}{section*.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Uncertainties related to reducible background modelling}{46}{section*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{46}{section*.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Results}{47}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{49}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{51}{chapter*.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{53}{chapter*.34}%
