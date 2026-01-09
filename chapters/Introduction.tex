@@ -196,6 +196,7 @@ is obtained. A curious feature of the SM is that the Yukawa-couplings $y_{\mathr
 By measuring the frequency of occurence of physics processes in which the coupling between the Higgs boson and charm quark appears, $y_{\mathrm{c}}$ may be determined. As such, a suitable process must be found that can be detected by an experiment such as CMS. These fall into two categories. The first consists of processes in which a Higgs boson decays into a charm and anti-charm quark pair (H$\rightarrow$\ccbar). Previous analysis of e.g. top quark pair and vector boson associated Higgs production has been able to observe a 95\% CL upper limit on the charm quark Yukawa coupling modifier \kappac \, (see \autoref{sec:kappaframework} for a detailed discussion) of \kappac \, \textless \, $\mid$3.5$\mid$ \cite{cmscollaboration2025simultaneousprobecharmquark}, the most stringent limit to date. The second category consists of processes in which a Higgs boson is produced in association with a charm quark. This latter category of processes is the focus of this work and is henceforth referred to as the cH process.
 
 \subsection{The cH process}
+\label{sec:thecHProcess}
 The cH process encompasses processes in proton-proton collisions in which a charm-quark is produced alongside a Higgs boson. At leading order, this consists of 2 processes sensitive to \yc,\, represented by the Feyman diagrams shown in \autoref{fig:cHFeynman}. The first two diagrams, namely the s and t-channel diagrams, constitute the \yc \, sensitive contribution. There exist also additional cH processes, mediated through the effective Higgs boson to gluon coupling, which are not sensitive to \yc. These account for approximately 80\% of the inclusive cH cross section and thus represents a significant background to the cH process sensitive to the charm quark Yukawa coupling. \\
 \\
 Targeting the cH process to measure \yc \, is a relatively novel strategy in comparison to targeting H$\rightarrow$\ccbar. A key advantage of this approach is that contributions from the abudant QCD background at the LHC are greatly reduced due to only needing to identify the flavour of single jet resulting from a charm quark, as opposed to two. Additionally, since the sensivity to \yc \, does not originate from the decay of the Higgs boson, the Higgs boson decay mode to target can be chosen freely. Especially signatures such as H$\rightarrow$ZZ$\rightarrow$4$\mu$, which may be resolved cleanly by an experiment such as CMS, can be targeted. However, an analysis of the cH process also comes with drawbacks. A significant experimental difficulty results from the fact that the associated charm flavour jets are typically produced at very low transverse momenta \pt, as seen in \autoref{fig:JetPtcH}. These can be experimentally difficult to reconstruct and thus a significant portion of this signal may be lost due to detector acceptance effects. Another drawback is that Higgs boson decay channels such as H$\rightarrow$ZZ$\rightarrow$4$\mu$ have very small branching ratios (e.g. BR(H$\rightarrow$ZZ$\rightarrow$4$\mu$) =  0.3\% \cite{PhysRevD.110.030001}) and thus the overall cross section of the cH process may be very small. As a result of these effects, a key challenge of a search for the cH process is expected to lie in the tatistical uncertainty of the analysis.\\
@@ -222,11 +223,11 @@ As a novel strategy, targeting the cH process is of recent interest and results 
         \vertex at (4, 2) (o1);
         \vertex at (4, -2) (o2);
         \diagram*{
-            (i1) -- [fermion, edge label={\textit{c}}, at start] (a),
-            (i2) -- [gluon, edge label={\textit{g}}, at start] (b),
+            (i1) -- [fermion, edge label={\textit{c}}, near start] (a),
+            (i2) -- [gluon, edge label'={\textit{g}}, near start] (b),
             (a) -- [fermion, edge label={\textit{c}}] (b),
-            (a) -- [scalar, edge label={\textit{H}}, at end] (o1),
-            (b) -- [fermion, edge label={\textit{c}}, at end] (o2);
+            (a) -- [scalar, edge label={\textit{H}}, near end] (o1),
+            (b) -- [fermion, edge label'={\textit{c}}, near end] (o2);
         };
     \end{feynman}
     \draw[fill=red] (a) circle(1mm);
@@ -244,11 +245,11 @@ As a novel strategy, targeting the cH process is of recent interest and results 
         \vertex at (5, 2) (o1);
         \vertex at (5, -2) (o2);
         \diagram*{
-            (i1) -- [fermion, edge label={\textit{c}}, at start] (a),
-            (i2) -- [gluon, edge label={\textit{g}}, at start] (a),
+            (i1) -- [fermion, edge label={\textit{c}}, near start] (a),
+            (i2) -- [gluon, edge label'={\textit{g}}, near start] (a),
             (a) -- [fermion, edge label={\textit{c}}] (b),
-            (b) -- [scalar, edge label={\textit{H}}, at end] (o1),
-            (b) -- [fermion, edge label={\textit{c}}, at end] (o2);
+            (b) -- [scalar, edge label={\textit{H}}, near end] (o1),
+            (b) -- [fermion, edge label'={\textit{c}}, near end] (o2);
         };
     \end{feynman}
     \draw[fill=red] (b) circle(1mm);

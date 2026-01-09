@@ -8,7 +8,34 @@ loss in acceptance?
 fix simulation diagram
 make all plots relevant to jet selection
 make plot regarding diagram selection
-introduce the data datasets that are used
+introduce the data datasets that are used (maybe)
 reducible background stuff
 check wilks theorem stuff
 theoretical uncertainties
+
+
+
+
+
+
+
+Overall:
+
+- Stuff on cH sample:
+    -- Make diagram selection of cH 
+    -- jet selection plots
+    -- genParton diagram
+    -- loss in acceptance from selection
+
+--reducible backgrounds:
+    -- use total yield with 3P1F shape? 
+
+--unceratinties: 
+    -- implement PDF and scale uncertainties
+    -- check theory uncertainties
+        --- 50% on ggH?
+        --- other cross sections
+
+--k-factors?
+
+--do the fit..
