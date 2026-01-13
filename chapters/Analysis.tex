@@ -18,14 +18,15 @@ To reconstruct a Higgs (jet) candidate, an initial selection of muon (jet) objec
         \midrule 
         \midrule
         Muons & \pt \, \textgreater \, 5 GeV \\
-        & $\mid\eta\mid$ \textless \, 2.4 \\
+        & $\mid$$\eta$$\mid$ \textless \, 2.4 \\
         & Tight muon identification criteria \\
         \midrule
         Jets & \pt \, \textgreater \, 25 GeV \\
-        & $\mid\eta\mid$ \textless \, 2.5 \\
+        & $\mid$$\eta$$\mid$ \textless \, 2.5 \\
         & Jet ID \\
         & Pile-up ID, loose working point \\
-        & $\Delta R$(jet, selected muons) \textless \, 0.4 \\
+        & $\Delta R$(jet, selected muons) \textgreater \, 0.4 \\
+        & Jets in veto regions of detector are excluded \\
         \midrule 
         HLT & HLT\_IsoMu24 is triggered\\
         \bottomrule
@@ -144,8 +145,8 @@ An overview of the relative occurence of these topologies in the generated sampl
         \vertex at (2, 0) (b);
         \vertex at (4, 0) (o1);
         \diagram*{
-            (i1) -- [fermion, edge label'={\textit{c}}, near start] (a),
-            (i2) -- [fermion, edge label={\textit{c}}, near start] (a),
+            (i1) -- [plain, edge label'={\textit{c}}, near start] (a),
+            (i2) -- [plain, edge label={\textit{c}}, near start] (a),
             (a) -- [scalar, edge label={\textit{H}}] (o1),
         };
     \end{feynman}
@@ -167,11 +168,11 @@ An overview of the relative occurence of these topologies in the generated sampl
         \vertex at (5, 2) (o1);
         \vertex at (5, -2) (o2);
         \diagram*{
-            (i1) -- [fermion, edge label={\textit{c}}, near start] (a),
+            (i1) -- [plain, edge label={\textit{c}}, near start] (a),
             (i2) -- [gluon, edge label={\textit{g}}, near start] (a),
-            (a) -- [fermion, edge label={\textit{c}}] (b),
+            (a) -- [plain, edge label={\textit{c}}] (b),
             (b) -- [scalar, edge label={\textit{H}}, near end] (o1),
-            (b) -- [fermion, edge label={\textit{c}}, near end] (o2);
+            (b) -- [plain, edge label={\textit{c}}, near end] (o2);
         };
     \end{feynman}
     \draw[fill=red] (b) circle(1mm);
@@ -194,13 +195,13 @@ An overview of the relative occurence of these topologies in the generated sampl
         \vertex at (4, -2) (o2);
         \vertex at (4, 0) (o3);
         \diagram*{
-            (i1) -- [gluon, edge label={\textit{g}}, near start] (i3),
-            (i2) -- [gluon, edge label'={\textit{g}}, near start] (i4),
-            (i3) -- [fermion, edge label={\textit{c}}] (a),
-            (i4) -- [fermion, edge label'={\textit{c}}] (a),
+            (i1) -- [gluon, edge label={\textit{g}}] (i3),
+            (i2) -- [gluon, edge label'={\textit{g}}] (i4),
+            (i3) -- [plain, edge label={\textit{c}}] (a),
+            (i4) -- [plain, edge label'={\textit{c}}] (a),
             (a) -- [scalar, edge label={\textit{H}}, near end] (o3),
-            (i3) -- [fermion, edge label={\textit{c}}, near end] (o1);
-            (i4) -- [fermion, edge label={\textit{c}}, near end] (o2);
+            (i3) -- [plain, edge label={\textit{c}}, near end] (o1);
+            (i4) -- [plain, edge label={\textit{c}}, near end] (o2);
         };
     \end{feynman}
     \draw[fill=red] (a) circle(1mm);
@@ -222,13 +223,13 @@ An overview of the relative occurence of these topologies in the generated sampl
         \vertex at (4.5,-1.5) (o2);
         \vertex at (4.5,-3.5) (o3);
         \diagram*{
-            (i1) -- [fermion, edge label={\textit{c}}, near start] (a),
-            (i2) -- [fermion, edge label={\textit{l}}, near start] (d),
+            (i1) -- [plain, edge label={\textit{c}}, near start] (a),
+            (i2) -- [plain, edge label={\textit{l}}, near start] (d),
             (d) -- [gluon, edge label={\textit{g}}] (b),
-            (a) -- [fermion, edge label={\textit{c}}] (b),
+            (a) -- [plain, edge label={\textit{c}}] (b),
             (a) -- [scalar, edge label={\textit{H}}, near end] (o1),
-            (b) -- [fermion, edge label={\textit{c}}, near end] (o2);
-            (d) -- [fermion, edge label={\textit{l}}, near end] (o3);
+            (b) -- [plain, edge label={\textit{c}}, near end] (o2);
+            (d) -- [plain, edge label={\textit{l}}, near end] (o3);
         };
     \end{feynman}
     \draw[fill=red] (a) circle(1mm);
@@ -244,16 +245,16 @@ To capture uncertainties associated with the choice of a particular flavour sche
 \begin{table}[H]
     \centering
     \caption[]{\cHZZ samples used in this work}
-    \begin{adjustbox}{width=1\textwidth}
+    \begin{adjustbox}{width=0.7\textwidth}
     \label{table:SignalSamples}
         \begin{tabular}{l l l}
         \toprule 
-        \textbf{Process} & \textbf{Tag} & \textbf{$\sigma$} \\
+        \textbf{Process} & \textbf{$\sigma$} & \textbf{\# of simulated events}\\
         \midrule 
         \midrule
-        \cHZZ 4FS FxFx & HPlusCharm\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
-        \cHZZ 3FS & HPlusCharm\_3FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
-        \cHZZ 4FS & HPlusCharm\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        \cHZZ 4FS FxFx & & xx \\
+        \cHZZ 3FS & & xx \\
+        \cHZZ 4FS & & xx \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
@@ -263,43 +264,324 @@ To capture uncertainties associated with the choice of a particular flavour sche
 
 \subsection{Estimation of irreducible backgrounds}
 \label{sec:IrreducibleBackgrounds}
-Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, th processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds of this analysis are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
+Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, the processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds condiered in this work are:\\
+\begin{itemize}
+    \item \textbf{Gluon fusion (ggH)}: In these processes, a pair of gluons produce an intermediary (top) quark pair loop that produces a Higgs boson. The Higgs boson decay may produce four muons while parton radiation may produce additional jets. An example Feynman diagram of the ggH process can be seen in \autoref{fig:ggH}. 
+    \item \textbf{Top quark pair assocaited Higgs production(ttH)}: In ttH processes, a pair of top quarks is produced alongside a Higgs boson. The Higgs boson decay may produce four muons while the decay of the top quark pairs produces additional b jets. An example Feynman diagram of the ttH process can be seen in \autoref{fig:ttH}.
+    \item \textbf{Vector boson associated Higgs production (VH)}: The vector boson produced alongside a Higgs boson may refer to W$^{\pm}$ and Z bosons. Thus, three different process types contribute to this background, namely $W^{+}$H,  $W^{+}$H and ZH. The Higgs boson decay may produce four muons while a W$^{\pm}$ boson decay as well as a Z boson decay may produce additional jets. An example Feynman diagram of these processes can be seen in \autoref{fig:ZH}.
+    \item \textbf{Vector boson fusion (qqH)}: In vector boson fusion processes, two vector bosons emitted by initial state quarks fuse to produce a Higgs boson. The Higgs boson decay may produce four muons while additional final state quarks that produce jets are also present. An example Feynman diagram of the qqH process can be seen in \autoref{fig:qqH}. 
+    \item \textbf{Top quark plus quark associated Higgs production (tqH)}: In tqH processes, a top quark as well as a quark of a different flavour are produced alongside a Higgs boson. The Higgs boson decay may produce four muons while the additional (top) quark will produce a (b) jet. An example Feynman diagram of the tqH process can be seen in \autoref{fig:tqH}.
+    \item \textbf{ZZ production from gluons (gg$\rightarrow$ZZ)}: A pair of Z bosons can be produced from a pair of initial state gluons via an intermediate quark loop. The Z boson decays may produce four muons while additional parton radiation may produce jets. An example Feynman diagram of the gg$\rightarrow$ ZZ process can be seen in \autoref{fig:ggZZ} 
+    \item \textbf{ZZ production from quarks (qq$\rightarrow$ZZ)}: A pair of Z bosons can be produced from two initial state quarks. The Z boson decays may produce four muons while additional parton radiation may produce jets. An example Feynman diagram of the qq$\rightarrow$ZZ process can be seen in \autoref{fig:qqZZ}.
+\end{itemize}
+\begin{figure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            %\vertex[dot, color=red, size=1mm] at (2, 0.5) {\(y_c\)};
+            \vertex at (0, 1) (i1);
+            \vertex at (0,-1) (i2);
+            \vertex at (2, 1) (a);
+            \vertex at (2, -1) (b);
+            \vertex at (4, 0) (c);
+            \vertex at (5, 0) (o1);
+            \diagram*{
+                (i1) -- [gluon, edge label'={\textit{g}}] (a),
+                (i2) -- [gluon, edge label={\textit{g}}] (b),
+                (a) -- [plain, edge label'={\textit{q}}] (b),
+                (b) -- [plain, edge label'={\textit{q}}] (c),
+                (c) -- [plain, edge label'={\textit{q}}] (a),
+                (c) -- [scalar, edge label={\textit{H}}] (o1),
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The ggH process.}
+        \label{fig:ggH}
+        \vspace{10mm}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1, -1) (i2);
+            \vertex at (1, 1) (i3);
+            \vertex at (1, -1) (i4);
+            \vertex at (2, 0) (a);
+            \vertex at (4, 1) (o1);
+            \vertex at (4, -1) (o2);
+            \vertex at (4, 0) (o3);
+            \diagram*{
+                (i1) -- [gluon, edge label'={\textit{g}}] (i3),
+                (i2) -- [gluon, edge label={\textit{g}}] (i4),
+                (i3) -- [plain, edge label'={\textit{t}}] (a),
+                (i4) -- [plain, edge label={\textit{t}}] (a),
+                (a) -- [scalar, edge label={\textit{H}}] (o3),
+                (i3) -- [plain, edge label'={\textit{t}}] (o1);
+                (i4) -- [plain, edge label={\textit{t}}] (o2);
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The ttH process.}
+        \label{fig:ttH}
+        \vspace{10mm}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            %\vertex[dot, color=red, size=1mm] at (2, 0.5) {\(y_c\)};
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1,-1) (i2);
+            \vertex at (0.5, 0) (a);
+            \vertex at (2.5, 0) (b);
+            \vertex at (4, 1) (o2);
+            \vertex at (4, -1) (o1);
+            \diagram*{
+                (i1) -- [plain, edge label={\textit{q'}}] (a),
+                (i2) -- [plain, edge label'={\textit{q}}] (a),
+                (a) -- [boson, edge label'={\textit{V}}] (b),
+                (b) -- [boson, edge label'={\textit{V}}] (o1),
+                (b) -- [scalar, edge label={\textit{H}}] (o2),
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The VH process.}
+        \label{fig:VH}
+        \vspace{10mm}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1, -1) (i2);
+            \vertex at (1, 1) (i3);
+            \vertex at (1, -1) (i4);
+            \vertex at (2, 0) (a);
+            \vertex at (4, 1) (o1);
+            \vertex at (4, -1) (o2);
+            \vertex at (4, 0) (o3);
+            \diagram*{
+                (i1) -- [plain, edge label'={\textit{q}}] (i3),
+                (i2) -- [plain, edge label={\textit{q}}] (i4),
+                (i3) -- [boson, edge label'={\textit{V}}] (a),
+                (i4) -- [boson, edge label={\textit{V}}] (a),
+                (a) -- [scalar, edge label={\textit{H}}] (o3),
+                (i3) -- [plain, edge label'={\textit{q'}}] (o1);
+                (i4) -- [plain, edge label={\textit{q'}}] (o2);
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The qqH process.}
+        \label{fig:qqH}
+        \vspace{10mm}
+        \end{subfigure}%
+    \newline
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1, -1) (i2);
+            \vertex at (1, 1) (i3);
+            \vertex at (1, -1) (i4);
+            \vertex at (2, 0) (a);
+            \vertex at (4, 1) (o1);
+            \vertex at (4, -1) (o2);
+            \vertex at (4, 0) (o3);
+            \diagram*{
+                (i1) -- [plain, edge label'={\textit{q}}] (i3),
+                (i2) -- [plain, edge label={\textit{b}}] (i4),
+                (i4) -- [boson, edge label={\textit{W}}] (a),
+                (i3) -- [boson, edge label'={\textit{W}}] (a),
+                (a) -- [scalar, edge label={\textit{H}}] (o3),
+                (i3) -- [plain, edge label'={\textit{q'}}] (o1);
+                (i4) -- [plain, edge label={\textit{t}}] (o2);
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The tqH process.}
+        \label{fig:tqH}
+        \vspace{10mm}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1, -1) (i2);
+            \vertex at (0.5, 1) (i3);
+            \vertex at (0.5, -1) (i4);
+            \vertex at (2.5, 1) (t1);
+            \vertex at (2.5, -1) (t2);
+            \vertex at (4, 1) (o1);
+            \vertex at (4, -1) (o2);
+            \diagram*{
+                (i1) -- [gluon, edge label'={\textit{g}}] (i3),
+                (i2) -- [gluon, edge label={\textit{g}}] (i4),
+                (i3) -- [plain, edge label={\textit{q}}] (i4),
+                (i3) -- [plain, edge label'={\textit{q}}] (t1),
+                (i4) -- [plain, edge label={\textit{q}}] (t2),
+                (t1) -- [plain, edge label'={\textit{q}}] (t2),
+                (t1) -- [boson, edge label'={\textit{Z}}] (o1);
+                (t2) -- [boson, edge label={\textit{Z}}] (o2);
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The gg$\rightarrow$ZZ process.}
+        \label{fig:ggZZ}
+        \vspace{10mm}
+        \end{subfigure}%
+        \newline
+    \begin{subfigure}{1.\textwidth}
+        \captionsetup[subfigure]{justification=centering}
+        \hspace{5cm}
+        \begin{tikzpicture}
+        \begin{feynman}
+            \vertex at (-1, 1) (i1);
+            \vertex at (-1, -1) (i2);
+            \vertex at (1.5, 1) (i3);
+            \vertex at (1.5, -1) (i4);
+            \vertex at (4, 1) (o1);
+            \vertex at (4, -1) (o2);
+            \diagram*{
+                (i1) -- [gluon, edge label'={\textit{g}}] (i3),
+                (i2) -- [gluon, edge label={\textit{g}}] (i4),
+                (i3) -- [plain, edge label={\textit{q}}] (i4),
+                (i3) -- [boson, edge label'={\textit{Z}}] (o1),
+                (i4) -- [boson, edge label={\textit{Z}}] (o2);
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The qq$\rightarrow$ZZ process.}
+        \label{fig:qqZZ}
+    \end{subfigure}%
+\caption{Representative feynman diagrams of the irreducible background processes relevant to the \cHZZ analysis. This includes the ggH, ttH, VH, qqH, tqH, gg$\rightarrow$ZZ and qq$\rightarrow$ZZ processes. When no final state parton is explicitly present in the diagram it is implied via, for example, parton radiation.}
+\end{figure}
+\noindent The irreducible backgrounds are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
 
 \begin{table}[H]
     \centering
-    \caption[]{Simulated processes used for background estimation in this work.}
-    \begin{adjustbox}{width=1\textwidth}
+    \caption[]{Simulated processes used for background estimation in this work. The listed processes represent the irreducible backgrounds to the \cHZZ analysis with the exeception of the WZ$\rightarrow3\ell\nu$ process, which is used solely in the estimation of the irreducible backgrounds.}
+    \begin{adjustbox}{width=0.7\textwidth}
     \label{table:IrreducibleBackgroundSamples}
         \begin{tabular}{l l l}
         \toprule 
-        \textbf{Process} & \textbf{Tag} & \textbf{$\sigma$} \\
+        \textbf{Process} & \textbf{$\sigma$} & \textbf{\# of simulated events}\\
         \midrule 
         \midrule
-        ggH(ZZ$\rightarrow$4L) & GluGluHToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
-        ttH(ZZ$\rightarrow$4L) & ttH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\ 
-        W$^{-}$H(ZZ$\rightarrow$4L) & WminusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
-        W$^{+}$H(ZZ$\rightarrow$4L) & WplusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
-        ZH(ZZ$\rightarrow$4L) & ZH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HZJ\_JHUGenV7011\_pythia8 & xx \\
-        qqH(ZZ$\rightarrow$4L) & VBF\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
-        tqH(ZZ$\rightarrow$4L) & tqH\_HToZZTo4L\_M125\_TuneCP5\_13TeV-jhugenv7011-pythia8 & xx \\
-        $gg$$\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        $gg$$\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        $gg$$\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
-        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
+        ggH(ZZ$\rightarrow$4L) & & xx \\
+        ttH(ZZ$\rightarrow$4L) & & xx \\ 
+        W$^{-}$H(ZZ$\rightarrow$4L) & & xx \\
+        W$^{+}$H(ZZ$\rightarrow$4L) & & xx \\
+        ZH(ZZ$\rightarrow$4L) & & xx \\
+        qqH(ZZ$\rightarrow$4L) & & xx \\
+        tqH(ZZ$\rightarrow$4L) & & xx \\
+        gg$\rightarrow$ZZ(4$\mu$) & & xx \\
+        gg$\rightarrow$ZZ(4$\tau$) & & xx \\
+        gg$\rightarrow$ZZ(2$\mu$2$\tau$) & & xx \\
+        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & & xx \\ 
         \midrule 
-        bH 5FS FxFx & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
-        bH 4FS & HPlusBottom\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
-        bH 5FS & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+        bH 5FS FxFx & & xx \\
+        bH 4FS & & xx \\
+        bH 5FS & & xx \\
         \midrule
-        WZ$\rightarrow3\ell\nu$ & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & xx \\
+        WZ$\rightarrow3\ell\nu$ & & xx \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
 \end{table}
 
+%%
+%\begin{table}[H]
+%    \centering
+%    \caption[]{Simulated processes used for background estimation in this work.}
+%%    \begin{adjustbox}{width=1\textwidth}
+%    \label{table:IrreducibleBackgroundSamples}
+%        \begin{tabular}{l l l}
+%        \toprule 
+%%        \textbf{Process} & \textbf{$\sigma$} & \textbf{# of simulated events}\\
+%       \midrule 
+%        \midrule
+%        ggH(ZZ$\rightarrow$4L) & GluGluHToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
+%        ttH(ZZ$\rightarrow$4L) & ttH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\ 
+%        W$^{-}$H(ZZ$\rightarrow$4L) & WminusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
+%        W$^{+}$H(ZZ$\rightarrow$4L) & WplusH\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HWJ\_JHUGenV7011\_pythia8 & xx \\
+%        ZH(ZZ$\rightarrow$4L) & ZH\_HToZZ\_4LFilter\_M125\_TuneCP5\_13TeV\_powheg2-minlo-HZJ\_JHUGenV7011\_pythia8 & xx \\
+%        qqH(ZZ$\rightarrow$4L) & VBF\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_powheg2\_JHUGenV7011\_pythia8 & xx \\
+%        tqH(ZZ$\rightarrow$4L) & tqH\_HToZZTo4L\_M125\_TuneCP5\_13TeV-jhugenv7011-pythia8 & xx \\
+%        $gg$$\rightarrow$ZZ(4$\mu$) & GluGluToContinToZZTo4mu\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+%        $gg$$\rightarrow$ZZ(4$\tau$) & GluGluToContinToZZTo4tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+%        $gg$$\rightarrow$ZZ(2$\mu$2$\tau$) & GluGluToContinToZZTo2mu2tau\_TuneCP5\_13TeV-mcfm701-pythia8 & xx \\
+%        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & ZZTo4L\_TuneCP5\_13TeV\_powheg\_pythia8 & xx \\ 
+%        \midrule 
+%        bH 5FS FxFx & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnloFXFX\_JHUGenV7011\_pythia8 & xx \\
+%        bH 4FS & HPlusBottom\_4FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+%        bH 5FS & HPlusBottom\_5FS\_MuRFScaleDynX0p50\_HToZZTo4L\_M125\_TuneCP5\_13TeV\_amcatnlo\_JHUGenV7011\_pythia8 & xx \\
+%        \midrule
+%        WZ$\rightarrow3\ell\nu$ & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & xx \\
+%        \bottomrule
+%        \end{tabular} 
+%    \end{adjustbox}
+%\end{table}
+
 \subsection{Estimation of reducible backgrounds}
 \label{sec:ReducibleBackgrounds}
-Reducible background processes are background processes that do not produce the same final state particles as the signal process but where mis-identification of physics objects can still falsify the sought-after signature. Since jets are typically abundant in most collisions, this amounts to the mis-identification of additional muons for this analysis. A major expected contribution in this background is expected from the Drell-Yan process. Since the simulation of mis-identified muons is subject to significant modelling uncertainties, a data-driven approach may be used. This involves determining the mis-identificaiton rate of muons in data and applying it to a side-band region from which the contributions of reducible backgrounds are extrapolated into the signal region. This methodology is presented in this section and follows the methods used in \cite{HIG19-001}.
+Reducible background processes are background processes that do not produce the same final state particles as the signal process but where mis-identification of physics objects can still falsify the sought-after signature. Since jets are typically abundant in most collisions, this amounts to the mis-identification of additional muons for this analysis. Major contributions to this background are expected to come from the Drell-Yan process while other processes which may produce at least two leptons, such as t$\overline{\mathrm{t}}$, may also contribute. Example Feynman diagrams of these two processes can be seen in \autoref{fig:reducibleBackgroundDiagrams}. Since the simulation of mis-identified muons is subject to significant modelling uncertainties, a data-driven approach may be used. This involves determining the mis-identification rate of muons in data and applying it to a side-band region from which the contributions of reducible backgrounds are extrapolated into the signal region. This methodology is presented in this section and follows that which is used in \cite{HIG19-001}.
+
+\begin{figure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            %\vertex[dot, color=red, size=1mm] at (2, 0.5) {\(y_c\)};
+            \vertex at (0, 1) (i1);
+            \vertex at (0,-1) (i2);
+            \vertex at (1, 0) (a);
+            \vertex at (3, 0) (b);
+            \vertex at (4, -1) (o2);
+            \vertex at (4, 1) (o1);
+            \diagram*{
+                (i1) -- [plain, edge label'={\textit{q}}, near start] (a),
+                (i2) -- [plain, edge label={\textit{q}}, near start] (a),
+                (a) -- [boson, edge label'={\textit{Z}}] (b),
+                (b) -- [plain, edge label'={\textit{$\mu$}}, near end] (o1),
+                (b) -- [plain, edge label={\textit{$\mu$}}, near end] (o2),
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The Drell-Yan process.}
+        \vspace{10mm}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{feynman}
+            %\vertex[dot, color=red, size=1mm] at (2, 0.5) {\(y_c\)};
+            \vertex at (0, 1) (i1);
+            \vertex at (0,-1) (i2);
+            \vertex at (1, 0) (a);
+            \vertex at (3, 0) (b);
+            \vertex at (4, -1) (o2);
+            \vertex at (4, 1) (o1);
+            \diagram*{
+                (i1) -- [gluon, edge label'={\textit{g}}, near start] (a),
+                (i2) -- [gluon, edge label={\textit{g}}, near start] (a),
+                (a) -- [gluon, edge label'={\textit{g}}] (b),
+                (b) -- [plain, edge label'={\textit{t}}, near end] (o1),
+                (b) -- [plain, edge label={\textit{t}}, near end] (o2),
+            };
+        \end{feynman}
+        \end{tikzpicture}
+        \caption{The t$\overline{\mathrm{t}}$ process.}
+        \vspace{10mm}
+    \end{subfigure}%
+\caption{Representative feynman diagrams of the Drell-Yan and t$\overline{\mathrm{t}}$ processes, which are expected to contribute significantly to the reducible background of the \cHZZ analysis. Jets are produced via for example parton radiation for the Drell-Yan process, while the decay of the top quarks in the t$\overline{\mathrm{t}}$ process automatically produces b jets from the hadronisation of b quarks.}
+\label{fig:reducibleBackgroundDiagrams}
+\end{figure}
 
 \subsubsection{Determination of muon mis-identification rate}
 To determine the mis-identification of muons with respect to the tight muon requirement outlined in \autoref{sec:MuonReconstruction}, a three-muon selection is applied to data. Specifically, events with a $Z\rightarrow\mu^+\mu^-$ decay that also contain a third muon are targeted. Since hard-scattering processes that produces a Z boson are not expected to produce any additional muons, the third reconstructed muon (typically referred to as the \textit{probe muon}) is assumed to be one that is mis-identified as such. To determine a mis-identification rate, the ratio of probe muons that pass the tight muon requirement with respect to those that pass the loose muon requirement is calculated. This procedure is performed in bins of the probe muon \pt for the barrel ($\lvert \eta \rvert \leq 1.2$) and endcap ($\lvert \eta \rvert > 1.2$) regions respectively. The exact reconstruction algorithm that is applied is the following:

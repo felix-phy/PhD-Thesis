@@ -1,4 +1,4 @@
-Introduce backgrounds in theory section?
+Introduce backgrounds in theory section? DONE
 
 --- cH ---
 Fix genparton diagram
@@ -8,9 +8,7 @@ loss in acceptance?
 fix simulation diagram
 make all plots relevant to jet selection
 make plot regarding diagram selection
-introduce the data datasets that are used (maybe)
 reducible background stuff
-check wilks theorem stuff
 theoretical uncertainties
 
 
@@ -22,13 +20,14 @@ theoretical uncertainties
 Overall:
 
 - Stuff on cH sample:
-    -- Make diagram selection of cH 
+    -- Make diagram selection of cH DONE
+    -- genParton diagram DONE
     -- jet selection plots
-    -- genParton diagram
-    -- loss in acceptance from selection
+    -- loss in acceptance from selection DONE
 
 --reducible backgrounds:
     -- use total yield with 3P1F shape? 
+    -- fake rate plot
 
 --unceratinties: 
     -- implement PDF and scale uncertainties
@@ -39,3 +38,19 @@ Overall:
 --k-factors?
 
 --do the fit..
+
+--introduce backgrounds DONE
+
+
+
+
+
+acceptance loss:
+    -- 50% is inside detector acceptance (when not, its due to loss of at least one muon)
+    -- after four muon selection approx 26% remains
+    -- 11% remains after one jet requirement
+    -- 10% remains after the Higgs reconstruction
+
+    -- approx 70% of events have only one jet
+    -- approx 25% have two jets
+    -- 5% have more than two

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  9 JAN 2026 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  13 JAN 2026 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1780,265 +1780,494 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 LaTeX Warning: Reference `fig:cHHiggsMass' on page 34 undefined on input line 4
-5.
+6.
 
 [34]
 
 LaTeX Warning: Reference `fig:partonToJetMatching efficiency' on page 35 undefi
-ned on input line 53.
+ned on input line 54.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 
 LaTeX Warning: Reference `fig:JetAssociationEfficiency' on page 35 undefined on
- input line 64.
+ input line 65.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
 
-LaTeX Warning: Reference `' on page 36 undefined on input line 90.
+LaTeX Warning: Reference `' on page 36 undefined on input line 91.
 
 
-LaTeX Warning: Reference `' on page 36 undefined on input line 90.
+LaTeX Warning: Reference `' on page 36 undefined on input line 91.
 
 [36]
 <figures/EventSimulation.png, id=829, 2048.65375pt x 1865.97125pt>
 File: figures/EventSimulation.png Graphic file (type png)
 <use figures/EventSimulation.png>
-Package pdftex.def Info: figures/EventSimulation.png  used on input line 107.
+Package pdftex.def Info: figures/EventSimulation.png  used on input line 108.
 (pdftex.def)             Requested size: 292.77629pt x 266.64395pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 112.
+(hyperref)                removing `\rightarrow' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 112.
+(hyperref)                removing `\mu' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 112.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 112.
+(hyperref)                removed on input line 113.
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 124--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 [38 <./figures/EventSimulation.png (PNG copy)>]
 
 LaTeX Warning: Reference `fig:cHTopologies' on page 39 undefined on input line 
-135.
+136.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 142.
+tance' requires LuaTeX. It will be ignored. on input line 143.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 142.
+stance' requires LuaTeX. It will be ignored. on input line 143.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 142.
+distance' requires LuaTeX. It will be ignored. on input line 143.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 146.
+tance' requires LuaTeX. It will be ignored. on input line 147.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 146.
+stance' requires LuaTeX. It will be ignored. on input line 147.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 146.
+distance' requires LuaTeX. It will be ignored. on input line 147.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 162.
+tance' requires LuaTeX. It will be ignored. on input line 163.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 162.
+stance' requires LuaTeX. It will be ignored. on input line 163.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 162.
+distance' requires LuaTeX. It will be ignored. on input line 163.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 169.
+tance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 169.
+stance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 169.
+distance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 187.
+tance' requires LuaTeX. It will be ignored. on input line 188.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 187.
+stance' requires LuaTeX. It will be ignored. on input line 188.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 187.
+distance' requires LuaTeX. It will be ignored. on input line 188.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 196.
+tance' requires LuaTeX. It will be ignored. on input line 197.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 196.
+stance' requires LuaTeX. It will be ignored. on input line 197.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 196.
+distance' requires LuaTeX. It will be ignored. on input line 197.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 215.
+tance' requires LuaTeX. It will be ignored. on input line 216.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 215.
+stance' requires LuaTeX. It will be ignored. on input line 216.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 215.
+distance' requires LuaTeX. It will be ignored. on input line 216.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 224.
+tance' requires LuaTeX. It will be ignored. on input line 225.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 224.
+stance' requires LuaTeX. It will be ignored. on input line 225.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 224.
+distance' requires LuaTeX. It will be ignored. on input line 225.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--239
+Underfull \hbox (badness 10000) in paragraph at lines 138--240
 []$[]$$[]$
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 137--239
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 138--240
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--260
+Underfull \hbox (badness 10000) in paragraph at lines 136--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--260
+Underfull \hbox (badness 10000) in paragraph at lines 136--261
 
  []
 
 [39] [40]
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
- [41]
-
-LaTeX Warning: Reference `fig:misIDRate' on page 42 undefined on input line 311
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--317
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Overfull \hbox (5.29344pt too wide) in paragraph at lines 314--317
+LaTeX Warning: Reference `fig:ZH' on page 41 undefined on input line 271.
+
+[41]
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 283.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 283.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 283.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 289.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 289.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 289.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 307.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 307.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 307.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 315.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 315.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 315.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 336.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 336.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 336.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 342.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 342.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 342.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 359.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 359.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 359.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 367.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 367.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 367.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 387.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 387.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 387.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 395.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 395.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 395.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 414.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 414.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 414.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 422.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 422.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 422.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 444.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 444.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 444.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 450.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 450.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 450.
+
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [42]
+[43]
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 541.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 541.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 541.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 547.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 547.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 547.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 564.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 564.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 564.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 570.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 570.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 570.
+
+[44]
+
+LaTeX Warning: Reference `fig:misIDRate' on page 45 undefined on input line 593
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--599
+
+ []
+
+
+Overfull \hbox (5.29344pt too wide) in paragraph at lines 596--599
 \OT1/cmr/m/n/10 identification rate. The pre-scrip-tion for this ap-pli-ca-tion
  can be ob-tained from the mis-identification
  []
 
-[42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 362--367
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 644--649
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--367
+Underfull \hbox (badness 10000) in paragraph at lines 644--649
 
  []
 
-[44]
+[46]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 381.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 381.
+(hyperref)                removing `math shift' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 381.
+(hyperref)                removing `\rightarrow' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 381.
+(hyperref)                removing `\mu' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 381.
+(hyperref)                removing `math shift' on input line 663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 381.
+(hyperref)                removed on input line 663.
 
 
-LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 45 undefined on input 
-line 386.
+LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 47 undefined on input 
+line 668.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
 
  []
 
-[45] [46] [47]) (./chapters/EFT.tex [48]
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
+
+ []
+
+[47] [48] [49] [50]) (./chapters/EFT.tex [51] [52
+
+]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2064,35 +2293,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-) [49
+) [53] [54
 
-] [50
+] [55
 
-] [51
+] [56
 
-] [52
-
-] [53] [54] [55]
+] [57] [58] [59]
 Overfull \hbox (11.1082pt too wide) in paragraph at lines 67--67
 \OT1/cmr/m/n/10 results.web.cern.ch/cms-results/public-results/publications/PRF
 -14-001(CMS Pub-lic Pages),
  []
 
-[56]
+[60]
 Overfull \hbox (11.60338pt too wide) in paragraph at lines 67--67
 \OT1/cmr/m/it/10 nal of High En-ergy Physics \OT1/cmr/m/n/10 2012.12 (Dec. 2012
 ). \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 1029-8479. \OT1/cmr/m/sc/10 doi\OT1/c
 mr/m/n/10 : []$\OT1/cmtt/m/n/10 10 . 1007 / jhep12(2012 )
  []
 
-[57]
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 440.
+See the caption package documentation for explanation.
+
+[61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 798AE3C973C144CFDEB403FEF72F491D;3708.
+(rerunfilecheck)             Checksum: B5C659FB390CCF3E1BF6D024F7F8DEE7;3708.
 
 
 LaTeX Warning: There were undefined references.
@@ -2105,10 +2336,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30569 strings out of 481239
- 608717 string characters out of 5920376
- 1281510 words of memory out of 5000000
- 44951 multiletter control sequences out of 15000+600000
+ 30621 strings out of 481239
+ 609363 string characters out of 5920376
+ 1293637 words of memory out of 5000000
+ 44997 multiletter control sequences out of 15000+600000
  582370 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,18n,100p,2062b,2112s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2138,15 +2369,16 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share
-/texmf/fonts/type1/public/tex-gyre/qagr.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm1000.pfb>
-Output written on main.pdf (63 pages, 5319887 bytes).
+ic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf/
+fonts/type1/public/tex-gyre/qagr.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm1000.pfb>
+Output written on main.pdf (67 pages, 5348363 bytes).
 PDF statistics:
- 1372 PDF objects out of 1440 (max. 8388607)
- 1206 compressed objects within 13 object streams
- 295 named destinations out of 1000 (max. 500000)
+ 1403 PDF objects out of 1440 (max. 8388607)
+ 1232 compressed objects within 13 object streams
+ 301 named destinations out of 1000 (max. 500000)
  486 words of extra memory for PDF output out of 10000 (max. 10000000)
 
