@@ -1,5 +1,5 @@
 \chapter{Search for the cH(ZZ$\rightarrow$4$\mu$) process}
-To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:Selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed and is described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:statisticalEvaluation}.
+To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:Selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed and is described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation method using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:StatisticalEvaluation}.
 
 \section{cH event selection}
 \label{sec:Selection}
@@ -43,8 +43,7 @@ A Higgs boson reconstruction algorithm (and muon object selection) very similar 
     \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. 
     \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater \, 70 GeV. 
 \end{enumerate}
-The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125.3 GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. A selection efficiency of xxx\% is achieved on the simulated \cHZZ sample. The majority off loss in acceptance can be attributed to .... 
-
+The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125.3 GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. 
 \subsection{Jet candidate selection}
 Once a Higgs boson candidate is reconstructed, a likelihood ratio algorithm is applied to best identify and select the jet that is associated with (i.e. recoils off) the reconstructed Higgs boson. This algorithm does not use jet-flavour identification methods and is based solely on kinematic properties of the jets so as to minimise the introduction of any flavour bias in the selection. Specifically, two variables related to momentum conservation in the transverse plane are exploited: 
 \begin{enumerate}
@@ -62,7 +61,7 @@ is defined. From this follows the per-jet likelihood
 \begin{align}
     \mathcal{L}(\mathrm{jet}) = \mathcal{L}\Big(\Delta\phi\mathrm{(H, jet)}\Big) \cdot \mathcal{L}\Big(\frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})}\Big)
 \end{align}
-that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. The efficiency with which the ``correct'' associated jet can be seen in \autoref{fig:JetAssociationEfficiency}. 
+that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. 
 \begin{table}[H]
     \centering
     \caption[]{The \pt(H) bins in which the jet selection procedure is performed.}
@@ -84,7 +83,17 @@ that is evaluated. The jet with the highest associated likelihood in an event is
 
     \end{adjustbox}
 \end{table}
-\noindent With this, the individual components of the \cHZZ are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
+\noindent With this, the individual components of the \cHZZ process are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
+
+\subsection{Reconstruction efficiency}
+A total selection efficiency of $\sim$10\% is achieved on the simulated \cHZZ sample using the described methods. The losses in efficiency can be attributed to the following:
+\begin{itemize}
+    \item Approximately 50\% of generated events fall outside of the geometrical detector acceptance.
+    \item Of the 50\% of generated events within the geometrical detector acceptance, approximately 50\% fulfill the described muon selection requirements.
+    \item Approximately 91\% of these events pass the Higgs reconstruction, leading to an additional event yield loss of 9\%
+    \item Of the remaining events, the event yield is reduced by close to 60\% by the jet selection requirements that are imposed. 
+\end{itemize}
+Also of interest is the efficiency with which the `correct' jet is selected in the \cHZZ sample with the described jet selection method. This can be seen in \autoref{}. 
 
 \section{Signal and background estimation}
 \label{sec:s+bEstimation}
@@ -133,7 +142,23 @@ The types of event topologies generated by these commands can be best understood
     \item \textit{\textbf{gg}}: This topology arises from two initial state gluon which split to form $c\overline{c}$ pairs that interact to produce a Higgs boson. Since this is already considered a next-to-leading order contribution to the matrix element by the generator, additional final state partons can only be generated via parton showering. A visualisation of this type of event topology can be seen in \autoref{fig:FeynmancHTopology2}. It contributes to only a small fraction of events in the generated sample.  
     \item \textit{\textbf{cl}}: This topology arises from an initial state (anti-)c quark that interacts with an additional initial state light quark via gluon exchange, which proces a Higgs boson. Since this is already considered a next-to-leading order contribution to the matrix element by the generator, additional final state partons can only be generated via parton showering. A visualisation of this type of event topology can be seen in \autoref{fig:FeynmancHTopology3}. Like the \textit{gg} topology, it contributes to only a small fraction of events in the generated sample.  
 \end{itemize}
-An overview of the relative occurence of these topologies in the generated sample can be seen in \autoref{fig:cHTopologies}.\\
+An overview of the relative occurrence of these topologies in the generated sample can be seen in \autoref{fig:cHTopologies}. Clearly, the \textit{c$\overline{c}$} topology dominates with a relative proportion $> 60\%$, while the $cg$ topology only comprises $\sim35\%$ of events. Since the jet identification plays no role in the former topology, it is worth considering how the selection algorithm described in \autoref{sec:Selection} affects the relative occurrence of each topology. This can be seen in \autoref{fig:cHTopologiesPostSelection}. Clearly, the selection algorithm (specifically the jet selection) introduces a significant bias towards $cg$ topologies as expected and desired. However, a relative porportion of close to 40\% of \textit{c$\overline{c}$} topologies remain, which may still contribute towards the sensitivity of the analysis. These are typically associated with light flavour jets. This motivates the use of an inclusive statistical evaluation strategy, exemplied by for example the use of the full CvsB and CvsL \textsf{DeepJet} distributions of the selected jet, in contrast to the cut-based approach presented in \cite{cmscHgammgamma}.  
+
+\begin{figure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/METype_METypeNoSelection.pdf}
+        \caption{Before applying selection algorithm.}
+        \label{fig:cHTopologies}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/METype_METype.pdf}
+        \caption{After applying selection algorithm.}
+        \label{fig:cHTopologiesPostSelection}
+    \end{subfigure}%
+    \caption{The relative occurrence of the \textit{c$\overline{c}$}, \textit{cg}, \textit{gg} and \textit{cl} event topologies in the simulated \cHZZ sample before and after applying the selection algorithm.}
+\end{figure}
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
     \centering
@@ -239,8 +264,7 @@ An overview of the relative occurence of these topologies in the generated sampl
 \end{subfigure}
 \caption{Examples of feynman diagrams that illustrate the four different event topologies generated in the \cHZZ sample at the lowest order. The red dots represent the \yc \, coupling.}
 \end{figure}
-\\
-To capture uncertainties associated with the choice of a particular flavour scheme in the simulation of \cHZZ, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing cases where a charm \textit{must} originate from gluon splitting or directly from the proton respectively. From these samples, an uncertainty envelope is constructed for the discriminators distribution in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. This envelope is determined by taking the relative discrepancy between the 3FS and 4FS samples and interpreting it as an uncertainty band around the the nominal 4FS FxFx sample distributions. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
+\noindent To capture uncertainties associated with the choice of a particular flavour scheme in the simulation of \cHZZ, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing cases where a charm \textit{must} originate from gluon splitting or directly from the proton respectively. From these samples, an uncertainty envelope is constructed for the discriminators distribution in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. This envelope is determined by taking the relative discrepancy between the 3FS and 4FS samples and interpreting it as an uncertainty band around the the nominal 4FS FxFx sample distributions. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
 \\
 \begin{table}[H]
     \centering
@@ -260,15 +284,13 @@ To capture uncertainties associated with the choice of a particular flavour sche
     \end{adjustbox}
 \end{table}
 
-\textit{Something about c jet vs non-c jet in yc sensitive events..  check cH sample definition}
-
 \subsection{Estimation of irreducible backgrounds}
 \label{sec:IrreducibleBackgrounds}
 Irreducible background processes are background processes that produce the same final state particles as the signal process in question. Thus, processes which produce four final state muons along with the presence of a, or several, jet(s) constitute the irreducible background. These again fall into two categories, namely those where the four muons originate from a Higgs boson and those in which they do not. When analysing e.g. the mass spectrum of Higgs candidates, the processes of the former category is thus clearly resonant around the Higgs mass of $\sim$125 GeV, while those of the latter category may take on a more continuous shape. The irreducible backgrounds condiered in this work are:\\
 \begin{itemize}
     \item \textbf{Gluon fusion (ggH)}: In these processes, a pair of gluons produce an intermediary (top) quark pair loop that produces a Higgs boson. The Higgs boson decay may produce four muons while parton radiation may produce additional jets. An example Feynman diagram of the ggH process can be seen in \autoref{fig:ggH}. 
     \item \textbf{Top quark pair assocaited Higgs production(ttH)}: In ttH processes, a pair of top quarks is produced alongside a Higgs boson. The Higgs boson decay may produce four muons while the decay of the top quark pairs produces additional b jets. An example Feynman diagram of the ttH process can be seen in \autoref{fig:ttH}.
-    \item \textbf{Vector boson associated Higgs production (VH)}: The vector boson produced alongside a Higgs boson may refer to W$^{\pm}$ and Z bosons. Thus, three different process types contribute to this background, namely $W^{+}$H,  $W^{+}$H and ZH. The Higgs boson decay may produce four muons while a W$^{\pm}$ boson decay as well as a Z boson decay may produce additional jets. An example Feynman diagram of these processes can be seen in \autoref{fig:ZH}.
+    \item \textbf{Vector boson associated Higgs production (VH)}: The vector boson produced alongside a Higgs boson may refer to W$^{\pm}$ and Z bosons. Thus, three different process types contribute to this background, namely $W^{+}$H,  $W^{+}$H and ZH. The Higgs boson decay may produce four muons while a W$^{\pm}$ boson decay as well as a Z boson decay may produce additional jets. An example Feynman diagram of these processes can be seen in \autoref{fig:VH}.
     \item \textbf{Vector boson fusion (qqH)}: In vector boson fusion processes, two vector bosons emitted by initial state quarks fuse to produce a Higgs boson. The Higgs boson decay may produce four muons while additional final state quarks that produce jets are also present. An example Feynman diagram of the qqH process can be seen in \autoref{fig:qqH}. 
     \item \textbf{Top quark plus quark associated Higgs production (tqH)}: In tqH processes, a top quark as well as a quark of a different flavour are produced alongside a Higgs boson. The Higgs boson decay may produce four muons while the additional (top) quark will produce a (b) jet. An example Feynman diagram of the tqH process can be seen in \autoref{fig:tqH}.
     \item \textbf{ZZ production from gluons (gg$\rightarrow$ZZ)}: A pair of Z bosons can be produced from a pair of initial state gluons via an intermediate quark loop. The Z boson decays may produce four muons while additional parton radiation may produce jets. An example Feynman diagram of the gg$\rightarrow$ ZZ process can be seen in \autoref{fig:ggZZ} 

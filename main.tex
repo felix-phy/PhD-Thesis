@@ -18,8 +18,9 @@
 \usepackage{booktabs}
 \usepackage{url}
 
-\usepackage{lineno}
+\usepackage[mathlines]{lineno}
 \linenumbers
+
 
 
 \newcommand{\Lagr}{$\mathcal{L}$}
@@ -65,5 +66,10 @@ My abstract
 \chapter{Conclusion}
 
 \printbibliography[heading=bibintoc]
+
+\appendix
+\renewcommand{\thesection}{\Alph{section}}
+\input{chapters/Appendix.tex}
+
 
 \end{document}

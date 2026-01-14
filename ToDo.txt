@@ -1,17 +1,13 @@
-Introduce backgrounds in theory section? DONE
+
 
 --- cH ---
-Fix genparton diagram
+
 
 --- cH analysis ---
-loss in acceptance?
 fix simulation diagram
 make all plots relevant to jet selection
-make plot regarding diagram selection
 reducible background stuff
 theoretical uncertainties
-
-
 
 
 
@@ -40,6 +36,8 @@ Overall:
 --do the fit..
 
 --introduce backgrounds DONE
+
+--fix sample tables
 
 
 

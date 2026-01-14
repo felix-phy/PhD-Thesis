@@ -33,16 +33,21 @@
 \BOOKMARK [1][-]{section.3.1}{cH event selection}{chapter.3}% 33
 \BOOKMARK [2][-]{subsection.3.1.1}{Higgs candidate selection}{section.3.1}% 34
 \BOOKMARK [2][-]{subsection.3.1.2}{Jet candidate selection}{section.3.1}% 35
-\BOOKMARK [1][-]{section.3.2}{Signal and background estimation}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.2.1}{Monte Carlo simulation of proton-proton collisions}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.2}{Estimation of cH\(ZZ4\)process}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.3}{Estimation of irreducible backgrounds}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.4}{Estimation of reducible backgrounds}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Validation of cH\(ZZ4\)event selection in sideband regions}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.4}{Statistical inference}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.4.1}{Statistical model}{section.3.4}% 43
-\BOOKMARK [2][-]{subsection.3.4.2}{Uncertainty model}{section.3.4}% 44
-\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 45
-\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 46
-\BOOKMARK [0][-]{chapter*.36}{Conclusion}{}% 47
-\BOOKMARK [0][-]{chapter*.37}{Bibliography}{}% 48
+\BOOKMARK [2][-]{subsection.3.1.3}{Reconstruction efficiency}{section.3.1}% 36
+\BOOKMARK [1][-]{section.3.2}{Signal and background estimation}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.2.1}{Monte Carlo simulation of proton-proton collisions}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.2}{Estimation of cH\(ZZ4\)process}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.3}{Estimation of irreducible backgrounds}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.4}{Estimation of reducible backgrounds}{section.3.2}% 41
+\BOOKMARK [1][-]{section.3.3}{Validation of cH\(ZZ4\)event selection in sideband regions}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.4}{Statistical inference}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.4.1}{Statistical model}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.2}{Uncertainty model}{section.3.4}% 45
+\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 46
+\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 47
+\BOOKMARK [0][-]{chapter*.37}{Conclusion}{}% 48
+\BOOKMARK [0][-]{chapter*.38}{Bibliography}{}% 49
+\BOOKMARK [0][-]{appendix*.39}{Appendix}{}% 50
+\BOOKMARK [1][-]{section.Alph0.1}{Columnar analysis framework}{appendix*.39}% 51
+\BOOKMARK [1][-]{section.Alph0.2}{Jet selection likelihood templates}{appendix*.39}% 52
+\BOOKMARK [1][-]{section.Alph0.3}{Jet-parton matching efficiency}{appendix*.39}% 53
