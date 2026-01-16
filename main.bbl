@@ -4618,6 +4618,121 @@
       \verb 1411.4085
       \endverb
     \endentry
+    \entry{Butterworth_2016}{article}{}
+      \name{author}{16}{}{%
+        {{hash=117a0be3c913e850713054cde990c857}{%
+           family={Butterworth},
+           familyi={B\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba52b2df4eb4eca4017ffaf23e227cb7}{%
+           family={Carrazza},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92c6c6b2813b3361635b3a7a825b9f42}{%
+           family={Cooper-Sarkar},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=240c1c57a50649b6bb669ac58aff9732}{%
+           family={Roeck},
+           familyi={R\bibinitperiod},
+           given={Albert\bibnamedelima De},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=117c057ebc828a2daf969f80c0014a7f}{%
+           family={Feltesse},
+           familyi={F\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f059bfe158507db3f974228d09a512d8}{%
+           family={Forte},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9a3433149c20baec10f299b1558363b5}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6dff1b19e1eeba6b69093ca0f8834f16}{%
+           family={Glazov},
+           familyi={G\bibinitperiod},
+           given={Sasha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=47e73c38ca54e63717f2a805bb031420}{%
+           family={Huston},
+           familyi={H\bibinitperiod},
+           given={Joey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=80d234f8157036060d6762345a2c2aab}{%
+           family={Kassabov},
+           familyi={K\bibinitperiod},
+           given={Zahari},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0e74cb06912b9acb14f5fdf880e83840}{%
+           family={McNulty},
+           familyi={M\bibinitperiod},
+           given={Ronan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dc5133211b54d56b5318c569c664b377}{%
+           family={Morsch},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9af40fc08836455dd07e1c58191955c9}{%
+           family={Nadolsky},
+           familyi={N\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0c7f6f5ef2eafcb8eacf14bf33e5423a}{%
+           family={Radescu},
+           familyi={R\bibinitperiod},
+           given={Voica},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6d9b31bd3f4153392b47654a9baf0a07}{%
+           family={Rojo},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df3f4421a5ef9e7a0588835952d110c9}{%
+           family={Thorne},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{45ab6d83c68220302aea6b02e7cbed78}
+      \strng{fullhash}{cf189fea48d827df701ce0554b320978}
+      \strng{bibnamehash}{45ab6d83c68220302aea6b02e7cbed78}
+      \strng{authorbibnamehash}{45ab6d83c68220302aea6b02e7cbed78}
+      \strng{authornamehash}{45ab6d83c68220302aea6b02e7cbed78}
+      \strng{authorfullhash}{cf189fea48d827df701ce0554b320978}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6471}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{PDF4LHC recommendations for LHC Run II}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{pages}{023001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0954-3899/43/2/023001
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0954-3899/43/2/023001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0954-3899/43/2/023001
+      \endverb
+    \endentry
   \enddatalist
   \missing{AsimovMaybe?}
   \missing{Barlow-Beeston}

@@ -18,7 +18,7 @@ Overall:
 - Stuff on cH sample:
     -- Make diagram selection of cH DONE
     -- genParton diagram DONE
-    -- jet selection plots
+    -- jet selection plots DONE
     -- loss in acceptance from selection DONE
 
 --reducible backgrounds:
@@ -38,6 +38,8 @@ Overall:
 --introduce backgrounds DONE
 
 --fix sample tables
+
+--change binning of jet selection templates and rerun analysis
 
 
 
