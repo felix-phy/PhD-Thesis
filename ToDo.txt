@@ -1,47 +1,35 @@
-
-
---- cH ---
-
-
---- cH analysis ---
-fix simulation diagram
-make all plots relevant to jet selection
-reducible background stuff
-theoretical uncertainties
-
-
-
-
-
 Overall:
 
-- Stuff on cH sample:
-    -- Make diagram selection of cH DONE
-    -- genParton diagram DONE
-    -- jet selection plots DONE
-    -- loss in acceptance from selection DONE
+== random 
+ -- fix simulation diagram
+ -- fix sample tables
+ -- rerun analysis with new jet templates
+ -- k-factors?
 
---reducible backgrounds:
-    -- use total yield with 3P1F shape? 
-    -- fake rate plot
+== Stuff on cH sample:
+    -- jet selection plots DONE FIX !!! BINNING IN DELTAPHI !!!
 
---unceratinties: 
+== reducible backgrounds:
+    -- Make plots comparing 2P2F shape and 3P1F shape
+    -- ask gerrit about rate unc justification
+
+== sideband validation
+    -- fix plots to have uncertainty band
+
+== uncertainties: 
     -- implement PDF and scale uncertainties
-    -- check theory uncertainties
+    == theory uncertainties
         --- 50% on ggH?
         --- other cross sections
-
---k-factors?
-
---do the fit..
-
---introduce backgrounds DONE
-
---fix sample tables
-
---change binning of jet selection templates and rerun analysis
+    -- Implement FS uncertainty
 
 
+== Appendix
+    == framework
+        -- check number of events used in analysis
+
+== fit
+    - do the fit...
 
 
 
@@ -54,3 +42,13 @@ acceptance loss:
     -- approx 70% of events have only one jet
     -- approx 25% have two jets
     -- 5% have more than two
+
+
+To do for chapter 3: 
+
+    -- reducible backgrounds DONE
+    -- sideband validation
+    -- unrolled discriminator
+    -- fix uncertainty discussion
+    -- fix missing citations
+    -- Make plots comparing 2P2F shape and 3P1F shape

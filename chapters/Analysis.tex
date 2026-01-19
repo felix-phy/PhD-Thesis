@@ -281,12 +281,12 @@ An overview of the relative occurrence of these topologies in the generated samp
     \label{table:SignalSamples}
         \begin{tabular}{l l l}
         \toprule 
-        \textbf{Process} & \textbf{$\sigma$} & \textbf{\# of simulated events}\\
+        \textbf{Process} & \textbf{$\sigma$}$\cdot$BR & \textbf{\# of simulated events}\\
         \midrule 
         \midrule
-        \cHZZ 4FS FxFx & & xx \\
-        \cHZZ 3FS & & xx \\
-        \cHZZ 4FS & & xx \\
+        \cHZZ 4FS FxFx & 0.00916 fb & xx \\
+        \cHZZ 3FS & 0.008065 fb & xx \\
+        \cHZZ 4FS & 0.004987 fb & xx \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
@@ -363,7 +363,7 @@ Irreducible background processes are background processes that produce the same 
         \begin{tikzpicture}
         \begin{feynman}
             %\vertex[dot, color=red, size=1mm] at (2, 0.5) {\(y_c\)};
-            \vertex at (-1, 1) (i1);
+            \vertex at (-1, 1) (i1); 
             \vertex at (-1,-1) (i2);
             \vertex at (0.5, 0) (a);
             \vertex at (2.5, 0) (b);
@@ -389,7 +389,7 @@ Irreducible background processes are background processes that produce the same 
             \vertex at (-1, 1) (i1);
             \vertex at (-1, -1) (i2);
             \vertex at (1, 1) (i3);
-            \vertex at (1, -1) (i4);
+            \vertex at (1, -1) (i4); 
             \vertex at (2, 0) (a);
             \vertex at (4, 1) (o1);
             \vertex at (4, -1) (o2);
@@ -413,7 +413,7 @@ Irreducible background processes are background processes that produce the same 
     \begin{subfigure}{.5\textwidth}
         \centering
         \begin{tikzpicture}
-        \begin{feynman}
+        \begin{feynman} 
             \vertex at (-1, 1) (i1);
             \vertex at (-1, -1) (i2);
             \vertex at (1, 1) (i3);
@@ -500,26 +500,26 @@ Irreducible background processes are background processes that produce the same 
     \label{table:IrreducibleBackgroundSamples}
         \begin{tabular}{l l l}
         \toprule 
-        \textbf{Process} & \textbf{$\sigma$} & \textbf{\# of simulated events}\\
+        \textbf{Process} & \textbf{$\sigma$}$\cdot$BR & \textbf{\# of simulated events}\\
         \midrule 
         \midrule
-        ggH(ZZ$\rightarrow$4L) & & xx \\
-        ttH(ZZ$\rightarrow$4L) & & xx \\ 
-        W$^{-}$H(ZZ$\rightarrow$4L) & & xx \\
-        W$^{+}$H(ZZ$\rightarrow$4L) & & xx \\
-        ZH(ZZ$\rightarrow$4L) & & xx \\
-        qqH(ZZ$\rightarrow$4L) & & xx \\
-        tqH(ZZ$\rightarrow$4L) & & xx \\
-        gg$\rightarrow$ZZ(4$\mu$) & & xx \\
-        gg$\rightarrow$ZZ(4$\tau$) & & xx \\
-        gg$\rightarrow$ZZ(2$\mu$2$\tau$) & & xx \\
-        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & & xx \\ 
+        ggH(ZZ$\rightarrow$4L) & 12.18 fb & 940,000 \\
+        ttH(ZZ$\rightarrow$4L) & 0.393 fb & xx \\ 
+        W$^{-}$H(ZZ$\rightarrow$4L) & 0.147 fb & xx \\
+        W$^{+}$H(ZZ$\rightarrow$4L) & 0.232 fb & xx \\
+        ZH(ZZ$\rightarrow$4L) & 0.668 fb & xx \\
+        qqH(ZZ$\rightarrow$4L) & 1.044 fb & xx \\
+        tqH(ZZ$\rightarrow$4L) & 0.0213 fb & xx \\
+        gg$\rightarrow$ZZ(4$\mu$) & 1.59 fb & xx \\
+        gg$\rightarrow$ZZ(4$\tau$) & 1.59 fb & xx \\
+        gg$\rightarrow$ZZ(2$\mu$2$\tau$) & 3.19 fb & xx \\
+        qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & 1.256 pb & 98488000 \\ 
         \midrule 
-        bH 5FS FxFx & & xx \\
-        bH 4FS & & xx \\
-        bH 5FS & & xx \\
+        bH 5FS FxFx & 0.7095 fb & xx \\
+        bH 4FS &  0.365 fb & xx \\
+        bH 5FS & 0.6573 & xx \\
         \midrule
-        WZ$\rightarrow3\ell\nu$ & & xx \\
+        WZ$\rightarrow3\ell\nu$ & 4.43 pb & xx \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
@@ -560,7 +560,7 @@ Irreducible background processes are background processes that produce the same 
 
 \subsection{Estimation of reducible backgrounds}
 \label{sec:ReducibleBackgrounds}
-Reducible background processes are background processes that do not produce the same final state particles as the signal process but where mis-identification of physics objects can still falsify the sought-after signature. Since jets are typically abundant in most collisions, this amounts to the mis-identification of additional muons for this analysis. Major contributions to this background are expected to come from the Drell-Yan process while other processes which may produce at least two leptons, such as t$\overline{\mathrm{t}}$, may also contribute. Example Feynman diagrams of these two processes can be seen in \autoref{fig:reducibleBackgroundDiagrams}. Since the simulation of mis-identified muons is subject to significant modelling uncertainties, a data-driven approach may be used. This involves determining the mis-identification rate of muons in data and applying it to a side-band region from which the contributions of reducible backgrounds are extrapolated into the signal region. This methodology is presented in this section and follows that which is used in \cite{HIG19-001}.
+Reducible background processes are background processes that do not produce the same final state particles as the signal process but where mis-identification of physics objects can still falsify the sought-after signature. Since jets are typically abundant in most collisions, this amounts to the mis-identification of additional muons for this analysis. Major contributions to this background are expected to come from the Drell-Yan process while other processes which may produce at least two leptons, such as t$\overline{\mathrm{t}}$, may also contribute. Example Feynman diagrams of these two processes can be seen in \autoref{fig:reducibleBackgroundDiagrams}. Since the simulation of mis-identified muons is subject to significant modelling uncertainties, a data-driven approach may be used. This involves determining the mis-identification rate of muons in data and applying it to a side-band region from which the contributions of reducible backgrounds are extrapolated into the signal region. The methodology used to this end is presented in this section and follows that of \cite{HIG19-001}.
 
 \begin{figure}
     \begin{subfigure}{.5\textwidth}
@@ -613,19 +613,26 @@ Reducible background processes are background processes that do not produce the 
 \label{fig:reducibleBackgroundDiagrams}
 \end{figure}
 
-\subsubsection{Determination of muon mis-identification rate}
-To determine the mis-identification of muons with respect to the tight muon requirement outlined in \autoref{sec:MuonReconstruction}, a three-muon selection is applied to data. Specifically, events with a $Z\rightarrow\mu^+\mu^-$ decay that also contain a third muon are targeted. Since hard-scattering processes that produces a Z boson are not expected to produce any additional muons, the third reconstructed muon (typically referred to as the \textit{probe muon}) is assumed to be one that is mis-identified as such. To determine a mis-identification rate, the ratio of probe muons that pass the tight muon requirement with respect to those that pass the loose muon requirement is calculated. This procedure is performed in bins of the probe muon \pt for the barrel ($\lvert \eta \rvert \leq 1.2$) and endcap ($\lvert \eta \rvert > 1.2$) regions respectively. The exact reconstruction algorithm that is applied is the following:
+\subsubsection{Determination of muon misidentification rate}
+To determine the misidentification of muons with respect to the tight muon requirement outlined in \autoref{sec:MuonReconstruction}, a three-muon selection is applied to data. Specifically, events with a $Z\rightarrow\mu^+\mu^-$ decay that also contain a third reconstructed muon are targeted. Since hard-scattering processes that produces a Z boson are not expected to produce any additional muons, the third reconstructed muon (typically referred to as the \textit{probe muon}) is assumed to be one that is misidentified as such. To determine a misidentification rate, the ratio of probe muons that pass the tight muon requirement with respect to those that pass the loose muon requirement is calculated. This procedure is performed in bins of the probe muon \pt for the barrel ($\lvert \eta \rvert \leq 1.2$) and endcap ($\lvert \eta \rvert > 1.2$) regions respectively. The exact reconstruction algorithm that is applied is the following:
 \begin{enumerate}
     \item Events that contain at least two muons that pass the tight identification requirement and where the third passes at least the loose identification requirement are chosen. The \pt-leading muon is required to satisfy \pt \, \textgreater 20 GeV and the sub-leading muon is required to satisfy \pt \,\textgreater 10 GeV. Additionally, the HLT\_IsoMu24 trigger requirement must also be met. Lastly, to ensure two muons are not spuriously reconstructed from shared tracks, it is required that each muon candidate is separated from the others by $\Delta$R \textgreater 0.02.
     \item Opposite-sign muon pairs are merged into Z boson candidates and the candidate closest to the nominal Z mass is taken as the final Z candidate. Additionally, the invariant mass of any combination of oppsite-sign muons must satisfy $m_{\mu\mu}$\textgreater \, 4 GeV, to remove any contributions from low mass resonances such as J/$\psi$. 
     \item The remaining, third muon not selected as part of the Z candidate is taken as the probe muon 
 \end{enumerate}
-The mis-identification rate of the probe muon that is determined in this way in bins of the probe muon \pt, can be seen in \autoref{fig:misIDRate}. However, the contribution from processes that indeed produce three muons in the hard-scattering  must be subtracted. This consists primarily of WZ$\rightarrow3\ell\nu$ processes that artifically inflate the calculated mis-identification rate at higher probe muon \pt. This contribution is subtracted using simulation. It is this corrected version of the mis-identification rate that is used in the following section. 
+The misidentification rate of the probe muon that is determined in this way in bins of the probe muon \pt, can be seen in \autoref{fig:FakeRate}. However, contributions from processes that indeed produce three muons in the hard-scattering must be subtracted. This consists primarily of WZ$\rightarrow3\ell\nu$ processes that artifically inflate the calculated misidentification rate at higher probe muon \pt. This contribution is subtracted using simulation. It is this corrected version of the misidentification rate that is used in the following section. 
 
-\subsubsection{Application of muon mis-identification rate}
-The muon mis-identification rate is applied to a control region to estimate the contribution of reducible backgrounds to the previously described \cHZZ selection. It is useful to introduce some of the related terminology at this point. The four pass (4P) region henceforth refers to the inclusive signal region that is defined via the \cHZZ selection. The three-pass-one-fail (3P1F) and two-pass-two-fail (2P2F) regions respectively refer to regions in which the \cHZZ reconstruction is performed as previously described but where only three (two) of the muons satisfy the tight identification criteria and the remaining one (two) muon(s) satisfy only the loose identification criteria. The 3P1F and 2P2P are collectively referred to as the application region (AR). \\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/FakeRate.pdf}
+    \caption{The muon misidentification rate in bins of the probe muon transverse mometum in both the barrel and endcap regions. The doted lines represent the uncorrected misidentification rate while the solid lines repsent the misidentification rate where contributions from WZ$\rightarrow3\ell\nu$ processes are subtracted.}
+    \label{fig:FakeRate}
+\end{figure}
+
+\subsubsection{Application of muon misidentification rate}
+The muon misidentification rate is applied to a control region to estimate the contribution of reducible backgrounds to the previously described \cHZZ selection. It is useful to introduce some of the related terminology at this point. The four pass (4P) region henceforth refers to the inclusive signal region that is defined via the \cHZZ selection. The three-pass-one-fail (3P1F) and two-pass-two-fail (2P2F) regions respectively refer to regions in which the \cHZZ reconstruction is performed as previously described but where only three (two) of the muons satisfy the tight identification criteria and the remaining one (two) muon(s) satisfy only the loose identification criteria. The 3P1F and 2P2P are collectively referred to as the application region (AR). \\
 \\
-The extrapolation of the AR to the 4P is performed using the previously determined mis-identification rate. The prescription for this application can be obtained from the mis-identification rate $f_i$ which is defined as
+The extrapolation of the AR to the 4P is performed using the previously determined misidentification rate. The prescription for this application can be obtained from the misidentification rate $f_i$ which is defined as
 \begin{align}
     f = \frac{N_{\mathrm{tight}}}{N_{\mathrm{loose}}}. 
 \end{align}
@@ -663,11 +670,11 @@ Thus, for each muon that fails the tight identification requirements but passes 
 
     where the $f_k^{(4)}$ is the misidentification rate associated with the non-passing muon for the $k$-th event. The major contributor to the 3P1F ragion is expected to consist of WZ$\rightarrow3\ell\nu$ due to the presence of three prompt leptons. 
 \end{enumerate}
-To obtain the total contribution of the AR to the 4P region, potential contaminations of the 2P2F and 3P1F regions must be accounted for. The first source of contamination is the potential overlap of the 3P1F region with contributions from the 2P2F region, where an additional muon has been mis-identified in the former and erroneously passes the tight identificatio criteria. This may lead to an overestimation of the 3P1F region. Such contributions can be estimated via the term
+To obtain the total contribution of the AR to the 4P region, potential contaminations of the 2P2F and 3P1F regions must be accounted for. The first source of contamination is the potential overlap of the 3P1F region with contributions from the 2P2F region, where an additional muon has been misidentified in the former and erroneously passes the tight identificatio criteria. This may lead to an overestimation of the 3P1F region. Such contributions can be estimated via the term
 \begin{align}
     N_{\mathrm{exp.}}^{\mathrm{(3P1F)}} = \sum_{k}^{N_{\mathrm{2P2F}}} \big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} + \frac{f_k^{(4)}}{(1-f_k^{(4)})} \big).
 \end{align}
-Effectively, contributions from the 2P2F region are weighed with the mis-identification rate for both muons that fail the tight identification criteria. To then extrapolate this contribution to the 4P region, the fake rate must once again be applied, this time to the respective complementary muon. This produces the final term
+Effectively, contributions from the 2P2F region are weighed with the misidentification rate for both muons that fail the tight identification criteria. To then extrapolate this contribution to the 4P region, the fake rate must once again be applied, this time to the respective complementary muon. This produces the final term
 \begin{align}
     N_{\mathrm{4P exp.}}^{\mathrm{(3P1F)}} =& \sum_{k}^{N_{\mathrm{2P2F}}} \big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})} + \frac{f_k^{(4)}}{(1-f_k^{(4)})}\frac{f_k^{(3)}}{(1-f_k^{(3)})} \big) \\
     = & 2 \sum_{k}^{N_{\mathrm{2P2F}}}\big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})})
@@ -682,17 +689,18 @@ Effectively, contributions from the 2P2F region are weighed with the mis-identif
 \\
 The total contribution to the 4P region $N_{\mathrm{4P}}$ may finally be estimated by taking the sum of the 2P2F and 3P1F contributions and subtracting the discussed contamination terms. This leads to
 \begin{align}
+    \label{eq:reducibleMasterEquation}
     N_{\mathrm{4P}} =& N_{\mathrm{4P}}^{\mathrm{(2P2F)}} + N_{\mathrm{4P}}^{\mathrm{(3P1F)}} - N_{\mathrm{4P exp.}}^{\mathrm{(3P1F)}} - N_{\mathrm{4P}}^{\mathrm{(ZZ, 3P1F)}} \\
     =& \sum_{k}^{N_{\mathrm{3P1F}}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{3P1F}}^{ZZ}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{2P2F}}}\big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})})
 \end{align}
 \\
-However, it is found that due to the strong muon identification criteria an extremely small yield of reducible backgrounds are observed. Since this leads to non-continuous distributions of observables, a simplification must be made for the final statistical evaluation. 
-
-...
+By applying this strategy, an inclusive yield of 6.59 events for the reducible background in the 4P region is observed. In the signal region around the Higgs mass peak of 120 GeV \textless m(H) \textgreater 130 GeV, this reduces to a yield of 0.42 events. However, the derived distributions of observables are significiantly discontinuous. This arises from the strong influence of statistical fluctuations on the small yields of the individual control regions. The effects of these fluctuations are compounded by the subtractions performed in \autoref{eq:reducibleMasterEquation}, which introduce a significant number of bins with negative, unphysical yields. Given the subdominant nature of this background, a simplifcation to the estimation is made to resolve this problem. Specifically, the shapes of the distributions of observables in the 2P2F region, the most populated control region in the reducible background estimation, are taken and scaled to the yield of the full estimation. This approach is validated by a comparison of the 2P2F and 3P1F flavour tagging disciminator shapes, which show reasonable similarity as seen in \autoref{}. The contribution of the reducible background estimation to distributions of observables that is derived in this way can be seen in the following section. \\
+\\
+A number of systematic uncertainty sources can influence the reducible background estimation. This includes the effects of statistical uncertainties on each bin of the muon misidentification rate, effects related to differences in the background composition between different control regions as well as the discussed simplication introduced in the estimation strategy. However, due to the subdominant nature of this background and the fact that its contributions are minimal in the phase space of the signal, these effects are not propagated to the statistical evaluation. Instead a conservative rate uncertainty of 50\% is introduced to approximate their effect.
 
 \section{Validation of \cHZZ event selection in sideband regions}
 \label{sec:sidebandValidation}
-Here, a validation of the described event selection is presented. Specifically, the 2018 dataset of the CMS detector is compared to simulation in sideband regions of the signal for a variety of observables. These side-band regions include all selected events outside of the 120 GeV \textless $m$(H) \textgreater 130 GeV region, which is where the \cHZZ is expected to be found. The .. 
+Here, a validation of the described event selection is presented. Specifically, the 2018 dataset of the CMS detector is compared to simulation in sideband regions of the signal for a variety of observables. These side-band regions include all selected events outside of the 120 GeV \textless $m$(H) \textless 130 GeV region, which is where the primary \cHZZ contribution is expected to be found. The .. 
 \section{Statistical inference}
 \label{sec:StatisticalEvaluation}
 For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseuo-two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on these distributions that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
@@ -729,7 +737,7 @@ The sources of uncertainty in the model of the signal and background processes a
 \subsubsection{Theoretical uncertainties common to simulation}
 A number of theoretical uncertainties that are common to all simulated sample are included in the uncertainty model. This includes:
 \begin{itemize}
-    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing four shape-changing nuisance parameters. 
+    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing two shape-changing nuisance parameters. 
     \item Shape uncertainties related to the modelling of the Parton Distribution Function (PDF). These uncertainties are obtained from the \textsf{NNPDF3.1} PDF set that is used in simulation \cite{NNPDF3.1} and includes 100 PDF variations associated with variations of individual parameters. These are combined into a single nuisance parameter with the prescription   
     \begin{equation}
     \label{eq:symmhessian}

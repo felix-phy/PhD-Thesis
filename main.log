@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  16 JAN 2026 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  19 JAN 2026 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,7 +1243,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<vub_logo_cmyk.pdf, id=216, 2094.8363pt x 738.42874pt>
+<vub_logo_cmyk.pdf, id=167, 2094.8363pt x 738.42874pt>
 File: vub_logo_cmyk.pdf Graphic file (type pdf)
 <use vub_logo_cmyk.pdf>
 Package pdftex.def Info: vub_logo_cmyk.pdf  used on input line 51.
@@ -1267,19 +1267,21 @@ File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 
 ] [3] [4
 
-] (./main.toc [5])
+] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
+ [5]
+[6
 
-[6] (./chapters/Introduction.tex
+] (./chapters/Introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<figures/Higgs_couplings.png, id=317, 3162.81625pt x 3034.33624pt>
+<figures/Higgs_couplings.png, id=213, 3162.81625pt x 3034.33624pt>
 File: figures/Higgs_couplings.png Graphic file (type png)
 <use figures/Higgs_couplings.png>
 Package pdftex.def Info: figures/Higgs_couplings.png  used on input line 9.
@@ -1290,7 +1292,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--19
  []
 
 [1
-
 
 ] [2 <./figures/Higgs_couplings.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--53
@@ -1373,7 +1374,7 @@ File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 196.
  [7]
-<figures/genPartonPt.pdf, id=406, 867.24pt x 867.24pt>
+<figures/genPartonPt.pdf, id=304, 867.24pt x 867.24pt>
 File: figures/genPartonPt.pdf Graphic file (type pdf)
 <use figures/genPartonPt.pdf>
 Package pdftex.def Info: figures/genPartonPt.pdf  used on input line 205.
@@ -1461,7 +1462,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--311
 
 pdfTeX warning: pdflatex (file ./figures/EFTDiagram.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
-<figures/EFTDiagram.pdf, id=508, 338.95934pt x 196.68782pt>
+<figures/EFTDiagram.pdf, id=407, 338.95934pt x 196.68782pt>
 File: figures/EFTDiagram.pdf Graphic file (type pdf)
 <use figures/EFTDiagram.pdf>
 Package pdftex.def Info: figures/EFTDiagram.pdf  used on input line 322.
@@ -1491,7 +1492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--360
 
  []
 
-<figures/TopCMD.pdf, id=545, 101.64273pt x 107.18443pt>
+<figures/TopCMD.pdf, id=443, 101.64273pt x 107.18443pt>
 File: figures/TopCMD.pdf Graphic file (type pdf)
 <use figures/TopCMD.pdf>
 Package pdftex.def Info: figures/TopCMD.pdf  used on input line 363.
@@ -1569,12 +1570,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--439
 
 ]
 Chapter 2.
-<figures/LHC2.png, id=619, 274.8669pt x 167.6664pt>
+<figures/LHC2.png, id=517, 274.8669pt x 167.6664pt>
 File: figures/LHC2.png Graphic file (type png)
 <use figures/LHC2.png>
 Package pdftex.def Info: figures/LHC2.png  used on input line 6.
 (pdftex.def)             Requested size: 376.42575pt x 229.63504pt.
-<figures/CMS.png, id=623, 1323.94624pt x 887.315pt>
+<figures/CMS.png, id=521, 1323.94624pt x 887.315pt>
 File: figures/CMS.png Graphic file (type png)
 <use figures/CMS.png>
 Package pdftex.def Info: figures/CMS.png  used on input line 13.
@@ -1584,7 +1585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-<figures/CMSTracker.pdf, id=645, 423.46184pt x 150.55324pt>
+<figures/CMSTracker.pdf, id=544, 423.46184pt x 150.55324pt>
 File: figures/CMSTracker.pdf Graphic file (type pdf)
 <use figures/CMSTracker.pdf>
 Package pdftex.def Info: figures/CMSTracker.pdf  used on input line 51.
@@ -1615,7 +1616,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--64
  []
 
 [19]
-<figures/CMSEcal.png, id=667, 1052.93375pt x 525.965pt>
+<figures/CMSEcal.png, id=565, 1052.93375pt x 525.965pt>
 File: figures/CMSEcal.png Graphic file (type png)
 <use figures/CMSEcal.png>
 Package pdftex.def Info: figures/CMSEcal.png  used on input line 69.
@@ -1626,7 +1627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
  []
 
 [21 <./figures/CMSEcal.png>]
-<figures/CMSMagnet2.png, id=704, 1077.02374pt x 562.1pt>
+<figures/CMSMagnet2.png, id=602, 1077.02374pt x 562.1pt>
 File: figures/CMSMagnet2.png Graphic file (type png)
 <use figures/CMSMagnet2.png>
 Package pdftex.def Info: figures/CMSMagnet2.png  used on input line 84.
@@ -1637,7 +1638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--93
  []
 
 [22 <./figures/CMSMagnet2.png>]
-<figures/CMSMuonSystem.png, id=718, 1163.34625pt x 830.10126pt>
+<figures/CMSMuonSystem.png, id=616, 1163.34625pt x 830.10126pt>
 File: figures/CMSMuonSystem.png Graphic file (type png)
 <use figures/CMSMuonSystem.png>
 Package pdftex.def Info: figures/CMSMuonSystem.png  used on input line 96.
@@ -1648,6 +1649,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
  []
 
 [23 <./figures/CMSMuonSystem.png>]
+
+LaTeX Warning: Reference `sec:ReducibleBackgrounds' on page 24 undefined on inp
+ut line 107.
+
+
+LaTeX Warning: Reference `sec:sidebandValidation' on page 24 undefined on input
+ line 107.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 115--118
 
  []
@@ -1667,7 +1677,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
-<figures/PF.pdf, id=745, 450.9648pt x 311.05008pt>
+<figures/PF.pdf, id=641, 450.9648pt x 311.05008pt>
 File: figures/PF.pdf Graphic file (type pdf)
 <use figures/PF.pdf>
 Package pdftex.def Info: figures/PF.pdf  used on input line 159.
@@ -1706,17 +1716,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--231
  []
 
 [29]
-<figures/2DSIP.png, id=809, 1686.3pt x 578.16pt>
+<figures/2DSIP.png, id=705, 1686.3pt x 578.16pt>
 File: figures/2DSIP.png Graphic file (type png)
 <use figures/2DSIP.png>
 Package pdftex.def Info: figures/2DSIP.png  used on input line 234.
 (pdftex.def)             Requested size: 418.25368pt x 143.4016pt.
-<figures/HFJets.png, id=812, 1763.58875pt x 997.7275pt>
+<figures/HFJets.png, id=708, 1763.58875pt x 997.7275pt>
 File: figures/HFJets.png Graphic file (type png)
 <use figures/HFJets.png>
 Package pdftex.def Info: figures/HFJets.png  used on input line 241.
 (pdftex.def)             Requested size: 376.42575pt x 212.95438pt.
-<figures/DeepJetArch.png, id=815, 1842.885pt x 421.575pt>
+<figures/DeepJetArch.png, id=711, 1842.885pt x 421.575pt>
 File: figures/DeepJetArch.png Graphic file (type png)
 <use figures/DeepJetArch.png>
 Package pdftex.def Info: figures/DeepJetArch.png  used on input line 250.
@@ -1730,7 +1740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
-<figures/DeepJetEfficiencies.png, id=840, 1818.795pt x 854.19125pt>
+<figures/DeepJetEfficiencies.png, id=737, 1818.795pt x 854.19125pt>
 File: figures/DeepJetEfficiencies.png Graphic file (type png)
 <use figures/DeepJetEfficiencies.png>
 Package pdftex.def Info: figures/DeepJetEfficiencies.png  used on input line 27
@@ -1763,6 +1773,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
 
+LaTeX Warning: Reference `sec:StatisticalEvaluation' on page 33 undefined on in
+put line 2.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
@@ -1778,19 +1792,29 @@ LaTeX Warning: Reference `fig:cHHiggsMass' on page 34 undefined on input line 4
 6.
 
 [34]
+
+LaTeX Warning: Reference `sec:JetSelectionTemplates' on page 35 undefined on in
+put line 54.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 [35]
-<figures/jetSelectionEfficiency.pdf, id=886, 867.24pt x 867.24pt>
+<figures/jetSelectionEfficiency.pdf, id=781, 867.24pt x 867.24pt>
 File: figures/jetSelectionEfficiency.pdf Graphic file (type pdf)
 <use figures/jetSelectionEfficiency.pdf>
 Package pdftex.def Info: figures/jetSelectionEfficiency.pdf  used on input line
  101.
 (pdftex.def)             Requested size: 292.77629pt x 292.78012pt.
- [36] [37 <./figures/jetSelectionEfficiency.pdf>] [38]
-<figures/EventSimulation.png, id=998, 2048.65375pt x 1865.97125pt>
+
+
+LaTeX Warning: Reference `sec:ReducibleBackgrounds' on page 36 undefined on inp
+ut line 108.
+
+[36] [37 <./figures/jetSelectionEfficiency.pdf>] [38]
+<figures/EventSimulation.png, id=892, 2048.65375pt x 1865.97125pt>
 File: figures/EventSimulation.png Graphic file (type png)
 <use figures/EventSimulation.png>
 Package pdftex.def Info: figures/EventSimulation.png  used on input line 125.
@@ -1832,13 +1856,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--147
  []
 
 [39 <./figures/EventSimulation.png (PNG copy)>] [40]
-<figures/METype_METypeNoSelection.pdf, id=1023, 867.24pt x 867.24pt>
+<figures/METype_METypeNoSelection.pdf, id=917, 867.24pt x 867.24pt>
 File: figures/METype_METypeNoSelection.pdf Graphic file (type pdf)
 <use figures/METype_METypeNoSelection.pdf>
 Package pdftex.def Info: figures/METype_METypeNoSelection.pdf  used on input li
 ne 158.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/METype_METype.pdf, id=1024, 867.24pt x 867.24pt>
+<figures/METype_METype.pdf, id=918, 867.24pt x 867.24pt>
 File: figures/METype_METype.pdf Graphic file (type pdf)
 <use figures/METype_METype.pdf>
 Package pdftex.def Info: figures/METype_METype.pdf  used on input line 164.
@@ -1951,6 +1975,10 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 171--273
  []
 
 
+LaTeX Warning: Reference `sec:StatisticalEvaluation' on page 41 undefined on in
+put line 275.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 153--293
 
  []
@@ -1970,6 +1998,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--293
 Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
+
+
+LaTeX Warning: Reference `fig:ggH' on page 43 undefined on input line 299.
+
+
+LaTeX Warning: Reference `fig:ttH' on page 43 undefined on input line 300.
+
+
+LaTeX Warning: Reference `fig:VH' on page 43 undefined on input line 301.
+
+
+LaTeX Warning: Reference `fig:qqH' on page 43 undefined on input line 302.
+
+
+LaTeX Warning: Reference `fig:tqH' on page 43 undefined on input line 303.
+
+
+LaTeX Warning: Reference `fig:ggZZ' on page 43 undefined on input line 304.
+
+
+LaTeX Warning: Reference `fig:qqZZ' on page 43 undefined on input line 305.
 
 [43]
 
@@ -2140,7 +2189,14 @@ stance' requires LuaTeX. It will be ignored. on input line 480.
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
 distance' requires LuaTeX. It will be ignored. on input line 480.
 
-[44] [45]
+
+LaTeX Warning: Reference `table:IrreducibleBackgroundSamples' on page 44 undefi
+ned on input line 494.
+
+
+LaTeX Warning: Reference `fig:reducibleBackgroundDiagrams' on page 44 undefined
+ on input line 563.
+
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
 tance' requires LuaTeX. It will be ignored. on input line 571.
@@ -2189,72 +2245,112 @@ stance' requires LuaTeX. It will be ignored. on input line 600.
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
 distance' requires LuaTeX. It will be ignored. on input line 600.
 
+[44] [45]
 
-LaTeX Warning: Reference `fig:misIDRate' on page 46 undefined on input line 623
-.
+LaTeX Warning: Reference `fig:FakeRate' on page 46 undefined on input line 623.
+
+
+<figures/FakeRate.pdf, id=1075, 1011.78pt x 722.7pt>
+File: figures/FakeRate.pdf Graphic file (type pdf)
+<use figures/FakeRate.pdf>
+Package pdftex.def Info: figures/FakeRate.pdf  used on input line 627.
+(pdftex.def)             Requested size: 292.77629pt x 209.1255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--636
+
+ []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
+
+LaTeX Warning: Reference `eq:tightloosef' on page 47 undefined on input line 64
+4.
+
+
+LaTeX Warning: Reference `eq:tightloosef' on page 47 undefined on input line 64
+9.
+
+[47 <./figures/FakeRate.pdf>] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
 
  []
 
 
-Overfull \hbox (5.29344pt too wide) in paragraph at lines 626--629
-\OT1/cmr/m/n/10 identification rate. The pre-scrip-tion for this ap-pli-ca-tion
- can be ob-tained from the mis-identification
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 674--679
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--679
+LaTeX Warning: Reference `eq:reducibleMasterEquation' on page 49 undefined on i
+nput line 697.
+
+
+LaTeX Warning: Reference `' on page 49 undefined on input line 697.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--700
 
  []
 
-[48]
+[49]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 693.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 693.
+(hyperref)                removing `math shift' on input line 701.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 693.
+(hyperref)                removing `\rightarrow' on input line 701.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 693.
+(hyperref)                removing `\mu' on input line 701.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 693.
+(hyperref)                removing `math shift' on input line 701.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 701.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 693.
+(hyperref)                removed on input line 701.
 
 
-LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 49 undefined on input 
-line 698.
+LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 50 undefined on input 
+line 706.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--700
+LaTeX Warning: Reference `sec:statisticalModel' on page 50 undefined on input l
+ine 706.
+
+
+LaTeX Warning: Reference `sec:uncertaintyModel' on page 50 undefined on input l
+ine 706.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--700
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
-[49] [50] [51]) (./chapters/EFT.tex [52]
+
+LaTeX Warning: Reference `sec:uncertaintyModel' on page 50 undefined on input l
+ine 719.
+
+[50]
+
+LaTeX Warning: Reference `sec:statisticalModel' on page 51 undefined on input l
+ine 736.
+
+[51] [52]) (./chapters/EFT.tex [53] [54
+
+]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2280,137 +2376,178 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-) [53
+) [55] [56
 
-] [54
+] [57
 
-] [55
+] [58
 
-] [56
-
-] [57] [58] [59]
+] [59] [60] [61]
 Overfull \hbox (11.1082pt too wide) in paragraph at lines 68--68
 \OT1/cmr/m/n/10 results.web.cern.ch/cms-results/public-results/publications/PRF
 -14-001(CMS Pub-lic Pages),
  []
 
-[60]
+[62]
 Overfull \hbox (11.60338pt too wide) in paragraph at lines 68--68
 \OT1/cmr/m/it/10 nal of High En-ergy Physics \OT1/cmr/m/n/10 2012.12 (Dec. 2012
 ). \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 1029-8479. \OT1/cmr/m/sc/10 doi\OT1/c
 mr/m/n/10 : []$\OT1/cmtt/m/n/10 10 . 1007 / jhep12(2012 )
  []
 
-(./chapters/Appendix.tex [61] [62
+[63] (./chapters/Appendix.tex [64]
 
-]
-<figures/0-15GeV_DeltaPhi_template.pdf, id=1526, 867.24pt x 867.24pt>
+LaTeX Warning: Reference `fig:columnarAnalysis' on page 65 undefined on input l
+ine 3.
+
+
+LaTeX Warning: Reference `sec:ReducibleBackgrounds' on page 65 undefined on inp
+ut line 3.
+
+
+LaTeX Warning: Reference `sec:EFTChapter' on page 65 undefined on input line 3.
+
+
+
+LaTeX Warning: Citation 'PhenoPaper' on page 65 undefined on input line 3.
+
+<figures/ColumnarAnalysis.png, id=1509, 215.30438pt x 133.49875pt>
+File: figures/ColumnarAnalysis.png Graphic file (type png)
+<use figures/ColumnarAnalysis.png>
+Package pdftex.def Info: figures/ColumnarAnalysis.png  used on input line 7.
+(pdftex.def)             Requested size: 292.77629pt x 181.55382pt.
+
+LaTeX Warning: Reference `fig:TemplatesStart' on page 65 undefined on input lin
+e 14.
+
+
+LaTeX Warning: Reference `fig:TemplatesEnd' on page 65 undefined on input line 
+14.
+
+<figures/0-15GeV_DeltaPhi_template.pdf, id=1513, 867.24pt x 867.24pt>
 File: figures/0-15GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_DeltaPhi_template.pdf  used on input l
-ine 10.
+ine 19.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/0-15GeV_PtFrac_template.pdf, id=1527, 867.24pt x 867.24pt>
+<figures/0-15GeV_PtFrac_template.pdf, id=1514, 867.24pt x 867.24pt>
 File: figures/0-15GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_PtFrac_template.pdf  used on input lin
-e 15.
+e 24.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_DeltaPhi_template.pdf, id=1528, 867.24pt x 867.24pt>
+<figures/15-30GeV_DeltaPhi_template.pdf, id=1515, 867.24pt x 867.24pt>
 File: figures/15-30GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_DeltaPhi_template.pdf  used on input 
-line 24.
+line 34.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_PtFrac_template.pdf, id=1529, 867.24pt x 867.24pt>
+<figures/15-30GeV_PtFrac_template.pdf, id=1516, 867.24pt x 867.24pt>
 File: figures/15-30GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_PtFrac_template.pdf  used on input li
-ne 29.
+ne 39.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_DeltaPhi_template.pdf, id=1530, 867.24pt x 867.24pt>
+<figures/30-50GeV_DeltaPhi_template.pdf, id=1517, 867.24pt x 867.24pt>
 File: figures/30-50GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_DeltaPhi_template.pdf  used on input 
-line 38.
+line 48.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_PtFrac_template.pdf, id=1531, 867.24pt x 867.24pt>
+<figures/30-50GeV_PtFrac_template.pdf, id=1518, 867.24pt x 867.24pt>
 File: figures/30-50GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_PtFrac_template.pdf  used on input li
-ne 43.
+ne 53.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_DeltaPhi_template.pdf, id=1532, 867.24pt x 867.24pt>
+<figures/50-100GeV_DeltaPhi_template.pdf, id=1519, 867.24pt x 867.24pt>
 File: figures/50-100GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_DeltaPhi_template.pdf  used on input
- line 52.
+ line 62.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_PtFrac_template.pdf, id=1533, 867.24pt x 867.24pt>
+<figures/50-100GeV_PtFrac_template.pdf, id=1520, 867.24pt x 867.24pt>
 File: figures/50-100GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_PtFrac_template.pdf  used on input l
-ine 57.
+ine 67.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_DeltaPhi_template.pdf, id=1534, 867.24pt x 867.24pt>
+<figures/100-200GeV_DeltaPhi_template.pdf, id=1521, 867.24pt x 867.24pt>
 File: figures/100-200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_DeltaPhi_template.pdf  used on inpu
-t line 66.
+t line 76.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_PtFrac_template.pdf, id=1535, 867.24pt x 867.24pt>
+<figures/100-200GeV_PtFrac_template.pdf, id=1522, 867.24pt x 867.24pt>
 File: figures/100-200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_PtFrac_template.pdf  used on input 
-line 71.
+line 81.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_DeltaPhi_template.pdf, id=1536, 867.24pt x 867.24pt>
+<figures/>200GeV_DeltaPhi_template.pdf, id=1523, 867.24pt x 867.24pt>
 File: figures/>200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/>200GeV_DeltaPhi_template.pdf  used on input l
-ine 80.
+ine 90.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_PtFrac_template.pdf, id=1537, 867.24pt x 867.24pt>
+<figures/>200GeV_PtFrac_template.pdf, id=1524, 867.24pt x 867.24pt>
 File: figures/>200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/>200GeV_PtFrac_template.pdf  used on input lin
-e 85.
+e 95.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
 )
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 470.
 See the caption package documentation for explanation.
 
-[63] [64 <./figures/0-15GeV_DeltaPhi_template.pdf> <./figures/0-15GeV_PtFrac_te
-mplate.pdf> <./figures/15-30GeV_DeltaPhi_template.pdf> <./figures/15-30GeV_PtFr
-ac_template.pdf>] [65 <./figures/30-50GeV_DeltaPhi_template.pdf> <./figures/30-
-50GeV_PtFrac_template.pdf> <./figures/50-100GeV_DeltaPhi_template.pdf> <./figur
-es/50-100GeV_PtFrac_template.pdf>] [66 <./figures/100-200GeV_DeltaPhi_template.
-pdf> <./figures/100-200GeV_PtFrac_template.pdf> <./figures/>200GeV_DeltaPhi_tem
-plate.pdf> <./figures/>200GeV_PtFrac_template.pdf>]
+[65
+
+] [66 <./figures/ColumnarAnalysis.png> <./figures/0-15GeV_DeltaPhi_template.pdf
+> <./figures/0-15GeV_PtFrac_template.pdf>] [67 <./figures/15-30GeV_DeltaPhi_tem
+plate.pdf> <./figures/15-30GeV_PtFrac_template.pdf> <./figures/30-50GeV_DeltaPh
+i_template.pdf> <./figures/30-50GeV_PtFrac_template.pdf>] [68 <./figures/50-100
+GeV_DeltaPhi_template.pdf> <./figures/50-100GeV_PtFrac_template.pdf> <./figures
+/100-200GeV_DeltaPhi_template.pdf> <./figures/100-200GeV_PtFrac_template.pdf>] 
+[69 <./figures/>200GeV_DeltaPhi_template.pdf> <./figures/>200GeV_PtFrac_templat
+e.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A3CA73F6414501630722858D0A0D6B1;3982.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 1EB44A77B518AE45E88E25F38A7B09EC;3149
+(rerunfilecheck)             After:  81A30F89528A60E5A52BA32019B12693;4025.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30768 strings out of 481239
- 614354 string characters out of 5920376
- 1294286 words of memory out of 5000000
- 45104 multiletter control sequences out of 15000+600000
+ 30796 strings out of 481239
+ 615153 string characters out of 5920376
+ 1295464 words of memory out of 5000000
+ 45121 multiletter control sequences out of 15000+600000
  582370 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,100p,2062b,2112s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,100p,2709b,2112s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -2444,10 +2581,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf/fonts/ty
 pe1/public/tex-gyre/qagr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 1000.pfb>
-Output written on main.pdf (72 pages, 5487164 bytes).
+Output written on main.pdf (75 pages, 5624685 bytes).
 PDF statistics:
- 2471 PDF objects out of 2487 (max. 8388607)
- 1504 compressed objects within 16 object streams
- 319 named destinations out of 1000 (max. 500000)
- 593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2470 PDF objects out of 2487 (max. 8388607)
+ 1445 compressed objects within 15 object streams
+ 328 named destinations out of 1000 (max. 500000)
+ 507 words of extra memory for PDF output out of 10000 (max. 10000000)
 

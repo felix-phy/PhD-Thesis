@@ -1,8 +1,17 @@
 \chapter{Appendix}
 \section{Columnar analysis framework}
-\section{Jet selection}
+For this work, an analysis framework built upon the \textsf{Coffea} \cite{Coffea} software package and based on columnar analysis methods was concipated and written. To better understand the idea of columnar analysis, it helps to consider the computations are required of a typical physics analysis. On a per-event basis, an analyser must repeatedly perform a set of operations on some input data (event data delivered for example via the CMS \textsf{NanoAOD} \cite{NANOAOD} format) to produce a desired set of outputs. This may consist of applying object selection criteria or producing new, higher level variables from the input. In the context of an entire dataset, the subset of data associated with a single event can thus be thought of as a single row in a larger matrix. With this matrix picture in mind, two approaches to producing the desired outputs may be implemented. The first is a row based approach where the necessary computations are performed serially, once per event, with one event following another. This represents a `traditional' event loop approach to analysis. The second is the column based approach where operations are performed on entire columns of event data, thus lending the \textit{columnar} analysis name. This means a single computational step is effectively performed simultaneously across a set of events, allowing for an improved optimisation of computations as relevant data may be stored in contiguous memory. Both of these approaches are visualised in \autoref{fig:columnarAnalysis}. This columnar approach is facilitated by the use of the \textsf{Awkward array} \cite{AwkwardArrays} python package, which generalises \textsf{numpy} \cite{Numpy} arrays to data with non-regular (or \textit{jagged}) shapes. With the columnar approach, the analysis framework is able to achieve a turn around time of 6-7 hours for the complete analysis (including the handling of systematic uncertainties) using the distributed grid computing resources available at the IIHE. This represents an almost tenfold speed increase to a previous framework iteration using a traditional CMS software C++ event loop structure. Along with the implementation of the algorithms described in \autoref{sec:Selection}, \autoref{sec:ReducibleBackgrounds} and \autoref{sec:EFTChapter}, the framework design includes an automatic, central handling of samples and relevant metadata, job submission to distributed computing resources as well as plotting tasks and production of templates for the CMS \textsf{Combine} tool. A variant of this framework was also used for the analysis presented in \cite{PhenoPaper}. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/ColumnarAnalysis.png}
+    \caption{A representation of event loop based and columnar based analysis approaches can be seen on the left and right respectively \cite{Coffea}. The squares, circles and diamonds represent event data that is transformed via an algorithm into output that is histogrammed, represented by the trapezoids. }
+    \label{fig:columnarAnalysis}
+\end{figure}
+
+\section{Likelihood templates derived for jet selection algorithm}
 \label{sec:JetSelectionTemplates}
-Here, the jet selection templates derived via the method described in \autoref{sec:JetCandidateSelection} are shown. These can be seen in .. 
+A number of liklihood templates are derived for the jet selection algorithm using the $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) variables, as decribed in \autoref{sec:JetCandidateSelection}. These can be seen in \autoref{fig:TemplatesStart} to \autoref{fig:TemplatesEnd}.
 
 \begin{figure}
     \begin{subfigure}{0.5\textwidth}
@@ -16,6 +25,7 @@ Here, the jet selection templates derived via the method described in \autoref{s
         \caption{The \pt(jet)/\pt(H) template.}
     \end{subfigure}%
     \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 0-15 GeV bin of the Higgs candidate mass.}
+    \label{fig:TemplatesStart}
 \end{figure}
 
 \begin{figure}
@@ -86,4 +96,5 @@ Here, the jet selection templates derived via the method described in \autoref{s
         \caption{The  \pt(jet)/\pt(H) template.}
     \end{subfigure}%
     \caption{The $\Delta\phi(H, jet)$ and \pt(jet)/\pt(H) templates in the $>$200 GeV bin of the Higgs candidate mass.}
+    \label{fig:TemplatesEnd}
 \end{figure}

@@ -2286,6 +2286,13 @@
     <bcf:citekey order="103">Butterworth_2016</bcf:citekey>
     <bcf:citekey order="104">HiggsHandBook</bcf:citekey>
     <bcf:citekey order="105">Barlow-Beeston</bcf:citekey>
+    <bcf:citekey order="106">Coffea</bcf:citekey>
+    <bcf:citekey order="107">NANOAOD</bcf:citekey>
+    <bcf:citekey order="108">AwkwardArrays</bcf:citekey>
+    <bcf:citekey order="109">Numpy</bcf:citekey>
+    <bcf:citekey order="110">PhenoPaper</bcf:citekey>
+    <bcf:citekey order="111">Coffea</bcf:citekey>
+    <bcf:citekey order="112">Coffea</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
