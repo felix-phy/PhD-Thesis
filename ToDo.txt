@@ -1,7 +1,6 @@
 Overall:
 
 == random 
- -- fix simulation diagram
  -- fix sample tables
  -- rerun analysis with new jet templates
  -- k-factors?
@@ -46,7 +45,6 @@ acceptance loss:
 
 To do for chapter 3: 
 
-    -- reducible backgrounds DONE
     -- sideband validation
     -- unrolled discriminator
     -- fix uncertainty discussion
