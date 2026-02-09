@@ -1,22 +1,26 @@
 Overall:
 
+== Introduction
+ -- Higgs potential? 
+ -- Label EFT sketch
+ -- EFT validity - cite?
+
+== CMS
+ -- 2D discrimination CvsX figure
+
+
 == random 
  -- fix sample tables
  -- rerun analysis with new jet templates
- -- k-factors?
+ -- k-factors? Probably not...
 
 == Stuff on cH sample:
     -- jet selection plots DONE FIX !!! BINNING IN DELTAPHI !!!
 
 == reducible backgrounds:
-    -- Make plots comparing 2P2F shape and 3P1F shape
     -- ask gerrit about rate unc justification
 
-== sideband validation
-    -- fix plots to have uncertainty band
-
 == uncertainties: 
-    -- implement PDF and scale uncertainties
     == theory uncertainties
         --- 50% on ggH?
         --- other cross sections
@@ -27,8 +31,32 @@ Overall:
     == framework
         -- check number of events used in analysis
 
-== fit
-    - do the fit...
+
+To do for chapter 3: 
+
+    -- sideband validation
+    -- unrolled discriminator
+    -- fit result
+    -- fix uncertainty discussion
+    -- Make plots comparing 2P2F shape and 3P1F shape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -41,12 +69,3 @@ acceptance loss:
     -- approx 70% of events have only one jet
     -- approx 25% have two jets
     -- 5% have more than two
-
-
-To do for chapter 3: 
-
-    -- sideband validation
-    -- unrolled discriminator
-    -- fix uncertainty discussion
-    -- fix missing citations
-    -- Make plots comparing 2P2F shape and 3P1F shape

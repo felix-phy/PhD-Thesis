@@ -9,7 +9,16 @@
 \usepackage[citestyle=numeric,style=numeric,backend=biber,sorting=none]{biblatex}
 \usepackage{tikz}
 \usepackage[compat=1.0.0]{tikz-feynman}
+\usepackage[english]{babel}
 \usepackage{hyperref}
+\addto\extrasenglish{%
+  \def\chapterautorefname{Chapter}%
+  \def\sectionautorefname{Section}%
+  \def\subsectionautorefname{Subsection}%
+  \def\subsubsectionautorefname{Subsubsection}%
+  \def\paragraphautorefname{Paragraph}%
+  \def\subparagraphautorefname{Subparagraph}%
+}
 \usepackage{float} 
 \usepackage[symbol]{footmisc}
 \usepackage{amsmath,bm}
@@ -21,16 +30,18 @@
 \usepackage[mathlines]{lineno}
 \linenumbers
 
+\let\orgautoref\autoref
+\renewcommand{\autoref}[1]{\def\equationautorefname{Eq.}\orgautoref{#1}}
 
 
 \newcommand{\Lagr}{$\mathcal{L}$}
-\newcommand{\pt}{p$_{\mathrm{T}}$}
+\newcommand{\pt}{$p_{\mathrm{T}}$}
 \newcommand{\ccbar}{$\mathrm{c\overline{c}}$}
 \newcommand{\yc}{$y_{\mathrm{c}}$}
 \newcommand{\kappac}{$\kappa_{\mathrm{c}}$}
-\newcommand{\mcut}{M$_{\mathrm{cut}}$}
-\newcommand{\cjet}{\textit{c} jet}
-\newcommand{\bjet}{\textit{b} jet}
+\newcommand{\mcut}{$M_{cut}$}
+\newcommand{\cjet}{c jet}
+\newcommand{\bjet}{b jet}
 \newcommand{\cHZZ}{cH(ZZ$\rightarrow4\mu$)\,}
 \newcommand{\bHZZ}{bH(ZZ$\rightarrow4\mu$)\,}
 \newcommand{\CLs}{CL$_{\mathrm{s}}$\,}

@@ -1756,8 +1756,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -1836,6 +1836,90 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.111.053003
+      \endverb
+    \endentry
+    \entry{MadGraph}{article}{}
+      \name{author}{10}{}{%
+        {{hash=db770a0dfc4628a7437bedbd56f940d4}{%
+           family={Alwall},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87f8432b90fa1363547627dd900ac62d}{%
+           family={Frederix},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=36ec2b0a28a3159dd489a8e0ce4c5e16}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da2920448eb87fb33798abb131da464b}{%
+           family={Hirschi},
+           familyi={H\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=146d5a62e8ec749ce3c087e42804f0a6}{%
+           family={Maltoni},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d6305f4a2bb37c97934d4f0cae42109e}{%
+           family={Mattelaer},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=437e153e70283e1bc3b1ec3ad54d6fae}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={H.-S.},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=86e07bd86b6c081d973cbedd27c360ab}{%
+           family={Stelzer},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ef6ecb08c2c6e622eec344decdbb82c}{%
+           family={Torrielli},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97b1b02748b4a359125a674e12ece48b}{%
+           family={Zaro},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{fullhash}{261fa39fa69c14924b0287f2a0cd40a4}
+      \strng{bibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorbibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authornamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorfullhash}{261fa39fa69c14924b0287f2a0cd40a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations}
+      \field{volume}{2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1007/jhep07(2014)079
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
       \endverb
     \endentry
     \entry{HiggsHandBook}{misc}{}
@@ -2810,8 +2894,8 @@
       \strng{authorbibnamehash}{7803dff6944bf3f46e90fa37e7084564}
       \strng{authornamehash}{7803dff6944bf3f46e90fa37e7084564}
       \strng{authorfullhash}{e96d1a9a9f41c5bc2f60dda1ea4b665f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -2858,8 +2942,8 @@
       \strng{authorbibnamehash}{e8ee09a806cc9d4d514f0dde208d944e}
       \strng{authornamehash}{e8ee09a806cc9d4d514f0dde208d944e}
       \strng{authorfullhash}{e8ee09a806cc9d4d514f0dde208d944e}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1539-0756}
@@ -2894,8 +2978,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{6}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -3174,8 +3258,8 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \field{extraname}{8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{Technical design report. CMS}
@@ -3206,8 +3290,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{9}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -3416,8 +3500,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{14}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{Technical design report. CMS}
@@ -3452,8 +3536,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{15}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{Technical design report. CMS}
@@ -3641,8 +3725,8 @@
       \strng{authorbibnamehash}{0d91c17f6d8eae3093673ebef7986ef6}
       \strng{authornamehash}{0d91c17f6d8eae3093673ebef7986ef6}
       \strng{authorfullhash}{0d91c17f6d8eae3093673ebef7986ef6}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
@@ -3667,8 +3751,8 @@
       \strng{authorbibnamehash}{50364dd8b24c4bb749e3a69def913d8d}
       \strng{authornamehash}{50364dd8b24c4bb749e3a69def913d8d}
       \strng{authorfullhash}{50364dd8b24c4bb749e3a69def913d8d}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the IEEE}
@@ -3699,8 +3783,8 @@
       \strng{authornamehash}{9e627cebb3efe373e3311854d2978b9e}
       \strng{authorfullhash}{9e627cebb3efe373e3311854d2978b9e}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -3878,8 +3962,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{19}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jet algorithms performance in 13 TeV data}
@@ -3910,8 +3994,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{20}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -4241,90 +4325,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/0550321377903844
       \endverb
     \endentry
-    \entry{MadGraph}{article}{}
-      \name{author}{10}{}{%
-        {{hash=db770a0dfc4628a7437bedbd56f940d4}{%
-           family={Alwall},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=87f8432b90fa1363547627dd900ac62d}{%
-           family={Frederix},
-           familyi={F\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=36ec2b0a28a3159dd489a8e0ce4c5e16}{%
-           family={Frixione},
-           familyi={F\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=da2920448eb87fb33798abb131da464b}{%
-           family={Hirschi},
-           familyi={H\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=146d5a62e8ec749ce3c087e42804f0a6}{%
-           family={Maltoni},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=d6305f4a2bb37c97934d4f0cae42109e}{%
-           family={Mattelaer},
-           familyi={M\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-        {{hash=437e153e70283e1bc3b1ec3ad54d6fae}{%
-           family={Shao},
-           familyi={S\bibinitperiod},
-           given={H.-S.},
-           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=86e07bd86b6c081d973cbedd27c360ab}{%
-           family={Stelzer},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=9ef6ecb08c2c6e622eec344decdbb82c}{%
-           family={Torrielli},
-           familyi={T\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=97b1b02748b4a359125a674e12ece48b}{%
-           family={Zaro},
-           familyi={Z\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{98c22186c090664cd0aa787235a12e76}
-      \strng{fullhash}{261fa39fa69c14924b0287f2a0cd40a4}
-      \strng{bibnamehash}{98c22186c090664cd0aa787235a12e76}
-      \strng{authorbibnamehash}{98c22186c090664cd0aa787235a12e76}
-      \strng{authornamehash}{98c22186c090664cd0aa787235a12e76}
-      \strng{authorfullhash}{261fa39fa69c14924b0287f2a0cd40a4}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1029-8479}
-      \field{journaltitle}{Journal of High Energy Physics}
-      \field{month}{7}
-      \field{number}{7}
-      \field{title}{The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations}
-      \field{volume}{2014}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.1007/jhep07(2014)079
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/JHEP07(2014)079
-      \endverb
-    \endentry
     \entry{POWHEG}{article}{}
       \name{author}{3}{}{%
         {{hash=ff1219d2389730607629a5d0e08f7429}{%
@@ -4349,8 +4349,8 @@
       \strng{authorbibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
       \strng{authornamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
       \strng{authorfullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of High Energy Physics}
@@ -4430,8 +4430,8 @@
       \strng{authorbibnamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
       \strng{authornamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
       \strng{authorfullhash}{db2e81669ff3f7c57ff54f1b12c3f5e2}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0010-4655}
@@ -4616,6 +4616,205 @@
       \endverb
       \verb{eprint}
       \verb 1411.4085
+      \endverb
+    \endentry
+    \entry{Cowan_2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=66ffd2ca2c2d8aeb563033389eb813ff}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0003024ea8011848862cbf896b544a27}{%
+           family={Cranmer},
+           familyi={C\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e4e0607feb58cac42d6e610ebd8bafd1}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Eilam},
+           giveni={E\bibinitperiod}}}%
+        {{hash=63095f782c12657f0556f148e399c606}{%
+           family={Vitells},
+           familyi={V\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{fullhash}{01410fa503312f8756583d42dcefa458}
+      \strng{bibnamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authorbibnamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authornamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authorfullhash}{01410fa503312f8756583d42dcefa458}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Asymptotic formulae for likelihood-based tests of new physics}
+      \field{volume}{71}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-011-1554-0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-011-1554-0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-011-1554-0
+      \endverb
+    \endentry
+    \entry{CLs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2e7b2a77eb16895725764173b18b9460}{%
+           family={Junk},
+           familyi={J\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e7b2a77eb16895725764173b18b9460}
+      \strng{fullhash}{2e7b2a77eb16895725764173b18b9460}
+      \strng{bibnamehash}{2e7b2a77eb16895725764173b18b9460}
+      \strng{authorbibnamehash}{2e7b2a77eb16895725764173b18b9460}
+      \strng{authornamehash}{2e7b2a77eb16895725764173b18b9460}
+      \strng{authorfullhash}{2e7b2a77eb16895725764173b18b9460}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{2}
+      \field{title}{Confidence level computation for combining searches with small statistics}
+      \field{volume}{434}
+      \field{year}{1999}
+      \field{pages}{435\bibrangedash 443}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/S0168-9002(99)00498-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900299004982
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900299004982
+      \endverb
+    \endentry
+    \entry{NNPDF3.1}{article}{}
+      \name{author}{15}{}{%
+        {{hash=b8571ccdd252b9322da64848c8dd1c01}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6cdff5f1cfecb4d7cce47a1b553072f4}{%
+           family={Bertone},
+           familyi={B\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ba52b2df4eb4eca4017ffaf23e227cb7}{%
+           family={Carrazza},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fb067ed17c852e2f3ee61dd045616f35}{%
+           family={Debbio},
+           familyi={D\bibinitperiod},
+           given={Luigi\bibnamedelima Del},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f059bfe158507db3f974228d09a512d8}{%
+           family={Forte},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4c03ff68c6234bd186d3e8651ed3dcc0}{%
+           family={Groth-Merrild},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f6f0869fcb97413c4e9e591ffcd3089d}{%
+           family={Guffanti},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=99db8e954f5c4f7a65a96d96e8e0226f}{%
+           family={Hartland},
+           familyi={H\bibinitperiod},
+           given={Nathan\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=80d234f8157036060d6762345a2c2aab}{%
+           family={Kassabov},
+           familyi={K\bibinitperiod},
+           given={Zahari},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=13c0b438394e5d633e01caeb7e5c4879}{%
+           family={Latorre},
+           familyi={L\bibinitperiod},
+           given={José\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=25d442b2f4af94faed6dc68f4f1c0b21}{%
+           family={Nocera},
+           familyi={N\bibinitperiod},
+           given={Emanuele\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=6d9b31bd3f4153392b47654a9baf0a07}{%
+           family={Rojo},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=17dc0f0aed3c52e62a099a3ac07ae520}{%
+           family={Rottoli},
+           familyi={R\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e8180b11b58330586a15bf1cf797084b}{%
+           family={Slade},
+           familyi={S\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b88f4b87525dd69bdf614ab96b15f9eb}{%
+           family={Ubiali},
+           familyi={U\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{fullhash}{fd75ceb9ad9d43e3ab11c2dad8427573}
+      \strng{bibnamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authorbibnamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authornamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authorfullhash}{fd75ceb9ad9d43e3ab11c2dad8427573}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Parton distributions from high-precision collider data: NNPDF Collaboration}
+      \field{volume}{77}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5199-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-5199-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-017-5199-5
       \endverb
     \endentry
     \entry{Butterworth_2016}{article}{}
@@ -5143,11 +5342,8 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{AsimovMaybe?}
   \missing{Barlow-Beeston}
-  \missing{CLs}
-  \missing{NNPDF3.1}
-  \missing{wilksTheorem}
+  \missing{PhenoPaper}
 \endrefsection
 \endinput
 
