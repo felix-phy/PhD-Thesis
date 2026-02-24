@@ -43,7 +43,7 @@ A Higgs boson reconstruction algorithm (and muon object selection) very similar 
     \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. 
     \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater \, 70 GeV. 
 \end{enumerate}
-The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125.3 GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. 
+The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125 \cite[PhysRevD.110.030001] GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. 
 \subsection{Jet candidate selection}
 \label{sec:JetCandidateSelection}
 Once a Higgs boson candidate is reconstructed, a likelihood ratio algorithm is applied to best identify and select the jet that is associated with (i.e. recoils off) the reconstructed Higgs boson. This algorithm does not use jet-flavour identification methods and is based solely on kinematic properties of the jets so as to minimise the introduction of any flavour bias in the selection. Specifically, two variables related to momentum conservation in the transverse plane are exploited: 
@@ -98,34 +98,14 @@ Also of interest is the efficiency with which the jet associated with the Higgs 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/jetSelectionEfficiency.pdf}
+    \includegraphics[width=0.6\textwidth]{figures/jetSelectionEfficiency.pdf}
     \caption{The efficiency with which the jet associated with the Higgs boson is selected via the described algorithm in simulated \cHZZ events. This efficiency is shown in bins of the associated jet's transverse momentum for events in which more than one jet passes the jet selection requirements.}
     \label{fig:jetSelectionEfficiency}
 \end{figure}
 
 \section{Signal and background estimation}
 \label{sec:s+bEstimation}
-The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, which are described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ process is specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions that would result from applying the described selection on the 2018 dataset of the CMS detector can be constructed. 
-
-\subsection{Monte Carlo simulation of proton-proton collisions}
-\label{sec:MonteCarlo}
-Since the complexity of a proton-proton collisions in a detector cannot realistically be captured by analytic calculations, Monte Carlo methods \cite{MonteCarlo} can be used as an approximation. The concept of such a simulation relies on a phenomenoligcal approach, sampling the known distributions of process and detector quanities and properties to construct a comprehensive simulation of a process and its interaction with the detector. The simulation process occurs in discrete steps, each dealing with different aspects of the simulated process. These can be summarised as: 
-
-\begin{enumerate}
-    \item \textbf{The hard scattering process}: The hard scattering process refers to the immediate, high energy transfer scattering of two protons resulting in the production of additional particles. To calculate this, two main ingredients are required. The first is a calculation of the matrix elements that describe the simulated process in which proton constituents collide to produce additional particles. These matrix elements allow for the calculation of a cross section for the process. However, the proton itself is a complex object consisting not only of its valence quarks (two up-type quarks and one down-type quark) but also of a constantly changing ensemble of additional quarks and gluons that are created and annihilated. This behaviour must thus be captured for an accurate process description and is parametrised via so-called \textit{Parton Distribution Functions}. These describe the likelihood with which a parton, that carries some fraction $x$ of the protons total momentum, may be found in a proton at some energy scale Q$^2$. The evolution of the PDF with changing Q$^2$ is described by the DGLAP quations \cite{DGLAP}. Software used to simulate the hard scattering are referred to as \textit{event generators}. Commonly used event generators include \textsf{Madgraph5\_aMC$@$NLO} \cite{MadGraph} and \textsf{POWHEG} \cite{POWHEG}. 
-    \item \textbf{Parton showering}: Particles such as quarks and gluons that are produced in the hard scattering carry the colour charge of the strong interaction. As a result, these may produce soft radiation or branch into other particles. While a most physically accurate description would be given by including these contributions in the calculation of the hard scattering process, this greatly increases the complexity of the calculation. As such a \textit{parton shower} model, such as in the \textsf{Pythia} software package \cite{PYTHIA}, is used instead to describe the splitting of a single mother particle into two daughter particles. In QCD, this describes to gluon radiation ($q\rightarrow qg$) and gluon splitting ($g\rightarrow gg$ and $g \rightarrow q \overline{q}$) and in QED describes Bremsstrahlung ($f\rightarrow f\gamma$) and pair creation ($\gamma \rightarrow f \overline{f}$). In case this the parton showering originates from initial state partons it is referred to as initial state radiation (ISR). Accordingly, parton showering originating from final state partons is referred to as final state radiation (FSR). In cases with final states containing multiple partons, there can be some ambiguity in the combination of matrix elements and parton showering since both can describe the same processes. For this merging schemes are applied that resolve potential double counting of events. A prescription used for this work is the FxFx scheme \cite{FxFx}. 
-    \item \textbf{Hadronisation}: At an energy around the QCD scale $\Lambda_{\mathrm{QCD}}$, the perturbative parton shower prescription loses its validty as the running coupling of the strong force $\alpha_{s}$ becomes too strong. Here the individual, colour-charged partons \textit{hadronise} into colour-neutral states.  Since this process currently cannot be described from first principles, a phenomenological description must be applied. In \textsf{Pythia}, the \textit{Lund string} model is used \cite{LundStringModel}. It describes the interaction between two partons as a coloured field, the lines of which pass through a tube that is extended between the partons. The potential energy of the tube (or string) is described by a term linear in the distance between the partons. Thus if the partons are separated at a large enough distance and the potential energy is sufficiently large, the string may 'break' and new colourless quark-antiquark pairs are formed. This procedure may be repeated with these new parton pairs if they posses an invariant mass above some threshold. 
-    \item \textbf{The underlying event}: A description of a variety of effects secondary to the hard scattering must be included in the simulation. These can have several origins such as secondary, \textit{soft} interactions of the proton-proton collision or remnants of the collided protons, which will hadronise themselves. These effects are modeled from data \cite{UnderlyingEvent}.
-    \item \textbf{Detector simulation}: Finally, the detector response to the particles emerging from the previously describeds steps must be simulated. This is performed with the \textsf{GEANT4} package \cite{GEANT4}, which is configured to model the CMS detector. This includes modelling the curving of particle trajectories due to the detector's magnet, the interaction of particles with the materials of the detector, as well as the digitisation of the signals in the electronic modules of the subdetectors.
-\end{enumerate}
-A diagrammatic overview of what an event simulation looks like can be found in \autoref{fig:EventSimulation}. The output of this simulation is passed to the reconstruction algorithms described in \autoref{sec:Reconstruction}.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\textwidth]{figures/EventSimulation.png}
-    \caption{An overview of what an event simulation may look like \cite{Hoche:2014rga}. The initial state particles originating from the protons are shown in blue. The hard scattering process is represented in red. Additional, soft scatterings are represented in purple. The hadronisation to form colourless hadrons ( represented by dark green circles) is represented by the light green ellipses. Additional photon radiation is represented in yellow. }
-    \label{fig:EventSimulation}
-\end{figure}
+The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, as described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ process is specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions that would result from applying the described selection on the 2018 dataset of the CMS detector can be constructed. 
 
 \subsection{Estimation of \cHZZ process}
 \label{sec:cHSimulation}
@@ -700,14 +680,64 @@ A number of systematic uncertainty sources can influence the reducible backgroun
 
 \section{Validation of \cHZZ event selection in sideband regions}
 \label{sec:sidebandValidation}
-Here, a validation of the described event selection is presented. Specifically, the 2018 dataset of the CMS detector is compared to simulation in sideband regions of the signal for a variety of observables. These side-band regions include all selected events outside of the 120 GeV \textless $m$(H) \textless 130 GeV region, which is where the primary \cHZZ contribution is expected to be found. The .. 
+Here, a validation of the described event selection is presented. Specifically, the 2018 dataset of the CMS detector is compared to simulation in sideband regions of the \cHZZ signal for a variety of observables. These sideband regions are defined as all selected events outside of the 120 GeV \textless $m$(H) \textless 130 GeV region, which is where the primary \cHZZ contribution is expected to be found. The only exception to this is the distribution of the mass of the Higgs boson candidate, shown in \autoref{fig:Higgs_pt_sideband}, for which the entire mass spectrum is shown for simulation to illustrate the presence of the \cHZZ signal around the Higgs boson candidate mass peak at $m(H) = 125.03$ GeV. The spectra in the sideband region of the Higgs boson candidate transverse momentum, the mass of the $Z_1$ and $Z_1$ candidate, as well as the transverse momentum, CvsL and CvsB discriminators of the selected jet, are shown in \autoref{fig:Higgs_pt_sideband} -- \autoref{fig:jet_CvsB_sideband} respectively. As seen in these distributions, a reasonable agreement between data and simulation is observed when accounting for the small event yields.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/Higgs_mass.pdf}
+    \caption{The mass spectrum of the Higgs boson candidate, showing the agreement between the 2018 dataset and simulation in the side band regions of the spectrum. The contribution from a \cHZZ signal, scaled by a factor 100 for better visibility, is also shown. The signal contribution is clearly concentrated around the Higgs boson mass of $m(H)=125$ GeV, as expected.}
+    \label{fig:Higgs_pt_sideband}
+\end{figure}%
+
+\begin{figure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/Higgs_pt.pdf}
+        \caption{Higgs boson candidate transverse momentum.}
+        \label{fig:Higgs_pt_sideband}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/Z1_mass.pdf}
+        \caption{Mass of the $Z_1$ candidate.}
+        \label{fig:Z1_mass_sideband}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/Z2_mass.pdf}
+        \caption{Mass of the $Z_2$ candidate.}
+        \label{fig:Z2_mass_sideband}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/jet_pt.pdf}
+        \caption{Transverse momentum of the selected jet.}
+        \label{fig:jet_pt_sideband}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/jet_btagDeepFlavCvL.pdf}
+        \caption{CvsL discriminator of the selected jet.}
+        \label{fig:jet_CvsL_sideband}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{figures/jet_btagDeepFlavCvB.pdf}
+        \caption{CvsB discriminator of the selected jet.}
+        \label{fig:jet_CvsB_sideband}
+    \end{subfigure}%
+    \caption{Spectra of observables, showing the agreement between the 2018 dataset and simulation, for variables related to the Higgs boson reconstruction and the selected jet in sideband regions of the Higgs boson candidate mass.}
+\end{figure}
+
 \section{Statistical inference}
 \label{sec:StatisticalEvaluation}
-For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseuo-two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on these distributions that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
+For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseudo two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on these distributions that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
 \\
 \subsection{Statistical model}
 \label{sec:statisticalModel}
-Assuming the absence of a measurable signal, a upper limit on $\sigma$BR(\cHZZ) may be set. This in turn may be interpreted as a limit on \kappac \, using the prescription derived in \autoref{sec:kappaframework}. To do this, a statistical model is required to predict the distribution of the number entries in each bin of the discriminator histogram according to a given hypothesis. Since each of the bins are filled in a discrete couting process, a Poissonian Ansatz with 
+Assuming the absence of a measurable signal, an expected 95\% CL \CLs upper limit on $\sigma$BR(\cHZZ) may be set. This in turn may be interpreted as an expected limit on \kappac \, using the prescription derived in \autoref{sec:kappaframework}. To do this, a statistical model is required to predict the distribution of the number entries in each bin of the discriminator histogram according to a given hypothesis. Since each of the bins are filled in a discrete couting process, a Poissonian Ansatz with 
 \begin{align}
     \mathcal{P}(k; \lambda) = \frac{\lambda^{k} e^{-\lambda}}{k!}
 \end{align}
@@ -733,7 +763,7 @@ With this p-value, the \CLs method may be applied \cite{CLs}. For this, a \CLs v
 is computed. A feature of this method is that large overlaps of test statistic distributions between the $H_{\mu}$ and $H_{0}$ hypotheses, due to the very small signal cross section associated with $H_{\mu}$, are accounted for. This is achieved by weighting $p_{\mu}$ with $(1 - p_{0})^{-1}$, thus decreasing the \CLs value with larger overlaps.
 
 \subsection{Uncertainty model}
-The sources of uncertainty in the model of the signal and background processes are described in this section. These consist of two types. The first are shape uncertainties, which may change the normalisation as well as the shape of the distributions in question. These uncertainties are captured by creating variations of these distributions that are interpreted as $\pm 1\sigma$ variations. The second type consists of normalisation uncertainties. These only affect the normalisation of distributions without affecting the shape and can thus be captured as a single, real paarameter. Both types of uncertainties are associated with respective nuisance parameters in the statistical model introduced in \autoref{sec:statisticalModel}.
+The sources of uncertainty in the model of the signal and background processes are described in this section. These consist of two types. The first are shape uncertainties that may change the normalisation as well as the shape of the distributions in question. These uncertainties are captured by creating variations of these distributions that are interpreted as $\pm 1\sigma$ variations. In the statistical evaluation process, an interpolation is performed between the nominal distributions as well the variations to characterise their effect. as the The second type consists of normalisation uncertainties. These only affect the normalisation of distributions without affecting the shape and can thus be captured as a single, real paarameter. Both types of uncertainties are associated with a respective nuisance parameter in the statistical model introduced in \autoref{sec:statisticalModel}.
 \subsubsection{Theoretical uncertainties common to simulation}
 A number of theoretical uncertainties that are common to all simulated sample are included in the uncertainty model. This includes:
 \begin{itemize}
@@ -768,7 +798,7 @@ A systematic uncertainty that is unique to \cHZZ and \bHZZ is that associated wi
 \subsubsection{Uncertainties related to reducible background modelling}
 Due to the almost neglible nature of the reducible background contribution, a simple normalisation uncertainty is introduced to account for uncertainties associated with this estimation procedure...
 \subsubsection{Uncertainties related to statistical precision of background estimation}
-Simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{Barlow-Beeston}.
+Simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{BARLOW}\cite{MCAutoStats}.
 \section{Results}
 In this section, the result of the presented methods is discussed. 
 \label{sec:uncertaintyModel} 

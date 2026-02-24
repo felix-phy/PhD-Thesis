@@ -1,52 +1,53 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.1.1}{The Standard Model of particle physics}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{The Higgs-charm Yukawa coupling}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.2.1}{The Brout-Englert-Higgs mechanism}{section.1.2}% 5
-\BOOKMARK [2][-]{subsection.1.2.2}{The Yukawa couplings}{section.1.2}% 6
-\BOOKMARK [1][-]{section.1.3}{Measuring the charm quark Yukawa coupling}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.3.1}{The cH process}{section.1.3}% 8
-\BOOKMARK [2][-]{subsection.1.3.2}{The -framework}{section.1.3}% 9
-\BOOKMARK [1][-]{section.1.4}{An EFT interpretation of the cH process}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.4.1}{The chromomagnetic dipole operator}{section.1.4}% 11
-\BOOKMARK [2][-]{subsection.1.4.2}{Validity of an EFT}{section.1.4}% 12
-\BOOKMARK [0][-]{chapter.2}{The CMS experiment at the LHC}{}% 13
-\BOOKMARK [1][-]{section.2.1}{The CMS detector}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.1.1}{The CMS coordinate system}{section.2.1}% 15
-\BOOKMARK [2][-]{subsection.2.1.2}{The silicon tracker}{section.2.1}% 16
-\BOOKMARK [2][-]{subsection.2.1.3}{The electromagnetic calorimeter}{section.2.1}% 17
-\BOOKMARK [2][-]{subsection.2.1.4}{The hadronic calorimeter}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.5}{The superconducting solenoid magnet}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.6}{The muon chambers}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.7}{The triggering system}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.8}{The 2018 dataset of the CMS detector}{section.2.1}% 22
-\BOOKMARK [1][-]{section.2.2}{Event reconstruction with the CMS detector}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.1}{Track and vertex reconstruction}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.2}{The Particle Flow algorithm}{section.2.2}% 25
-\BOOKMARK [2][-]{subsection.2.2.3}{Reconstruction and identification of muons}{section.2.2}% 26
-\BOOKMARK [2][-]{subsection.2.2.4}{Reconstruction and identification of jets}{section.2.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.5}{Missing transverse momentum}{section.2.2}% 28
-\BOOKMARK [1][-]{section.2.3}{Identification of charm quark-induced jets}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.3.1}{Properties of heavy-flavour jets}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.2}{The DeepJet algorithm}{section.2.3}% 31
-\BOOKMARK [0][-]{chapter.3}{Search for the cH\(ZZ4\) process}{}% 32
-\BOOKMARK [1][-]{section.3.1}{cH event selection}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.1.1}{Higgs candidate selection}{section.3.1}% 34
-\BOOKMARK [2][-]{subsection.3.1.2}{Jet candidate selection}{section.3.1}% 35
-\BOOKMARK [2][-]{subsection.3.1.3}{Reconstruction efficiency}{section.3.1}% 36
-\BOOKMARK [1][-]{section.3.2}{Signal and background estimation}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.2.1}{Monte Carlo simulation of proton-proton collisions}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.2}{Estimation of cH\(ZZ4\)process}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.3}{Estimation of irreducible backgrounds}{section.3.2}% 40
-\BOOKMARK [2][-]{subsection.3.2.4}{Estimation of reducible backgrounds}{section.3.2}% 41
-\BOOKMARK [1][-]{section.3.3}{Validation of cH\(ZZ4\)event selection in sideband regions}{chapter.3}% 42
-\BOOKMARK [1][-]{section.3.4}{Statistical inference}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.4.1}{Statistical model}{section.3.4}% 44
-\BOOKMARK [2][-]{subsection.3.4.2}{Uncertainty model}{section.3.4}% 45
-\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 47
-\BOOKMARK [0][-]{chapter*.39}{Conclusion}{}% 48
-\BOOKMARK [0][-]{chapter*.40}{Bibliography}{}% 49
-\BOOKMARK [0][-]{appendix*.41}{Appendix}{}% 50
-\BOOKMARK [1][-]{section.Alph0.1}{Columnar analysis framework}{appendix*.41}% 51
-\BOOKMARK [1][-]{section.Alph0.2}{Likelihood templates derived for jet selection algorithm}{appendix*.41}% 52
+\BOOKMARK [0][-]{chapter*.2}{Samenvatting}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{The Standard Model of particle physics}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{The Higgs-charm Yukawa coupling}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{The Brout-Englert-Higgs mechanism}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{The Yukawa couplings}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Measuring the charm quark Yukawa coupling}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{The cH process}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{The -framework}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{An EFT interpretation of the cH process}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{The chromomagnetic dipole operator}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Validity of an EFT}{section.1.4}% 13
+\BOOKMARK [0][-]{chapter.2}{The CMS experiment at the LHC}{}% 14
+\BOOKMARK [1][-]{section.2.1}{The CMS detector}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.1.1}{The CMS coordinate system}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.2}{The silicon tracker}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.3}{The electromagnetic calorimeter}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.4}{The hadronic calorimeter}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.5}{The superconducting solenoid magnet}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.6}{The muon chambers}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.7}{The triggering system}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.8}{The 2018 dataset of the CMS detector}{section.2.1}% 23
+\BOOKMARK [1][-]{section.2.2}{Event reconstruction with the CMS detector}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.1}{Track and vertex reconstruction}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.2}{The Particle Flow algorithm}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.3}{Reconstruction and identification of muons}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.4}{Reconstruction and identification of jets}{section.2.2}% 28
+\BOOKMARK [2][-]{subsection.2.2.5}{Missing transverse momentum}{section.2.2}% 29
+\BOOKMARK [1][-]{section.2.3}{Identification of charm quark-induced jets}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{Properties of heavy-flavour jets}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{The DeepJet algorithm}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.3}{Monte Carlo simulation of proton-proton collisions}{section.2.3}% 33
+\BOOKMARK [0][-]{chapter.3}{Search for the cH\(ZZ4\) process}{}% 34
+\BOOKMARK [1][-]{section.3.1}{cH event selection}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.1.1}{Higgs candidate selection}{section.3.1}% 36
+\BOOKMARK [2][-]{subsection.3.1.2}{Jet candidate selection}{section.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.1.3}{Reconstruction efficiency}{section.3.1}% 38
+\BOOKMARK [1][-]{section.3.2}{Signal and background estimation}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.2.1}{Estimation of cH\(ZZ4\)process}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.2}{Estimation of irreducible backgrounds}{section.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.2.3}{Estimation of reducible backgrounds}{section.3.2}% 42
+\BOOKMARK [1][-]{section.3.3}{Validation of cH\(ZZ4\)event selection in sideband regions}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.4}{Statistical inference}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.4.1}{Statistical model}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.2}{Uncertainty model}{section.3.4}% 46
+\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 48
+\BOOKMARK [0][-]{chapter*.44}{Conclusion}{}% 49
+\BOOKMARK [0][-]{chapter*.45}{Bibliography}{}% 50
+\BOOKMARK [0][-]{appendix*.46}{Appendix}{}% 51
+\BOOKMARK [1][-]{section.Alph0.1}{Columnar analysis framework}{appendix*.46}% 52
+\BOOKMARK [1][-]{section.Alph0.2}{Likelihood templates derived for jet selection algorithm}{appendix*.46}% 53

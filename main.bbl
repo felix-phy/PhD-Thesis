@@ -4204,6 +4204,19 @@
       \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
       \endverb
     \endentry
+    \entry{CMS-DP-2023-006}{article}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{{Performance summary of AK4 jet charm tagging with the CMS Run2 Legacy dataset}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2854610
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2854610
+      \endverb
+    \endentry
     \entry{HIG19-001}{article}{}
       \name{author}{1}{}{%
         {{hash=e742ba4e105e5341464c3528b118ff41}{%
@@ -4261,8 +4274,8 @@
       \strng{authorbibnamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authornamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authorfullhash}{e2bb38a445fd9f0c2309f57ade222b9b}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00063444, 14643510}
@@ -4303,8 +4316,8 @@
       \strng{authorbibnamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authornamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authorfullhash}{a6915c68b6e0eee25668df196438e6b0}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0550-3213}
@@ -4932,6 +4945,80 @@
       \verb http://dx.doi.org/10.1088/0954-3899/43/2/023001
       \endverb
     \endentry
+    \entry{BARLOW}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f2a7df1b6b4a559de3e18c6f804ad77c}{%
+           family={Barlow},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9c54d89fdd7c4737481c2908f67c171a}{%
+           family={Beeston},
+           familyi={B\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{fullhash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{bibnamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authorbibnamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authornamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authorfullhash}{48922b219447cf67203a98bf3cd204bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analysis of results from HEP experiments often involves estimation of the composition of a sample of data, based on Monte Carlo simulations of the various sources. Data values (generally of more than one dimension) are binned, and because the numbers of data points in many bins are small, a χ2 minimisation is inappropriate, so a maximum likelihood technique using Poisson statistics is often used. This note shows how to incorporate the fact that the Monte Carlo statistics used are finite and thus subject to statistical fluctuations.}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{number}{2}
+      \field{title}{Fitting using finite Monte Carlo samples}
+      \field{volume}{77}
+      \field{year}{1993}
+      \field{pages}{219\bibrangedash 228}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0010-4655(93)90005-W
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/001046559390005W
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/001046559390005W
+      \endverb
+    \endentry
+    \entry{MCAutoStats}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a5443808f30e8d0ce0fb4a14d926d2f7}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \strng{fullhash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \strng{bibnamehash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \strng{authorbibnamehash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \strng{authornamehash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \strng{authorfullhash}{a5443808f30e8d0ce0fb4a14d926d2f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.data-an}
+      \field{eprinttype}{arXiv}
+      \field{title}{Incorporating Nuisance Parameters in Likelihoods for Multisource Spectra}
+      \field{year}{2011}
+      \verb{eprint}
+      \verb 1103.0354
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1103.0354
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1103.0354
+      \endverb
+    \endentry
     \entry{Coffea}{article}{}
       \name{author}{11}{}{%
         {{hash=46cf81997157d603c04ef1961fb67d6a}{%
@@ -5342,7 +5429,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Barlow-Beeston}
   \missing{PhenoPaper}
 \endrefsection
 \endinput

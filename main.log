@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  9 FEB 2026 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  24 FEB 2026 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,25 +1071,29 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count445
 \l__pdf_internal_box=\box64
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:Higgs_pt_sideband' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count446
@@ -1171,32 +1175,25 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Barlow-Beeston
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                PhenoPaper
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
 
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 59.
+luatex=false on input line 58.
 
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the sys
-tem version is 1.1.0. This may change some diagrams. on input line 59.
+tem version is 1.1.0. This may change some diagrams. on input line 58.
 
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 58.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1208,9 +1205,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count452
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1250,17 +1247,17 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<vub_logo_cmyk.pdf, id=216, 2094.8363pt x 738.42874pt>
+<vub_logo_cmyk.pdf, id=220, 2094.8363pt x 738.42874pt>
 File: vub_logo_cmyk.pdf Graphic file (type pdf)
 <use vub_logo_cmyk.pdf>
-Package pdftex.def Info: vub_logo_cmyk.pdf  used on input line 62.
+Package pdftex.def Info: vub_logo_cmyk.pdf  used on input line 61.
 (pdftex.def)             Requested size: 161.0427pt x 56.76566pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 62--62
+Overfull \hbox (15.0pt too wide) in paragraph at lines 61--61
 []$[]$ 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+qag on input line 62
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 61
 .
 (/usr/share/texmf/tex/latex/tex-gyre/t1qag.fd
 File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
@@ -1274,19 +1271,21 @@ File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 
 ] [3] [4
 
-] (./main.toc [5])
+] [5] [6
+
+] (./main.toc
+[7])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-
-[6] (./chapters/Introduction.tex
+ [8] (./chapters/Introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<figures/Higgs_couplings.png, id=321, 3162.81625pt x 3034.33624pt>
+<figures/Higgs_couplings.png, id=336, 3162.81625pt x 3034.33624pt>
 File: figures/Higgs_couplings.png Graphic file (type png)
 <use figures/Higgs_couplings.png>
 Package pdftex.def Info: figures/Higgs_couplings.png  used on input line 9.
@@ -1373,104 +1372,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--160
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 189--193
+
+pdfTeX warning: pdflatex (file ./figures/Higgs_potential.pdf): PDF inclusion: f
+ound PDF version <1.6>, but at most version <1.5> allowed
+<figures/Higgs_potential.pdf, id=409, 269.807pt x 196.68782pt>
+File: figures/Higgs_potential.pdf Graphic file (type pdf)
+<use figures/Higgs_potential.pdf>
+Package pdftex.def Info: figures/Higgs_potential.pdf  used on input line 184.
+(pdftex.def)             Requested size: 250.95476pt x 182.95079pt.
+[7 <./figures/Higgs_potential.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 195--199
 
  []
 
-[7]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
-00.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+06.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 200.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 206.
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+
+ []
+
+[8]
+
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 216.
+tance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 216.
+stance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 216.
+distance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 223.
+tance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 223.
+stance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 223.
+distance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 238.
+tance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 238.
+stance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 238.
+distance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 245.
+tance' requires LuaTeX. It will be ignored. on input line 251.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 245.
+stance' requires LuaTeX. It will be ignored. on input line 251.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 245.
+distance' requires LuaTeX. It will be ignored. on input line 251.
 
-<figures/genPartonPt.pdf, id=414, 867.24pt x 867.24pt>
+<figures/genPartonPt.pdf, id=442, 867.24pt x 867.24pt>
 File: figures/genPartonPt.pdf Graphic file (type pdf)
 <use figures/genPartonPt.pdf>
-Package pdftex.def Info: figures/genPartonPt.pdf  used on input line 262.
+Package pdftex.def Info: figures/genPartonPt.pdf  used on input line 268.
 (pdftex.def)             Requested size: 250.95476pt x 250.9506pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 267.
+(hyperref)                removing `math shift' on input line 273.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\kappa' on input line 267.
+(hyperref)                removing `\kappa' on input line 273.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 267.
+(hyperref)                removing `math shift' on input line 273.
 
 
-Underfull \vbox (badness 4954) has occurred while \output is active []
-
- [8]
-[9 <./figures/genPartonPt.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 278--282
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 312--316
+[9] [10 <./figures/genPartonPt.pdf>] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 318--322
 
  []
 
@@ -1478,130 +1482,129 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--316
 
 pdfTeX warning: pdflatex (file ./figures/EFTDiagram.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
-<figures/EFTDiagram.pdf, id=516, 338.95934pt x 196.68782pt>
+<figures/EFTDiagram.pdf, id=546, 338.95934pt x 196.68782pt>
 File: figures/EFTDiagram.pdf Graphic file (type pdf)
 <use figures/EFTDiagram.pdf>
-Package pdftex.def Info: figures/EFTDiagram.pdf  used on input line 327.
+Package pdftex.def Info: figures/EFTDiagram.pdf  used on input line 333.
 (pdftex.def)             Requested size: 334.60422pt x 194.17232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--334
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 336--340
+Underfull \hbox (badness 10000) in paragraph at lines 330--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--347
-
- []
-
-[12 <./figures/EFTDiagram.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 350--354
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--365
+Underfull \hbox (badness 10000) in paragraph at lines 348--353
 
  []
 
-<figures/TopCMD.pdf, id=553, 101.64273pt x 107.18443pt>
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
+
+ []
+
+[13 <./figures/EFTDiagram.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 366--371
+
+ []
+
+<figures/TopCMD.pdf, id=582, 101.64273pt x 107.18443pt>
 File: figures/TopCMD.pdf Graphic file (type pdf)
 <use figures/TopCMD.pdf>
-Package pdftex.def Info: figures/TopCMD.pdf  used on input line 368.
+Package pdftex.def Info: figures/TopCMD.pdf  used on input line 374.
 (pdftex.def)             Requested size: 125.47737pt x 132.32016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-[13]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 384.
+tance' requires LuaTeX. It will be ignored. on input line 390.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 384.
+stance' requires LuaTeX. It will be ignored. on input line 390.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 384.
+distance' requires LuaTeX. It will be ignored. on input line 390.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 393.
+tance' requires LuaTeX. It will be ignored. on input line 399.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 393.
+stance' requires LuaTeX. It will be ignored. on input line 399.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 393.
+distance' requires LuaTeX. It will be ignored. on input line 399.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 415.
+tance' requires LuaTeX. It will be ignored. on input line 421.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 415.
+stance' requires LuaTeX. It will be ignored. on input line 421.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 415.
+distance' requires LuaTeX. It will be ignored. on input line 421.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 422.
+tance' requires LuaTeX. It will be ignored. on input line 428.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 422.
+stance' requires LuaTeX. It will be ignored. on input line 428.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 422.
+distance' requires LuaTeX. It will be ignored. on input line 428.
 
 
-Overfull \hbox (2.21579pt too wide) in paragraph at lines 380--431
+Overfull \hbox (2.21579pt too wide) in paragraph at lines 386--437
 []$[]$$[]$ $[]$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--444
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 443--450
 
  []
 
-[14 <./figures/TopCMD.pdf>]) (./chapters/CMS.tex [15] [16
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 443--450
+
+ []
+
+[15 <./figures/TopCMD.pdf>]) (./chapters/CMS.tex [16]
 Chapter 2.
-<figures/LHC2.png, id=627, 274.8669pt x 167.6664pt>
+<figures/LHC2.png, id=649, 274.8669pt x 167.6664pt>
 File: figures/LHC2.png Graphic file (type png)
 <use figures/LHC2.png>
 Package pdftex.def Info: figures/LHC2.png  used on input line 6.
 (pdftex.def)             Requested size: 376.42575pt x 229.63504pt.
-<figures/CMS.png, id=631, 1323.94624pt x 887.315pt>
+<figures/CMS.png, id=653, 1323.94624pt x 887.315pt>
 File: figures/CMS.png Graphic file (type png)
 <use figures/CMS.png>
 Package pdftex.def Info: figures/CMS.png  used on input line 13.
 (pdftex.def)             Requested size: 376.42575pt x 252.27814pt.
-[17] [18 <./figures/LHC2.png> <./figures/CMS.png>]
+[17
+
+] [18 <./figures/LHC2.png> <./figures/CMS.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-<figures/CMSTracker.pdf, id=653, 423.46184pt x 150.55324pt>
+<figures/CMSTracker.pdf, id=677, 423.46184pt x 150.55324pt>
 File: figures/CMSTracker.pdf Graphic file (type pdf)
 <use figures/CMSTracker.pdf>
 Package pdftex.def Info: figures/CMSTracker.pdf  used on input line 51.
@@ -1632,7 +1635,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--64
  []
 
 [19]
-<figures/CMSEcal.png, id=675, 1052.93375pt x 525.965pt>
+<figures/CMSEcal.png, id=697, 1052.93375pt x 525.965pt>
 File: figures/CMSEcal.png Graphic file (type png)
 <use figures/CMSEcal.png>
 Package pdftex.def Info: figures/CMSEcal.png  used on input line 69.
@@ -1643,7 +1646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
  []
 
 [21 <./figures/CMSEcal.png>]
-<figures/CMSMagnet2.png, id=712, 1077.02374pt x 562.1pt>
+<figures/CMSMagnet2.png, id=734, 1077.02374pt x 562.1pt>
 File: figures/CMSMagnet2.png Graphic file (type png)
 <use figures/CMSMagnet2.png>
 Package pdftex.def Info: figures/CMSMagnet2.png  used on input line 84.
@@ -1654,7 +1657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--93
  []
 
 [22 <./figures/CMSMagnet2.png>]
-<figures/CMSMuonSystem.png, id=726, 1163.34625pt x 830.10126pt>
+<figures/CMSMuonSystem.png, id=748, 1163.34625pt x 830.10126pt>
 File: figures/CMSMuonSystem.png Graphic file (type png)
 <use figures/CMSMuonSystem.png>
 Package pdftex.def Info: figures/CMSMuonSystem.png  used on input line 96.
@@ -1684,7 +1687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
-<figures/PF.pdf, id=752, 450.9648pt x 311.05008pt>
+<figures/PF.pdf, id=775, 450.9648pt x 311.05008pt>
 File: figures/PF.pdf Graphic file (type pdf)
 <use figures/PF.pdf>
 Package pdftex.def Info: figures/PF.pdf  used on input line 159.
@@ -1723,17 +1726,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--231
  []
 
 [29]
-<figures/HFJets.png, id=813, 1763.58875pt x 997.7275pt>
+<figures/HFJets.png, id=835, 1763.58875pt x 997.7275pt>
 File: figures/HFJets.png Graphic file (type png)
 <use figures/HFJets.png>
 Package pdftex.def Info: figures/HFJets.png  used on input line 234.
 (pdftex.def)             Requested size: 376.42575pt x 212.95438pt.
-<figures/2DSIP.png, id=816, 1686.3pt x 578.16pt>
+<figures/2DSIP.png, id=838, 1686.3pt x 578.16pt>
 File: figures/2DSIP.png Graphic file (type png)
 <use figures/2DSIP.png>
 Package pdftex.def Info: figures/2DSIP.png  used on input line 241.
 (pdftex.def)             Requested size: 418.25368pt x 143.4016pt.
-<figures/DeepJetArch.png, id=819, 1842.885pt x 421.575pt>
+<figures/DeepJetArch.png, id=841, 1842.885pt x 421.575pt>
 File: figures/DeepJetArch.png Graphic file (type png)
 <use figures/DeepJetArch.png>
 Package pdftex.def Info: figures/DeepJetArch.png  used on input line 250.
@@ -1744,13 +1747,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
-<figures/DeepJetEfficiencies.png, id=846, 1818.795pt x 854.19125pt>
+<figures/DeepJetEfficiencies.png, id=868, 1818.795pt x 854.19125pt>
 File: figures/DeepJetEfficiencies.png Graphic file (type png)
 <use figures/DeepJetEfficiencies.png>
 Package pdftex.def Info: figures/DeepJetEfficiencies.png  used on input line 27
 2.
 (pdftex.def)             Requested size: 376.42575pt x 176.77867pt.
-) (./chapters/Analysis.tex [32 <./figures/DeepJetEfficiencies.png>]
+<figures/CvsX.png, id=871, 1342.01375pt x 1347.0325pt>
+File: figures/CvsX.png Graphic file (type png)
+<use figures/CvsX.png>
+Package pdftex.def Info: figures/CvsX.png  used on input line 279.
+(pdftex.def)             Requested size: 250.95476pt x 251.8897pt.
+[32] [33 <./figures/DeepJetEfficiencies.png> <./figures/CvsX.png>]
+<figures/EventSimulation.png, id=902, 2048.65375pt x 1865.97125pt>
+File: figures/EventSimulation.png Graphic file (type png)
+<use figures/EventSimulation.png>
+Package pdftex.def Info: figures/EventSimulation.png  used on input line 298.
+(pdftex.def)             Requested size: 292.77629pt x 266.64395pt.
+ [34])
+(./chapters/Analysis.tex [35 <./figures/EventSimulation.png (PNG copy)>]
+[36
+
+]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1784,79 +1802,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [37]
 
-]
-
-LaTeX Warning: Reference `fig:cHHiggsMass' on page 34 undefined on input line 4
+LaTeX Warning: Reference `fig:cHHiggsMass' on page 38 undefined on input line 4
 6.
 
-[34]
+
+LaTeX Warning: Citation 'G' on page 38 undefined on input line 46.
+
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
-[35]
-<figures/jetSelectionEfficiency.pdf, id=892, 867.24pt x 867.24pt>
+[39]
+<figures/jetSelectionEfficiency.pdf, id=966, 867.24pt x 867.24pt>
 File: figures/jetSelectionEfficiency.pdf Graphic file (type pdf)
 <use figures/jetSelectionEfficiency.pdf>
 Package pdftex.def Info: figures/jetSelectionEfficiency.pdf  used on input line
  101.
-(pdftex.def)             Requested size: 292.77629pt x 292.78012pt.
- [36] [37 <./figures/jetSelectionEfficiency.pdf>] [38]
-<figures/EventSimulation.png, id=1003, 2048.65375pt x 1865.97125pt>
-File: figures/EventSimulation.png Graphic file (type png)
-<use figures/EventSimulation.png>
-Package pdftex.def Info: figures/EventSimulation.png  used on input line 125.
-(pdftex.def)             Requested size: 292.77629pt x 266.64395pt.
+(pdftex.def)             Requested size: 250.95476pt x 250.9506pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 130.
+(hyperref)                removing `\rightarrow' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 130.
+(hyperref)                removing `\mu' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 130.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 130.
+(hyperref)                removed on input line 110.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
 
  []
 
-[39 <./figures/EventSimulation.png (PNG copy)>] [40]
-<figures/METype_METypeNoSelection.pdf, id=1028, 867.24pt x 867.24pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+
+ []
+
+[40] [41 <./figures/jetSelectionEfficiency.pdf>] [42]
+<figures/METype_METypeNoSelection.pdf, id=1062, 867.24pt x 867.24pt>
 File: figures/METype_METypeNoSelection.pdf Graphic file (type pdf)
 <use figures/METype_METypeNoSelection.pdf>
 Package pdftex.def Info: figures/METype_METypeNoSelection.pdf  used on input li
-ne 158.
+ne 138.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/METype_METype.pdf, id=1029, 867.24pt x 867.24pt>
+<figures/METype_METype.pdf, id=1063, 867.24pt x 867.24pt>
 File: figures/METype_METype.pdf Graphic file (type pdf)
 <use figures/METype_METype.pdf>
-Package pdftex.def Info: figures/METype_METype.pdf  used on input line 164.
+Package pdftex.def Info: figures/METype_METype.pdf  used on input line 144.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 156.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 156.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 156.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 160.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 160.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 160.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
@@ -1872,203 +1909,191 @@ distance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 180.
+tance' requires LuaTeX. It will be ignored. on input line 183.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 180.
+stance' requires LuaTeX. It will be ignored. on input line 183.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 180.
+distance' requires LuaTeX. It will be ignored. on input line 183.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 196.
+tance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 196.
+stance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 196.
+distance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 203.
+tance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 203.
+stance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 203.
+distance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 221.
+tance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 221.
+stance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 221.
+distance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 230.
+tance' requires LuaTeX. It will be ignored. on input line 238.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 230.
+stance' requires LuaTeX. It will be ignored. on input line 238.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 230.
+distance' requires LuaTeX. It will be ignored. on input line 238.
 
 
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 249.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 249.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 249.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 258.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 258.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 258.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--273
+Underfull \hbox (badness 10000) in paragraph at lines 151--253
 []$[]$$[]$
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 171--273
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 151--253
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--293
+Underfull \hbox (badness 10000) in paragraph at lines 133--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--293
+Underfull \hbox (badness 10000) in paragraph at lines 133--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--293
+Underfull \hbox (badness 10000) in paragraph at lines 133--273
 
  []
 
-[41 <./figures/METype_METypeNoSelection.pdf> <./figures/METype_METype.pdf>]
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+[43 <./figures/METype_METypeNoSelection.pdf> <./figures/METype_METype.pdf>]
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[43]
+[45]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 313.
+tance' requires LuaTeX. It will be ignored. on input line 293.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 313.
+stance' requires LuaTeX. It will be ignored. on input line 293.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 313.
+distance' requires LuaTeX. It will be ignored. on input line 293.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 319.
+tance' requires LuaTeX. It will be ignored. on input line 299.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 319.
+stance' requires LuaTeX. It will be ignored. on input line 299.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 319.
+distance' requires LuaTeX. It will be ignored. on input line 299.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 337.
+tance' requires LuaTeX. It will be ignored. on input line 317.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 337.
+stance' requires LuaTeX. It will be ignored. on input line 317.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 337.
+distance' requires LuaTeX. It will be ignored. on input line 317.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 345.
+tance' requires LuaTeX. It will be ignored. on input line 325.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 345.
+stance' requires LuaTeX. It will be ignored. on input line 325.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 345.
+distance' requires LuaTeX. It will be ignored. on input line 325.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 366.
+tance' requires LuaTeX. It will be ignored. on input line 346.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 366.
+stance' requires LuaTeX. It will be ignored. on input line 346.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 366.
+distance' requires LuaTeX. It will be ignored. on input line 346.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 372.
+tance' requires LuaTeX. It will be ignored. on input line 352.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 372.
+stance' requires LuaTeX. It will be ignored. on input line 352.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 372.
+distance' requires LuaTeX. It will be ignored. on input line 352.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 389.
+tance' requires LuaTeX. It will be ignored. on input line 369.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 389.
+stance' requires LuaTeX. It will be ignored. on input line 369.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 389.
+distance' requires LuaTeX. It will be ignored. on input line 369.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 377.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 377.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 377.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
@@ -2084,195 +2109,235 @@ distance' requires LuaTeX. It will be ignored. on input line 397.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 417.
+tance' requires LuaTeX. It will be ignored. on input line 405.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 417.
+stance' requires LuaTeX. It will be ignored. on input line 405.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 417.
+distance' requires LuaTeX. It will be ignored. on input line 405.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 425.
+tance' requires LuaTeX. It will be ignored. on input line 424.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 425.
+stance' requires LuaTeX. It will be ignored. on input line 424.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 425.
+distance' requires LuaTeX. It will be ignored. on input line 424.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 444.
+tance' requires LuaTeX. It will be ignored. on input line 432.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 444.
+stance' requires LuaTeX. It will be ignored. on input line 432.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 444.
+distance' requires LuaTeX. It will be ignored. on input line 432.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 452.
+tance' requires LuaTeX. It will be ignored. on input line 454.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 452.
+stance' requires LuaTeX. It will be ignored. on input line 454.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 452.
+distance' requires LuaTeX. It will be ignored. on input line 454.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 474.
+tance' requires LuaTeX. It will be ignored. on input line 460.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 474.
+stance' requires LuaTeX. It will be ignored. on input line 460.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 474.
+distance' requires LuaTeX. It will be ignored. on input line 460.
+
+[46] [47]
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 551.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 551.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 551.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 480.
+tance' requires LuaTeX. It will be ignored. on input line 557.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 480.
+stance' requires LuaTeX. It will be ignored. on input line 557.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 480.
-
-[44] [45]
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 571.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 571.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 571.
+distance' requires LuaTeX. It will be ignored. on input line 557.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 577.
+tance' requires LuaTeX. It will be ignored. on input line 574.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 577.
+stance' requires LuaTeX. It will be ignored. on input line 574.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 577.
+distance' requires LuaTeX. It will be ignored. on input line 574.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 594.
+tance' requires LuaTeX. It will be ignored. on input line 580.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 594.
+stance' requires LuaTeX. It will be ignored. on input line 580.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 594.
+distance' requires LuaTeX. It will be ignored. on input line 580.
 
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 600.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 600.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 600.
-
-[46]
-<figures/FakeRate.pdf, id=1206, 1011.78pt x 722.7pt>
+[48]
+<figures/FakeRate.pdf, id=1240, 1011.78pt x 722.7pt>
 File: figures/FakeRate.pdf Graphic file (type pdf)
 <use figures/FakeRate.pdf>
-Package pdftex.def Info: figures/FakeRate.pdf  used on input line 627.
+Package pdftex.def Info: figures/FakeRate.pdf  used on input line 607.
 (pdftex.def)             Requested size: 292.77629pt x 209.1255pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--636
+Underfull \hbox (badness 10000) in paragraph at lines 613--616
 
  []
 
-[47 <./figures/FakeRate.pdf>] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 681--686
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 681--686
+[49 <./figures/FakeRate.pdf>] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 661--666
 
  []
 
 
-LaTeX Warning: Reference `' on page 49 undefined on input line 697.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 695--700
+Underfull \hbox (badness 10000) in paragraph at lines 661--666
 
  []
 
-[49]
+
+LaTeX Warning: Reference `' on page 51 undefined on input line 677.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--680
+
+ []
+
+[51]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 701.
+(hyperref)                removing `math shift' on input line 681.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 701.
+(hyperref)                removing `\rightarrow' on input line 681.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 681.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 681.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 681.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 701.
+(hyperref)                removed on input line 681.
+
+<figures/Higgs_mass.pdf, id=1339, 867.24pt x 867.24pt>
+File: figures/Higgs_mass.pdf Graphic file (type pdf)
+<use figures/Higgs_mass.pdf>
+Package pdftex.def Info: figures/Higgs_mass.pdf  used on input line 687.
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/Higgs_pt.pdf, id=1340, 867.24pt x 867.24pt>
+File: figures/Higgs_pt.pdf Graphic file (type pdf)
+<use figures/Higgs_pt.pdf>
+Package pdftex.def Info: figures/Higgs_pt.pdf  used on input line 695.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+<figures/Z1_mass.pdf, id=1341, 867.24pt x 867.24pt>
+File: figures/Z1_mass.pdf Graphic file (type pdf)
+<use figures/Z1_mass.pdf>
+Package pdftex.def Info: figures/Z1_mass.pdf  used on input line 701.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+<figures/Z2_mass.pdf, id=1342, 867.24pt x 867.24pt>
+File: figures/Z2_mass.pdf Graphic file (type pdf)
+<use figures/Z2_mass.pdf>
+Package pdftex.def Info: figures/Z2_mass.pdf  used on input line 708.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+<figures/jet_pt.pdf, id=1343, 867.24pt x 867.24pt>
+File: figures/jet_pt.pdf Graphic file (type pdf)
+<use figures/jet_pt.pdf>
+Package pdftex.def Info: figures/jet_pt.pdf  used on input line 714.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+<figures/jet_btagDeepFlavCvL.pdf, id=1344, 867.24pt x 867.24pt>
+File: figures/jet_btagDeepFlavCvL.pdf Graphic file (type pdf)
+<use figures/jet_btagDeepFlavCvL.pdf>
+Package pdftex.def Info: figures/jet_btagDeepFlavCvL.pdf  used on input line 72
+1.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+<figures/jet_btagDeepFlavCvB.pdf, id=1345, 867.24pt x 867.24pt>
+File: figures/jet_btagDeepFlavCvB.pdf Graphic file (type pdf)
+<use figures/jet_btagDeepFlavCvB.pdf>
+Package pdftex.def Info: figures/jet_btagDeepFlavCvB.pdf  used on input line 72
+7.
+(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+
+LaTeX Warning: Float too large for page by 72.10866pt on input line 732.
 
 
-LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 50 undefined on input 
-line 706.
+LaTeX Warning: Reference `fig:UnrolledFinalHist' on page 52 undefined on input 
+line 736.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--708
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--708
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
-[50] [51] [52]) (./chapters/EFT.tex [53] [54
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52 <./figures/Higgs_mass.pdf>] [53 <./figures/Higgs_pt.pdf> <./figures/Z1_mas
+s.pdf> <./figures/Z2_mass.pdf> <./figures/jet_pt.pdf> <./figures/jet_btagDeepFl
+avCvL.pdf> <./figures/jet_btagDeepFlavCvB.pdf>]
+Overfull \hbox (11.2095pt too wide) in paragraph at lines 740--741
+\OT1/cmr/m/n/10 Assuming the ab-sence of a mea-sur-able sig-nal, an ex-pected 9
+5% CL CL$[]$upper limit on $\OML/cmm/m/it/10 ^^[$\OT1/cmr/m/n/10 BR(cH(ZZ$\OMS/
+cmsy/m/n/10 !
+ []
+
+[54] [55] [56]) (./chapters/EFT.tex [57] [58
 
 ]
 Chapter 4.
@@ -2300,102 +2365,102 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-) [55] [56
+) [59] [60
 
-] [57
+] [61
 
-] [58
+] [62
 
-] [59] [60] [61]
-Overfull \hbox (11.1082pt too wide) in paragraph at lines 79--79
+] [63] [64] [65]
+Overfull \hbox (11.1082pt too wide) in paragraph at lines 86--86
 \OT1/cmr/m/n/10 results.web.cern.ch/cms-results/public-results/publications/PRF
 -14-001(CMS Pub-lic Pages),
  []
 
-[62]
-Overfull \hbox (11.60338pt too wide) in paragraph at lines 79--79
+[66]
+Overfull \hbox (11.60338pt too wide) in paragraph at lines 86--86
 \OT1/cmr/m/it/10 nal of High En-ergy Physics \OT1/cmr/m/n/10 2012.12 (Dec. 2012
 ). \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 1029-8479. \OT1/cmr/m/sc/10 doi\OT1/c
 mr/m/n/10 : []$\OT1/cmtt/m/n/10 10 . 1007 / jhep12(2012 )
  []
 
-[63] (./chapters/Appendix.tex [64]
+[67] (./chapters/Appendix.tex [68]
 
-LaTeX Warning: Reference `sec:EFTChapter' on page 65 undefined on input line 3.
+LaTeX Warning: Reference `sec:EFTChapter' on page 69 undefined on input line 3.
 
 
-<figures/ColumnarAnalysis.png, id=1652, 215.30438pt x 133.49875pt>
+<figures/ColumnarAnalysis.png, id=2256, 215.30438pt x 133.49875pt>
 File: figures/ColumnarAnalysis.png Graphic file (type png)
 <use figures/ColumnarAnalysis.png>
 Package pdftex.def Info: figures/ColumnarAnalysis.png  used on input line 7.
 (pdftex.def)             Requested size: 292.77629pt x 181.55382pt.
-<figures/0-15GeV_DeltaPhi_template.pdf, id=1658, 867.24pt x 867.24pt>
+<figures/0-15GeV_DeltaPhi_template.pdf, id=2262, 867.24pt x 867.24pt>
 File: figures/0-15GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_DeltaPhi_template.pdf  used on input l
 ine 19.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/0-15GeV_PtFrac_template.pdf, id=1659, 867.24pt x 867.24pt>
+<figures/0-15GeV_PtFrac_template.pdf, id=2263, 867.24pt x 867.24pt>
 File: figures/0-15GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_PtFrac_template.pdf  used on input lin
 e 24.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_DeltaPhi_template.pdf, id=1660, 867.24pt x 867.24pt>
+<figures/15-30GeV_DeltaPhi_template.pdf, id=2264, 867.24pt x 867.24pt>
 File: figures/15-30GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_DeltaPhi_template.pdf  used on input 
 line 34.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_PtFrac_template.pdf, id=1661, 867.24pt x 867.24pt>
+<figures/15-30GeV_PtFrac_template.pdf, id=2265, 867.24pt x 867.24pt>
 File: figures/15-30GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_PtFrac_template.pdf  used on input li
 ne 39.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_DeltaPhi_template.pdf, id=1662, 867.24pt x 867.24pt>
+<figures/30-50GeV_DeltaPhi_template.pdf, id=2266, 867.24pt x 867.24pt>
 File: figures/30-50GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_DeltaPhi_template.pdf  used on input 
 line 48.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_PtFrac_template.pdf, id=1663, 867.24pt x 867.24pt>
+<figures/30-50GeV_PtFrac_template.pdf, id=2267, 867.24pt x 867.24pt>
 File: figures/30-50GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_PtFrac_template.pdf  used on input li
 ne 53.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_DeltaPhi_template.pdf, id=1664, 867.24pt x 867.24pt>
+<figures/50-100GeV_DeltaPhi_template.pdf, id=2268, 867.24pt x 867.24pt>
 File: figures/50-100GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_DeltaPhi_template.pdf  used on input
  line 62.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_PtFrac_template.pdf, id=1665, 867.24pt x 867.24pt>
+<figures/50-100GeV_PtFrac_template.pdf, id=2269, 867.24pt x 867.24pt>
 File: figures/50-100GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_PtFrac_template.pdf  used on input l
 ine 67.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_DeltaPhi_template.pdf, id=1666, 867.24pt x 867.24pt>
+<figures/100-200GeV_DeltaPhi_template.pdf, id=2270, 867.24pt x 867.24pt>
 File: figures/100-200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_DeltaPhi_template.pdf  used on inpu
 t line 76.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_PtFrac_template.pdf, id=1667, 867.24pt x 867.24pt>
+<figures/100-200GeV_PtFrac_template.pdf, id=2271, 867.24pt x 867.24pt>
 File: figures/100-200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_PtFrac_template.pdf  used on input 
 line 81.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_DeltaPhi_template.pdf, id=1668, 867.24pt x 867.24pt>
+<figures/>200GeV_DeltaPhi_template.pdf, id=2272, 867.24pt x 867.24pt>
 File: figures/>200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/>200GeV_DeltaPhi_template.pdf  used on input l
 ine 90.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_PtFrac_template.pdf, id=1669, 867.24pt x 867.24pt>
+<figures/>200GeV_PtFrac_template.pdf, id=2273, 867.24pt x 867.24pt>
 File: figures/>200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/>200GeV_PtFrac_template.pdf  used on input lin
@@ -2403,42 +2468,50 @@ e 95.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
 )
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 470.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 450.
 See the caption package documentation for explanation.
 
-[65
+[69
 
-] [66 <./figures/ColumnarAnalysis.png> <./figures/0-15GeV_DeltaPhi_template.pdf
-> <./figures/0-15GeV_PtFrac_template.pdf>] [67 <./figures/15-30GeV_DeltaPhi_tem
+] [70 <./figures/ColumnarAnalysis.png> <./figures/0-15GeV_DeltaPhi_template.pdf
+> <./figures/0-15GeV_PtFrac_template.pdf>] [71 <./figures/15-30GeV_DeltaPhi_tem
 plate.pdf> <./figures/15-30GeV_PtFrac_template.pdf> <./figures/30-50GeV_DeltaPh
-i_template.pdf> <./figures/30-50GeV_PtFrac_template.pdf>] [68 <./figures/50-100
+i_template.pdf> <./figures/30-50GeV_PtFrac_template.pdf>] [72 <./figures/50-100
 GeV_DeltaPhi_template.pdf> <./figures/50-100GeV_PtFrac_template.pdf> <./figures
 /100-200GeV_DeltaPhi_template.pdf> <./figures/100-200GeV_PtFrac_template.pdf>] 
-[69 <./figures/>200GeV_DeltaPhi_template.pdf> <./figures/>200GeV_PtFrac_templat
+[73 <./figures/>200GeV_DeltaPhi_template.pdf> <./figures/>200GeV_PtFrac_templat
 e.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 81A30F89528A60E5A52BA32019B12693;4025.
+(rerunfilecheck)             Checksum: 8712486D7E84AF720C57E5FDAD85F43C;4074.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31391 strings out of 481239
- 623811 string characters out of 5920376
- 1315984 words of memory out of 5000000
- 45697 multiletter control sequences out of 15000+600000
+ 31482 strings out of 481239
+ 626124 string characters out of 5920376
+ 1318873 words of memory out of 5000000
+ 45765 multiletter control sequences out of 15000+600000
  582370 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,100p,2709b,2823s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,100p,2709b,2827s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -2472,10 +2545,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf/fonts/ty
 pe1/public/tex-gyre/qagr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 1000.pfb>
-Output written on main.pdf (75 pages, 5637652 bytes).
+Output written on main.pdf (81 pages, 8674711 bytes).
 PDF statistics:
- 2613 PDF objects out of 2984 (max. 8388607)
- 1586 compressed objects within 16 object streams
- 331 named destinations out of 1000 (max. 500000)
- 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3219 PDF objects out of 3580 (max. 8388607)
+ 1732 compressed objects within 18 object streams
+ 345 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 

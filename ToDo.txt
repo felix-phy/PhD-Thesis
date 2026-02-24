@@ -1,12 +1,7 @@
 Overall:
 
 == Introduction
- -- Higgs potential? 
- -- Label EFT sketch
  -- EFT validity - cite?
-
-== CMS
- -- 2D discrimination CvsX figure
 
 
 == random 
@@ -39,7 +34,7 @@ To do for chapter 3:
     -- fit result
     -- fix uncertainty discussion
     -- Make plots comparing 2P2F shape and 3P1F shape
-
+    -- Higgs mass spectrum plot in 3.1.1.
 
 
 
