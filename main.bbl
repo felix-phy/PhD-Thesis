@@ -4217,46 +4217,6 @@
       \verb https://cds.cern.ch/record/2854610
       \endverb
     \endentry
-    \entry{HIG19-001}{article}{}
-      \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{23}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1434-6052}
-      \field{journaltitle}{The European Physical Journal C}
-      \field{month}{6}
-      \field{number}{6}
-      \field{title}{Measurements of production cross sections of the Higgs boson in the four-lepton final state in proton–proton collisions at $\sqrt{s} = 13\,\text {TeV}$}
-      \field{volume}{81}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.1140/epjc/s10052-021-09200-x
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
-      \endverb
-    \endentry
     \entry{MonteCarlo}{article}{}
       \name{author}{1}{}{%
         {{hash=e2bb38a445fd9f0c2309f57ade222b9b}{%
@@ -4274,8 +4234,8 @@
       \strng{authorbibnamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authornamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authorfullhash}{e2bb38a445fd9f0c2309f57ade222b9b}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00063444, 14643510}
@@ -4316,8 +4276,8 @@
       \strng{authorbibnamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authornamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authorfullhash}{a6915c68b6e0eee25668df196438e6b0}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0550-3213}
@@ -4555,7 +4515,7 @@
       \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{24}
+      \field{extraname}{23}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
@@ -4629,6 +4589,185 @@
       \endverb
       \verb{eprint}
       \verb 1411.4085
+      \endverb
+    \endentry
+    \entry{HIG19-001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{24}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Measurements of production cross sections of the Higgs boson in the four-lepton final state in proton–proton collisions at $\sqrt{s} = 13\,\text {TeV}$}
+      \field{volume}{81}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-021-09200-x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-021-09200-x
+      \endverb
+    \endentry
+    \entry{qqZZkFactor}{article}{}
+      \name{author}{10}{}{%
+        {{hash=a01faefae68dff2dfdfc1e36a6807a3f}{%
+           family={Cascioli},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=27680809a3b924b4d40dc16a470b2667}{%
+           family={Gehrmann},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=afd5b60b3ac46fca0fbe901920b65fa8}{%
+           family={Grazzini},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5eb94a37e9dc8a9a4b26c8c8afdd8679}{%
+           family={Kallweit},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ae86fae96ccb6656e43593ae3660783a}{%
+           family={Maierhöfer},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=90f87503bbfbef1411594c327cfdec3b}{%
+           family={Manteuffel},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=4ba43bbec7ef959d88e6d7f1e77f0dba}{%
+           family={Pozzorini},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2033f9b5fc02f81a4398859158fb74c6}{%
+           family={Rathlev},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=821c36007cb1b8e2322444914170e1d4}{%
+           family={Tancredi},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=93af989e9ebef7bfd9bcb657c0aea225}{%
+           family={Weihs},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{39ea2039b545ad7208f4a05b552b1217}
+      \strng{fullhash}{1ce21d6ff124d378236e48a033e86a82}
+      \strng{bibnamehash}{39ea2039b545ad7208f4a05b552b1217}
+      \strng{authorbibnamehash}{39ea2039b545ad7208f4a05b552b1217}
+      \strng{authornamehash}{39ea2039b545ad7208f4a05b552b1217}
+      \strng{authorfullhash}{1ce21d6ff124d378236e48a033e86a82}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{month}{7}
+      \field{title}{ZZ production at hadron colliders in NNLO QCD}
+      \field{volume}{735}
+      \field{year}{2014}
+      \field{pages}{311\bibrangedash 313}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2014.06.056
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physletb.2014.06.056
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physletb.2014.06.056
+      \endverb
+    \endentry
+    \entry{ggZZkFactor}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bbfb4ff95460567d636c0438543c5a5b}{%
+           family={Caola},
+           familyi={C\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=415b55859fd8bb4a7ad3888c6ad296b8}{%
+           family={Melnikov},
+           familyi={M\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e0dffa60f98bd32cc5442caa68b215fa}{%
+           family={Röntsch},
+           familyi={R\bibinitperiod},
+           given={Raoul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1786d977c828dc51ab79630c72585bb}{%
+           family={Tancredi},
+           familyi={T\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{5bc8eac157393802a148dfce252f0007}
+      \strng{fullhash}{c8eb75b71a27b3ec63f4cef100d10789}
+      \strng{bibnamehash}{5bc8eac157393802a148dfce252f0007}
+      \strng{authorbibnamehash}{5bc8eac157393802a148dfce252f0007}
+      \strng{authornamehash}{5bc8eac157393802a148dfce252f0007}
+      \strng{authorfullhash}{c8eb75b71a27b3ec63f4cef100d10789}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1550-2368}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{11}
+      \field{number}{9}
+      \field{title}{QCD corrections to ZZ production in gluon fusion at the LHC}
+      \field{volume}{92}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1103/physrevd.92.094028
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevD.92.094028
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevD.92.094028
       \endverb
     \endentry
     \entry{Cowan_2011}{article}{}
@@ -5429,6 +5568,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{G}
   \missing{PhenoPaper}
 \endrefsection
 \endinput

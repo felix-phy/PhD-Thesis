@@ -471,7 +471,7 @@ Irreducible background processes are background processes that produce the same 
     \end{subfigure}%
 \caption{Representative feynman diagrams of the irreducible background processes relevant to the \cHZZ analysis. This includes the ggH, ttH, VH, qqH, tqH, gg$\rightarrow$ZZ and qq$\rightarrow$ZZ processes. When no final state parton is explicitly present in the diagram it is implied via, for example, parton radiation.}
 \end{figure}
-\noindent The irreducible backgrounds are estimated using simulation. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
+\noindent The irreducible backgrounds are estimated using simulation at next-to-leading order in QCD. The exception to this is the gg$\rightarrow$ZZ process, for which only a sample in leading order of QCD is available. To correct for this, a k-factor of 1.7 is applied to the cross section to extrapolate to next-to-leading (NLO) order in QCD \cite{qqZZkFactor}. Similarly, a k-factor of 1.1 is applied to the NLO cross section of the gg$\rightarrow$ZZ process, extrapolating it to next-to-next-to-leading (NNLO) order in QCD \cite{ggZZkFactor}. This is done due to the significant, non-neglible contributions to the qq$\rightarrow$ZZ process at NNLO in QCD. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
 
 \begin{table}[H]
     \centering
@@ -676,7 +676,7 @@ The total contribution to the 4P region $N_{\mathrm{4P}}$ may finally be estimat
 \\
 By applying this strategy, an inclusive yield of 6.59 events for the reducible background in the 4P region is observed. In the signal region around the Higgs mass peak of 120 GeV \textless m(H) \textgreater 130 GeV, this reduces to a yield of 0.42 events. However, the derived distributions of observables are significiantly discontinuous. This arises from the strong influence of statistical fluctuations on the small yields of the individual control regions. The effects of these fluctuations are compounded by the subtractions performed in \autoref{eq:reducibleMasterEquation}, which introduce a significant number of bins with negative, unphysical yields. Given the subdominant nature of this background, a simplifcation to the estimation is made to resolve this problem. Specifically, the shapes of the distributions of observables in the 2P2F region, the most populated control region in the reducible background estimation, are taken and scaled to the yield of the full estimation. This approach is validated by a comparison of the 2P2F and 3P1F flavour tagging disciminator shapes, which show reasonable similarity as seen in \autoref{}. The contribution of the reducible background estimation to distributions of observables that is derived in this way can be seen in the following section. \\
 \\
-A number of systematic uncertainty sources can influence the reducible background estimation. This includes the effects of statistical uncertainties on each bin of the muon misidentification rate, effects related to differences in the background composition between different control regions as well as the discussed simplication introduced in the estimation strategy. However, due to the subdominant nature of this background and the fact that its contributions are minimal in the phase space of the signal, these effects are not propagated to the statistical evaluation. Instead a conservative rate uncertainty of 50\% is introduced to approximate their effect.
+A number of systematic uncertainty sources can influence the reducible background estimation. This includes the effects of statistical uncertainties on each bin of the muon misidentification rate, effects related to differences in the background composition between different control regions as well as the discussed simplication introduced in the estimation strategy. However, due to this backgrounds minimal contribution in the phase space of the signal, these effects are not propagated to the statistical evaluation. Instead a conservative rate uncertainty of 100\% is introduced, allowing the yield of this background to effectively be determined by a best fit value in the statistical evaluation described in \autoref{sec:StatisticalEvaluation}
 
 \section{Validation of \cHZZ event selection in sideband regions}
 \label{sec:sidebandValidation}
@@ -685,7 +685,7 @@ Here, a validation of the described event selection is presented. Specifically, 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\textwidth]{figures/Higgs_mass.pdf}
-    \caption{The mass spectrum of the Higgs boson candidate, showing the agreement between the 2018 dataset and simulation in the side band regions of the spectrum. The contribution from a \cHZZ signal, scaled by a factor 100 for better visibility, is also shown. The signal contribution is clearly concentrated around the Higgs boson mass of $m(H)=125$ GeV, as expected.}
+    \caption{The mass spectrum of the Higgs boson candidate, showing the agreement between the 2018 dataset and simulation in the side band regions of the spectrum. The contribution from a \cHZZ signal, scaled by a factor 100 for better visibility, is also shown. The signal contribution is clearly concentrated around the Higgs boson mass of $m(H)=125$ GeV, as expected. }
     \label{fig:Higgs_pt_sideband}
 \end{figure}%
 
@@ -733,7 +733,7 @@ Here, a validation of the described event selection is presented. Specifically, 
 
 \section{Statistical inference}
 \label{sec:StatisticalEvaluation}
-For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseudo two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on these distributions that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
+For the statistical inference process, both the \textsf{DeepJet} CvsB and CvsL discriminators are used in a pseudo two-dimensional fit. Specifically, an \textit{unrolling} process is applied to events to project the two-dimensional information given by the CvsB and CvsL discriminators into a single discriminator. This involves constructing a histogram of the CvsB discriminator in bins of the corresponding CvsL value. The resulting histogram can be seen in \autoref{fig:UnrolledFinalHist}. It is on this distribution that the statistical inference process described in the following is performed. This consists of constructing a statistical model with which a fit may be performed as described in \autoref{sec:statisticalModel} as well as an uncertainty model, as described in \autoref{sec:uncertaintyModel}\\
 \\
 \subsection{Statistical model}
 \label{sec:statisticalModel}
@@ -763,43 +763,52 @@ With this p-value, the \CLs method may be applied \cite{CLs}. For this, a \CLs v
 is computed. A feature of this method is that large overlaps of test statistic distributions between the $H_{\mu}$ and $H_{0}$ hypotheses, due to the very small signal cross section associated with $H_{\mu}$, are accounted for. This is achieved by weighting $p_{\mu}$ with $(1 - p_{0})^{-1}$, thus decreasing the \CLs value with larger overlaps.
 
 \subsection{Uncertainty model}
-The sources of uncertainty in the model of the signal and background processes are described in this section. These consist of two types. The first are shape uncertainties that may change the normalisation as well as the shape of the distributions in question. These uncertainties are captured by creating variations of these distributions that are interpreted as $\pm 1\sigma$ variations. In the statistical evaluation process, an interpolation is performed between the nominal distributions as well the variations to characterise their effect. as the The second type consists of normalisation uncertainties. These only affect the normalisation of distributions without affecting the shape and can thus be captured as a single, real paarameter. Both types of uncertainties are associated with a respective nuisance parameter in the statistical model introduced in \autoref{sec:statisticalModel}.
+\label{sec:uncertaintyModel} 
+The sources of uncertainty in the model of the signal and background processes are described in this section. These consist of two types. The first are shape uncertainties that may change the normalisation as well as the shape of the distributions in question. The effect of these uncertainties are captured by creating variations of these distributions that are interpreted as $\pm 1\sigma$ variations. In the statistical evaluation process, an interpolation is performed between the nominal distributions as well the variations to characterise their effect. as the The second type consists of normalisation uncertainties. These only affect the normalisation of distributions without affecting the shape and can thus be described with a single, real paarameter. Both types of uncertainties are associated with a respective nuisance parameter in the statistical model introduced in \autoref{sec:statisticalModel}.
 \subsubsection{Theoretical uncertainties common to simulation}
 A number of theoretical uncertainties that are common to all simulated sample are included in the uncertainty model. This includes:
 \begin{itemize}
-    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing two shape-changing nuisance parameters. 
-    \item Shape uncertainties related to the modelling of the Parton Distribution Function (PDF). These uncertainties are obtained from the \textsf{NNPDF3.1} PDF set that is used in simulation \cite{NNPDF3.1} and includes 100 PDF variations associated with variations of individual parameters. These are combined into a single nuisance parameter with the prescription   
+    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$ in the simulated Monte Carlo samples. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing two shape-changing nuisance parameters per process. These nuisance parameters also reflect theoretical cross section uncertainties on the respective processes.
+    \item A shape uncertainty related to the modelling of the Parton Distribution Function (PDF). This uncertainty is obtained from the \textsf{NNPDF3.1} PDF set that is used in simulation \cite{NNPDF3.1} and includes 100 PDF variations associated with variations of individual parameters. These are combined into a single nuisance parameter with the prescription   
     \begin{equation}
     \label{eq:symmhessian}
     \sigma^+ = \sigma^- = \sqrt{\sum_{i=1}^{N_{\text{par}}} \left( F_i - F_0 \right)^2}\,,
     \end{equation}
     where $F_0$ is the nominal value of the observable in question and $F_i$ is the varied value associated with one of the $N_{\text{par}}$ parameter variations \cite{Butterworth_2016}.
-    \item Normalisation uncertainties related to the cross sections of the individual processes. These are:
-        \begin{itemize}
-            \item{Higgs production and branching ratio uncertainties taken from \cite{HiggsHandBook}}
-            \item{A 50\% normalisation uncertainty on the modelling of the gluon fusion process in association with heavy quarks ?? Ask gerrit. }
-            \item{Other process uncertainties...}
-        \end{itemize}
-    \item Shape uncertainties related to the tuning of the parton showering used in the generator. These are implemented by varying parameters related to initial-state radiation and final-state radiation independently, introducing two nuisance parameters. 
-    \item A shape uncertainty related to the application of a pile-up reweighting procedure, with which the pile-up profile of simulation is matched to that of data. These uncertainties are captured via a single nuisance parameter. 
+    \item An uncertainty related to the choice of the strong coupling constant $\alpha_s$ in the Monte Carlo simulation. 
+    \item Shape uncertainties related to the tuning of the parton showering used in the Monte Carlo generator. These are implemented by varying parameters related to initial-state radiation and final-state radiation independently, introducing two nuisance parameters. 
+    \item A shape uncertainty related to the application of a pile-up reweighting procedure, with which the pile-up profile of simulation is matched to that of data. This uncertainty is described with a single nuisance parameter. 
 \end{itemize}
 \subsubsection{Experimental uncertainties common to simulation}
 The following experimental uncertainties are common to all simulated sample:
 \begin{itemize}
-    \item Shape uncertainties related to the jet energy scale. For this, a simplified schema is used in which closely correlated uncertainty sources are grouped and captured across 11 individual nuisance parameters. Sources of uncertainty include for example the limited set of data available for the calibration procedure or differences in calibration response to different jet flavours. 
-    \item A shape uncertainty related to the smearing method used to correct the jet energy resolution. This is captured via a single nuisance parameter.
-    \item Shape uncertainties related to the calibration of the jet flavour-tagging algorithm that is used. These are captured via 13 nuisance parameters and include for example uncertainty sources related to the individual phase spaces targeted in the calibration or the limited set of avaialble data. 
-    \item A shape uncertainty related to the pile-up identification method that is used. This is captured via a single nuisance parameter.
-    \item Shape uncertainties related to the muons used in the analysis. The response of the muon identification criteria, the isolation as well as the muon trigger path in simulation is calibrated to match data. Uncertainties associated with this calibration are captured via a nuisance parameter. 
+    \item Shape uncertainties related to the jet energy scale. For this, a simplified schema is used in which closely correlated uncertainty sources are grouped and described through 11 individual nuisance parameters. Sources of uncertainty include for example the limited set of data available for the calibration procedure or differences in calibration response to different jet flavours. 
+    \item A shape uncertainty related to the smearing method used to correct the jet energy resolution. This is described via a single nuisance parameter.
+    \item Shape uncertainties related to the calibration of the jet flavour-tagging algorithm that is used. The effect of these are captured via 13 nuisance parameters and include for example uncertainty sources related to the individual phase spaces targeted in the calibration or the limited set of avaialble data. 
+    \item A shape uncertainty related to the pile-up identification method that is used. This uncertainty is described with a single nuisance parameter.
+    \item Shape uncertainties related to the muons used in the analysis. The response of the muon identification criteria, the isolation as well as the muon trigger path in simulation is calibrated to match data. Uncertainties associated with this calibration are combined into a single nuisance parameter. 
     \item A normalisation uncertainty related to the luminosity with which the simulation is scaled, which is known with a limited precision. This amounts 2.5\% for the 2018 dataset and is caputured as a single nuisance parameter. 
 \end{itemize}
 \subsubsection{Uncertainties related to \cHZZ and \bHZZ modelling}
-A systematic uncertainty that is unique to \cHZZ and \bHZZ is that associated with the use of a specific flavour scheme. As discussed in \autoref{sec:cHSimulation}, an envelope representing a $\pm 1\sigma$ variation is extracted from the respective 3FS (4FS) and 4FS (5FS) samples and applied to the nominal \cHZZ 4FS FxFx (\bHZZ 5FS FxFx) sample.
-\subsubsection{Uncertainties related to reducible background modelling}
-Due to the almost neglible nature of the reducible background contribution, a simple normalisation uncertainty is introduced to account for uncertainties associated with this estimation procedure...
+There is, alongside the previously described uncertainties, a systematic uncertainty that is unique to \cHZZ and \bHZZ simulation and is associated with the choice of a specific flavour scheme. As discussed in \autoref{sec:cHSimulation}, an envelope representing a $\pm 1\sigma$ variation is extracted from the respective 3FS (4FS) and 4FS (5FS) samples and applied to the nominal \cHZZ 4FS FxFx (\bHZZ 5FS FxFx) sample. A shape changing nuisance parameter reflecting the flavour scheme uncertainty is thus introduced for both the \cHZZ and \bHZZ processes, respectively.
+\subsubsection{Uncertainty related to reducible background modelling}
+Due to the almost neglible nature of the reducible background contribution, a simple normalisation uncertainty is introduced to account for uncertainties associated with the reducible background estimation procedure. The uncertainty is set as 100\% of the yield, giving significant freedom in the fitting procedure to find a best-fit yield.
 \subsubsection{Uncertainties related to statistical precision of background estimation}
-Simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{BARLOW}\cite{MCAutoStats}.
+The employed simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{BARLOW}\cite{MCAutoStats}.
+\subsection{Additional uncertainties}
+\begin{itemize}
+    \item Two normalisation uncertainties are introduced for the theoretical uncertainty associated with the application of the k-factors for the qq$\rightarrow$ZZ and gg$\rightarrow$ZZ processes. 
+    \item A normalisation uncertainty originating from the theoretical uncertainty on the branching ratio $\mathcal{B}(H\rightarrow ZZ\rightarrow 4\ell)$. This is applied to simulated samples in which a Higgs boson is produced. 
+\end{itemize}
 \section{Results}
-In this section, the result of the presented methods is discussed. 
-\label{sec:uncertaintyModel} 
+\label{sec:SMResult}
+In this section, the result of the presented methods is discussed. The statistical evaluation is performed on the unrolled discriminator distribution described in \autoref{sec:StatisticalEvaluation}. This distribution can be seen in \autoref{fig:UnrolledDisc}. With the presented method, an expected 95\% CL \CLs upper limit of  $\sigma$BR(\cHZZ)$ = 4000$ is set for the 2018 dataset of the CMS detector. By applying the prescription derived in \autoref{sec:sec:kappaframework}, this corresponds to a limit on $\kappa_c$ of  $\kappa_c = $.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/UnrolledDisc.pdf}
+    \caption{The unrolled discriminator distribution representing the CvsB discriminator in three bins of the CvsL discriminator for the selected jet of the reconstructed \cHZZ candidates. As can be seen in the lower panel, the relative contribution of a \cHZZ signal in each bin generally increases with increasing bin number. The region most enriched with signal are the last bins on the right side of the distributions, which as expected, corresponds to selected jets with both a high CvsL and CvsB value. The \cHZZ signal contribution is scaled by a factor of $10^{3}$ to improve its visibility.}
+    \label{fig:UnrolledDisc}
+\end{figure}%
+
 
