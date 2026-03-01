@@ -1,5 +1,6 @@
 \chapter{Search for the cH(ZZ$\rightarrow$4$\mu$) process}
-To probe the charm Yukawa coupling through the cH process, a methodology must be devised to select and reconstruct cH candidate events.  This is described in \autoref{sec:Selection}, specifically targetting \cHZZ final states. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes in the event selection must be constructed and is described in \autoref{sec:s+bEstimation}. Finally, a statistical evaluation method using flavour-tagging discriminators to set 95\% CL upper limits on $\kappa_c$, assuming the absence of signal, is presented in \autoref{sec:StatisticalEvaluation}.
+\label{chap:cHAnalysis}
+To probe the charm Yukawa coupling with the \cHZZ process, a methodology must be devised to select and reconstruct \cHZZ candidate events.  This candidate selection is described in \autoref{sec:Selection}, with a focus on both the Higgs boson candidate reconstruction as well the selection of the jet associated with the charm quark. Additionally, a model describing the expected contributions from the \cHZZ process as well as a number of background processes for the presented event selection is described in \autoref{sec:s+bEstimation}. Here, particularly the simulation of \cHZZ events as well as the estimation of reducible backgrounds are discussed in greater detail. Following this, a statistical evaluation method using \textsf{DeepJet} flavour-tagging discriminators of the jet selected in the event reconsutrction is presented in \autoref{sec:StatisticalEvaluation}. Finally, the 95\% CL upper limits on $\kappa_c$ that are set by applying this method on the 2018 dataset of the CMS detector are discussed \autoref{sec:SMResult}, alongside statistical extrapolations of the result to full Run-2 and High Luminosity-LHC scenarios. 
 
 \section{cH event selection}
 \label{sec:Selection}
@@ -43,7 +44,15 @@ A Higgs boson reconstruction algorithm (and muon object selection) very similar 
     \item The Z candidate with a mass closest to the known Z boson mass of Z = 91.19 GeV \cite{PhysRevD.110.030001} is interpreted as an on-shell $Z_1$ candidate. The $Z_1$ candidate should satisfy 40 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. The other candidate is taken as the $Z_2$ candidate, which is typically more off-shell and thus the invariant di-muon mass requirement is relaxed to 12 GeV \textless \, $m_{Z_{1}}$ \textless \, 120 GeV. 
     \item The $Z_1$ and $Z_2$ candidates are combined to form a Higgs boson candidate. The four-muon invariant mass of the Higgs boson candidate must satisfy $m_{H}$ \textgreater \, 70 GeV. 
 \end{enumerate}
-The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:cHHiggsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125 \cite[PhysRevD.110.030001] GeV can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. 
+The reconstructed Higgs boson candidate mass distribution in simulated \cHZZ events can be seen in \autoref{fig:higgsMass}. As expected, a peak around the known Higgs mass $m_{H}$ = 125 GeV \cite[PhysRevD.110.030001] can be oberserved, with an elongated tail towards lower masses that originate from increasingly off-shell Z candidate contributions. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/higgsMass.pdf}
+    \caption{The distribution of the reconstructed Higgs boson candidate mass m(H) in simulated \cHZZ events. A clear peak around the nominal Higgs boson mass of 125 GeV is observed.}
+    \label{fig:higgsMass}
+\end{figure}
+
 \subsection{Jet candidate selection}
 \label{sec:JetCandidateSelection}
 Once a Higgs boson candidate is reconstructed, a likelihood ratio algorithm is applied to best identify and select the jet that is associated with (i.e. recoils off) the reconstructed Higgs boson. This algorithm does not use jet-flavour identification methods and is based solely on kinematic properties of the jets so as to minimise the introduction of any flavour bias in the selection. Specifically, two variables related to momentum conservation in the transverse plane are exploited: 
@@ -62,7 +71,7 @@ is defined. From this follows the per-jet likelihood
 \begin{align}
     \mathcal{L}(\mathrm{jet}) = \mathcal{L}\Big(\Delta\phi\mathrm{\big(H, jet\big)}\Big) \mathcal{L}\Bigg(\frac{p_{\mathrm{T}}(H)}{p_{\mathrm{T}}(\mathrm{jet})}\Bigg)
 \end{align}
-that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. 
+that is evaluated. The jet with the highest associated likelihood in an event is selected as the jet candidate. The distribution of $\mathcal{L}(\mathrm{jet})$ for both associated jets and non-associated jets can be seen in \autoref{fig:jetLikelihood} for simulated \cHZZ events in which an associated jet can be identified via a parton-to-jet matching. The distribution of the transverse momentum of the selected jet can be seen in \autoref{fig:jetPt}.
 \begin{table}[H]
     \centering
     \caption[]{The \pt(H) bins in which the jet selection procedure is performed.}
@@ -84,7 +93,28 @@ that is evaluated. The jet with the highest associated likelihood in an event is
 
     \end{adjustbox}
 \end{table}
-\noindent With this, the individual components of the \cHZZ process are thus reconstructed and events satisfying the described requirements are selected for evaluation. 
+\noindent With this, the individual components of the \cHZZ process can be reconstructed and events satisfying the described requirements are selected for evaluation. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/jetLikelihood.pdf}
+    \caption{The distribution of the jet selection likelihood $\mathcal{L}$(jet) in simulated \cHZZ events, shown for associated and non-associated jets in which an associated jet can be identified via a parton-to-jet matching. It can be seen that on average, applying the jet selection algorithm on the associated jet produces a higher likelihood value than on non-associated jets, as expected.}
+    \label{fig:jetLikelihood}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/jetPt.pdf}
+    \caption{The distribution of the selected jet's transverse momentum in simulated \cHZZ events. As expected, the majority of jets come at relatively low transverse momenta.}
+    \label{fig:jetPt}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/jetSelectionEfficiency.pdf}
+    \caption{The efficiency with which the jet associated with the Higgs boson is selected via the described algorithm in simulated \cHZZ events. This efficiency is shown in bins of the associated jet's transverse momentum for events in which more than one jet passes the jet selection requirements and an associated jet can be identified via a parton-to-jet matching.}
+    \label{fig:jetSelectionEfficiency}
+\end{figure}
+
 
 \subsection{Reconstruction efficiency}
 A total selection efficiency of $\sim$10\% is achieved on the simulated \cHZZ sample using the described methods. The losses in efficiency can be attributed to the following:
@@ -96,16 +126,10 @@ A total selection efficiency of $\sim$10\% is achieved on the simulated \cHZZ sa
 \end{itemize}
 Also of interest is the efficiency with which the jet associated with the Higgs boson is selected in simulated \cHZZ events with the described jet selection method. For events in which more than one jet passes the jet requirements, an efficiency of 68\% is achieved for associated jet transverse momenta below 50 GeV, with the efficiency exceeding 90\% for associated jet transverse momenta above 50 GeV. This can be seen in \autoref{fig:jetSelectionEfficiency}. It should be noted that this calculation only accounts for events in which an associated parton is generated at the matrix element level (see \autoref{sec:cHSimulation} for more details) and in which the parton can be matched to a jet. 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\textwidth]{figures/jetSelectionEfficiency.pdf}
-    \caption{The efficiency with which the jet associated with the Higgs boson is selected via the described algorithm in simulated \cHZZ events. This efficiency is shown in bins of the associated jet's transverse momentum for events in which more than one jet passes the jet selection requirements.}
-    \label{fig:jetSelectionEfficiency}
-\end{figure}
 
 \section{Signal and background estimation}
 \label{sec:s+bEstimation}
-The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using Monte Carlo simulations, as described in \autoref{sec:MonteCarlo}. The simulation of the \cHZZ process is specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions that would result from applying the described selection on the 2018 dataset of the CMS detector can be constructed. 
+The \cHZZ process as well as background processes which may mimic its signature must be estimated to accurately reflect the underlying processes as well as their interaction with the detector. This is done primarily using the Monte Carlo methods described in \autoref{sec:MonteCarlo}, with the simulation of the \cHZZ process being specifically discussed in \autoref{sec:cHSimulation}. The estimation of processes that make up the irreducible and reducible backgrounds to the \cHZZ process is discussed in \autoref{sec:IrreducibleBackgrounds} and \autoref{sec:ReducibleBackgrounds} respectively. From these estimations, a comprehensive model of the expected yields and distributions that would result from applying the described selection on the 2018 dataset of the CMS detector can be constructed. 
 
 \subsection{Estimation of \cHZZ process}
 \label{sec:cHSimulation}
@@ -119,7 +143,7 @@ The \cHZZ process is estimated using a simulation generated by \textsf{MadGraph5
     \item[] generate p p \textgreater h [QCD] @ 0 
     \item[] generate p p \textgreater h j [QCD] @ 1
 \end{itemize}
-In the first line, it can be read off that the \textsf{loop\_sm} model is used, a model allowing NLO calculations of the SM. Only the Yukawa couplings of the bottom and charm quarks are included to ensure orthogonality of the cH simulation to simulations of other Higgs production processes such as gluon fusion. Additionally, a so-called \textit{four flavour scheme} (4FS) version of the model is used \cite{}. The flavour scheme denotes which quarks are included as constituents of the proton, in which they are approximated as massless. The 4FS includes the up, down, strange and charm quarks as proton constituents. In contrast to the 4FS, a three flavour scheme 3FS could also be used. Here, the charm quark is not included in the proton but instead must be produced via gluon spllitting, i.e. $g \rightarrow c\overline{c}$. \\
+In the first line, it can be read off that the \textsf{loop\_sm} model is used, a model allowing NLO calculations of the SM. Only the Yukawa couplings of the bottom and charm quarks are included to ensure orthogonality of the cH simulation to simulations of other Higgs production processes such as gluon fusion. Additionally, a so-called \textit{four flavour scheme} (4FS) version of the model is used \cite{}. The flavour scheme denotes which quarks are included as constituents of the proton, in which they are approximated as massless. The 4FS includes the up, down, strange and charm quarks as proton constituents. In contrast to the 4FS, a three flavour scheme 3FS could also be used. Here, the charm quark is not included in the proton and initial state charm quarks must thus instead be produced via gluon spllitting, i.e. $g \rightarrow c\overline{c}$. \\
 \\
 In the following two lines, the proton and jet constituents are defined. Finally in the last two lines, the processes included in the simulation are defined. These are, calculated to next to leading order in QCD, the $p p \rightarrow H$ and $p p \rightarrow H+j$ processes. Both are included to give the most accurate possible kinematic description of the cH process. The reasoning for this is related to the modelling of final state partons and can be better understood by considering what is included in the leading order (LO) and next-to-leading (NLO) contributions to $p p \rightarrow H$ and $p p \rightarrow H+j$ respectively. At leading order, an additional jet in $p p \rightarrow H$ can only be generated via the parton shower. Thus, this contribution is expected to best model the lower momentum behaviour of final state partons. The NLO contributions to $p p \rightarrow H$, which correspond to LO contritubtions of $p p \rightarrow H+j$, in turn are expected to better model higher momentum behaviour of the final state parton. The same logic is applied to the LO contributions of $p p \rightarrow H+j$ and the NLO contributions of $p p \rightarrow H+j$, where two final state partons explicitly appear in the calculation of the latter. However, this approach introduces double counting of processes. These are accounted for along with double counting between parton shower and matrix element contributions using the FxFx merging scheme.  \\
 \\
@@ -253,24 +277,6 @@ An overview of the relative occurrence of these topologies in the generated samp
 \caption{Examples of feynman diagrams that illustrate the four different event topologies generated in the \cHZZ sample at the lowest order. The red dots represent the \yc \, coupling.}
 \end{figure}
 \noindent{}To capture uncertainties associated with the choice of a particular flavour scheme in the simulation of \cHZZ, additional \cHZZ samples are used. These specifically simulate the \cHZZ process in the 3FS and 4FS, without the use of FxFx merging, effectively capturing cases where a charm \textit{must} originate from gluon splitting or directly from the proton respectively. From these samples, an uncertainty envelope is constructed for the discriminators distribution in the statistical evaluation presented in \autoref{sec:StatisticalEvaluation}. This envelope is determined by taking the relative discrepancy between the 3FS and 4FS samples and interpreting it as an uncertainty band around the the nominal 4FS FxFx sample distributions. An overview of all used signal samples can be seen in \autoref{table:SignalSamples}. \\
-\\
-\begin{table}[H]
-    \centering
-    \caption[]{\cHZZ samples used in this work}
-    \begin{adjustbox}{width=0.7\textwidth}
-    \label{table:SignalSamples}
-        \begin{tabular}{l l l}
-        \toprule 
-        \textbf{Process} & \textbf{$\sigma$}$\cdot$BR & \textbf{\# of simulated events}\\
-        \midrule 
-        \midrule
-        \cHZZ 4FS FxFx & 0.00916 fb & 4,854,537 \\
-        \cHZZ 3FS & 0.008065 fb & xx \\
-        \cHZZ 4FS & 0.004987 fb & xx \\
-        \bottomrule
-        \end{tabular} 
-    \end{adjustbox}
-\end{table}
 
 \subsection{Estimation of irreducible backgrounds}
 \label{sec:IrreducibleBackgrounds}
@@ -456,7 +462,7 @@ Irreducible background processes are background processes that produce the same 
             \vertex at (1.5, 1) (i3);
             \vertex at (1.5, -1) (i4);
             \vertex at (4, 1) (o1);
-            \vertex at (4, -1) (o2);
+            \vertex at (4, -1) (o2);of QCD
             \diagram*{
                 (i1) -- [gluon, edge label'={\textit{g}}] (i3),
                 (i2) -- [gluon, edge label={\textit{g}}] (i4),
@@ -471,12 +477,30 @@ Irreducible background processes are background processes that produce the same 
     \end{subfigure}%
 \caption{Representative feynman diagrams of the irreducible background processes relevant to the \cHZZ analysis. This includes the ggH, ttH, VH, qqH, tqH, gg$\rightarrow$ZZ and qq$\rightarrow$ZZ processes. When no final state parton is explicitly present in the diagram it is implied via, for example, parton radiation.}
 \end{figure}
-\noindent The irreducible backgrounds are estimated using simulation at next-to-leading order in QCD. The exception to this is the gg$\rightarrow$ZZ process, for which only a sample in leading order of QCD is available. To correct for this, a k-factor of 1.7 is applied to the cross section to extrapolate to next-to-leading (NLO) order in QCD \cite{qqZZkFactor}. Similarly, a k-factor of 1.1 is applied to the NLO cross section of the gg$\rightarrow$ZZ process, extrapolating it to next-to-next-to-leading (NNLO) order in QCD \cite{ggZZkFactor}. This is done due to the significant, non-neglible contributions to the qq$\rightarrow$ZZ process at NNLO in QCD. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton. 
+\noindent The irreducible backgrounds are estimated using simulation at next-to-leading order in QCD. The exception to this is the gg$\rightarrow$ZZ process, for which only a sample in leading order in QCD is available. To correct for this, a k-factor of 1.7 is applied to the cross section to extrapolate the cross section to next-to-leading (NLO) order in QCD \cite{qqZZkFactor}. Similarly, a k-factor of 1.1 is applied to the NLO cross section of the gg$\rightarrow$ZZ process, extrapolating the cross section to next-to-next-to-leading (NNLO) order in QCD \cite{ggZZkFactor}. This is done due to the significant, non-neglible contributions to the qq$\rightarrow$ZZ process at NNLO in QCD. An overview of the samples that are used can be found in \autoref{table:IrreducibleBackgroundSamples}. Like with the \cHZZ process, additional samples are used for the bH$(ZZ\rightarrow 4\mu)$ background to account for an uncertainty related to the choice of flavour scheme. However, here the five flavour scheme (5FS) is now the nominal FS to include the bottom quark in the proton and the 4FS is used to estimate the bH contribution where the initial state bottom quark originates from gluon splitting. 
+
+\begin{table}[H]
+    \centering
+    \caption[]{\cHZZ samples used in this work}
+    \begin{adjustbox}{width=0.6\textwidth}
+    \label{table:SignalSamples}
+        \begin{tabular}{l l l}
+        \toprule 
+        \textbf{Process} & \textbf{$\sigma$}$\cdot$BR & \textbf{\# of simulated events}\\
+        \midrule 
+        \midrule
+        \cHZZ 4FS FxFx & 0.025 fb & 4,854,537 \\
+        \cHZZ 3FS & 0.014 fb & 1,941,000 \\
+        \cHZZ 4FS & 0.022 fb & 1,628,000 \\
+        \bottomrule
+        \end{tabular} 
+    \end{adjustbox}
+\end{table}
 
 \begin{table}[H]
     \centering
     \caption[]{Simulated processes used for background estimation in this work. The listed processes represent the irreducible backgrounds to the \cHZZ analysis with the exeception of the WZ$\rightarrow3\ell\nu$ process, which is used solely in the estimation of the irreducible backgrounds.}
-    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{adjustbox}{width=0.6\textwidth}
     \label{table:IrreducibleBackgroundSamples}
         \begin{tabular}{l l l}
         \toprule 
@@ -495,11 +519,11 @@ Irreducible background processes are background processes that produce the same 
         gg$\rightarrow$ZZ(2$\mu$2$\tau$) & 3.19 fb & 434,000 \\
         qq$\rightarrow$ZZ/Z$\gamma^*\rightarrow$4L & 1.256 pb & 84,366,000 \\ 
         \midrule 
-        bH 5FS FxFx & 0.7095 fb & 3,869,701 \\
-        bH 4FS &  0.365 fb & xx \\
-        bH 5FS & 0.6573 & xx \\
+        bH 5FS FxFx & 0.192 fb & 3,869,701 \\
+        bH 4FS &  0.099 fb & 2,000,000 \\
+        bH 5FS & 0.153 fb & 1,944,000 \\
         \midrule
-        WZ$\rightarrow3\ell\nu$ & 4.43 pb & xx \\
+        WZ$\rightarrow3\ell\nu$ & 4.43 pb & 9,821,283 \\
         \bottomrule
         \end{tabular} 
     \end{adjustbox}
@@ -674,9 +698,9 @@ The total contribution to the 4P region $N_{\mathrm{4P}}$ may finally be estimat
     =& \sum_{k}^{N_{\mathrm{3P1F}}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{3P1F}}^{ZZ}}\frac{f_k^{(4)}}{(1-f_k^{(4)})} - \sum_{k}^{N_{\mathrm{2P2F}}}\big(\frac{f_k^{(3)}}{(1-f_k^{(3)})} \frac{f_k^{(4)}}{(1-f_k^{(4)})})
 \end{align}
 \\
-By applying this strategy, an inclusive yield of 6.59 events for the reducible background in the 4P region is observed. In the signal region around the Higgs mass peak of 120 GeV \textless m(H) \textgreater 130 GeV, this reduces to a yield of 0.42 events. However, the derived distributions of observables are significiantly discontinuous. This arises from the strong influence of statistical fluctuations on the small yields of the individual control regions. The effects of these fluctuations are compounded by the subtractions performed in \autoref{eq:reducibleMasterEquation}, which introduce a significant number of bins with negative, unphysical yields. Given the subdominant nature of this background, a simplifcation to the estimation is made to resolve this problem. Specifically, the shapes of the distributions of observables in the 2P2F region, the most populated control region in the reducible background estimation, are taken and scaled to the yield of the full estimation. This approach is validated by a comparison of the 2P2F and 3P1F flavour tagging disciminator shapes, which show reasonable similarity as seen in \autoref{}. The contribution of the reducible background estimation to distributions of observables that is derived in this way can be seen in the following section. \\
+By applying this strategy, an inclusive yield of 6.59 events for the reducible background in the 4P region is observed. In the signal region around the Higgs mass peak of 120 GeV \textless m(H) \textgreater 130 GeV, this reduces to a yield of 0.42 events. However, the derived observable distributions are significiantly discontinuous. This arises from the strong influence of statistical fluctuations on the small yields of the individual control regions. The effects of these fluctuations are compounded by the subtractions performed in \autoref{eq:reducibleMasterEquation}, which introduce a significant number of bins with negative, unphysical yields. Given the subdominant nature of this background, a simplifcation to the estimation is made to resolve this problem. Specifically, the shapes of the distributions for observables in the 2P2F region, which is the most populated control region in the reducible background estimation, are taken and scaled to the yield of the full estimation. This approach is motivated by a comparison of the 2P2F and 3P1F flavour tagging disciminator shapes, which show reasonable similarity as seen in Appendix. \autoref{appendix:ReduciblesComparison}. The contribution of the reducible background estimation to distributions of observables that is derived in this way can be seen in \autoref{sec:sidebandValidation}. \\
 \\
-A number of systematic uncertainty sources can influence the reducible background estimation. This includes the effects of statistical uncertainties on each bin of the muon misidentification rate, effects related to differences in the background composition between different control regions as well as the discussed simplication introduced in the estimation strategy. However, due to this backgrounds minimal contribution in the phase space of the signal, these effects are not propagated to the statistical evaluation. Instead a conservative rate uncertainty of 100\% is introduced, allowing the yield of this background to effectively be determined by a best fit value in the statistical evaluation described in \autoref{sec:StatisticalEvaluation}
+A number of systematic uncertainty sources can influence the reducible background estimation. This includes the effects of statistical uncertainties on each bin of the muon misidentification rate, effects related to differences in the background composition between different control regions as well as the discussed simplication introduced in the estimation strategy. However, due to this background's small contribution in the phase space of the signal and limitations resulting from a limited event yield, these effects are not propagated to the statistical evaluation. Instead a conservative rate uncertainty of 100\% is introduced, allowing the yield of this background to effectively be determined by a best fit value in the statistical evaluation described in \autoref{sec:StatisticalEvaluation}.
 
 \section{Validation of \cHZZ event selection in sideband regions}
 \label{sec:sidebandValidation}
@@ -686,7 +710,7 @@ Here, a validation of the described event selection is presented. Specifically, 
     \centering
     \includegraphics[width=0.5\textwidth]{figures/Higgs_mass.pdf}
     \caption{The mass spectrum of the Higgs boson candidate, showing the agreement between the 2018 dataset and simulation in the side band regions of the spectrum. The contribution from a \cHZZ signal, scaled by a factor 100 for better visibility, is also shown. The signal contribution is clearly concentrated around the Higgs boson mass of $m(H)=125$ GeV, as expected. }
-    \label{fig:Higgs_pt_sideband}
+    \label{fig:Higgs_mass_sideband}
 \end{figure}%
 
 \begin{figure}
@@ -768,7 +792,7 @@ The sources of uncertainty in the model of the signal and background processes a
 \subsubsection{Theoretical uncertainties common to simulation}
 A number of theoretical uncertainties that are common to all simulated sample are included in the uncertainty model. This includes:
 \begin{itemize}
-    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$ in the simulated Monte Carlo samples. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing two shape-changing nuisance parameters per process. These nuisance parameters also reflect theoretical cross section uncertainties on the respective processes.
+    \item Shape uncertainties related to the choice of the normalisation and factorisation scales $\mu_R$ and $\mu_F$ in the simulated Monte Carlo samples. These are varied independently by factors of 2 and 0.5 using a reweighting technique that is applied to the simulation, thus introducing two shape-changing nuisance parameters per process.
     \item A shape uncertainty related to the modelling of the Parton Distribution Function (PDF). This uncertainty is obtained from the \textsf{NNPDF3.1} PDF set that is used in simulation \cite{NNPDF3.1} and includes 100 PDF variations associated with variations of individual parameters. These are combined into a single nuisance parameter with the prescription   
     \begin{equation}
     \label{eq:symmhessian}
@@ -795,20 +819,32 @@ There is, alongside the previously described uncertainties, a systematic uncerta
 Due to the almost neglible nature of the reducible background contribution, a simple normalisation uncertainty is introduced to account for uncertainties associated with the reducible background estimation procedure. The uncertainty is set as 100\% of the yield, giving significant freedom in the fitting procedure to find a best-fit yield.
 \subsubsection{Uncertainties related to statistical precision of background estimation}
 The employed simulation estimation methods themselves include a statistical uncertainty due to the limited number of events that are generated to estimate each process. This results in the introduction of nuisance parameter per process per bin of the final discriminator. This can be simplified to introducing only a single, per bin nuisance parameter by using the Barlow-Beeston approach \cite{BARLOW}\cite{MCAutoStats}.
-\subsection{Additional uncertainties}
+\subsubsection{Additional uncertainties}
+The following additional unceratinties are also included:
 \begin{itemize}
     \item Two normalisation uncertainties are introduced for the theoretical uncertainty associated with the application of the k-factors for the qq$\rightarrow$ZZ and gg$\rightarrow$ZZ processes. 
     \item A normalisation uncertainty originating from the theoretical uncertainty on the branching ratio $\mathcal{B}(H\rightarrow ZZ\rightarrow 4\ell)$. This is applied to simulated samples in which a Higgs boson is produced. 
 \end{itemize}
 \section{Results}
 \label{sec:SMResult}
-In this section, the result of the presented methods is discussed. The statistical evaluation is performed on the unrolled discriminator distribution described in \autoref{sec:StatisticalEvaluation}. This distribution can be seen in \autoref{fig:UnrolledDisc}. With the presented method, an expected 95\% CL \CLs upper limit of  $\sigma$BR(\cHZZ)$ = 4000$ is set for the 2018 dataset of the CMS detector. By applying the prescription derived in \autoref{sec:sec:kappaframework}, this corresponds to a limit on $\kappa_c$ of  $\kappa_c = $.
+In this section, the result of the presented methods is discussed, which is obtained by performing the statistical evaluation described in \autoref{sec:StatisticalEvaluation} on the unrolled CvsL and CvsB discriminator distribution of the selected jet in \cHZZ candidate events. This distribution can be seen in \autoref{fig:UnrolledDisc}. With the presented method, an expected 95\% CL \CLs upper limit of $\sigma$BR(\cHZZ)$ = 2864$ is set for the 2018 dataset of the CMS detector. By applying the prescription derived in \autoref{sec:kappaframework}, this corresponds to an expected 95\% CL \CLs upper limit on $\kappa_c$ of $\kappa_c = 497$. To better understand the impact of the nuisance parameters on this result, a series of fits to an Asimov dataset is performed. This Asimov dataset consists of the nominal background process contributions as well as a \cHZZ signal contribution, which is injected with a signal strength $r$ corresponding to the derived upper limit of $\sigma$BR(\cHZZ)$ = 2864$. In such a signal-strength fit, the profile likelihood ratio is maximised to find a best fit value of $\hat{r}$ for the signal strength in the given dataset. Following this is a series of fits where the individual nuisance parameters $\theta_i$ are varied by $\pm \sigma$ to find the best fit values $\hat{r}_{\pm\theta_i}$. The size of the differences $\Delta \hat{r}_i = \hat{r} - \hat{r}_{\pm\theta_i}$ thus gives an indication of the uncertainty on $\hat{r}$ introduced by each nuisance parameter. With this technique, the leading uncertainties that limit the sensitivity the of the 95\% CL \CLs upper limit fit can thus be identified. These can be seen in \autoref{fig:ImpactsSM}, which shows the $\Delta \hat{r}_i$ values of the leading 30 (of a total of 76) uncertainty sources. As can be seen, the flavour scheme uncertainty from the \cHZZ simulation is clearly the leading uncertainty source. Given the relatively large yield changing effect associated with this uncertainty and the very small expected signal strength of the \cHZZ process, this an expected behaviour. Generally it is unsurprising then, that other leading uncertainties sources produce yield changing effects in the signal and background contributions. These include for example uncertaintiess associated with the PDF used in simulation, the normalisation of the reducible backgrounds, the luminosity of the LHC and the k-factor applied to the qq$\rightarrow$ZZ process. This can again be explained by the fact that the fit sensitivity is primarily limited by the very small expected signal strength. Given that the discriminating observable is derived from the properties of the selected jet of the \cHZZ candidates, the significant impact of the uncertainties related to jet calibration and flavour tagging methods is also expected. The distributions associated with the 30 leading uncertainty sources can be seen in \autoref{appendix:uncertaintyDistributionsSM}. Only the shape changing uncertainties are included since the normalisation uncertainties simply corresponds to a scaling of the distributions . \\
+\\
+To make a comparison to the published cH(WW) and cH($\gamma\gamma)$ results, a statistical extrapolation to the full Run-2 dataset of the CMS detector is performed. This consists of scaling the prediction of the 2018 dataset to the 137 $fb^{-1}$ of luminosity of the full Run-2 dataset. However, it should be noted that this extrapolation neglects any changes in detector operating conditions and assumes no changes in any of the uncertainty sources. In this case, an expected 95\% CL \CLs upper limit of $\sigma$BR(\cHZZ)$ = 2864$ is derived, which corresponds to an expected 95\% CL \CLs upper limit of $\kappa_c = 497$. ...\\
+\\
+Similarly, the result may be extrapolated to the expected 3000 fb${-1}$ dataset of the High-Luminosity LHC (HL-LHC) \cite{}. Again, it should be noted that this neglects changes in the CMS detector and operating conditions, which are expected to differ significantly during HL-LHC operation \cite{}. A result of an expected 95\% CL \CLs upper limit of $\sigma$BR(\cHZZ)$ = 2864$ is derived in this case. This corresponds to an expected 95\% CL \CLs upper limit of $\kappa_c = 497$. ...
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{figures/UnrolledDisc.pdf}
     \caption{The unrolled discriminator distribution representing the CvsB discriminator in three bins of the CvsL discriminator for the selected jet of the reconstructed \cHZZ candidates. As can be seen in the lower panel, the relative contribution of a \cHZZ signal in each bin generally increases with increasing bin number. The region most enriched with signal are the last bins on the right side of the distributions, which as expected, corresponds to selected jets with both a high CvsL and CvsB value. The \cHZZ signal contribution is scaled by a factor of $10^{3}$ to improve its visibility.}
     \label{fig:UnrolledDisc}
+\end{figure}%
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/ImpactsSM.pdf}
+    \caption{Figure showing the 30 leading uncertainty sources in a fit of $\sigma$BR(\cHZZ), orderd by their relative impact on the fit. In the left panel the nuisance parameter names can be seen. In the central panel, the fitted nuisance parameter values as well as their so-called pulls are shown. On the right, the $\Delta \hat{r}_i$ values can be seen for the $\pm\sigma$ variations associated with each nuisance parameter. }
+    \label{fig:ImpactsSM}
 \end{figure}%
 
 

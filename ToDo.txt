@@ -1,49 +1,20 @@
 Overall:
 
 == Introduction
- -- EFT validity - cite?
+ -- EFT validity - cite Nordin. 
 
-
-== random 
- -- fix sample tables
- -- rerun analysis with new jet templates
- -- k-factors? Probably not...
-
-== Stuff on cH sample:
-    -- jet selection plots DONE FIX !!! BINNING IN DELTAPHI !!!
-
-== reducible backgrounds:
-    -- ask gerrit about rate unc justification
 
 == uncertainties: 
-    == theory uncertainties
-        --- 50% on ggH?
-        --- other cross sections
-    -- Implement FS uncertainty
+    -- Correlate uncertainties
+    -- symmetrise JEC uncertainties
 
 
 == Appendix
-    == framework
-        -- check number of events used in analysis
-
+    -- cite pheno paper
 
 To do for chapter 3: 
-
-    -- sideband validation
-    -- unrolled discriminator
     -- fit result
-    -- fix uncertainty discussion
-    -- Make plots comparing 2P2F shape and 3P1F shape
-    -- Higgs mass spectrum plot in 3.1.1.
-
-
-
-
-
-
-
-
-
+    -- Quote uncertainty sizes
 
 
 
