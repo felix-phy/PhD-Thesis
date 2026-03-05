@@ -6,7 +6,6 @@ Overall:
 
 == uncertainties: 
     -- Correlate uncertainties
-    -- symmetrise JEC uncertainties
 
 
 == Appendix

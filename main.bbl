@@ -5158,6 +5158,94 @@
       \verb https://arxiv.org/abs/1103.0354
       \endverb
     \endentry
+    \entry{SMEFTSim1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=044b59e76a8aaf7087c15acb5215ca53}{%
+           family={Brivio},
+           familyi={B\bibinitperiod},
+           given={Ilaria},
+           giveni={I\bibinitperiod}}}%
+        {{hash=cac81092b700b15282dacf7d4168e693}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f0f69c3f0c83f44987ad60fafaaa0cb2}{%
+           family={Trott},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \strng{fullhash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \strng{bibnamehash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \strng{authorbibnamehash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \strng{authornamehash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \strng{authorfullhash}{5829bf992c30cddc9cc50d6b2b81567b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{The SMEFTsim package, theory and tools}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/jhep12(2017)070
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP12(2017)070
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP12(2017)070
+      \endverb
+    \endentry
+    \entry{SMEFTSim2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=044b59e76a8aaf7087c15acb5215ca53}{%
+           family={Brivio},
+           familyi={B\bibinitperiod},
+           given={Ilaria},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{044b59e76a8aaf7087c15acb5215ca53}
+      \strng{fullhash}{044b59e76a8aaf7087c15acb5215ca53}
+      \strng{bibnamehash}{044b59e76a8aaf7087c15acb5215ca53}
+      \strng{authorbibnamehash}{044b59e76a8aaf7087c15acb5215ca53}
+      \strng{authornamehash}{044b59e76a8aaf7087c15acb5215ca53}
+      \strng{authorfullhash}{044b59e76a8aaf7087c15acb5215ca53}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{SMEFTsim 3.0 — a practical guide}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/jhep04(2021)073
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP04(2021)073
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP04(2021)073
+      \endverb
+    \endentry
     \entry{Coffea}{article}{}
       \name{author}{11}{}{%
         {{hash=46cf81997157d603c04ef1961fb67d6a}{%
@@ -5568,7 +5656,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{G}
   \missing{PhenoPaper}
 \endrefsection
 \endinput

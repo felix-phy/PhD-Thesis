@@ -2282,7 +2282,8 @@
     <bcf:citekey order="98">Hoche:2014rga</bcf:citekey>
     <bcf:citekey order="99">HIG19-001</bcf:citekey>
     <bcf:citekey order="100">PhysRevD.110.030001</bcf:citekey>
-    <bcf:citekey order="101">c</bcf:citekey>
+    <bcf:citekey order="101">PhysRevD.110.030001</bcf:citekey>
+    <bcf:citekey order="102">PhysRevD.110.030001</bcf:citekey>
     <bcf:citekey order="103">cmscHgammgamma</bcf:citekey>
     <bcf:citekey order="104">qqZZkFactor</bcf:citekey>
     <bcf:citekey order="105">ggZZkFactor</bcf:citekey>
@@ -2294,13 +2295,17 @@
     <bcf:citekey order="111">Butterworth_2016</bcf:citekey>
     <bcf:citekey order="112">BARLOW</bcf:citekey>
     <bcf:citekey order="113">MCAutoStats</bcf:citekey>
-    <bcf:citekey order="116">Coffea</bcf:citekey>
-    <bcf:citekey order="117">NANOAOD</bcf:citekey>
-    <bcf:citekey order="118">AwkwardArrays</bcf:citekey>
-    <bcf:citekey order="119">Numpy</bcf:citekey>
-    <bcf:citekey order="120">PhenoPaper</bcf:citekey>
-    <bcf:citekey order="121">Coffea</bcf:citekey>
-    <bcf:citekey order="122">Coffea</bcf:citekey>
+    <bcf:citekey order="116">PhenoPaper</bcf:citekey>
+    <bcf:citekey order="117">SMEFTSim1</bcf:citekey>
+    <bcf:citekey order="118">SMEFTSim2</bcf:citekey>
+    <bcf:citekey order="119">PhenoPaper</bcf:citekey>
+    <bcf:citekey order="120">Coffea</bcf:citekey>
+    <bcf:citekey order="121">NANOAOD</bcf:citekey>
+    <bcf:citekey order="122">AwkwardArrays</bcf:citekey>
+    <bcf:citekey order="123">Numpy</bcf:citekey>
+    <bcf:citekey order="124">PhenoPaper</bcf:citekey>
+    <bcf:citekey order="125">Coffea</bcf:citekey>
+    <bcf:citekey order="126">Coffea</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
