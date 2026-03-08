@@ -5158,6 +5158,58 @@
       \verb https://arxiv.org/abs/1103.0354
       \endverb
     \endentry
+    \entry{HL-LHC}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=510fecb2adb16e68b336103cca99c7d4}{%
+           family={Apollinari},
+           familyi={A\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9177d7cc9cf7a6fdc8bd481ebeea20b3}{%
+           family={Brüning},
+           familyi={B\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c93f97972e54f4fd1cbfcb6f58eaae90}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=717f1104d4d4714ce026dd581df1ca4c}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{e25ea653ae66b7f98ec5e7ef9dd55619}
+      \strng{fullhash}{3c74628aebbe28f79ac013adf49fe623}
+      \strng{bibnamehash}{e25ea653ae66b7f98ec5e7ef9dd55619}
+      \strng{authorbibnamehash}{e25ea653ae66b7f98ec5e7ef9dd55619}
+      \strng{authornamehash}{e25ea653ae66b7f98ec5e7ef9dd55619}
+      \strng{authorfullhash}{3c74628aebbe28f79ac013adf49fe623}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{High Luminosity Large Hadron Collider HL-LHC}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.5170/CERN-2015-005.1
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2120673
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2120673
+      \endverb
+      \keyw{Accelerators and Storage Rings}
+    \endentry
     \entry{SMEFTSim1}{article}{}
       \name{author}{3}{}{%
         {{hash=044b59e76a8aaf7087c15acb5215ca53}{%

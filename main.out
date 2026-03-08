@@ -45,14 +45,18 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Statistical model}{section.3.4}% 45
 \BOOKMARK [2][-]{subsection.3.4.2}{Uncertainty model}{section.3.4}% 46
 \BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 47
-\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 48
-\BOOKMARK [1][-]{section.4.1}{The cH\(ZZ4\)cGprocess}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.1.1}{Simulation of the cH\(ZZ4\)cGprocess}{section.4.1}% 50
-\BOOKMARK [2][-]{subsection.4.1.2}{Analysis strategy}{section.4.1}% 51
-\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter*.50}{Conclusion}{}% 53
-\BOOKMARK [0][-]{chapter*.51}{Bibliography}{}% 54
-\BOOKMARK [0][-]{appendix*.52}{Appendix}{}% 55
-\BOOKMARK [1][-]{section.Alph0.1}{Columnar analysis framework}{appendix*.52}% 56
-\BOOKMARK [1][-]{section.Alph0.2}{Likelihood templates derived for jet selection algorithm}{appendix*.52}% 57
-\BOOKMARK [1][-]{section.Alph0.3}{Comparison of DeepJet discriminators in 3P1F and 2P2F regions}{appendix*.52}% 58
+\BOOKMARK [2][-]{subsection.3.5.1}{Expected upper limits on the cH\(ZZ4\)process signal strength}{section.3.5}% 48
+\BOOKMARK [2][-]{subsection.3.5.2}{Impact of nuisance parameters}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.3}{Extrapolation to larger datasets}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.4}{Potential analysis improvements}{section.3.5}% 51
+\BOOKMARK [0][-]{chapter.4}{An EFT interpretation of the cH\(ZZ4\) process}{}% 52
+\BOOKMARK [1][-]{section.4.1}{The cH\(ZZ4\)cGprocess}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.1.1}{Simulation of the cH\(ZZ4\)cGprocess}{section.4.1}% 54
+\BOOKMARK [2][-]{subsection.4.1.2}{Analysis strategy}{section.4.1}% 55
+\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 56
+\BOOKMARK [0][-]{chapter*.51}{Conclusion}{}% 57
+\BOOKMARK [0][-]{chapter*.52}{Bibliography}{}% 58
+\BOOKMARK [0][-]{appendix*.53}{Appendix}{}% 59
+\BOOKMARK [1][-]{section.Alph0.1}{Columnar analysis framework}{appendix*.53}% 60
+\BOOKMARK [1][-]{section.Alph0.2}{Likelihood templates derived for jet selection algorithm}{appendix*.53}% 61
+\BOOKMARK [1][-]{section.Alph0.3}{Comparison of DeepJet discriminators in 3P1F and 2P2F regions}{appendix*.53}% 62

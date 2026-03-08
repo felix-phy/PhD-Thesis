@@ -111,24 +111,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Results}{59}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{63}{chapter.4}%
+\contentsline {subsection}{\numberline {3.5.1}Expected upper limits on the cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process signal strength}{59}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{63}{section.4.1}%
+\contentsline {subsection}{\numberline {3.5.2}Impact of nuisance parameters}{61}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{63}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {3.5.3}Extrapolation to larger datasets}{62}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Analysis strategy}{64}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {3.5.4}Potential analysis improvements}{62}{subsection.3.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Results}{65}{section.4.2}%
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{65}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{67}{chapter*.50}%
+\contentsline {section}{\numberline {4.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{65}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{69}{chapter*.51}%
+\contentsline {subsection}{\numberline {4.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{65}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix}{75}{appendix*.52}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis strategy}{66}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Columnar analysis framework}{75}{section.Alph0.1}%
+\contentsline {section}{\numberline {4.2}Results}{67}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{76}{section.Alph0.2}%
+\contentsline {chapter}{Conclusion}{69}{chapter*.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Comparison of \textsf {DeepJet} discriminators in 3P1F and 2P2F regions}{76}{section.Alph0.3}%
+\contentsline {chapter}{Bibliography}{71}{chapter*.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendix}{77}{appendix*.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Columnar analysis framework}{77}{section.Alph0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{78}{section.Alph0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Comparison of \textsf {DeepJet} discriminators in 3P1F and 2P2F regions}{78}{section.Alph0.3}%
