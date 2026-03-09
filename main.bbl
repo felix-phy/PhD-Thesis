@@ -5210,6 +5210,38 @@
       \endverb
       \keyw{Accelerators and Storage Rings}
     \endentry
+    \entry{HLLHC-CMS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7120cea12fbd4b1d51527a8f0563cb35}{%
+           family={Tomei},
+           familyi={T\bibinitperiod},
+           given={Thiago\bibnamedelimb R.\bibnamedelimi F.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \strng{fullhash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \strng{bibnamehash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \strng{authorbibnamehash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \strng{authornamehash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \strng{authorfullhash}{7120cea12fbd4b1d51527a8f0563cb35}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{CMS Upgrades for the High-Luminosity LHC Era}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2501.03412
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2501.03412
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2501.03412
+      \endverb
+    \endentry
     \entry{SMEFTSim1}{article}{}
       \name{author}{3}{}{%
         {{hash=044b59e76a8aaf7087c15acb5215ca53}{%

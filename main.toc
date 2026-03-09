@@ -111,11 +111,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Results}{59}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Expected upper limits on the cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process signal strength}{59}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.1}Expected upper limits on $\sigma \mathcal {B}$(cH(ZZ$\rightarrow 4\mu $))\tmspace +\thinmuskip {.1667em}}{59}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}Impact of nuisance parameters}{61}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Extrapolation to larger datasets}{62}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}Extrapolation to larger datasets}{61}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.4}Potential analysis improvements}{62}{subsection.3.5.4}%
 \defcounter {refsection}{0}\relax 
@@ -139,4 +139,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{78}{section.Alph0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Comparison of \textsf {DeepJet} discriminators in 3P1F and 2P2F regions}{78}{section.Alph0.3}%
+\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{78}{section.Alph0.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D}Uncertainty distributions}{78}{section.Alph0.4}%

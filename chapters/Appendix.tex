@@ -100,9 +100,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \label{fig:TemplatesEnd}
 \end{figure}
 
-\section{Comparison of \textsf{DeepJet} discriminators in 3P1F and 2P2F regions}
+\section{Comparison of discriminators in 3P1F and 2P2F regions}
 \label{appendix:ReduciblesComparison}
-A comparison of the \textsf{DeepJet} c-tagging discriminator between the 2P2F and 3P1F regions of the reducible background estimation is shown in \autoref{fig:ReducibleComparison}. Overall, there exists a reasonable agreement between the dscriminator shapes with the most significant difference beeing observed in sparsely populated bins. Given the reasonable agreement of the two discriminator shapes for the two regions, the 2P2F discriminator shapes are used to estimate the shape of the entire reducible background distribution in \autoref{sec:ReducibleBackgrounds}.
+A comparison between the 2P2F and corrected 3P1F (meaning the qq$\rightarrow$ZZ contribution is subtracted) regions of the reducible background estimation for the \textsf{DeepJet} c-tagging discriminators as well as the Higgs mass is shown in \autoref{fig:ReducibleComparisonCTag} and \autoref{fig:ReducibleComparisonHiggsmass}. Overall, there exists a reasonable agreement between the c-tagging discriminator shapes discriminator shapes, with significant differences only being observed in sparsely poopulated bins. Though there are significant diferences when considering the Higgs boson candidate mass spectrum, there is a reasonable agreement in the signal enriched region around $m(H)$ = 125 GeV. Given this reasonable agreement of the two discriminator shapes for the two regions, and considering the small relative total contribution of the reducible background, the 2P2F discriminator shapes are used to estimate the shape of the entire reducible background distribution in \autoref{sec:ReducibleBackgrounds}.
 
 \begin{figure}
     \begin{subfigure}{0.5\textwidth}
@@ -115,6 +115,143 @@ A comparison of the \textsf{DeepJet} c-tagging discriminator between the 2P2F an
         \includegraphics[width=1\textwidth]{figures/ReducibleCvsBComparison.pdf}
         \caption{The CvsB discriminator.}
     \end{subfigure}%
-    \caption{A comparison between the 2P2F and 3P1F regions of the reducible background estimation, looking specifically at the shape of the \textsf{DeepJet} c-tagging discriminator distributions. A reasonable agreement is observed, with the most significant differences being observed in more sparsely populated bins.}
-    \label{fig:ReducibleComparison}
+    \caption{A comparison between the 2P2F and 3P1F regions of the reducible background estimation, looking at the shape of the \textsf{DeepJet} c-tagging discriminator distributions. A reasonable agreement is observed, with the most significant differences being observed in more sparsely populated bins.}
+    \label{fig:ReducibleComparisonCTag}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/ReducibleHiggsMassComparison.pdf}
+    \caption{A comparison between the 2P2F and corrected 3P1F regions of the reducible background estimation, looking at the Higgs boson candidate mass spectrum. A reasonable agreement is observed in the region around $m(H)$ = 125 GeV, with the most significant differences being observed regions not sensitive to the signal.}
+    \label{fig:ReducibleComparisonHiggsmass}
+\end{figure}
+
+\section{Uncertainty distributions}
+\label{appendix:UncertaintiesSM}
+Here, the distributions associated with dominant uncertainty sources used in the statistical evaluation presented in \autoref{sec:SMResult}, are shown in \autoref{fig:JetUncs}, \autoref{fig:TheoreticalUncs} and \autoref{fig:MuonSFUnc}. Unless explicitly stated otherwise, the distributions shown are the sum of the background processes. Distributions for individual processes (such as the \cHZZ signal) are shown separately, per uncertainty, in case significant differences in the distribution shapes associated with the uncertainty are observed for that process with respect to the sum of background processes. 
+
+\begin{figure}
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf}
+        \caption{JES: Regrouped\_Absolute}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute_2018.pdf}
+        \caption{JES: Regrouped\_Absolute\_2018}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1.pdf}
+        \caption{JES energy scale: Regrouped\_BBEC1}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1_2018.pdf}
+        \caption{JES: Regrouped\_BBEC1\_2018}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}
+    \ContinuedFloat
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQCD.pdf}
+        \caption{JES: Regrouped\_FlavorQCD}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeBal.pdf}
+        \caption{JES: Regrouped\_RelativeBal}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_2018.pdf}
+        \caption{JES: Regrouped\_RelativeSample\_2018}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_JER.pdf}
+        \caption{JER\\}
+    \end{subfigure}%
+    \caption{Leading uncertainty sources associated with the jet energy scale (JES) and jet energy resolution (JER) calibration calibration.}
+    \label{fig:JetUncs}
+\end{figure}
+
+\begin{figure}
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muR_ggH.pdf}
+        \caption{Renormalisation scale: ggH}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muF_ggH.pdf}
+        \caption{Factorisation scale: ggH}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf}
+        \caption{Renormalisation scale: qq$\rightarrow$ZZ}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf}
+        \caption{Factorisation scale: qq$\rightarrow$ZZ}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}
+    \ContinuedFloat
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf}
+        \caption{Renormalisation scale: \cHZZ}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf}
+        \caption{Factorisation scale: \cHZZ}
+    \end{subfigure}%
+    \newline
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_puWeight.pdf}
+        \caption{Pileup reweighting}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_Pdf.pdf}
+        \caption{Parton distribution function}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}
+    \ContinuedFloat
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_PS-FSR.pdf}
+        \caption{Parton showering: FSR}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_PS-ISR.pdf}
+        \caption{Parton showering: ISR}
+    \end{subfigure}%
+\end{figure}
+\begin{figure}
+    \ContinuedFloat
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{figures/Uncertainties/Higgs_mass_cH_FS.pdf}
+        \caption{\cHZZ flavour scheme}
+    \end{subfigure}%
+    \caption{Leading theoretical uncertainty sources related to the modelling of the signal and background processes.}
+    \label{fig:TheoreticalUncs}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/Uncertainties/Higgs_mass_muonSF.pdf}
+    \caption{The uncertainty associated with the calibration of muons.}
+    \label{fig:MuonSFUnc}
 \end{figure}
