@@ -95,19 +95,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Statistical model}{54}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Uncertainty model}{56}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Uncertainty model}{57}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{56}{section*.42}%
+\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{57}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental uncertainties common to simulation}{57}{section*.43}%
+\contentsline {subsubsection}{Experimental uncertainties common to simulation}{58}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{58}{section*.44}%
+\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{58}{section*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{58}{section*.45}%
+\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{59}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{58}{section*.46}%
+\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{59}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Additional uncertainties}{58}{section*.47}%
+\contentsline {subsubsection}{Additional uncertainties}{59}{section*.48}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Results}{59}{section.3.5}%
 \defcounter {refsection}{0}\relax 
@@ -115,30 +115,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.2}Impact of nuisance parameters}{61}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Extrapolation to larger datasets}{61}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}Extrapolation to larger datasets}{62}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5.4}Potential analysis improvements}{62}{subsection.3.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{65}{chapter.4}%
+\contentsline {chapter}{\numberline {4}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{67}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{67}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{67}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Analysis strategy}{66}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Analysis strategy}{68}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Results}{67}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Results}{69}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{69}{chapter*.51}%
+\contentsline {chapter}{Conclusion}{71}{chapter*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{71}{chapter*.52}%
+\contentsline {chapter}{Bibliography}{73}{chapter*.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix}{77}{appendix*.53}%
+\contentsline {chapter}{Appendix}{79}{appendix*.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Columnar analysis framework}{77}{section.Alph0.1}%
+\contentsline {section}{\numberline {A}Columnar analysis framework}{79}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{78}{section.Alph0.2}%
+\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{80}{section.Alph0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{78}{section.Alph0.3}%
+\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{80}{section.Alph0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D}Uncertainty distributions}{78}{section.Alph0.4}%
+\contentsline {section}{\numberline {D}Uncertainty distributions}{80}{section.Alph0.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.1}Nuisance parameter impacts for $r=0$ fit of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}}{85}{subsection.Alph0.4.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  9 MAR 2026 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  10 MAR 2026 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,7 +1247,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<vub_logo_cmyk.pdf, id=260, 2094.8363pt x 738.42874pt>
+<vub_logo_cmyk.pdf, id=264, 2094.8363pt x 738.42874pt>
 File: vub_logo_cmyk.pdf Graphic file (type pdf)
 <use vub_logo_cmyk.pdf>
 Package pdftex.def Info: vub_logo_cmyk.pdf  used on input line 64.
@@ -1285,7 +1285,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<figures/Higgs_couplings.png, id=388, 3162.81625pt x 3034.33624pt>
+<figures/Higgs_couplings.png, id=393, 3162.81625pt x 3034.33624pt>
 File: figures/Higgs_couplings.png Graphic file (type png)
 <use figures/Higgs_couplings.png>
 Package pdftex.def Info: figures/Higgs_couplings.png  used on input line 9.
@@ -1375,7 +1375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
 pdfTeX warning: pdflatex (file ./figures/Higgs_potential.pdf): PDF inclusion: f
 ound PDF version <1.6>, but at most version <1.5> allowed
-<figures/Higgs_potential.pdf, id=459, 269.807pt x 196.68782pt>
+<figures/Higgs_potential.pdf, id=464, 269.807pt x 196.68782pt>
 File: figures/Higgs_potential.pdf Graphic file (type pdf)
 <use figures/Higgs_potential.pdf>
 Package pdftex.def Info: figures/Higgs_potential.pdf  used on input line 184.
@@ -1451,7 +1451,7 @@ stance' requires LuaTeX. It will be ignored. on input line 251.
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
 distance' requires LuaTeX. It will be ignored. on input line 251.
 
-<figures/genPartonPt.pdf, id=493, 867.24pt x 867.24pt>
+<figures/genPartonPt.pdf, id=498, 867.24pt x 867.24pt>
 File: figures/genPartonPt.pdf Graphic file (type pdf)
 <use figures/genPartonPt.pdf>
 Package pdftex.def Info: figures/genPartonPt.pdf  used on input line 268.
@@ -1482,7 +1482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--322
 
 pdfTeX warning: pdflatex (file ./figures/EFTDiagram.pdf): PDF inclusion: found 
 PDF version <1.6>, but at most version <1.5> allowed
-<figures/EFTDiagram.pdf, id=596, 338.95934pt x 196.68782pt>
+<figures/EFTDiagram.pdf, id=601, 338.95934pt x 196.68782pt>
 File: figures/EFTDiagram.pdf Graphic file (type pdf)
 <use figures/EFTDiagram.pdf>
 Package pdftex.def Info: figures/EFTDiagram.pdf  used on input line 333.
@@ -1512,7 +1512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--372
 
  []
 
-<figures/TopCMD.pdf, id=632, 101.64273pt x 107.18443pt>
+<figures/TopCMD.pdf, id=637, 101.64273pt x 107.18443pt>
 File: figures/TopCMD.pdf Graphic file (type pdf)
 <use figures/TopCMD.pdf>
 Package pdftex.def Info: figures/TopCMD.pdf  used on input line 375.
@@ -1587,12 +1587,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 444--451
 
 [15 <./figures/TopCMD.pdf>]) (./chapters/CMS.tex [16]
 Chapter 2.
-<figures/LHC2.png, id=700, 274.8669pt x 167.6664pt>
+<figures/LHC2.png, id=705, 274.8669pt x 167.6664pt>
 File: figures/LHC2.png Graphic file (type png)
 <use figures/LHC2.png>
 Package pdftex.def Info: figures/LHC2.png  used on input line 6.
 (pdftex.def)             Requested size: 376.42575pt x 229.63504pt.
-<figures/CMS.png, id=704, 1323.94624pt x 887.315pt>
+<figures/CMS.png, id=709, 1323.94624pt x 887.315pt>
 File: figures/CMS.png Graphic file (type png)
 <use figures/CMS.png>
 Package pdftex.def Info: figures/CMS.png  used on input line 13.
@@ -1604,7 +1604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-<figures/CMSTracker.pdf, id=727, 423.46184pt x 150.55324pt>
+<figures/CMSTracker.pdf, id=732, 423.46184pt x 150.55324pt>
 File: figures/CMSTracker.pdf Graphic file (type pdf)
 <use figures/CMSTracker.pdf>
 Package pdftex.def Info: figures/CMSTracker.pdf  used on input line 51.
@@ -1635,7 +1635,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--64
  []
 
 [19]
-<figures/CMSEcal.png, id=747, 1052.93375pt x 525.965pt>
+<figures/CMSEcal.png, id=752, 1052.93375pt x 525.965pt>
 File: figures/CMSEcal.png Graphic file (type png)
 <use figures/CMSEcal.png>
 Package pdftex.def Info: figures/CMSEcal.png  used on input line 69.
@@ -1646,7 +1646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
  []
 
 [21 <./figures/CMSEcal.png>]
-<figures/CMSMagnet2.png, id=784, 1077.02374pt x 562.1pt>
+<figures/CMSMagnet2.png, id=789, 1077.02374pt x 562.1pt>
 File: figures/CMSMagnet2.png Graphic file (type png)
 <use figures/CMSMagnet2.png>
 Package pdftex.def Info: figures/CMSMagnet2.png  used on input line 84.
@@ -1657,7 +1657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--93
  []
 
 [22 <./figures/CMSMagnet2.png>]
-<figures/CMSMuonSystem.png, id=798, 1163.34625pt x 830.10126pt>
+<figures/CMSMuonSystem.png, id=803, 1163.34625pt x 830.10126pt>
 File: figures/CMSMuonSystem.png Graphic file (type png)
 <use figures/CMSMuonSystem.png>
 Package pdftex.def Info: figures/CMSMuonSystem.png  used on input line 96.
@@ -1687,7 +1687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
-<figures/PF.pdf, id=826, 450.9648pt x 311.05008pt>
+<figures/PF.pdf, id=831, 450.9648pt x 311.05008pt>
 File: figures/PF.pdf Graphic file (type pdf)
 <use figures/PF.pdf>
 Package pdftex.def Info: figures/PF.pdf  used on input line 159.
@@ -1726,17 +1726,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--231
  []
 
 [29]
-<figures/HFJets.png, id=885, 1763.58875pt x 997.7275pt>
+<figures/HFJets.png, id=890, 1763.58875pt x 997.7275pt>
 File: figures/HFJets.png Graphic file (type png)
 <use figures/HFJets.png>
 Package pdftex.def Info: figures/HFJets.png  used on input line 234.
 (pdftex.def)             Requested size: 376.42575pt x 212.95438pt.
-<figures/2DSIP.png, id=888, 1686.3pt x 578.16pt>
+<figures/2DSIP.png, id=893, 1686.3pt x 578.16pt>
 File: figures/2DSIP.png Graphic file (type png)
 <use figures/2DSIP.png>
 Package pdftex.def Info: figures/2DSIP.png  used on input line 241.
 (pdftex.def)             Requested size: 418.25368pt x 143.4016pt.
-<figures/DeepJetArch.png, id=891, 1842.885pt x 421.575pt>
+<figures/DeepJetArch.png, id=896, 1842.885pt x 421.575pt>
 File: figures/DeepJetArch.png Graphic file (type png)
 <use figures/DeepJetArch.png>
 Package pdftex.def Info: figures/DeepJetArch.png  used on input line 250.
@@ -1747,19 +1747,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
-<figures/DeepJetEfficiencies.png, id=918, 1818.795pt x 854.19125pt>
+<figures/DeepJetEfficiencies.png, id=923, 1818.795pt x 854.19125pt>
 File: figures/DeepJetEfficiencies.png Graphic file (type png)
 <use figures/DeepJetEfficiencies.png>
 Package pdftex.def Info: figures/DeepJetEfficiencies.png  used on input line 27
 2.
 (pdftex.def)             Requested size: 376.42575pt x 176.77867pt.
-<figures/CvsX.png, id=921, 1342.01375pt x 1347.0325pt>
+<figures/CvsX.png, id=926, 1342.01375pt x 1347.0325pt>
 File: figures/CvsX.png Graphic file (type png)
 <use figures/CvsX.png>
 Package pdftex.def Info: figures/CvsX.png  used on input line 279.
 (pdftex.def)             Requested size: 250.95476pt x 251.8897pt.
 [32] [33 <./figures/DeepJetEfficiencies.png> <./figures/CvsX.png>]
-<figures/EventSimulation.png, id=952, 2048.65375pt x 1865.97125pt>
+<figures/EventSimulation.png, id=958, 2048.65375pt x 1865.97125pt>
 File: figures/EventSimulation.png Graphic file (type png)
 <use figures/EventSimulation.png>
 Package pdftex.def Info: figures/EventSimulation.png  used on input line 298.
@@ -1803,7 +1803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--10
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<figures/higgsMass.pdf, id=998, 867.24pt x 867.24pt>
+<figures/higgsMass.pdf, id=1003, 867.24pt x 867.24pt>
 File: figures/higgsMass.pdf Graphic file (type pdf)
 <use figures/higgsMass.pdf>
 Package pdftex.def Info: figures/higgsMass.pdf  used on input line 51.
@@ -1815,17 +1815,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--66
  []
 
 [39 <./figures/higgsMass.pdf>]
-<figures/jetLikelihood.pdf, id=1079, 867.24pt x 867.24pt>
+<figures/jetLikelihood.pdf, id=1084, 867.24pt x 867.24pt>
 File: figures/jetLikelihood.pdf Graphic file (type pdf)
 <use figures/jetLikelihood.pdf>
 Package pdftex.def Info: figures/jetLikelihood.pdf  used on input line 100.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/jetPt.pdf, id=1080, 867.24pt x 867.24pt>
+<figures/jetPt.pdf, id=1085, 867.24pt x 867.24pt>
 File: figures/jetPt.pdf Graphic file (type pdf)
 <use figures/jetPt.pdf>
 Package pdftex.def Info: figures/jetPt.pdf  used on input line 106.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/jetSelectionEfficiency.pdf, id=1081, 867.24pt x 867.24pt>
+<figures/jetSelectionEfficiency.pdf, id=1086, 867.24pt x 867.24pt>
 File: figures/jetSelectionEfficiency.pdf Graphic file (type pdf)
 <use figures/jetSelectionEfficiency.pdf>
 Package pdftex.def Info: figures/jetSelectionEfficiency.pdf  used on input line
@@ -1868,13 +1868,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--151
  []
 
 [43]
-<figures/METype_METypeNoSelection.pdf, id=1314, 867.24pt x 867.24pt>
+<figures/METype_METypeNoSelection.pdf, id=1319, 867.24pt x 867.24pt>
 File: figures/METype_METypeNoSelection.pdf Graphic file (type pdf)
 <use figures/METype_METypeNoSelection.pdf>
 Package pdftex.def Info: figures/METype_METypeNoSelection.pdf  used on input li
 ne 162.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/METype_METype.pdf, id=1315, 867.24pt x 867.24pt>
+<figures/METype_METype.pdf, id=1320, 867.24pt x 867.24pt>
 File: figures/METype_METype.pdf Graphic file (type pdf)
 <use figures/METype_METype.pdf>
 Package pdftex.def Info: figures/METype_METype.pdf  used on input line 168.
@@ -2226,7 +2226,7 @@ Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling
 distance' requires LuaTeX. It will be ignored. on input line 604.
 
 [49]
-<figures/FakeRate.pdf, id=1494, 1011.78pt x 722.7pt>
+<figures/FakeRate.pdf, id=1499, 1011.78pt x 722.7pt>
 File: figures/FakeRate.pdf Graphic file (type pdf)
 <use figures/FakeRate.pdf>
 Package pdftex.def Info: figures/FakeRate.pdf  used on input line 631.
@@ -2277,58 +2277,55 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
 (hyperref)                removed on input line 705.
 
-<figures/Higgs_mass.pdf, id=1598, 867.24pt x 867.24pt>
+<figures/Higgs_mass.pdf, id=1603, 867.24pt x 867.24pt>
 File: figures/Higgs_mass.pdf Graphic file (type pdf)
 <use figures/Higgs_mass.pdf>
 Package pdftex.def Info: figures/Higgs_mass.pdf  used on input line 711.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Higgs_pt.pdf, id=1599, 867.24pt x 867.24pt>
+<figures/Higgs_pt.pdf, id=1604, 867.24pt x 867.24pt>
 File: figures/Higgs_pt.pdf Graphic file (type pdf)
 <use figures/Higgs_pt.pdf>
 Package pdftex.def Info: figures/Higgs_pt.pdf  used on input line 719.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
-<figures/Z1_mass.pdf, id=1600, 867.24pt x 867.24pt>
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/Z1_mass.pdf, id=1605, 867.24pt x 867.24pt>
 File: figures/Z1_mass.pdf Graphic file (type pdf)
 <use figures/Z1_mass.pdf>
 Package pdftex.def Info: figures/Z1_mass.pdf  used on input line 725.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
-<figures/Z2_mass.pdf, id=1601, 867.24pt x 867.24pt>
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/Z2_mass.pdf, id=1606, 867.24pt x 867.24pt>
 File: figures/Z2_mass.pdf Graphic file (type pdf)
 <use figures/Z2_mass.pdf>
 Package pdftex.def Info: figures/Z2_mass.pdf  used on input line 732.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
-<figures/jet_pt.pdf, id=1602, 867.24pt x 867.24pt>
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/jet_pt.pdf, id=1607, 867.24pt x 867.24pt>
 File: figures/jet_pt.pdf Graphic file (type pdf)
 <use figures/jet_pt.pdf>
 Package pdftex.def Info: figures/jet_pt.pdf  used on input line 738.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
-<figures/jet_btagDeepFlavCvL.pdf, id=1603, 867.24pt x 867.24pt>
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/jet_btagDeepFlavCvL.pdf, id=1608, 867.24pt x 867.24pt>
 File: figures/jet_btagDeepFlavCvL.pdf Graphic file (type pdf)
 <use figures/jet_btagDeepFlavCvL.pdf>
 Package pdftex.def Info: figures/jet_btagDeepFlavCvL.pdf  used on input line 74
-5.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
-<figures/jet_btagDeepFlavCvB.pdf, id=1604, 867.24pt x 867.24pt>
+7.
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+<figures/jet_btagDeepFlavCvB.pdf, id=1609, 867.24pt x 867.24pt>
 File: figures/jet_btagDeepFlavCvB.pdf Graphic file (type pdf)
 <use figures/jet_btagDeepFlavCvB.pdf>
 Package pdftex.def Info: figures/jet_btagDeepFlavCvB.pdf  used on input line 75
-1.
-(pdftex.def)             Requested size: 188.21286pt x 188.21295pt.
+3.
+(pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
 
-LaTeX Warning: Float too large for page by 72.10866pt on input line 756.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--762
+Underfull \hbox (badness 10000) in paragraph at lines 762--764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--762
+Underfull \hbox (badness 10000) in paragraph at lines 762--764
 
  []
 
 
-Overfull \hbox (11.2095pt too wide) in paragraph at lines 764--765
+Overfull \hbox (11.2095pt too wide) in paragraph at lines 766--767
 \OT1/cmr/m/n/10 Assuming the ab-sence of a mea-sur-able sig-nal, an ex-pected 9
 5% CL CL$[]$upper limit on $\OML/cmm/m/it/10 ^^[$\OT1/cmr/m/n/10 BR(cH(ZZ$\OMS/
 cmsy/m/n/10 !
@@ -2339,76 +2336,76 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [53]
 [54 <./figures/Higgs_mass.pdf>] [55 <./figures/Higgs_pt.pdf> <./figures/Z1_mass
-.pdf> <./figures/Z2_mass.pdf> <./figures/jet_pt.pdf> <./figures/jet_btagDeepFla
-vCvL.pdf> <./figures/jet_btagDeepFlavCvB.pdf>] [56] [57] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 830--832
+.pdf> <./figures/Z2_mass.pdf> <./figures/jet_pt.pdf>] [56 <./figures/jet_btagDe
+epFlavCvL.pdf> <./figures/jet_btagDeepFlavCvB.pdf>] [57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 832--834
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 830--832
+Underfull \hbox (badness 10000) in paragraph at lines 832--834
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 832.
+(hyperref)                removing `math shift' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sigma' on input line 832.
+(hyperref)                removing `\sigma' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 832.
+(hyperref)                removing `math shift' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 832.
+(hyperref)                removing `math shift' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 832.
+(hyperref)                removing `\rightarrow' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 832.
+(hyperref)                removing `\mu' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 832.
+(hyperref)                removing `math shift' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 832.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 834.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 832.
+(hyperref)                removed on input line 834.
 
-<figures/mHDiscriminator.pdf, id=2205, 867.24pt x 867.24pt>
+<figures/mHDiscriminator.pdf, id=2207, 867.24pt x 867.24pt>
 File: figures/mHDiscriminator.pdf Graphic file (type pdf)
 <use figures/mHDiscriminator.pdf>
-Package pdftex.def Info: figures/mHDiscriminator.pdf  used on input line 837.
+Package pdftex.def Info: figures/mHDiscriminator.pdf  used on input line 839.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--845
+Underfull \hbox (badness 10000) in paragraph at lines 835--847
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--845
+Underfull \hbox (badness 10000) in paragraph at lines 835--847
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--845
+Underfull \hbox (badness 10000) in paragraph at lines 835--847
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--845
+Underfull \hbox (badness 10000) in paragraph at lines 835--847
 
  []
 
@@ -2416,47 +2413,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 833--845
 Underfull \vbox (badness 3281) has occurred while \output is active []
 
  [60 <./figures/mHDiscriminator.pdf>]
-
-LaTeX Warning: Reference `appendix:uncertaintyDistributionsSM' on page 61 undef
-ined on input line 846.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 846--847
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 849--852
+Underfull \hbox (badness 10000) in paragraph at lines 848--849
 
  []
 
 [61]
-Underfull \hbox (badness 10000) in paragraph at lines 854--857
+Underfull \hbox (badness 10000) in paragraph at lines 851--854
 
  []
 
-<figures/UnrolledDisc_mH_100To130.pdf, id=2305, 867.24pt x 867.24pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--859
+
+ []
+
+[62]
+<figures/UnrolledDisc_mH_100To130.pdf, id=2318, 867.24pt x 867.24pt>
 File: figures/UnrolledDisc_mH_100To130.pdf Graphic file (type pdf)
 <use figures/UnrolledDisc_mH_100To130.pdf>
 Package pdftex.def Info: figures/UnrolledDisc_mH_100To130.pdf  used on input li
-ne 862.
+ne 864.
 (pdftex.def)             Requested size: 230.04079pt x 230.02924pt.
-<figures/UnrolledDisc.pdf, id=2306, 867.24pt x 867.24pt>
+<figures/UnrolledDisc.pdf, id=2319, 867.24pt x 867.24pt>
 File: figures/UnrolledDisc.pdf Graphic file (type pdf)
 <use figures/UnrolledDisc.pdf>
-Package pdftex.def Info: figures/UnrolledDisc.pdf  used on input line 869.
+Package pdftex.def Info: figures/UnrolledDisc.pdf  used on input line 871.
 (pdftex.def)             Requested size: 230.04079pt x 230.02924pt.
 
-LaTeX Warning: Float too large for page by 21.52827pt on input line 875.
 
-<figures/ImpactsSM.pdf, id=2307, 569.12625pt x 467.7475pt>
+LaTeX Warning: Float too large for page by 21.52827pt on input line 877.
+
+<figures/ImpactsSM.pdf, id=2320, 569.12625pt x 467.7475pt>
 File: figures/ImpactsSM.pdf Graphic file (type pdf)
 <use figures/ImpactsSM.pdf>
-Package pdftex.def Info: figures/ImpactsSM.pdf  used on input line 879.
+Package pdftex.def Info: figures/ImpactsSM.pdf  used on input line 881.
 (pdftex.def)             Requested size: 376.42575pt x 309.3852pt.
-) (./chapters/EFT.tex [62] [63 <./figures/UnrolledDisc_mH_100To130.pdf> <./figu
-res/UnrolledDisc.pdf>] [64 <./figures/ImpactsSM.pdf, page is rotated 90 degrees
->]
+) (./chapters/EFT.tex [63] [64 <./figures/UnrolledDisc_mH_100To130.pdf> <./figu
+res/UnrolledDisc.pdf>] [65 <./figures/ImpactsSM.pdf, page is rotated 90 degrees
+>] [66
+
+]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2561,45 +2557,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-[65
-
-]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
 
-LaTeX Warning: Reference `fig:SMEFTcpT' on page 66 undefined on input line 26.
+LaTeX Warning: Reference `fig:SMEFTcpT' on page 68 undefined on input line 26.
 
 
-LaTeX Warning: Reference `' on page 66 undefined on input line 26.
+LaTeX Warning: Reference `' on page 68 undefined on input line 26.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
-[66]) [67] [68
+[68]) [69] [70
 
-] [69
+] [71
 
-] [70
+] [72
 
-] [71] [72] [73]
+] [73] [74] [75]
 Overfull \hbox (11.1082pt too wide) in paragraph at lines 89--89
 \OT1/cmr/m/n/10 results.web.cern.ch/cms-results/public-results/publications/PRF
 -14-001(CMS Pub-lic Pages),
  []
 
-[74]
+[76]
 Overfull \hbox (11.60338pt too wide) in paragraph at lines 89--89
 \OT1/cmr/m/it/10 nal of High En-ergy Physics \OT1/cmr/m/n/10 2012.12 (Dec. 2012
 ). \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 1029-8479. \OT1/cmr/m/sc/10 doi\OT1/c
 mr/m/n/10 : []$\OT1/cmtt/m/n/10 10 . 1007 / jhep12(2012 )
  []
 
-[75] (./chapters/Appendix.tex [76]
-<figures/ColumnarAnalysis.png, id=2875, 215.30438pt x 133.49875pt>
+[77] (./chapters/Appendix.tex [78]
+<figures/ColumnarAnalysis.png, id=2892, 215.30438pt x 133.49875pt>
 File: figures/ColumnarAnalysis.png Graphic file (type png)
 <use figures/ColumnarAnalysis.png>
 Package pdftex.def Info: figures/ColumnarAnalysis.png  used on input line 8.
@@ -2612,110 +2606,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77
+ [79
 
 ]
-<figures/0-15GeV_DeltaPhi_template.pdf, id=2887, 867.24pt x 867.24pt>
+<figures/0-15GeV_DeltaPhi_template.pdf, id=2903, 867.24pt x 867.24pt>
 File: figures/0-15GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_DeltaPhi_template.pdf  used on input l
 ine 20.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/0-15GeV_PtFrac_template.pdf, id=2888, 867.24pt x 867.24pt>
+<figures/0-15GeV_PtFrac_template.pdf, id=2904, 867.24pt x 867.24pt>
 File: figures/0-15GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/0-15GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/0-15GeV_PtFrac_template.pdf  used on input lin
 e 25.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_DeltaPhi_template.pdf, id=2889, 867.24pt x 867.24pt>
+<figures/15-30GeV_DeltaPhi_template.pdf, id=2905, 867.24pt x 867.24pt>
 File: figures/15-30GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_DeltaPhi_template.pdf  used on input 
 line 35.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/15-30GeV_PtFrac_template.pdf, id=2890, 867.24pt x 867.24pt>
+<figures/15-30GeV_PtFrac_template.pdf, id=2906, 867.24pt x 867.24pt>
 File: figures/15-30GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/15-30GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/15-30GeV_PtFrac_template.pdf  used on input li
 ne 40.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_DeltaPhi_template.pdf, id=2891, 867.24pt x 867.24pt>
+<figures/30-50GeV_DeltaPhi_template.pdf, id=2907, 867.24pt x 867.24pt>
 File: figures/30-50GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_DeltaPhi_template.pdf  used on input 
 line 49.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/30-50GeV_PtFrac_template.pdf, id=2892, 867.24pt x 867.24pt>
+<figures/30-50GeV_PtFrac_template.pdf, id=2908, 867.24pt x 867.24pt>
 File: figures/30-50GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/30-50GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/30-50GeV_PtFrac_template.pdf  used on input li
 ne 54.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_DeltaPhi_template.pdf, id=2893, 867.24pt x 867.24pt>
+<figures/50-100GeV_DeltaPhi_template.pdf, id=2909, 867.24pt x 867.24pt>
 File: figures/50-100GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_DeltaPhi_template.pdf  used on input
  line 63.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/50-100GeV_PtFrac_template.pdf, id=2894, 867.24pt x 867.24pt>
+<figures/50-100GeV_PtFrac_template.pdf, id=2910, 867.24pt x 867.24pt>
 File: figures/50-100GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/50-100GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/50-100GeV_PtFrac_template.pdf  used on input l
 ine 68.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_DeltaPhi_template.pdf, id=2895, 867.24pt x 867.24pt>
+<figures/100-200GeV_DeltaPhi_template.pdf, id=2911, 867.24pt x 867.24pt>
 File: figures/100-200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_DeltaPhi_template.pdf  used on inpu
 t line 77.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/100-200GeV_PtFrac_template.pdf, id=2896, 867.24pt x 867.24pt>
+<figures/100-200GeV_PtFrac_template.pdf, id=2912, 867.24pt x 867.24pt>
 File: figures/100-200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/100-200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/100-200GeV_PtFrac_template.pdf  used on input 
 line 82.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_DeltaPhi_template.pdf, id=2897, 867.24pt x 867.24pt>
+<figures/>200GeV_DeltaPhi_template.pdf, id=2913, 867.24pt x 867.24pt>
 File: figures/>200GeV_DeltaPhi_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_DeltaPhi_template.pdf>
 Package pdftex.def Info: figures/>200GeV_DeltaPhi_template.pdf  used on input l
 ine 91.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/>200GeV_PtFrac_template.pdf, id=2898, 867.24pt x 867.24pt>
+<figures/>200GeV_PtFrac_template.pdf, id=2914, 867.24pt x 867.24pt>
 File: figures/>200GeV_PtFrac_template.pdf Graphic file (type pdf)
 <use figures/>200GeV_PtFrac_template.pdf>
 Package pdftex.def Info: figures/>200GeV_PtFrac_template.pdf  used on input lin
 e 96.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/ReducibleCvsLComparison.pdf, id=2902, 867.24pt x 867.24pt>
+<figures/ReducibleCvsLComparison.pdf, id=2918, 867.24pt x 867.24pt>
 File: figures/ReducibleCvsLComparison.pdf Graphic file (type pdf)
 <use figures/ReducibleCvsLComparison.pdf>
 Package pdftex.def Info: figures/ReducibleCvsLComparison.pdf  used on input lin
 e 110.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/ReducibleCvsBComparison.pdf, id=2903, 867.24pt x 867.24pt>
+<figures/ReducibleCvsBComparison.pdf, id=2919, 867.24pt x 867.24pt>
 File: figures/ReducibleCvsBComparison.pdf Graphic file (type pdf)
 <use figures/ReducibleCvsBComparison.pdf>
 Package pdftex.def Info: figures/ReducibleCvsBComparison.pdf  used on input lin
 e 115.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/ReducibleHiggsMassComparison.pdf, id=2904, 867.24pt x 867.24pt>
+<figures/ReducibleHiggsMassComparison.pdf, id=2920, 867.24pt x 867.24pt>
 File: figures/ReducibleHiggsMassComparison.pdf Graphic file (type pdf)
 <use figures/ReducibleHiggsMassComparison.pdf>
 Package pdftex.def Info: figures/ReducibleHiggsMassComparison.pdf  used on inpu
 t line 123.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
 
-[78 <./figures/ColumnarAnalysis.png>] [79 <./figures/0-15GeV_DeltaPhi_template.
+[80 <./figures/ColumnarAnalysis.png>] [81 <./figures/0-15GeV_DeltaPhi_template.
 pdf> <./figures/0-15GeV_PtFrac_template.pdf> <./figures/15-30GeV_DeltaPhi_templ
-ate.pdf> <./figures/15-30GeV_PtFrac_template.pdf>] [80 <./figures/30-50GeV_Delt
+ate.pdf> <./figures/15-30GeV_PtFrac_template.pdf>] [82 <./figures/30-50GeV_Delt
 aPhi_template.pdf> <./figures/30-50GeV_PtFrac_template.pdf> <./figures/50-100Ge
-V_DeltaPhi_template.pdf> <./figures/50-100GeV_PtFrac_template.pdf>] [81 <./figu
+V_DeltaPhi_template.pdf> <./figures/50-100GeV_PtFrac_template.pdf>] [83 <./figu
 res/100-200GeV_DeltaPhi_template.pdf> <./figures/100-200GeV_PtFrac_template.pdf
 > <./figures/>200GeV_DeltaPhi_template.pdf> <./figures/>200GeV_PtFrac_template.
-pdf>] [82 <./figures/ReducibleCVsLComparison.pdf> <./figures/ReducibleCvsBCompa
+pdf>] [84 <./figures/ReducibleCVsLComparison.pdf> <./figures/ReducibleCvsBCompa
 rison.pdf> <./figures/ReducibleHiggsMassComparison.pdf>]
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf, id=3883, 867.24pt
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf, id=3900, 867.24pt
  x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf Graphic file 
 (type pdf)
@@ -2723,7 +2717,7 @@ File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf Graphic file
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolut
 e.pdf  used on input line 135.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute_2018.pdf, id=3884, 867
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute_2018.pdf, id=3901, 867
 .24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute_2018.pdf Graphic 
 file (type pdf)
@@ -2731,7 +2725,7 @@ file (type pdf)
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolut
 e_2018.pdf  used on input line 140.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1.pdf, id=3885, 867.24pt x 
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1.pdf, id=3902, 867.24pt x 
 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1.pdf Graphic file (ty
 pe pdf)
@@ -2739,7 +2733,7 @@ pe pdf)
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1.p
 df  used on input line 146.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1_2018.pdf, id=3886, 867.24
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1_2018.pdf, id=3903, 867.24
 pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1_2018.pdf Graphic fil
 e (type pdf)
@@ -2747,7 +2741,7 @@ e (type pdf)
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_BBEC1_2
 018.pdf  used on input line 151.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQCD.pdf, id=3887, 867.24p
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQCD.pdf, id=3904, 867.24p
 t x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQCD.pdf Graphic file
  (type pdf)
@@ -2755,7 +2749,7 @@ File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQCD.pdf Graphic file
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_FlavorQ
 CD.pdf  used on input line 159.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeBal.pdf, id=3888, 867.2
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeBal.pdf, id=3905, 867.2
 4pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeBal.pdf Graphic fi
 le (type pdf)
@@ -2763,123 +2757,163 @@ le (type pdf)
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Relativ
 eBal.pdf  used on input line 164.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_2018.pdf, id=388
-9, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_2018.pdf, id=390
+6, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_2018.pdf Gr
 aphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_2018.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JEC-Regrouped_Relativ
 eSample_2018.pdf  used on input line 170.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_JER.pdf, id=3890, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_JER.pdf, id=3907, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_JER.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_JER.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_JER.pdf  used on inpu
 t line 175.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muR_ggH.pdf, id=3891, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muR_ggH.pdf, id=3908, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_muR_ggH.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muR_ggH.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muR_ggH.pdf  used on 
 input line 185.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muF_ggH.pdf, id=3892, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muF_ggH.pdf, id=3909, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_muF_ggH.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muF_ggH.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muF_ggH.pdf  used on 
 input line 190.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf, id=3893, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf, id=3910, 867.24pt x 867.24pt>
 
 File: figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf  used 
 on input line 196.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf, id=3894, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf, id=3911, 867.24pt x 867.24pt>
 
 File: figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muF_qqToZZ.pdf  used 
 on input line 201.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf, id=3895, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf, id=3912, 867.24pt x 867.24pt>
 
 File: figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf  used 
 on input line 209.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf, id=3896, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf, id=3913, 867.24pt x 867.24pt>
 
 File: figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf  used 
 on input line 214.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_puWeight.pdf, id=3897, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_puWeight.pdf, id=3914, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_puWeight.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_puWeight.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_puWeight.pdf  used on
  input line 220.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_Pdf.pdf, id=3898, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_Pdf.pdf, id=3915, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_Pdf.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_Pdf.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_Pdf.pdf  used on inpu
 t line 225.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_PS-FSR.pdf, id=3899, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_PS-FSR.pdf, id=3916, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_PS-FSR.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_PS-FSR.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_PS-FSR.pdf  used on i
 nput line 233.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_PS-ISR.pdf, id=3900, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_PS-ISR.pdf, id=3917, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_PS-ISR.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_PS-ISR.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_PS-ISR.pdf  used on i
 nput line 238.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_cH_FS.pdf, id=3901, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_cH_FS.pdf, id=3918, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_cH_FS.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_cH_FS.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_cH_FS.pdf  used on in
 put line 246.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
-<figures/Uncertainties/Higgs_mass_muonSF.pdf, id=3902, 867.24pt x 867.24pt>
+<figures/Uncertainties/Higgs_mass_muonSF.pdf, id=3919, 867.24pt x 867.24pt>
 File: figures/Uncertainties/Higgs_mass_muonSF.pdf Graphic file (type pdf)
 <use figures/Uncertainties/Higgs_mass_muonSF.pdf>
 Package pdftex.def Info: figures/Uncertainties/Higgs_mass_muonSF.pdf  used on i
 nput line 254.
 (pdftex.def)             Requested size: 209.12683pt x 209.1211pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 259.
+
+<figures/ImpactsSMr0.pdf, id=3921, 569.12625pt x 467.7475pt>
+File: figures/ImpactsSMr0.pdf Graphic file (type pdf)
+<use figures/ImpactsSMr0.pdf>
+Package pdftex.def Info: figures/ImpactsSMr0.pdf  used on input line 265.
+(pdftex.def)             Requested size: 376.42575pt x 309.3852pt.
 )
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 456.
 See the caption package documentation for explanation.
 
-[83] [84 <./figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf> <./fig
+[85] [86 <./figures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute.pdf> <./fig
 ures/Uncertainties/Higgs_mass_JEC-Regrouped_Absolute_2018.pdf> <./figures/Uncer
 tainties/Higgs_mass_JEC-Regrouped_BBEC1.pdf> <./figures/Uncertainties/Higgs_mas
-s_JEC-Regrouped_BBEC1_2018.pdf>] [85 <./figures/Uncertainties/Higgs_mass_JEC-Re
+s_JEC-Regrouped_BBEC1_2018.pdf>] [87 <./figures/Uncertainties/Higgs_mass_JEC-Re
 grouped_FlavorQCD.pdf> <./figures/Uncertainties/Higgs_mass_JEC-Regrouped_Relati
 veBal.pdf> <./figures/Uncertainties/Higgs_mass_JEC-Regrouped_RelativeSample_201
-8.pdf> <./figures/Uncertainties/Higgs_mass_JER.pdf>] [86 <./figures/Uncertainti
+8.pdf> <./figures/Uncertainties/Higgs_mass_JER.pdf>] [88 <./figures/Uncertainti
 es/Higgs_mass_muR_ggH.pdf> <./figures/Uncertainties/Higgs_mass_muF_ggH.pdf> <./
 figures/Uncertainties/Higgs_mass_muR_qqToZZ.pdf> <./figures/Uncertainties/Higgs
-_mass_muF_qqToZZ.pdf>] [87 <./figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf> 
+_mass_muF_qqToZZ.pdf>] [89 <./figures/Uncertainties/Higgs_mass_muR_HPlusC.pdf> 
 <./figures/Uncertainties/Higgs_mass_muF_HPlusC.pdf> <./figures/Uncertainties/Hi
-ggs_mass_puWeight.pdf> <./figures/Uncertainties/Higgs_mass_Pdf.pdf>] [88 <./fig
+ggs_mass_puWeight.pdf> <./figures/Uncertainties/Higgs_mass_Pdf.pdf>] [90 <./fig
 ures/Uncertainties/Higgs_mass_PS-FSR.pdf> <./figures/Uncertainties/Higgs_mass_P
-S-ISR.pdf> <./figures/Uncertainties/Higgs_mass_cH_FS.pdf>] [89 <./figures/Uncer
-tainties/Higgs_mass_muonSF.pdf>]
+S-ISR.pdf> <./figures/Uncertainties/Higgs_mass_cH_FS.pdf>] [91 <./figures/Uncer
+tainties/Higgs_mass_muonSF.pdf> <./figures/ImpactsSMr0.pdf, page is rotated 90 
+degrees>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BCE36EBF506FE6326CA454DA809CCFB;4891.
+(rerunfilecheck)             Checksum: B41C2DEDEAD64B7E7C7115A30E08C2EC;5004.
 
 
 LaTeX Warning: There were undefined references.
@@ -2892,13 +2926,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31765 strings out of 481239
- 636577 string characters out of 5920376
- 1324908 words of memory out of 5000000
- 45967 multiletter control sequences out of 15000+600000
+ 31778 strings out of 481239
+ 636854 string characters out of 5920376
+ 1325114 words of memory out of 5000000
+ 45974 multiletter control sequences out of 15000+600000
  582370 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,100p,3303b,2820s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,100p,3388b,2820s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -2932,10 +2966,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
 usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf/fonts/ty
 pe1/public/tex-gyre/qagr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 1000.pfb>
-Output written on main.pdf (97 pages, 9274557 bytes).
+Output written on main.pdf (99 pages, 9299080 bytes).
 PDF statistics:
- 5683 PDF objects out of 6186 (max. 8388607)
- 2331 compressed objects within 24 object streams
- 395 named destinations out of 1000 (max. 500000)
- 886 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5747 PDF objects out of 6186 (max. 8388607)
+ 2366 compressed objects within 24 object streams
+ 400 named destinations out of 1000 (max. 500000)
+ 899 words of extra memory for PDF output out of 10000 (max. 10000000)
 
