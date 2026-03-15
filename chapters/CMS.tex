@@ -1,4 +1,5 @@
 \chapter{The CMS experiment at the LHC}
+\label{chap:CMS}
 The Compact Muon Solenoid (CMS) detector \cite{CMSDetector} is a large, general purpose particle detector located at the Large Hadron Collider (LHC)\cite{LHCDesignReport} accelerator in Geneva, Switzerland. Run by the European Organisation for Nuclear Research (CERN), the LHC's largest ring spans a circumference of 27 km, making it the largest particle accelerator in the world. In their circular trajectory through the beam pipe, collimated bunches of $\sim$ 10$^{11}$ protons are accelerated in both directions of the ring. At four different collision points, the trajectories of these proton bunches are crossed such that highly energetic proton-proton collisions are produced. The CMS detector is located at one of these collision points. A sketch of the LHC accelerator complex can be seen in \autoref{fig:LHC}. A detector such as CMS effectively acts as a camera taking very complex snapshot of each collision. During Run-2 (2016 - 2019) of the LHC, approximately 30 protons collide on average per bunch crossing with a centre-of-mass energy of $\sqrt{s}$ = 13 TeV. These collisions produce a plethora of particles, many of which decay to sets of particles of varying multiplicities themselves. As such, these collision produce a complex and varied phenomenology that require a complex machine such at the CMS detector to fully capture. By recording the information from many millions of collisions, a multitude of different statistical analyses may be performed. This includes analyses of the Higgs boson and its properties, such as the Yukawa coupling of the charm quark. To this end, this chapter gives an overview of the CMS detector and its subsystems as well as the techniques used to reconstruct individual proton-proton collisions. 
 
 \begin{figure}
@@ -281,7 +282,7 @@ Since neural network based algorithms are trained on simulated samples that do n
     \label{fig:DeepJet2D}
 \end{figure}
 
-\subsection{Monte Carlo simulation of proton-proton collisions}
+\section{Monte Carlo simulation of proton-proton collisions}
 \label{sec:MonteCarlo}
 To produce predictions of the CMS detector response as well as the reconstruction algorithms to pp collisions at the LHC, a simulation of the collision and the CMS detector is required. Since the complexity of pp collisions in a detector cannot realistically be captured by analytic calculations, Monte Carlo methods \cite{MonteCarlo} are used as an approximation. The concept of such a simulation relies on a phenomenoligcal approach by sampling the known distributions of process and detector quanities and properties. In this way, detector and particle properties may be simulated with great detail. The simulation process occurs in discrete steps, each dealing with different aspects of the simulated process. These can be summarised as: 
 

@@ -3222,8 +3222,8 @@
       \strng{authorbibnamehash}{ed39e63d44b565c0ae8b4dc7fdec63d0}
       \strng{authornamehash}{ed39e63d44b565c0ae8b4dc7fdec63d0}
       \strng{authorfullhash}{ed39e63d44b565c0ae8b4dc7fdec63d0}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -3424,8 +3424,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{12}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{The CMS ECAL performance with examples}}
@@ -3462,8 +3462,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{13}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{The CMS ECAL performance with examples}}
@@ -3688,8 +3688,8 @@
       \strng{authorbibnamehash}{2dacd7a6c8a4ffa3aad4b99699be7ade}
       \strng{authornamehash}{2dacd7a6c8a4ffa3aad4b99699be7ade}
       \strng{authorfullhash}{2dacd7a6c8a4ffa3aad4b99699be7ade}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -3879,8 +3879,8 @@
       \strng{authorbibnamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
       \strng{authornamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
       \strng{authorfullhash}{325f5c9f6c606cecfb53ee3c504d3843}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-1573}
@@ -3918,8 +3918,8 @@
       \strng{authornamehash}{a98415f46a3e8359dd35063a4ddc758d}
       \strng{authorfullhash}{a98415f46a3e8359dd35063a4ddc758d}
       \field{extraname}{4}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1434-6052}
@@ -4140,8 +4140,8 @@
       \strng{authorbibnamehash}{61fef21128090c3a89901eeeb92cd01d}
       \strng{authornamehash}{61fef21128090c3a89901eeeb92cd01d}
       \strng{authorfullhash}{5a59ff25e6b35cbd485593d700d0d81d}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -4234,8 +4234,8 @@
       \strng{authorbibnamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authornamehash}{e2bb38a445fd9f0c2309f57ade222b9b}
       \strng{authorfullhash}{e2bb38a445fd9f0c2309f57ade222b9b}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00063444, 14643510}
@@ -4276,8 +4276,8 @@
       \strng{authorbibnamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authornamehash}{a6915c68b6e0eee25668df196438e6b0}
       \strng{authorfullhash}{a6915c68b6e0eee25668df196438e6b0}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0550-3213}
@@ -4610,8 +4610,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{24}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1434-6052}
@@ -4769,6 +4769,27 @@
       \verb{url}
       \verb http://dx.doi.org/10.1103/PhysRevD.92.094028
       \endverb
+    \endentry
+    \entry{StefThesis}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=053f6944b703ed5d06f656e9b4929f81}{%
+           family={Duponcheel},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{053f6944b703ed5d06f656e9b4929f81}
+      \strng{fullhash}{053f6944b703ed5d06f656e9b4929f81}
+      \strng{bibnamehash}{053f6944b703ed5d06f656e9b4929f81}
+      \strng{authorbibnamehash}{053f6944b703ed5d06f656e9b4929f81}
+      \strng{authornamehash}{053f6944b703ed5d06f656e9b4929f81}
+      \strng{authorfullhash}{053f6944b703ed5d06f656e9b4929f81}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Background estimations in the measurement of the charm-Higgs Yukawa coupling at the CMS experiment}
+      \field{year}{2025}
     \endentry
     \entry{Cowan_2011}{article}{}
       \name{author}{4}{}{%
@@ -5082,6 +5103,38 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1088/0954-3899/43/2/023001
+      \endverb
+    \endentry
+    \entry{LumiUnc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=63dbaf956b237a5e708e8a3b6b003fc1}{%
+           family={Rádl},
+           familyi={R\bibinitperiod},
+           given={Attila\bibnamedelima József},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \strng{fullhash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \strng{bibnamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \strng{authorbibnamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \strng{authornamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \strng{authorfullhash}{63dbaf956b237a5e708e8a3b6b003fc1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Luminosity Calibration at the CMS Experiment}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2401.10763
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2401.10763
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2401.10763
       \endverb
     \endentry
     \entry{BARLOW}{article}{}

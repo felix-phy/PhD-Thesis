@@ -1,5 +1,5 @@
 \chapter{Introduction}
-
+\label{chap:Introduction}
 The Standard Model (SM) of particle physics is the theory that best decribes our current understanding of fundamental particles and their interactions. It describes a broad range of phenomena and makes a plethora of predictions, many of which have been confirmed via measurement to great degrees of accuracy \cite{PhysRevD.110.030001}. A noteable feature of the SM is the Brout-Englert-Higgs (BEH) mechanism \cite{Higgs}\cite{EnglertBrout}, which predicts the existence of a Higgs boson. The BEH mechanism is considered a central part of the SM as it provides a unique mechanism by which SM particles may acquire mass through their interaction with the Higgs boson. As such, the experimental discovery of a Higgs-like scalar boson at the CERN Large Hadron Collider (LHC) in 2012 \cite{HiggsDiscovery2012CMS}\cite{HiggsDiscovery2012ATLAS} was a major milestone in particle physics. Since this discovery, a significant open question that remains is whether this particle indeed behaves entirely in an SM-like way. Measuring the exact properties of the discovered scalar particle has thus been a major goal of LHC experiments such as the CMS collaboration \cite{CMS_Collaboration2022-xw}. A particular subset of these properties are the so-called Yukawa interactions between the Higgs boson and massive fermions, which are proportional to the mass of the fermions. As can be seen in \autoref{fig:Higgs_couplings}, a number of these have previously been measured and indeed align with the values expected from the SM. However, the measurement of the Yukawa couplings of several of the lighter fermions still remain an open challenge as these couplings decrease in strength with smaller fermion masses. \\
 \\
 The next lightest fermion candidate for such a measurement is the charm quark. Consequently, the study of the Yukawa coupling between the Higgs boson and the charm quark is of significant interest \cite{PhysRevD.100.073013}. After a brief discussion of the SM in \autoref{sec:TheSM}, the charm-Yukawa coupling is introduced in \autoref{sec:CharmYukawa}. Following this, LHC processes that may be targeted to exploit their sensitivity to the Higgs-charm Yukawa coupling with an experiment such as the CMS detector are discussed in \autoref{sec:thecHProcess} as well as an EFT interpretation thereof in \autoref{sec:cHEFT}
@@ -325,7 +325,7 @@ Rearranging for $\kappa_{\mathrm{c}}$ gives
 \\
 Effectively, this approach in interpreting $\kappa_{\mathrm{c}}$ from a signal strength measurement $\mu_{\sigma_{\mathrm{cH}}\mathcal{B}\mathrm{(H\rightarrow ZZ)}}$ thus ensures compatibility with existing Higgs boson rate measurements, given a non-unity value of $\kappa_{\mathrm{c}}$ leads to modifications of the Higgs boson partial decay widths. It should be noted that constraints from such a compatibility requirement already indirectly implies upper limits on $\kappa_{\mathrm{c}}$, as discussed in \cite{PhysRevD.100.073013}. 
 
-\section{An EFT interpretation of the cH process}
+\section{The cH process in an EFT context}
 \label{sec:cHEFT}
 The cH process may also be interpreted in terms of Standard Model Effective Field Theory (SMEFT). In the SMEFT, potential effects from physics processes not described by the SM (commonly referred to as beyond-the-SM or BSM physics) are parametrised in a mostly model-independent way. Specifically, the SMEFT framework can be used at colliders with a characteristic energy scale $E$ to describe the effects of processes with a characteristic energy scale above $E$. This concept is illustrated in \autoref{fig:EFT}. \\
 \begin{figure}
@@ -378,6 +378,7 @@ To better understand this, it is worth considering other processes such as inclu
 \end{figure}
 
 \subsection{Validity of an EFT}
+\label{sec:EFTValidty}
 In addition to EFT terms needing to satisfy the gauge invariance conditions of the SM, two additional key validity conditions are typically required of an EFT. The first is related to the fact that in an EFT, the particle nature of e.g. new, heavy mediator particles is simplified into the introduction of a new effective vertex. For example, a 2$\rightarrow$2 particle resonant scattering via a new heavy mediator particle $\Omega$ with a newly introduced coupling constant $g_{*}$ is simplified via the introduction of a four-point interaction, as visualised in \autoref{fig:EFTMediatorToFourPoint}. This corresponds to a first-order approximation of the new particle's mediator as \\
 \begin{align}
     \frac{g_{*}}{p^2 - m_{\Omega}} \quad \xrightarrow[m_{\Omega}^2 \gg p^2]{} \quad -\frac{g_{*}}{m_{\Omega}} \left( 1 + \frac{p^2}{m_{\Omega}^2} +  \frac{p^4}{m_{\Omega}^4} + ...  \right) \approx -\frac{g_{*}}{m_{\Omega}} 
@@ -472,4 +473,11 @@ is obtained. Since both $C_{cG}$ and $\Lambda$ are a priori unknown, we can rede
       \frac{\left| \tilde{C}_{cG} \right| M_{{cut}^2}}{4\pi g_s} < 1\,.
 \end{align}
 \\
-can be used to define a plane in $\tilde{C}_{cG}$ and \mcut \, that satisfies the previously discussed conditions.
+can be used to define a plane in $\tilde{C}_{cG}$ and \mcut \, that satisfies the previously discussed conditions. This plane is visualised in \autoref{fig:validityCMD}, showing regions in which the validty condition is (loosely) statisfied and in which it is not satisfied. Constraints placed on the CMD operator for a given \mcut value can be cross-checked against this to ensure the validity of the constraint. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.65\textwidth]{figures/validityCMD.pdf}
+    \caption{Diagram showing the plane spanned by $\tilde{C}_{cG}$ and \mcut for the CMD operator \cite{PhenoPaper}. The white region shows the region in which the perturbativity requrement is well satisfied. In the orange region represents the transition region to the red region, in which the perturbativity requirement is no longer valid.}
+    \label{fig:validtyCMD}
+\end{figure}
