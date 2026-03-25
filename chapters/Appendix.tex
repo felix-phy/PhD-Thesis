@@ -1,5 +1,6 @@
 \chapter{Appendix}
 \section{Columnar analysis framework}
+\label{sec:analysisFramework}
 For this work, an analysis framework built upon the \textsf{Coffea} \cite{Coffea} software package and based on columnar analysis methods was concipated and written. To better understand the idea of columnar analysis, it helps to consider the computations are required of a typical physics analysis. On a per-event basis, an analyser must repeatedly perform a set of operations on some input data (event data delivered for example via the CMS \textsf{NanoAOD} \cite{NANOAOD} format) to produce a desired set of outputs. This may consist of applying object selection criteria or producing new, higher level variables from the input. In the context of an entire dataset, the subset of data associated with a single event can thus be thought of as a single row in a larger matrix. With this matrix picture in mind, two approaches to producing the desired outputs may be implemented. The first is a row based approach where the necessary computations are performed serially, once per event, with one event following another. This represents a `traditional' event loop approach to analysis. The second is the column based approach where operations are performed on entire columns of event data, thus lending the \textit{columnar} analysis name. This means a single computational step is effectively performed simultaneously across a set of events, allowing for an improved optimisation of computations as relevant data may be stored in contiguous memory. Both of these approaches are visualised in \autoref{fig:columnarAnalysis}. The implementation of the columnar approach is facilitated by the use of the \textsf{Awkward array} \cite{AwkwardArrays} python package, which generalises \textsf{numpy} \cite{Numpy} arrays to data with non-regular (or \textit{jagged}) shapes. \\
 \\
 To perform the analysis presented in \autoref{chap:cHAnalysis} it is necessary to process approximately $5.6 \cdot 10^{10}$ events, equating to approximately 8.4 TB worth of data. Given the scope of these processing requirements, the motivation to optimise the associated computing effort is clear. Using the described columnar approach, the analysis framework is able to achieve a turn around time of approximately one working day for the complete analysis(including the handling of systematic uncertainties) using the distributed grid computing resources available at the IIHE. This represents an almost tenfold speed increase to a previous framework iteration using a traditional CMS software C++ event loop structure. Along with the implementation of the algorithms described in \autoref{chap:cHAnalysis} and \autoref{chap:EFTAnalysis}, the framework design includes an automatic, central handling of samples and relevant metadata, job submission to distributed computing resources as well as plotting tasks and production of histogram templates for the CMS \textsf{Combine} tool. The development of the analysis framework thus represents a central element of the presented analysis. Additionally, a variant of this framework was also used for the analysis presented in \cite{PhenoPaper}.
@@ -130,7 +131,7 @@ A comparison between the 2P2F and 3P1F regions of the reducible background estim
     \caption{A comparison between the 2P2F and corrected 3P1F regions of the reducible background estimation, looking at the Higgs boson candidate mass spectrum and transverse momentum of the selected jet. For Higgs boson candidate mass, a reasonable agreement is observed in the region around $m(H)$ = 125 GeV, with the most significant differences being observed regions not sensitive to the signal. An acceptable agreement for the transverse momentum of the selected jet (here for the EFT analysis interpretation) is also observed.}
     \label{fig:ReducibleComparisonHiggsmass}
 \end{figure}
-
+\newpage
 \section{Uncertainty distributions}
 \label{appendix:UncertaintiesSM}
 Here, the distributions associated with dominant uncertainty sources used in the statistical evaluation presented in \autoref{sec:SMResult}, are shown in \autoref{fig:JetUncs}, \autoref{fig:TheoreticalUncs} and \autoref{fig:MuonSFUnc}. Unless explicitly stated otherwise, the distributions shown are the sum of the background processes. Distributions for individual processes (such as the \cHZZ signal) are shown separately, per uncertainty, in case significant differences in the distribution shapes associated with the uncertainty are observed for that process with respect to the sum of background processes. 
@@ -262,7 +263,7 @@ Here, the distributions associated with dominant uncertainty sources used in the
     \label{fig:MuonSFUnc}
 \end{figure}
 
-\subsection{Nuisance parameter impacts for $r=0$ fit of \cHZZ}
+\section{Nuisance parameter impacts for $r=0$ fit of \cHZZ}
 \label{appendix:UncertaintiesSMr0}
 In \autoref{fig:UncertaintiesSMr0}, the impacts of the nuisance parameters on a fit with the baseline scenario can be seen for an expected signal strength of zero. This can be understood as a test of the robustness of the uncertainty model. As expected, the uncertainties associated with the \cHZZ signal modelling no longer have a significant impact on the fit, while the remaining nuisance parameters otherwise behaves similarly to when a signal is injected into the Asimov dataset. This indicates that the uncertainty model is working as expected.
 
@@ -273,7 +274,7 @@ In \autoref{fig:UncertaintiesSMr0}, the impacts of the nuisance parameters on a 
     \label{fig:UncertaintiesSMr0}
 \end{figure}
 
-\subsection{Evaluation of nuisance parameters in sideband region}
+\section{Evaluation of nuisance parameters in sideband region}
 \label{appendix:NuisanceEvaluationSideband}
 \autoref{fig:fixedNuisances} shows the best-fit nuisance parameters of the background estimation model in a fit to data in the sideband region of the Higgs boson candidate mass spectrum. These are distributed within the $\pm 1\sigma$ uncertainty band of the pre-fit uncertainies. The post-fit uncertainties of the nuisance parameters are also indicated. Given the absence of a signal contribution in this region, the background-only (B-only) and signal plus background (S+B) fits are effectively identical. 
 \begin{figure}
@@ -282,3 +283,9 @@ In \autoref{fig:UncertaintiesSMr0}, the impacts of the nuisance parameters on a 
     \caption{The best-fit values of the nuisance parameters that describe the uncertainty model of the background estimation model in the baseline scenario.}
     \label{fig:fixedNuisances}
 \end{figure}
+\newpage 
+\section{CMS Service work}
+\label{sec:ServiceWork}
+Through the author's contributions as a BTV validation and DQM contact, the author has played a central part in delivering well-understood and reliable jet flavour tagging algorithms during the LHC Run-3 data taking era of the CMS detector. One form of these contributions consists of regular validations of the jet flavour tagging algorithm response with respect to the many updates that the CMS reconstruction software consistently undergoes. This is done to ensure no unwanted or poorly understood changes are introduced by these changes. Concretely, this means the algorithm response for each individual CMS software release is checked against a previous release and any unexpected changes are investigated. The CMS software that is verified in this way is then iteratively deployed for data taking. Another key responsibility is to investigate effects of changes in detector conditions on the jet flavour tagging algorithms. An example of this is the malfunctioning of a set tracker pixels, which was identified mid Run-3. Such cases require thorough investigation of the potential impacts, due to the reliance of jet flavour tagging algorithms on the CMS pixel detector. Accordingly, this ensures the tagging algorithms remain well understood and calibrated, even with changing detector conditions. Additionally, the author's software contributions to BTV DQM pipelines have contributed to BTV's direct monitoring of data during the data taking process. \\
+\\
+With these described contributions, the author has demonstrably played a key role in continually verifying the behaviour of jet flavour tagging algorithms during Run-3 data taking. This work has significantly contributed to the ongoing credibility of the algorithms, which, due to the relevance of jet flavour identification at the LHC, are regularly used in publications of analyses by the CMS collaboration.

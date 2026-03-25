@@ -5,6 +5,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Samenvatting}{v}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Author contributions}{vii}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Papers \& proceedings}{vii}{section*.4}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The Standard Model and the charm-Yukawa coupling}{3}{chapter.2}%
@@ -71,84 +75,86 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Monte Carlo simulation of proton-proton collisions}{34}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Search for the cH(ZZ$\rightarrow $4$\mu $) process}{39}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.1}cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection}{39}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Higgs candidate selection}{38}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Higgs candidate selection}{40}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Jet candidate selection}{39}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Jet candidate selection}{41}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Reconstruction efficiency}{40}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Reconstruction efficiency}{42}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Signal and background estimation}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Signal and background estimation}{44}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Estimation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Estimation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process}{45}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{44}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{46}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Estimation of reducible backgrounds}{49}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Estimation of reducible backgrounds}{51}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Determination of muon misidentification rate}{49}{section*.37}%
+\contentsline {subsubsection}{Determination of muon misidentification rate}{51}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application of muon misidentification rate}{50}{section*.39}%
+\contentsline {subsubsection}{Application of muon misidentification rate}{52}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Validation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Validation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{55}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Statistical inference}{54}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Statistical inference}{56}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Statistical model}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Statistical model}{56}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Uncertainty model}{57}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Uncertainty model}{59}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{57}{section*.43}%
+\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{59}{section*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental uncertainties common to simulation}{58}{section*.44}%
+\contentsline {subsubsection}{Experimental uncertainties common to simulation}{60}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{59}{section*.45}%
+\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{61}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{59}{section*.46}%
+\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{61}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{59}{section*.47}%
+\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{61}{section*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Additional uncertainties}{59}{section*.48}%
+\contentsline {subsubsection}{Additional uncertainties}{61}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Results}{60}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Results}{62}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Expected upper limits on $\sigma \mathcal {B}$(cH(ZZ$\rightarrow 4\mu $))\tmspace +\thinmuskip {.1667em}}{60}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Expected upper limits on $\sigma \mathcal {B}$(cH(ZZ$\rightarrow 4\mu $))\tmspace +\thinmuskip {.1667em}}{62}{subsection.4.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Impact of nuisance parameters}{61}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Impact of nuisance parameters}{63}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Fitting nuisance parameters in sideband regions}{63}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.3}Fitting nuisance parameters in sideband regions}{65}{subsection.4.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}Extrapolation to larger datasets}{64}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.4}Extrapolation to larger datasets}{66}{subsection.4.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}Potential analysis improvements}{65}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.5}Potential analysis improvements}{67}{subsection.4.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{67}{chapter.5}%
+\contentsline {chapter}{\numberline {5}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{69}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{67}{section.5.1}%
+\contentsline {section}{\numberline {5.1}The cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{69}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{67}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}Simulation of the cH(ZZ$\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{69}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Modifications to the analysis strategy}{68}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Modifications to the analysis strategy}{70}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Results}{70}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Results}{72}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{73}{chapter*.55}%
+\contentsline {chapter}{Conclusion}{75}{chapter*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{75}{chapter*.56}%
+\contentsline {chapter}{Bibliography}{77}{chapter*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix}{83}{appendix*.57}%
+\contentsline {chapter}{Appendix}{85}{appendix*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Columnar analysis framework}{83}{section.Alph0.1}%
+\contentsline {section}{\numberline {A}Columnar analysis framework}{85}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{84}{section.Alph0.2}%
+\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{86}{section.Alph0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{84}{section.Alph0.3}%
+\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{86}{section.Alph0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D}Uncertainty distributions}{84}{section.Alph0.4}%
+\contentsline {section}{\numberline {D}Uncertainty distributions}{91}{section.Alph0.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1}Nuisance parameter impacts for $r=0$ fit of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}}{89}{subsection.Alph0.4.1}%
+\contentsline {section}{\numberline {E}Nuisance parameter impacts for $r=0$ fit of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}}{91}{section.Alph0.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2}Evaluation of nuisance parameters in sideband region}{89}{subsection.Alph0.4.2}%
+\contentsline {section}{\numberline {F}Evaluation of nuisance parameters in sideband region}{91}{section.Alph0.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {G}CMS Service work}{98}{section.Alph0.7}%
