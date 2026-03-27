@@ -17,7 +17,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}The charm-Yukawa coupling}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}The Brout-Englert-Higgs mechanism}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}The Brout-Englert-Higgs mechanism}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}The Yukawa couplings}{8}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -27,9 +27,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}The $\kappa $-framework}{10}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}The cH process in an EFT context}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.4}The cH process in an EFT context}{13}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}The chromomagnetic dipole operator}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}The chromomagnetic dipole operator}{15}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Validity of an EFT}{15}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
@@ -63,15 +63,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Reconstruction and identification of muons}{28}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Reconstruction and identification of jets}{29}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Reconstruction and identification of jets}{30}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Missing transverse momentum}{31}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Identification of charm quark-induced jets}{31}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Properties of heavy-flavour jets}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Properties of heavy-flavour jets}{32}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}The \textsf {DeepJet} algorithm}{32}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}The \textsf {DeepJet} algorithm}{33}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Monte Carlo simulation of proton-proton collisions}{34}{section.3.4}%
 \defcounter {refsection}{0}\relax 
@@ -85,37 +85,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.3}Reconstruction efficiency}{42}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Signal and background estimation}{44}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Signal and background estimation}{45}{section.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Estimation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}process}{45}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{46}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{48}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Estimation of reducible backgrounds}{51}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Determination of muon misidentification rate}{51}{section*.39}%
+\contentsline {subsubsection}{Determination of muon misidentification rate}{51}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application of muon misidentification rate}{52}{section*.41}%
+\contentsline {subsubsection}{Application of muon misidentification rate}{52}{section*.42}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Validation of cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{55}{section.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Statistical inference}{56}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Statistical model}{56}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Statistical model}{58}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Uncertainty model}{59}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{59}{section*.45}%
+\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{59}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental uncertainties common to simulation}{60}{section*.46}%
+\contentsline {subsubsection}{Experimental uncertainties common to simulation}{60}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{61}{section*.47}%
+\contentsline {subsubsection}{Uncertainties related to cH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}and bH(ZZ$\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{61}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{61}{section*.48}%
+\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{61}{section*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{61}{section*.49}%
+\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{61}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Additional uncertainties}{61}{section*.50}%
+\contentsline {subsubsection}{Additional uncertainties}{62}{section*.51}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Results}{62}{section.4.5}%
 \defcounter {refsection}{0}\relax 
@@ -139,11 +139,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Results}{72}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{75}{chapter*.57}%
+\contentsline {chapter}{Conclusion}{75}{chapter*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{77}{chapter*.58}%
+\contentsline {chapter}{Bibliography}{77}{chapter*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix}{85}{appendix*.59}%
+\contentsline {chapter}{Appendix}{85}{appendix*.60}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}Columnar analysis framework}{85}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 

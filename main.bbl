@@ -30497,57 +30497,6 @@
       \verb http://dx.doi.org/10.1088/1748-0221/15/09/P09018
       \endverb
     \endentry
-    \entry{Hadronisation}{article}{}
-      \name{author}{4}{}{%
-        {{hash=e5db1963b2a631af37451619176c2001}{%
-           family={Andersson},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=00ef1f4ae69d97b8021fae756d99cc25}{%
-           family={Gustafson},
-           familyi={G\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=cdd742887a3adfe2c37535eb6f1c2df6}{%
-           family={Ingelman},
-           familyi={I\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=752fe8f3c71a7747a7f369453fd286ae}{%
-           family={Sjöstrand},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
-      \strng{fullhash}{325f5c9f6c606cecfb53ee3c504d3843}
-      \strng{bibnamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
-      \strng{authorbibnamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
-      \strng{authornamehash}{8aa44a9ca52d12e73bba3eee121cfdfc}
-      \strng{authorfullhash}{325f5c9f6c606cecfb53ee3c504d3843}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0370-1573}
-      \field{journaltitle}{Physics Reports}
-      \field{number}{2}
-      \field{title}{Parton fragmentation and string dynamics}
-      \field{volume}{97}
-      \field{year}{1983}
-      \field{pages}{31\bibrangedash 145}
-      \range{pages}{115}
-      \verb{doi}
-      \verb https://doi.org/10.1016/0370-1573(83)90080-7
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0370157383900807
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0370157383900807
-      \endverb
-    \endentry
     \entry{FastJet}{article}{}
       \name{author}{1}{}{%
         {{hash=a98415f46a3e8359dd35063a4ddc758d}{%
@@ -30609,8 +30558,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{19}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jet algorithms performance in 13 TeV data}
@@ -32392,6 +32341,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{PDFHIS}
 \endrefsection
 \endinput
 

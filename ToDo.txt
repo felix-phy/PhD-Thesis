@@ -1,24 +1,5 @@
 Overall:
 
-== Introduction
- -- EFT validity - cite Nordin. 
-
-
-== uncertainties: 
-    -- Correlate uncertainties
-
-
-== Appendix
-    -- cite pheno paper
-
-To do for chapter 3: 
-    -- fit result
-    -- Quote uncertainty sizes
-
-
-
-
-
 
 
 
