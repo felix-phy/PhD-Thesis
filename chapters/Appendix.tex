@@ -3,7 +3,7 @@
 \label{sec:analysisFramework}
 For this work, an analysis framework built upon the \textsf{Coffea} \cite{Coffea} software package and based on columnar analysis methods was concipated and written. To better understand the idea of columnar analysis, it helps to consider the computations are required of a typical physics analysis. On a per-event basis, an analyser must repeatedly perform a set of operations on some input data (event data delivered for example via the CMS \textsf{NanoAOD} \cite{NANOAOD} format) to produce a desired set of outputs. This may consist of applying object selection criteria or producing new, higher level variables from the input. In the context of an entire dataset, the subset of data associated with a single event can thus be thought of as a single row in a larger matrix. With this matrix picture in mind, two approaches to producing the desired outputs may be implemented. The first is a row based approach where the necessary computations are performed serially, once per event, with one event following another. This represents a `traditional' event loop approach to analysis. The second is the column based approach where operations are performed on entire columns of event data, thus lending the \textit{columnar} analysis name. This means a single computational step is effectively performed simultaneously across a set of events, allowing for an improved optimisation of computations as relevant data may be stored in contiguous memory. Both of these approaches are visualised in \autoref{fig:columnarAnalysis}. The implementation of the columnar approach is facilitated by the use of the \textsf{Awkward array} \cite{AwkwardArrays} python package, which generalises \textsf{numpy} \cite{Numpy} arrays to data with non-regular (or \textit{jagged}) shapes. \\
 \\
-To perform the analysis presented in \autoref{chap:cHAnalysis} it is necessary to process approximately $5.6 \cdot 10^{10}$ events, equating to approximately 8.4 TB worth of data. Given the scope of these processing requirements, the motivation to optimise the associated computing effort is clear. Using the described columnar approach, the analysis framework is able to achieve a turn around time of approximately one working day for the complete analysis(including the handling of systematic uncertainties) using the distributed grid computing resources available at the IIHE. This represents an almost tenfold speed increase to a previous framework iteration using a traditional CMS software C++ event loop structure. Along with the implementation of the algorithms described in \autoref{chap:cHAnalysis} and \autoref{chap:EFTAnalysis}, the framework design includes an automatic, central handling of samples and relevant metadata, job submission to distributed computing resources as well as plotting tasks and production of histogram templates for the CMS \textsf{Combine} tool. The development of the analysis framework thus represents a central element of the presented analysis. Additionally, a variant of this framework was also used for the analysis presented in \cite{PhenoPaper}.
+To perform the analysis presented in \autoref{chap:cHAnalysis} it is necessary to process approximately $5.6 \cdot 10^{10}$ events, equating to approximately 8.4 TB worth of data. Given the scope of these processing requirements, the motivation to optimise the associated computing effort is clear. Using the described columnar approach, the analysis framework is able to achieve a turn around time of approximately one working day for the complete analysis(including the handling of systematic uncertainties) using the distributed grid computing resources available at the IIHE. This represents an almost tenfold speed increase to a previous framework iteration using a traditional CMS software C++ event loop structure. Along with the implementation of the algorithms described in \autoref{chap:cHAnalysis} and \autoref{chap:EFTAnalysis}, the framework design includes an automatic, central handling of samples and relevant metadata, job submission to distributed computing resources, as well as plotting tasks and production of histogram templates for the CMS \textsf{Combine} tool. The development of the analysis framework thus represents a central element of the presented analysis. Additionally, a variant of this framework was also used for the analysis presented in \cite{PhenoPaper}.
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{figures/ColumnarAnalysis.png}
@@ -13,7 +13,7 @@ To perform the analysis presented in \autoref{chap:cHAnalysis} it is necessary t
 
 \section{Likelihood templates derived for jet selection algorithm}
 \label{sec:JetSelectionTemplates}
-A number of liklihood templates are derived for the jet selection algorithm using the $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) variables, as decribed in \autoref{sec:JetCandidateSelection}. These can be seen in \autoref{fig:TemplatesStart} to \autoref{fig:TemplatesEnd}.
+A number of liklihood templates are derived for the jet selection algorithm using the $\Delta\phi$(H, jet) and  $r=$ \pt(jet)/\pt(H) variables, as decribed in \autoref{sec:JetCandidateSelection}. These are shown in \autoref{fig:TemplatesStart} to \autoref{fig:TemplatesEnd}.
 
 \begin{figure}
     \begin{subfigure}{0.5\textwidth}
@@ -24,9 +24,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/0-15GeV_PtFrac_template.pdf}
-        \caption{The \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 0-15 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and $r$ templates in the 0-15 GeV bin of the Higgs boson candidate mass.}
     \label{fig:TemplatesStart}
 \end{figure}
 
@@ -39,9 +39,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/15-30GeV_PtFrac_template.pdf}
-        \caption{The  \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 15-30 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and $r$ templates in the 15-30 GeV bin of the Higgs boson candidate mass.}
 \end{figure}
 
 \begin{figure}
@@ -53,9 +53,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/30-50GeV_PtFrac_template.pdf}
-        \caption{The  \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 30-50 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and $r$ templates in the 30-50 GeV bin of the Higgs boson candidate mass.}
 \end{figure}
 
 \begin{figure}
@@ -67,9 +67,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/50-100GeV_PtFrac_template.pdf}
-        \caption{The  \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 50-100 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and  \pt(jet)/\pt(H) templates in the 50-100 GeV bin of the Higgs boson candidate mass.}
 \end{figure}
 
 \begin{figure}
@@ -81,9 +81,9 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/100-200GeV_PtFrac_template.pdf}
-        \caption{The  \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and \ \pt(jet)/\pt(H) templates in the 100-200 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and $r$ templates in the 100-200 GeV bin of the Higgs boson candidate mass.}
 \end{figure}
 
 \begin{figure}
@@ -95,15 +95,15 @@ A number of liklihood templates are derived for the jet selection algorithm usin
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{figures/>200GeV_PtFrac_template.pdf}
-        \caption{The  \pt(jet)/\pt(H) template.}
+        \caption{The $r$ template.}
     \end{subfigure}%
-    \caption{The $\Delta\phi(H, jet)$ and \pt(jet)/\pt(H) templates in the $>$200 GeV bin of the Higgs candidate mass.}
+    \caption{The $\Delta\phi(H, jet)$ and $r$ templates in the $>$200 GeV bin of the Higgs boson candidate mass.}
     \label{fig:TemplatesEnd}
 \end{figure}
 
 \section{Comparison of discriminators in 3P1F and 2P2F regions}
 \label{appendix:ReduciblesComparison}
-A comparison between the 2P2F and 3P1F regions of the reducible background estimation for the \textsf{DeepJet} c-tagging discriminators, as well as the Higgs mass and selected jet transverse momentum is shown is shown in \autoref{fig:ReducibleComparisonCTag} and \autoref{fig:ReducibleComparisonHiggsmass}. Overall, there exists a reasonable agreement between the c-tagging discriminator shapes discriminator shapes, with significant differences only being observed in sparsely poopulated bins. Though there are significant diferences when considering the Higgs boson candidate mass spectrum, there is a reasonable agreement in the signal enriched region around $m(H)$ = 125 GeV. There is also an acceptable agreement observed for the transverse momentum of the selected jet, which is only relevant for the EFT analysis that is presented. Given this reasonable agreement of the shapes of the discriminator used for statistical evaluation in this work, and considering the small relative total contribution of the reducible background, the 2P2F discriminator shapes are used to estimate the shape of the entire reducible background distribution in \autoref{sec:ReducibleBackgrounds}, which otherwise cannot be well estimated due to statistical limitations.
+A comparison between the 2P2F and 3P1F regions of the reducible background estimation for the \textsf{DeepJet} c-tagging discriminators, as well as the Higgs mass and selected jet transverse momentum is shown is shown in \autoref{fig:ReducibleComparisonCTag} and \autoref{fig:ReducibleComparisonHiggsmass}. Here, the 3P1F contribution observed in data is corrected by subtracting the expected contribution from ZZ production, which is estimated from simulation. Overall, there exists a reasonable agreement between the c jet identification discriminator shapes, when accounting for the small overall contribution of the reducible background estimation. Though there are significant diferences when considering, for example, the Higgs boson candidate mass spectrum, there is a reasonable agreement in the signal enriched region around $m(H)$ = 125 GeV. There is also an acceptable agreement observed for the transverse momentum of the selected jet, which is only relevant for the EFT analysis that is presented. Given this reasonable agreement of the shapes of the discriminator used for statistical evaluation in this work, and considering the small relative total contribution of the reducible background, the 2P2F discriminator shapes are used to estimate the shape of the entire reducible background distribution in \autoref{sec:ReducibleBackgrounds}, which otherwise cannot be well estimated due to statistical limitations.
 
 \begin{figure}
     \begin{subfigure}{0.5\textwidth}
@@ -132,10 +132,75 @@ A comparison between the 2P2F and 3P1F regions of the reducible background estim
     \label{fig:ReducibleComparisonHiggsmass}
 \end{figure}
 \newpage
-\section{Uncertainty distributions}
+\section{List of nuisance parameters and corresponding distributions}
 \label{appendix:UncertaintiesSM}
-Here, the distributions associated with dominant uncertainty sources used in the statistical evaluation presented in \autoref{sec:SMResult}, are shown in \autoref{fig:JetUncs}, \autoref{fig:TheoreticalUncs} and \autoref{fig:MuonSFUnc}. Unless explicitly stated otherwise, the distributions shown are the sum of the background processes. Distributions for individual processes (such as the \cHZZ signal) are shown separately, per uncertainty, in case significant differences in the distribution shapes associated with the uncertainty are observed for that process with respect to the sum of background processes. 
-
+Here, the full list of nuisance parameters that are considered in the statistical evaluation that is performed in \autoref{sec:SMResult} is given with a brief, corresponding description:
+\begin{itemize}
+    \item \textbf{reducibleNorm}: the normalisation uncertainty of the reducible background estimation contribution.
+    \item \textbf{lumi\_13TeV}: the uncertainty associated with the integrated luminosity of the 2018 dataset.
+    \item \textbf{BR\_HToZZTo4L}: the uncertainty associated with the branching ratio of the Higgs boson to four leptons.
+    \item \textbf{Pdf}: the uncertainty associated with the choice of PDF.
+    \item \textbf{JEC-Regrouped\_FlavourQCD}: an uncertainty associated with the responses of the energy scale calibration to different jet flavours.
+    \item \textbf{JEC-Regrouped\_RelativeBal}: an uncertainty originating from differences that are observed between different methods with which the energy scale calibration can be performed. 
+    \item \textbf{JEC-Regrouped\_HF}: a grouping of uncertainties from a variety of sources for the $\mid$$\eta$$\mid\,>$ 3 detector region.
+    \item \textbf{JEC-Regrouped\_HF\_2018}:  a grouping of uncertainties from a variety of sources for the $\mid$$\eta$$\mid\,>$ 3 detector region.
+    \item \textbf{JEC-Regrouped\_BBEC1}: a grouping of uncertainties from a variety of sources for the $\mid$$\eta$$\mid\,<$ 2.5 detector region.
+    \item \textbf{JEC-Regrouped\_BBEC1\_2018}: a grouping of uncertainties from a variety of sources for the $\mid$$\eta$$\mid\,<$ 2.5 detector region.
+    \item \textbf{JEC-Regrouped\_EC2}: a grouping of uncertainties from a variety of sources for the 2.5 $<\mid$$\,\eta$$\mid\,<$ 3 detector region.
+    \item \textbf{JEC-Regrouped\_EC2\_2018}: a grouping of uncertainties from a variety of sources for the 2.5 $<\mid$$\,\eta$$\mid\,<$ 3 detector region.
+    \item \textbf{JEC-Regrouped\_Absolute}: a grouping of uncertainties on the flat, absolute energy scale. 
+    \item \textbf{JEC-Regrouped\_Absolute\_2018}: a grouping of uncertainties on the flat, absolute energy scale.
+    \item \textbf{JEC-Regrouped\_RelativeSample\_2018}: an uncertainty arising from residual differences observed in the energy scale calibration, when looking at Z+jet, $\gamma$+jet and dijet events. 
+    \item \textbf{JER}: the uncertainty associated with the jer energy resolution calibration.
+    \item \textbf{cTagSF\_Extrap}: an uncertainty originating from an extrapolation that is applied in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_Interp}: an uncertainty originating from an interpolation that is applied in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_LHEScaleWeight\_muF}: an uncertainty originating from factorisation scale uncertainties of the simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_LHEScaleWeight\_muR}: an uncertainty originating from renormalisation scale uncertainties of the simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_PSWeightFSR}: an uncertainty originating from modelling of final state radiation in simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_PSWeightISR}:an uncertainty originating from modelling of initial state radiation in simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_PUWeight}: an uncertainty originating from pileup reweighting performed for simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_Stat}: an uncertainty originating from the limited size of simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_XSec\_BRUnc\_DYJets\_b}: an uncertainty originating from an uncertainty of the cross section in simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_XSec\_BRUnc\_DYJets\_c}: an uncertainty originating from an uncertainty of the cross section in simulated samples used in the calibration of \textsf{DeepJet}. 
+    \item \textbf{cTagSF\_XSec\_BRUnc\_WJets\_b}: an uncertainty originating from an uncertainty of the cross section in simulated samples used in the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_XSec\_jer}: an uncertainty originating from uncertainty associated with the jet energy resolution calibration, which affects the calibration of \textsf{DeepJet}.
+    \item \textbf{cTagSF\_XSec\_jesTotal}: an uncertainty originating from uncertainty associated with the jet energy scale calibration, which affects the calibration of \textsf{DeepJet}.
+    \item \textbf{muonSF}: the uncertainty associated with the calibration of muons.
+    \item \textbf{puIDSF}: the uncertainty associated with the calibration of the pileup identification method.
+    \item \textbf{puWeight}: the uncertainty associated with the pileup reweighting procedure that is applied. 
+    \item \textbf{alphaS}: the uncertainty associated with the choice of $\alpha_s(Q^2)$ in the Monte Carlo simulation. 
+    \item \textbf{muR\_HPlusC}: the uncertainty associated with the choice of the renormalisation scale of the cH process.
+    \item \textbf{muR\_ggH}: the uncertainty associated with the choice of the renormalisation scale of the ggH process.
+    \item \textbf{muR\_ggZZ}: the uncertainty associated with the choice of the renormalisation scale of the gg$\rightarrow$ZZ process.
+    \item \textbf{muR\_tqH}: the uncertainty associated with the choice of the renormalisation scale of the tqH process.
+    \item \textbf{muR\_ttH}: the uncertainty associated with the choice of the renormalisation scale of the ttH process.
+    \item \textbf{muR\_VBF}: the uncertainty associated with the choice of the renormalisation scale of the VBF process.
+    \item \textbf{muR\_WminusH}: the uncertainty associated with the choice of the renormalisation scale of the W$^{-}$H process.
+    \item \textbf{muR\_WPlusH}: the uncertainty associated with the choice of the renormalisation scale of the gW$^{+}$H process.
+    \item \textbf{muR\_ZH}: the uncertainty associated with the choice of the renormalisation scale of the ZH process.
+    \item \textbf{muR\_qqZZ}: the uncertainty associated with the choice of the renormalisation scale of the qq$\rightarrow$ZZ process.
+    \item \textbf{muR\_HPlusB}: the uncertainty associated with the choice of the renormalisation scale of the bH process.
+    \item \textbf{muR\_HPlusC}: the uncertainty associated with the choice of the factorisation scale of the cH process.
+    \item \textbf{muR\_ggH}: the uncertainty associated with the choice of the factorisation scale of the ggH process.
+    \item \textbf{muR\_ggZZ}: the uncertainty associated with the choice of the factorisation scale of the gg$\rightarrow$ZZ process.
+    \item \textbf{muR\_tqH}: the uncertainty associated with the choice of the factorisation scale of the tqH process.
+    \item \textbf{muR\_ttH}: the uncertainty associated with the choice of the factorisation scale of the ttH process.
+    \item \textbf{muR\_VBF}: the uncertainty associated with the choice of the factorisation scale of the VBF process.
+    \item \textbf{muR\_WminusH}: the uncertainty associated with the choice of the factorisation scale of the W$^{-}$H process.
+    \item \textbf{muR\_WPlusH}: the uncertainty associated with the choice of the factorisation scale of the gW$^{+}$H process.
+    \item \textbf{muR\_ZH}: the uncertainty associated with the choice of the factorisation scale of the ZH process.
+    \item \textbf{muR\_qqZZ}: the uncertainty associated with the choice of the factorisation scale of the qq$\rightarrow$ZZ process.
+    \item \textbf{muR\_HPlusB}: the uncertainty associated with the choice of the factorisation scale of the bH process.
+    \item \textbf{PS-FSR}: the uncertainty associated with the modelling of final state radiation. 
+    \item \textbf{PS-ISR}: the uncertainty associated with the modelling of initial state radiation. 
+    \item \textbf{FS\_bH}: the uncertainty associated with the modelling of the cH process, resulting from the choice of FS. 
+    \item \textbf{FS\_cH}: the uncertainty associated with the modelling of the bH process, resulting from the choice of FS. 
+    \item \textbf{qqZZkFactor}: the uncertainty associated with the K-factor that is applied to the qq$\rightarrow$ZZ process.
+    \item \textbf{ggZZkFactor}: the uncertainty associated with the K-factor that is applied to the gg$\rightarrow$ZZ process.
+\end{itemize}
+Note that a number of the jet energy scale nuisance parameter names appear twice, with an additional suffix of `2018' in their second appearance. The reasons for this is that the associated uncertainties are split into a part that is not correlated across Run-2 datataking eras (i.e. 2016, 2017, 2018) and one that is. The uncorrelated part is denoted with the additional suffix. Such correlations are not relevant to this analysis, given that only the 2018 era is analysed. However, the distributions associated with both the respective uncorrelated and correlated parts of these uncertainty sources are still obtained separately and thus implemented as individual nuisance parameters. \\
+\\
+The distributions associated with dominant uncertainty sources used in the statistical evaluation (in the nominal scenario) that is presented in \autoref{sec:SMResult}, are shown in \autoref{fig:JetUncs}, \autoref{fig:TheoreticalUncs} and \autoref{fig:MuonSFUnc}. Unless explicitly stated otherwise, the distributions shown are the sum of the background processes. Distributions for individual processes (such as the \cHZZ signal) are shown separately, per uncertainty, in case significant differences in the distribution shapes associated with the uncertainty are observed for that process, with respect to the sum of background processes. \\
 \begin{figure}
     \begin{subfigure}{0.5\textwidth}
         \centering
@@ -270,20 +335,6 @@ In \autoref{fig:UncertaintiesSMr0}, the impacts of the nuisance parameters on a 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{figures/ImpactsSMr0.pdf}
-    \caption{The 30 leading uncertainty sources in a fit of \sBR with $r=0$, orderd by their relative impact on the fit.}
+    \caption{The 30 leading uncertainty sources in a fit of \sBR with $r=0$, ordered by their relative impact on the fitted signal strength.}
     \label{fig:UncertaintiesSMr0}
 \end{figure}
-
-\section{Evaluation of nuisance parameters in sideband region}
-\label{appendix:NuisanceEvaluationSideband}
-\autoref{fig:fixedNuisances} shows the best-fit nuisance parameters of the background estimation model in a fit to data in the sideband region of the Higgs boson candidate mass spectrum. These are distributed within the $\pm 1\sigma$ uncertainty band of the pre-fit uncertainies. The post-fit uncertainties of the nuisance parameters are also indicated. Given the absence of a signal contribution in this region, the background-only (B-only) and signal plus background (S+B) fits are effectively identical. 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\textwidth]{figures/NuisanceFit.png}
-    \caption{The best-fit values of the nuisance parameters that describe the uncertainty model of the background estimation model in the baseline scenario.}
-    \label{fig:fixedNuisances}
-\end{figure}
-\newpage 
-\section{CMS Service work}
-\label{sec:ServiceWork}
-Through the author's contributions as a BTV validation and DQM contact, the author has played a central part in delivering well-understood and reliable jet flavour tagging algorithms during the LHC Run-3 data taking era of the CMS detector. One form of these contributions consists of regular validations of the jet flavour tagging algorithm response with respect to the many updates that the CMS reconstruction software consistently undergoes. This is done to ensure no unwanted or poorly understood changes are introduced by these changes. Concretely, this means the algorithm response for each individual CMS software release is checked against a previous release and any unexpected changes are investigated. Such investigations typically consist of verifying changes relevant to the variables used by the tagging algorithm, which may be introduced by other subgroups in CMS, and gauging their impact on the behaviour of the tagging algorithm. The CMS software releases that are verified in this way are then iteratively deployed for data taking. Another key responsibility is to investigate effects of changes in detector conditions on the jet flavour tagging algorithms. An example of this is the malfunctioning of a set tracker pixels, which was identified mid Run-3. Such cases require thorough investigation of the potential performance impacts on the BTV algorithms, due to the reliance of jet flavour tagging algorithms on the CMS pixel detector. Accordingly, this ensures the tagging algorithms remain well understood and calibrated, even with changing detector conditions. Additionally, the author's software contributions to BTV DQM pipelines have contributed to BTV's direct monitoring of data during the data taking process. As a whole, this work has significantly contributed to the ongoing credibility of the jet flavour tagging algorithms provided by BTV. Given the strong relevance of jet flavour identification at the LHC, these algorithms are regularly used in publications of analyses by the CMS collaboration.
