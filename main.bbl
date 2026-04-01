@@ -14705,22 +14705,22 @@
     \endentry
     \entry{HiggsRateMeasurementsCMS}{article}{}
       \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
            family={Collaboration},
            familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{6}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
@@ -15080,18 +15080,18 @@
     \endentry
     \entry{CMSDetector}{article}{}
       \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
            family={Collaboration},
            familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{8}
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
@@ -15213,11 +15213,11 @@
     \endentry
     \entry{CMSDesignReportVol1}{book}{}
       \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
            family={Collaboration},
            familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Geneva}%
@@ -15225,12 +15225,12 @@
       \list{publisher}{1}{%
         {CERN}%
       }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{9}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
@@ -16207,7 +16207,7 @@
       \verb http://dx.doi.org/10.1088/1748-0221/17/03/P03014
       \endverb
     \endentry
-    \entry{CMS-DP-2023-006}{article}{}
+    \entry{CMS-DP-2023-006}{misc}{}
       \field{sortinit}{9}
       \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labeltitlesource}{title}

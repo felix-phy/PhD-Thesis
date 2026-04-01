@@ -2327,13 +2327,14 @@
     <bcf:citekey order="143">PhenoPaper</bcf:citekey>
     <bcf:citekey order="144">PhenoPaper</bcf:citekey>
     <bcf:citekey order="145">PhenoPaper</bcf:citekey>
-    <bcf:citekey order="146">Coffea</bcf:citekey>
-    <bcf:citekey order="147">NANOAOD</bcf:citekey>
-    <bcf:citekey order="148">AwkwardArrays</bcf:citekey>
-    <bcf:citekey order="149">Numpy</bcf:citekey>
-    <bcf:citekey order="150">PhenoPaper</bcf:citekey>
-    <bcf:citekey order="151">Coffea</bcf:citekey>
+    <bcf:citekey order="146">PhenoPaper</bcf:citekey>
+    <bcf:citekey order="147">Coffea</bcf:citekey>
+    <bcf:citekey order="148">NANOAOD</bcf:citekey>
+    <bcf:citekey order="149">AwkwardArrays</bcf:citekey>
+    <bcf:citekey order="150">Numpy</bcf:citekey>
+    <bcf:citekey order="151">PhenoPaper</bcf:citekey>
     <bcf:citekey order="152">Coffea</bcf:citekey>
+    <bcf:citekey order="153">Coffea</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
