@@ -11,11 +11,11 @@
 \usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage[english]{babel}
 \usepackage{hyperref}
-\makeatletter
-\def\tagform@#1{\maketag@@@{\ignorespaces#1\unskip\@@italiccorr}}
-\let\orgtheequation\theequation
-\def\theequation{(\orgtheequation)}
-\makeatother
+%\makeatletter
+%\def\tagform@#1{\maketag@@@{\ignorespaces#1\unskip\@@italiccorr}}
+%\let\orgtheequation\theequation
+%\def\theequation{(\orgtheequation)}
+%\makeatother
 \addto\extrasenglish{%
   \def\chapterautorefname{Chapter}%
   \def\sectionautorefname{Section}%
@@ -35,9 +35,21 @@
 
 \allowdisplaybreaks
 
+\makeatletter
+\let\oldtheequation\theequation
+\renewcommand\tagform@[1]{\maketag@@@{\ignorespaces#1\unskip\@@italiccorr}}
+\renewcommand\theequation{(\oldtheequation)}
+\makeatother
 
-\let\orgautoref\autoref
-\renewcommand{\autoref}[1]{\def\equationautorefname{Eq.}\orgautoref{#1}}
+\renewcommand{\equationautorefname}{Eq.}
+
+\addto\extrasenglish{
+  \def\equationautorefname{Eq.}
+}
+
+
+%\let\orgautoref\autoref
+%\renewcommand{\autoref}[1]{\def\equationautorefname{Eq.}\orgautoref{#1}}
 
 
 \newcommand{\Lagr}{$\mathcal{L}$}

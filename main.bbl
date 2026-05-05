@@ -19,30 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{PhenoPaper}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=bbd69f04c767b626b55ca9f483afe54a}{%
-           family={al},
-           familyi={a\bibinitperiod},
-           given={N.\bibnamedelimi Breugelmans},
-           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
-           prefix={et.},
-           prefixi={e\bibinitperiod}}}%
+    \entry{PhenoPaper}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b31ca2f9ec9fcb6c20cb98062b52239f}{%
+           family={Breugelmans},
+           familyi={B\bibinitperiod},
+           given={Nordin},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f9696bbe514d24febd3f97ab59d39e05}{%
+           family={Heyen},
+           familyi={H\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1ffb661f57aa7287043758e62bb06d66}{%
+           family={D'Hondt},
+           familyi={D\bibinitperiod},
+           given={Jorgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c1005982f59362442016bb7ec9ee9abd}{%
+           family={Tytgat},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3720e204c692d5eb958eb4e4f3a24c4d}{%
+           family={Onsem},
+           familyi={O\bibinitperiod},
+           given={Gerrit\bibnamedelima Van},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \strng{namehash}{bbd69f04c767b626b55ca9f483afe54a}
-      \strng{fullhash}{bbd69f04c767b626b55ca9f483afe54a}
-      \strng{bibnamehash}{bbd69f04c767b626b55ca9f483afe54a}
-      \strng{authorbibnamehash}{bbd69f04c767b626b55ca9f483afe54a}
-      \strng{authornamehash}{bbd69f04c767b626b55ca9f483afe54a}
-      \strng{authorfullhash}{bbd69f04c767b626b55ca9f483afe54a}
-      \field{extraname}{1}
+      \strng{namehash}{10e6a53e2e8fb253a2aeca2d2d5b8689}
+      \strng{fullhash}{25742ad016048d6e9cb8e187b6ac6cf9}
+      \strng{bibnamehash}{10e6a53e2e8fb253a2aeca2d2d5b8689}
+      \strng{authorbibnamehash}{10e6a53e2e8fb253a2aeca2d2d5b8689}
+      \strng{authornamehash}{10e6a53e2e8fb253a2aeca2d2d5b8689}
+      \strng{authorfullhash}{25742ad016048d6e9cb8e187b6ac6cf9}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{In preparation}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
       \field{title}{Constraining new physics in charm quark associated Higgs boson production events using the Standard Model effective field theory approach}
-      \field{year}{In prep.}
+      \field{year}{2026}
+      \verb{eprint}
+      \verb 2604.09225
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2604.09225
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2604.09225
+      \endverb
     \endentry
     \entry{PhysRevD.110.030001}{article}{}
       \name{author}{244}{}{%
@@ -1437,7 +1464,7 @@
       \strng{authorbibnamehash}{31160b907033a634eab461d844fb7687}
       \strng{authornamehash}{31160b907033a634eab461d844fb7687}
       \strng{authorfullhash}{31160b907033a634eab461d844fb7687}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
@@ -1779,7 +1806,7 @@
       \strng{authorbibnamehash}{594e205bcbf97264d21902385dd03d9a}
       \strng{authornamehash}{594e205bcbf97264d21902385dd03d9a}
       \strng{authorfullhash}{594e205bcbf97264d21902385dd03d9a}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
@@ -15920,7 +15947,7 @@
       \strng{authorbibnamehash}{a98415f46a3e8359dd35063a4ddc758d}
       \strng{authornamehash}{a98415f46a3e8359dd35063a4ddc758d}
       \strng{authorfullhash}{a98415f46a3e8359dd35063a4ddc758d}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{8}
       \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
