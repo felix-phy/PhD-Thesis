@@ -15502,8 +15502,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{14}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -15748,8 +15748,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{20}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{Technical design report. CMS}
@@ -15996,8 +15996,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{23}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -16462,12 +16462,13 @@
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
+      \field{note}{Last accessed 07.05.26}
       \field{title}{CMS Software package}
       \verb{urlraw}
-      \verb https://github.com/cms-sw/cmssw
+      \verb https://cms-sw.github.io/
       \endverb
       \verb{url}
-      \verb https://github.com/cms-sw/cmssw
+      \verb https://cms-sw.github.io/
       \endverb
     \endentry
     \entry{MonteCarlo}{article}{}
@@ -17543,6 +17544,120 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2501.03412
+      \endverb
+    \endentry
+    \entry{M5FS}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7f3652b92bc33cd3874bc96547311d99}{%
+           family={Krauss},
+           familyi={K\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d45e58c0e8e7ac37a3a1aa74627909f6}{%
+           family={Napoletano},
+           familyi={N\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \strng{fullhash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \strng{bibnamehash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \strng{authorbibnamehash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \strng{authornamehash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \strng{authorfullhash}{8a6859b0b8826a4fe8cbad9388384cdb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{11}
+      \field{number}{9}
+      \field{title}{Towards a fully massive five-flavor scheme}
+      \field{volume}{98}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1103/physrevd.98.096002
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevD.98.096002
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevD.98.096002
+      \endverb
+    \endentry
+    \entry{SHERPA}{article}{}
+      \name{author}{7}{}{%
+        {{hash=1aa16f2a2a02bc86279bce38a68afb94}{%
+           family={Gleisberg},
+           familyi={G\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=76027302754259b470911cfe0693f4be}{%
+           family={Höche},
+           familyi={H\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b02544f275933e3cb52c7e9d66bed93d}{%
+           family={Krauss},
+           familyi={K\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=618398d2fe6d652f6bb50d32bb0367f9}{%
+           family={Schönherr},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9278cca32bf432b7f2d93be757b86623}{%
+           family={Schumann},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9beee89b28d80a136beb9d99bfa92258}{%
+           family={Siegert},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a1dfb7a33c0d6f5e2a1a09b29b10e258}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e4a4f0518508ca02ff5bd35318c9ab16}
+      \strng{fullhash}{a6acd2471ffdaa46d6bca2260f5eb1d5}
+      \strng{bibnamehash}{e4a4f0518508ca02ff5bd35318c9ab16}
+      \strng{authorbibnamehash}{e4a4f0518508ca02ff5bd35318c9ab16}
+      \strng{authornamehash}{e4a4f0518508ca02ff5bd35318c9ab16}
+      \strng{authorfullhash}{a6acd2471ffdaa46d6bca2260f5eb1d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{2}
+      \field{number}{02}
+      \field{title}{Event generation with SHERPA 1.1}
+      \field{volume}{2009}
+      \field{year}{2009}
+      \field{pages}{007\bibrangedash 007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2009/02/007
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1126-6708/2009/02/007
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1126-6708/2009/02/007
       \endverb
     \endentry
     \entry{SMEFTSim1}{article}{}
