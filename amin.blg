@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'amin.blg'
-[37] biber:322> INFO - === Mo Mai 11, 2026, 13:02:53
-[99] Utils.pm:309> ERROR - Cannot find 'amin.bcf'!
-[99] Biber.pm:132> INFO - ERRORS: 1
+[63] biber:322> INFO - === Di Mai 12, 2026, 13:37:34
+[143] Utils.pm:309> ERROR - Cannot find 'amin.bcf'!
+[143] Biber.pm:132> INFO - ERRORS: 1

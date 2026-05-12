@@ -16031,6 +16031,26 @@
       \verb https://cds.cern.ch/record/2290106
       \endverb
     \endentry
+    \entry{CMSLumi}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} = 13\mathrm{TeV}$}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2676164
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2676164
+      \endverb
+    \endentry
     \entry{CMSTrackReco}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -16191,8 +16211,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{28}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1748-0221}
@@ -17553,38 +17573,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1088/0954-3899/43/2/023001
-      \endverb
-    \endentry
-    \entry{LumiUnc}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=63dbaf956b237a5e708e8a3b6b003fc1}{%
-           family={Rádl},
-           familyi={R\bibinitperiod},
-           given={Attila\bibnamedelima József},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \strng{fullhash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \strng{bibnamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \strng{authorbibnamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \strng{authornamehash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \strng{authorfullhash}{63dbaf956b237a5e708e8a3b6b003fc1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ex}
-      \field{eprinttype}{arXiv}
-      \field{title}{Luminosity Calibration at the CMS Experiment}
-      \field{year}{2024}
-      \verb{eprint}
-      \verb 2401.10763
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2401.10763
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2401.10763
       \endverb
     \endentry
     \entry{BARLOW}{article}{}
