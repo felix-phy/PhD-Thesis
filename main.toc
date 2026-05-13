@@ -13,148 +13,148 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Standard Model and the charm-Yukawa coupling}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {2}The Standard Model and the charm-Yukawa coupling}{5}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{5}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}The charm-Yukawa coupling}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.2}The charm-Yukawa coupling}{6}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}The Brout-Englert-Higgs mechanism}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}The Brout-Englert-Higgs mechanism}{9}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}The Yukawa couplings}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}The Yukawa couplings}{10}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Measuring the charm-Yukawa coupling}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Measuring the charm-Yukawa coupling}{11}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}The cH process}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}The cH process}{11}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}The $\kappa $-framework}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}The $\kappa $-framework}{12}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}The cH process in an EFT context}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.4}The cH process in an EFT context}{15}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}The chromomagnetic dipole operator}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}The chromomagnetic dipole operator}{17}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Validity of an EFT}{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Validity of an EFT}{18}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}State of the art on $\kappa _{\mathrm {c}}$}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.5}State of the art on $\kappa _{\mathrm {c}}$}{20}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The CMS experiment at the LHC}{21}{chapter.3}%
+\contentsline {chapter}{\numberline {3}The CMS experiment at the LHC}{23}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The CMS detector}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.1}The CMS detector}{23}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}The CMS coordinate system}{23}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}The CMS coordinate system}{25}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}The silicon tracker}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}The silicon tracker}{25}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}The electromagnetic calorimeter}{24}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.3}The electromagnetic calorimeter}{26}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}The hadronic calorimeter}{25}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.4}The hadronic calorimeter}{27}{subsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}The superconducting solenoid magnet}{26}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.5}The superconducting solenoid magnet}{28}{subsection.3.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.6}The muon chambers}{26}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.6}The muon chambers}{28}{subsection.3.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.7}The triggering system}{27}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.7}The triggering system}{29}{subsection.3.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.8}The 2018 dataset of the CMS detector}{28}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.8}The 2018 dataset of the CMS detector}{30}{subsection.3.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Event reconstruction with the CMS detector}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Event reconstruction with the CMS detector}{30}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Track and vertex reconstruction}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Track and vertex reconstruction}{30}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}The Particle Flow algorithm}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}The Particle Flow algorithm}{31}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Reconstruction and identification of muons}{30}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Reconstruction and identification of muons}{32}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Reconstruction and identification of jets}{32}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Reconstruction and identification of jets}{34}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Missing transverse momentum}{33}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.5}Missing transverse momentum}{35}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Identification of charm quark-induced jets}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Identification of charm quark-induced jets}{35}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Properties of heavy-flavour jets}{34}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Properties of heavy-flavour jets}{36}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}The \textsf {DeepJet} algorithm}{36}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}The \textsf {DeepJet} algorithm}{38}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Validation of jet flavour tagging algorithms and data quality monitoring}{37}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Validation of jet flavour tagging algorithms and data quality monitoring}{39}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Monte Carlo simulation of proton-proton collisions}{40}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Monte Carlo simulation of proton-proton collisions}{42}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Search for the cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}process}{45}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Search for the cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}process}{47}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.1}The cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection}{47}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Higgs boson candidate selection}{46}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Higgs boson candidate selection}{48}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Jet candidate selection}{48}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Jet candidate selection}{50}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Reconstruction efficiency}{50}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Reconstruction efficiency}{52}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Signal and background estimation}{52}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Signal and background estimation}{54}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Estimation of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}process}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Estimation of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}process}{54}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{57}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Estimation of irreducible backgrounds}{59}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Estimation of reducible backgrounds}{61}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Estimation of reducible backgrounds}{63}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Determination of muon misidentification rate}{62}{section*.48}%
+\contentsline {subsubsection}{Determination of muon misidentification rate}{64}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application of muon misidentification rate}{63}{section*.50}%
+\contentsline {subsubsection}{Application of muon misidentification rate}{65}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Validation of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Validation of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}event selection in sideband regions}{68}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Statistical inference}{66}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Statistical inference}{68}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Statistical model}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Statistical model}{69}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Uncertainty model}{70}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Uncertainty model}{72}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{71}{section*.55}%
+\contentsline {subsubsection}{Theoretical uncertainties common to simulation}{73}{section*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Experimental uncertainties common to simulation}{71}{section*.56}%
+\contentsline {subsubsection}{Experimental uncertainties common to simulation}{73}{section*.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{FS uncertainty in cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}and bH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{72}{section*.57}%
+\contentsline {subsubsection}{FS uncertainty in cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c}$\tmspace +\thinmuskip {.1667em}and bH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}modelling}{74}{section*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{73}{section*.58}%
+\contentsline {subsubsection}{Uncertainty related to reducible background modelling}{75}{section*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{73}{section*.59}%
+\contentsline {subsubsection}{Uncertainties related to statistical precision of background estimation}{75}{section*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Additional uncertainties}{73}{section*.60}%
+\contentsline {subsubsection}{Additional uncertainties}{75}{section*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Results}{73}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Results}{75}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Expected upper limits on $\sigma \mathcal {B}$(cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu ))_{\kappa _c}$\tmspace +\thinmuskip {.1667em}}{74}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Expected upper limits on $\sigma \mathcal {B}$(cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu )_{\kappa _c})$\tmspace +\thinmuskip {.1667em}}{76}{subsection.4.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Impact of nuisance parameters}{75}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Impact of nuisance parameters}{77}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Fitting nuisance parameters in sideband regions}{78}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.3}Fitting nuisance parameters in sideband regions}{80}{subsection.4.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}Extrapolation to larger datasets \& comparison to other cH channels}{78}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.4}Extrapolation to larger datasets \& comparison to other cH channels}{80}{subsection.4.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}Potential analysis improvements}{80}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.5}Potential analysis improvements}{82}{subsection.4.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{83}{chapter.5}%
+\contentsline {chapter}{\numberline {5}An EFT interpretation of the cH(ZZ$\rightarrow $4$\mu $) process}{85}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{83}{section.5.1}%
+\contentsline {section}{\numberline {5.1}The cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{85}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Simulation of the cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{83}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}Simulation of the cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)$_{cG}$\tmspace +\thinmuskip {.1667em}process}{85}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Modifications to the analysis strategy}{84}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Modifications to the analysis strategy}{86}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Results}{85}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Results}{87}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{89}{chapter*.69}%
+\contentsline {chapter}{Conclusion}{91}{chapter*.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{91}{chapter*.71}%
+\contentsline {chapter}{Bibliography}{93}{chapter*.71}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix}{99}{appendix*.72}%
+\contentsline {chapter}{Appendix}{101}{appendix*.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Columnar analysis framework}{99}{section.Alph0.1}%
+\contentsline {section}{\numberline {A}Columnar analysis framework}{101}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{100}{section.Alph0.2}%
+\contentsline {section}{\numberline {B}Likelihood templates derived for jet selection algorithm}{102}{section.Alph0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{100}{section.Alph0.3}%
+\contentsline {section}{\numberline {C}Comparison of discriminators in 3P1F and 2P2F regions}{102}{section.Alph0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D}List of nuisance parameters and corresponding distributions}{105}{section.Alph0.4}%
+\contentsline {section}{\numberline {D}List of nuisance parameters and corresponding distributions}{107}{section.Alph0.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E}Nuisance parameter impacts for $r=0$ fit of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}}{108}{section.Alph0.5}%
+\contentsline {section}{\numberline {E}Nuisance parameter impacts for $r=0$ fit of cH(ZZ$\tmspace +\thinmuskip {.1667em}\rightarrow 4\mu $)\tmspace +\thinmuskip {.1667em}}{110}{section.Alph0.5}%
