@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  13 MAY 2026 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.10.10)  19 MAY 2026 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,7 +1235,7 @@ File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 ] [5] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
@@ -3149,7 +3149,7 @@ Underfull \vbox (badness 2111) has occurred while \output is active []
 [92] [93
 
 ] [94] [95]
-Overfull \hbox (1.75291pt too wide) in paragraph at lines 152--152
+Overfull \hbox (1.75291pt too wide) in paragraph at lines 141--141
 []\OT1/cmr/m/n/10 CMS Col-lab-o-ra-tion. \OT1/cmr/m/it/10 The CMS mag-net proje
 ct: Tech-ni-cal De-sign Re-port\OT1/cmr/m/n/10 . Tech. rep. Geneva,
  []
@@ -3492,12 +3492,12 @@ ties/Higgs_mass_puWeight.pdf> <./figures/Uncertainties/Higgs_mass_Pdf.pdf>]
 [115 <./figures/Uncertainties/Higgs_mass_PS-FSR.pdf> <./figures/Uncertainties/H
 iggs_mass_PS-ISR.pdf> <./figures/Uncertainties/Higgs_mass_cH_FS.pdf>] [116 <./f
 igures/Uncertainties/Higgs_mass_muonSF.pdf> <./figures/ImpactsSMr0.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2290D5542623B51C796D433AB5F4F99A;5568.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -3555,7 +3555,7 @@ pe1/public/tex-gyre/qagb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qagr
 .pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/tex
 mf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm1000.pfb>
-Output written on main.pdf (128 pages, 10972337 bytes).
+Output written on main.pdf (128 pages, 10972341 bytes).
 PDF statistics:
  7300 PDF objects out of 7423 (max. 8388607)
  2816 compressed objects within 29 object streams
